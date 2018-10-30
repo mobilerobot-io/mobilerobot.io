@@ -1,18 +1,38 @@
 {{ define "main" }}
 <div class="row">
   <div class="col-12">
-
-    {{ range .Pages }}
     <div class="card">
-      <div class="carg-header">
-	<div class="card-title"><h2>This is a title</h2></div>
+      <div class="card-header">
+	<div class="card-title">
+	  <h5>Proposals ~ Dashboard</h5>
+	  <h6 class="card-subtitle text-muted">
+	    This is a list of open jobs that may be interesting to submit a proposal to. 
+	  </h6>
+	</div>
       </div>
-
       <div class="card-body">
-	<p class="card-text">Put some proposals</p>
+	<p class="card-text">
+
+	  <table class="table">
+	    <thead>
+	      <tr>
+		<th style="width:40%;">Proposal</th>
+		<th style="width:40%;">Comment</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      {{ range .Pages }}
+	      <tr>
+		<td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+		<td>{{ .Description}}</td>
+	      </tr>
+	      {{ end }}
+	    </tbody>
+	  </table>
+	</p>
       </div>
-    </article>
-    {{ end }}
+    </div>
   </div>
+  
 </div>
 {{ end }}
