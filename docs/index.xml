@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>Mobile Robots on </title>
     <link>http://mobilerobot.io/</link>
-    <description>Recent content on </description>
+    <description>Recent content in Mobile Robots on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mobilerobot.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mobile Robot</title>
-      <link>http://mobilerobot.io/</link>
-      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      <title>About</title>
+      <link>http://mobilerobot.io/about/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/</guid>
-      <description>I am a Mobile Robot Mobile robots are cool!</description>
+      <guid>http://mobilerobot.io/about/</guid>
+      <description>This is all about Mobile Robots. Why is this not getting generated.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>http://mobilerobot.io/proposals/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/proposals/process/</guid>
+      <description>TODO: Describe the proposal process</description>
     </item>
     
   </channel>

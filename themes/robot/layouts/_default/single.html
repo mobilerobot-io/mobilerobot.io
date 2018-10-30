@@ -4,11 +4,15 @@
 
 {{ define "main" }}
 <div class="card">
+
+  <div class="card-header">
+    
   <div class="card-title">
     <h5>{{ .Title }}</h5>
   </div>
+  </div>
   <div class="card-body">
-    <p>
+    <p class="card-text">
       {{ .Content }}
     </p>
   </div>
