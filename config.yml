@@ -2,3 +2,5 @@
 baseUrl: https://rustyeddy.github.io/mobilerobot.io/
 theme: robot
 publishDir: docs
+canonifyURLs: true
+---
