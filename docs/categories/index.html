@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-  <title>I am base of original</title>
-  {{ block "head" . }}{{- partial "head.html" . -}}{{ end }}
+<html>
+  
+
   <body>
     <div class="wrapper">
       <div class="d-flex">
-	{{ block "sidebar" . }}{{ partial "sidebar.html" . }}{{ end }}
+	
+
 
 	<div class="main">
-	  {{ block "headnav" . }}{{ partial "headnav.html" . }} {{ end }}
+	  
+ 
 
 	  <main class="content">
 	    <div class="container-fluid p-0">
@@ -19,14 +21,28 @@
 		<h1 class="h3 mb-3">Dashboard</h1>
 	      </div>
 
-	      {{ block "main" . }}{{ partial "main.html" . }}{{ end }}
+	      <div class="row">
+
+		
+<div class="row">
+  <div class="col-12">
+
+    
+  </div>
+</div>
+	      
+
+	      </div>
 
 	    </div>
 	  </main>
-	  {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+	  
+
 	</div>
       </div> 
     </div> 
-    {{ block "footerjs" . }}{{ partial "footerjs.html" . }}{{ end }}
+    
+
   </body>
+
 </html>
