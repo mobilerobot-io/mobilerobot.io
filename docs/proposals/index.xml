@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proposals on </title>
-    <link>http://mobilerobot.io/proposals/</link>
+    <link>https://rustyeddy.github.io/mobilerobot.io/proposals/</link>
     <description>Recent content in Proposals on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 30 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://mobilerobot.io/proposals/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rustyeddy.github.io/mobilerobot.io/proposals/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Raspberry Pi &amp; Arduino Programmer</title>
-      <link>http://mobilerobot.io/proposals/arduino-sound-effects/</link>
+      <link>https://rustyeddy.github.io/mobilerobot.io/proposals/arduino-sound-effects/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/proposals/arduino-sound-effects/</guid>
+      <guid>https://rustyeddy.github.io/mobilerobot.io/proposals/arduino-sound-effects/</guid>
       <description>&lt;p&gt;This person seems to be looking for somebody to create some Arduino
 and/or Raspberry Pi projects and create the related documents.
 &lt;/p&gt;</description>
@@ -23,10 +23,10 @@ and/or Raspberry Pi projects and create the related documents.
     
     <item>
       <title>Process</title>
-      <link>http://mobilerobot.io/proposals/process/</link>
+      <link>https://rustyeddy.github.io/mobilerobot.io/proposals/process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/proposals/process/</guid>
+      <guid>https://rustyeddy.github.io/mobilerobot.io/proposals/process/</guid>
       <description>The process to sending in proposals on Upwork specifically, is a little different that what it might seem like it should be.
 The proposal is really the first chance you have to discuss a project with the prospect. That makes it nearly impossible to put an accurate bid together to send to the client, espcially when you do not know all the details.
  The Uplink Proposal is really to start a conversation with the prospect, not something we can confidently give a firm commitment to.</description>
