@@ -1,4 +1,4 @@
 ---
-baseUrl: http://mobilerobot.io
+baseUrl: https://rustyeddy.github.io/mobilerobot.io/
 theme: robot
 publishDir: docs
