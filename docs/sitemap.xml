@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mobilerobot.io/proposals/proposal1/</loc>
-    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/proposals/prop2/</loc>
-    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <loc>http://mobilerobot.io/proposals/arduino-sound-effects/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,7 +33,7 @@
   
   <url>
     <loc>http://mobilerobot.io/proposals/</loc>
-    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
