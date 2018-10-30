@@ -3,19 +3,13 @@
 
 name = "Robot"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "https://github.com/rustyeddy/robot/blob/master/LICENSE"
 description = ""
-homepage = "http://example.com/"
-tags = []
+homepage = "http://mobilerobot.io/"
+tags = [robot]
 features = []
 min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Rusty Eddy"
+  homepage = "http://RustyEddy.com"

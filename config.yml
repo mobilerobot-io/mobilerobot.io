@@ -1,3 +1,7 @@
+---
 baseUrl: http://mobilerobot.io
 theme: robot
 publishDir: docs
+params:
+  stylesheet: css/app.css
+  title: Mobile Robot
