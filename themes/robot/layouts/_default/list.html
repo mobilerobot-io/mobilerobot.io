@@ -6,7 +6,7 @@
 	<div class="card-title">
 	  <h5>Proposals ~ Dashboard</h5>
 	  <h6 class="card-subtitle text-muted">
-	    This is a list of open jobs that may be interesting to submit a proposal to. 
+	    {{ .Content }}
 	  </h6>
 	</div>
       </div>
@@ -16,14 +16,16 @@
 	  <table class="table">
 	    <thead>
 	      <tr>
-		<th style="width:40%;">Proposal</th>
-		<th style="width:40%;">Comment</th>
+		<th style="width:25%;">Proposal</th>
+		<th style="10%">Link</th>
+		<th>Comment</th>
 	      </tr>
 	    </thead>
 	    <tbody>
 	      {{ range .Pages }}
 	      <tr>
 		<td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+		<td><a target="_none" href="{{ .Params.Uplink }}">Upwork</a></td>
 		<td>{{ .Description}}</td>
 	      </tr>
 	      {{ end }}

@@ -5,9 +5,30 @@
     <link>http://mobilerobot.io/proposals/</link>
     <description>Recent content in Proposals on </description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 27 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mobilerobot.io/proposals/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Proposal 1</title>
+      <link>http://mobilerobot.io/proposals/proposal1/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/proposals/proposal1/</guid>
+      <description>&lt;p&gt;This proposals is about building some mobile eyeballs.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Proposal 2</title>
+      <link>http://mobilerobot.io/proposals/prop2/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/proposals/prop2/</guid>
+      <description>&lt;p&gt;We are going to scrape the snot out of our websites.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Process</title>

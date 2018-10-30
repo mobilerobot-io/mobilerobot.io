@@ -11,12 +11,41 @@
     
     
     <item>
+      <title>Proposal 1</title>
+      <link>http://mobilerobot.io/proposals/proposal1/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/proposals/proposal1/</guid>
+      <description>&lt;p&gt;This proposals is about building some mobile eyeballs.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Proposal 2</title>
+      <link>http://mobilerobot.io/proposals/prop2/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/proposals/prop2/</guid>
+      <description>&lt;p&gt;We are going to scrape the snot out of our websites.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>http://mobilerobot.io/about/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/about/</guid>
       <description>This is all about Mobile Robots. Why is this not getting generated.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Robot</title>
+      <link>http://mobilerobot.io/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/</guid>
+      <description>I am a Mobile Robot Mobile robots are cool!</description>
     </item>
     
     <item>
