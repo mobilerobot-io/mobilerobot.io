@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rustyeddy.github.io/mobilerobot.io/proposals/arduino-sound-effects/</loc>
+    <loc>https://rustyeddy.github.io/mobilerobot.io/proposals/proposal-water-sensors/</loc>
+    <lastmod>2018-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rustyeddy.github.io/mobilerobot.io/proposals/proposal-arduino-sound-effects/</loc>
     <lastmod>2018-10-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,12 +33,16 @@
   </url>
   
   <url>
-    <loc>https://rustyeddy.github.io/mobilerobot.io/proposals/process/</loc>
+    <loc>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-process/</loc>
   </url>
   
   <url>
     <loc>https://rustyeddy.github.io/mobilerobot.io/proposals/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-randy/</loc>
   </url>
   
   <url>
@@ -43,6 +52,10 @@
   <url>
     <loc>https://rustyeddy.github.io/mobilerobot.io/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-communication/</loc>
   </url>
   
 </urlset>

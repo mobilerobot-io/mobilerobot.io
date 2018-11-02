@@ -1,11 +1,17 @@
 ---
 title: Rusty Eddy
 description: Software Engineer & Network Architect
-snippet: true
+snip: true
 ---
 
+I Love designing, building and maintaining software.  My roots are
+computer networks in the mid 1980's, distributed systems, kernal
+hacking and so on.
 
-My resume in YAML
+If the project and people are good, you can hire me to build a team,
+lead one or be a reliable contributor.  You can find my resume below. 
+
+### Resume in YAML
 
 Software Engineer:
   - CSU Chancellors office: 2 years
