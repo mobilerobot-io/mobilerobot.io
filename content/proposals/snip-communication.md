@@ -1,6 +1,6 @@
 ---
 title: communication
-snippet: true
+snip: true
 ---
 All successful software and hardware projects begin with efficient
 communication, with A clearly established goals and objectives.  I

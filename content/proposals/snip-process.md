@@ -1,9 +1,7 @@
 ---
 title: Process
 description: This docuement describe the Proposal process
-params:
-  card:
-    title: Proposals
+snip: true
 ---
 
 The process to sending in proposals on **Upwork** specifically, is a

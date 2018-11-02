@@ -1,6 +1,7 @@
 ---
 title: Randy Jaeger
 description: Aerospace Engineer and previous Walt Disney Imagineer
+snip: true
 ---
 
 Aerospace Engineer and previous Walt Disney Imagineer. Excellent at
