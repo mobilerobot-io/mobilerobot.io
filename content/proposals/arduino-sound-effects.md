@@ -2,9 +2,7 @@
 title: Raspberry Pi & Arduino Programmer
 date: 2018-10-30
 description: Create and document Raspberry Pi & Arduino projects
-params:
-  uplink: https://www.upwork.com/jobs/~01017869777a6f6418
-  
+proposal: https://www.upwork.com/jobs/~01017869777a6f6418
 ---
 
 This person seems to be looking for somebody to create some Arduino

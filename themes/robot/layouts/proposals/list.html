@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-8">
+	<div class="card">
+
+	    <div class="card-header">
+		<div class="card-title">
+		    <h5>Proposals ~ Dashboard</h5>
+		    <h6 class="card-subtitle text-muted">
+			{{ .Content }}
+		    </h6>
+		</div>
+	    </div>
+
+	    <div class="card-body">
+		<table class="table">
+		    <thead>
+			<tr>
+			    <th style="width:35%;">Proposal</th>
+			    <th style="10%">Link</th>
+			    <th>Comment</th>
+			</tr>
+		    </thead>
+		    <tbody>
+			{{ range .Pages.GroupByParam "proposal" }}
+			{{ range .Pages }}
+			<tr>
+			    <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+			    <td><a target="_none" href="{{ .Params.Uplink }}">Upwork</a></td>
+			    <td>{{ .Description}}</td>
+			</tr>
+			{{ end }}
+			{{ end }}
+		    </tbody>
+		</table>
+
+	    </div>
+
+	</div>
+    </div>
+
+    <div class="col-4">
+	<div class="card">
+	    <div class="card-header">
+		<h2 class="h5">{{ .Title }} ~ Snippets </h2>
+	    </div>
+
+	    <div class="card-body">
+		{{ range .Pages.GroupByParam "snippet" }}
+		<h2>Snippets go here</h2>
+		<ul>
+		    {{ range .Pages }}
+		    <li>{{ .Title }}</li>
+		    {{ end }}
+		</ul>
+		{{ end }}
+	    </div>
+
+	</div>
+    </div>
+
+</div>
+{{ end }}
