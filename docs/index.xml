@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile Robots on </title>
-    <link>https://rustyeddy.github.io/mobilerobot.io/</link>
+    <link>http://mobilerobot.io/</link>
     <description>Recent content in Mobile Robots on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rustyeddy.github.io/mobilerobot.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mobilerobot.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Water Sensor Raspberry Pi PoC</title>
-      <link>https://rustyeddy.github.io/mobilerobot.io/proposals/proposal-water-sensors/</link>
+      <link>http://mobilerobot.io/proposals/proposal-water-sensors/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rustyeddy.github.io/mobilerobot.io/proposals/proposal-water-sensors/</guid>
+      <guid>http://mobilerobot.io/proposals/proposal-water-sensors/</guid>
       <description>Hello,
 I got excited when I read your job posting, I have been working with sensor networks, and collecting timeseries data for quite a few years, on ongoing project with a long term client. And again, more recently with networks of Raspbetty Pi&amp;rsquo;s. and Arduinos.
 I have read your proposal a couple times, though I do have a couple questions, I believe I have a good understanding of what you are after.</description>
@@ -23,10 +23,10 @@ I have read your proposal a couple times, though I do have a couple questions, I
     
     <item>
       <title>Raspberry Pi &amp; Arduino Programmer</title>
-      <link>https://rustyeddy.github.io/mobilerobot.io/proposals/proposal-arduino-sound-effects/</link>
+      <link>http://mobilerobot.io/proposals/proposal-arduino-sound-effects/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rustyeddy.github.io/mobilerobot.io/proposals/proposal-arduino-sound-effects/</guid>
+      <guid>http://mobilerobot.io/proposals/proposal-arduino-sound-effects/</guid>
       <description>&lt;p&gt;This person seems to be looking for somebody to create some Arduino
 and/or Raspberry Pi projects and create the related documents.
 &lt;/p&gt;</description>
@@ -34,28 +34,28 @@ and/or Raspberry Pi projects and create the related documents.
     
     <item>
       <title>About</title>
-      <link>https://rustyeddy.github.io/mobilerobot.io/about/</link>
+      <link>http://mobilerobot.io/about/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rustyeddy.github.io/mobilerobot.io/about/</guid>
+      <guid>http://mobilerobot.io/about/</guid>
       <description>This is all about Mobile Robots. Why is this not getting generated.</description>
     </item>
     
     <item>
       <title>Mobile Robot</title>
-      <link>https://rustyeddy.github.io/mobilerobot.io/</link>
+      <link>http://mobilerobot.io/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rustyeddy.github.io/mobilerobot.io/</guid>
+      <guid>http://mobilerobot.io/</guid>
       <description>I am a Mobile Robot Mobile robots are cool!</description>
     </item>
     
     <item>
       <title>Process</title>
-      <link>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-process/</link>
+      <link>http://mobilerobot.io/proposals/snip-process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-process/</guid>
+      <guid>http://mobilerobot.io/proposals/snip-process/</guid>
       <description>The process to sending in proposals on Upwork specifically, is a little different that what it might seem like it should be.
 The proposal is really the first chance you have to discuss a project with the prospect. That makes it nearly impossible to put an accurate bid together to send to the client, espcially when you do not know all the details.
  The Uplink Proposal is really to start a conversation with the prospect, not something we can confidently give a firm commitment to.</description>
@@ -63,19 +63,19 @@ The proposal is really the first chance you have to discuss a project with the p
     
     <item>
       <title>Randy Jaeger</title>
-      <link>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-randy/</link>
+      <link>http://mobilerobot.io/proposals/snip-randy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-randy/</guid>
+      <guid>http://mobilerobot.io/proposals/snip-randy/</guid>
       <description>Aerospace Engineer and previous Walt Disney Imagineer. Excellent at product design, prototyping, and getting products to market as well as research and development, systems engineering and project management. Many years of working for and with tier-one companies Walt Disney, Boeing, GE and United Technologies. Now self employed providing engineering consulting, project management and products to said companies among others.</description>
     </item>
     
     <item>
       <title>Rusty Eddy</title>
-      <link>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-rusty/</link>
+      <link>http://mobilerobot.io/proposals/snip-rusty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-rusty/</guid>
+      <guid>http://mobilerobot.io/proposals/snip-rusty/</guid>
       <description>I Love designing, building and maintaining software. My roots are computer networks in the mid 1980&amp;rsquo;s, distributed systems, kernal hacking and so on.
 If the project and people are good, you can hire me to build a team, lead one or be a reliable contributor. You can find my resume below.
 Resume in YAML Software Engineer: - CSU Chancellors office: 2 years - Rockwell Intl, Space Systems Division: 5 years - Retix Systems: 1 year - USC/ISI: 5 years - Cisco Systems: 6 years - Eddy Consulting: 12 years clients: - Green Hills Software: 3 years - AT&amp;amp;T / DirecTV: 3 years - Alchemy Networks: 6 months - IMS Company: 2 years</description>
@@ -83,10 +83,10 @@ Resume in YAML Software Engineer: - CSU Chancellors office: 2 years - Rockwell I
     
     <item>
       <title>communication</title>
-      <link>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-communication/</link>
+      <link>http://mobilerobot.io/proposals/snip-communication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rustyeddy.github.io/mobilerobot.io/proposals/snip-communication/</guid>
+      <guid>http://mobilerobot.io/proposals/snip-communication/</guid>
       <description>All successful software and hardware projects begin with efficient communication, with A clearly established goals and objectives. I spend a significant amount of my time understanding your the objectives of your project, and a bit about your business when warrented. (I love learning about interesting businesses).
 A bit of extra work upfront will speed actual development time. And significantly increase success factors.</description>
     </item>
