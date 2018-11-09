@@ -11,6 +11,20 @@ hacking and so on.
 If the project and people are good, you can hire me to build a team,
 lead one or be a reliable contributor.  You can find my resume below. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Resume in YAML
 
 Software Engineer:

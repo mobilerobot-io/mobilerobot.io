@@ -3,6 +3,8 @@ title: Water Sensor Raspberry Pi PoC
 date: 2018-11-02
 description: 10 water sensors connected to a Raspberry Pi
 proposal: draft
+params:
+  hourly: $40.00
 snips:
   - snip-rusty.md
   - snip-randy.md
