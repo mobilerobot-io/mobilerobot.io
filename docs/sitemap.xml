@@ -3,28 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mobilerobot.io/proposals/proposal-water-sensors/</loc>
-    <lastmod>2018-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/proposals/proposal-arduino-sound-effects/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/about/</loc>
-    <lastmod>2018-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/</loc>
     <lastmod>2018-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/</loc>
-    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,41 +13,8 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/proposals/snip-process/</loc>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/proposals/proposal-wp-reports/</loc>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/proposals/</loc>
-    <lastmod>2018-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/proposals/snip-randy/</loc>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/proposals/snip-rusty/</loc>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/proposals/snip-communication/</loc>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/proposals/snip-portfolio/</loc>
   </url>
   
 </urlset>
