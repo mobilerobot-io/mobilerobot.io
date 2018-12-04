@@ -32,3 +32,10 @@ The stylesheet(css) determines the colors, fonts & typography.
 
 
 
+## Basalmiq
+
+Check Basalmiq BMPR file format into Git for version control.
+
+Use Basalmiq BMPR to generate stub code for the website.
+
+They have great tutorials

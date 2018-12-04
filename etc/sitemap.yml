@@ -1,0 +1,22 @@
+---
+public:
+  home:
+  about: 
+  procs:
+    onboarding:
+      resources:
+        asana: project management and scheduling
+        github: source and text control
+        dropbox: collect assets to develop website
+        gdocs: online documentation and file collections
+    devproc:
+      - discovery: requirements, schedule
+      - wireframe: layout, assets placement
+      - styleguide: colors, fonts and typography
+  notes:
+    
+  docs:
+  portfolio:
+
+private:
+  - proposals
