@@ -10,5 +10,99 @@
 	<atom:link href="http://mobilerobot.io/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>About</title>
+      <link>http://mobilerobot.io/about/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/about/</guid>
+      <description>We Create Software that Moves Hardware
+Mobile Robots I/O is a software development agency that works with Makers, Manufactures, Industrial and Environmental service companies.
+Our approach to software development is modern and cutting edge. Our abilities are built on experience from the trenches and rigours application of mathematics, when beneficial.
+We are a very small company with 2.5 people and a small handleful of reliable US contractors (designers, writers, specific tech skill), we bring on an as needed basis.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Robot</title>
+      <link>http://mobilerobot.io/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/</guid>
+      <description>I am a Mobile Robot Mobile robots are cool!</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://mobilerobot.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/contact/</guid>
+      <description>Hey contact me. (714) 362-5402</description>
+    </item>
+    
+    <item>
+      <title>Discovery</title>
+      <link>http://mobilerobot.io/procs/dev-guide-discovery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/procs/dev-guide-discovery/</guid>
+      <description>Discover what the client:
+ Thinks they want The clients desired outcome (is it realistic) The clients expectations (are they realistic) When does the client what this to happen Plans beyond delivery of project (operational plan)  </description>
+    </item>
+    
+    <item>
+      <title>Search Terms</title>
+      <link>http://mobilerobot.io/search-terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/search-terms/</guid>
+      <description> golang arduino raspberry pi ansible terraform multicast tcp/ip google cloud platform digital ocean, DO packer micro service, micro-service elk stack, elastic search, logstash, kinematics influxDB prometheus cloud automation aws software development, software engineer, programmer network engineer, software defined networking  </description>
+    </item>
+    
+    <item>
+      <title>Separate Plans and Actions</title>
+      <link>http://mobilerobot.io/procs/dev-guide-separate-plans-from-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/procs/dev-guide-separate-plans-from-actions/</guid>
+      <description>Application development is significantly more efficient, less error prone, can be delivered quicker and cost a lot less money.
+The key is having thought throw hard stuff before trying to build. Much like working with an Architect and Builder.
+The fundamental use of the application needs to be thought through, via use-cases, storyboarding, or something.
+You do not want a developer trying to build a site or application without clearly defining the objectives of the applicaiton.</description>
+    </item>
+    
+    <item>
+      <title>Strategy ~ How to Get What we Want</title>
+      <link>http://mobilerobot.io/procs/dev-guide-strategy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/procs/dev-guide-strategy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stylesheet</title>
+      <link>http://mobilerobot.io/procs/dev-guide-stylesheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/procs/dev-guide-stylesheet/</guid>
+      <description>Stylesheet will contain things like:
+#xxyyzz colors: - primary - secondary - tertiary - highlight1 - highlight2
+size, padding, margins, alignment, color, background color fonts: primary: &amp;hellip; secondary: &amp;hellip; other: &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Wireframes</title>
+      <link>http://mobilerobot.io/procs/dev-guide-wireframes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/procs/dev-guide-wireframes/</guid>
+      <description>&lt;p&gt;In some cases a wireframe will represent a single web page, in others
+it will represent a &lt;em&gt;template&lt;/em&gt; which represents a repeatable layout
+that can be reused for many pages by simply replacing the content.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

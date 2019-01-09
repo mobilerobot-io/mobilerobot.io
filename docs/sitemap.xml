@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://mobilerobot.io/about/</loc>
+    <lastmod>2018-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/</loc>
     <lastmod>2018-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/</loc>
+    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/basalmiq/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -13,8 +28,71 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/design/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/procs/dev-guide-discovery/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/plan/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/preparation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/procs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/search-terms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/procs/dev-guide-separate-plans-from-actions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/procs/dev-guide-strategy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/procs/dev-guide-stylesheet/</loc>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/ui/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/ux/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/wireframe/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/procs/dev-guide-wireframes/</loc>
   </url>
   
 </urlset>

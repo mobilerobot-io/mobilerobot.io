@@ -1,3 +1,0 @@
-# Rusty's Profile
-
-
