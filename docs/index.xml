@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mobile Robots on </title>
+    <title>Mobile Robot on </title>
     <link>http://mobilerobot.io/</link>
-    <description>Recent content in Mobile Robots on </description>
+    <description>Recent content in Mobile Robot on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mobilerobot.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IoT and Robotics</title>
+      <link>http://mobilerobot.io/portfolio/iot/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/portfolio/iot/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Orchestration</title>
@@ -20,7 +29,16 @@
     </item>
     
     <item>
-      <title>Website Repair and Optimization</title>
+      <title>Software Development</title>
+      <link>http://mobilerobot.io/portfolio/software/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/portfolio/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website / Application Optimization</title>
       <link>http://mobilerobot.io/portfolio/websites/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -35,25 +53,7 @@
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/</guid>
-      <description>I am a Mobile Robot Mobile robots are cool!</description>
-    </item>
-    
-    <item>
-      <title>Software Development</title>
-      <link>http://mobilerobot.io/portfolio/software/</link>
-      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/portfolio/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT and Robotics</title>
-      <link>http://mobilerobot.io/portfolio/iot/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/portfolio/iot/</guid>
-      <description></description>
+      <description> It is a new Day </description>
     </item>
     
     <item>
@@ -64,15 +64,6 @@
       <guid>http://mobilerobot.io/procs/dev-guide-discovery/</guid>
       <description>Discover what the client:
  Thinks they want The clients desired outcome (is it realistic) The clients expectations (are they realistic) When does the client what this to happen Plans beyond delivery of project (operational plan)  </description>
-    </item>
-    
-    <item>
-      <title>Search Terms</title>
-      <link>http://mobilerobot.io/search-terms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/search-terms/</guid>
-      <description> golang arduino raspberry pi ansible terraform multicast tcp/ip google cloud platform digital ocean, DO packer micro service, micro-service elk stack, elastic search, logstash, kinematics influxDB prometheus cloud automation aws software development, software engineer, programmer network engineer, software defined networking  </description>
     </item>
     
     <item>

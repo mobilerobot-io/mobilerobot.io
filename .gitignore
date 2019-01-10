@@ -13,3 +13,8 @@
 *.out
 public
 docs
+resources
+save-layouts
+themes-orig
+themes-hugo
+themes
