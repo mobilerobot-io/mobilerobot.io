@@ -1,10 +1,10 @@
 ---
 title: IoT and Robotics
 date: 2018-02-01
+weight: 100
 description: >
-  The entire world of things needs to connect to the Internet, see
-  what we do to support the products and the companies that build
-  them. 
+  Everything in the world runs on software now, let us have a look at
+  how software brings life to hardware and connects it to the Internet.
 image: "/img/rusty.jpg"
 github: github.com/mobilerobot-io/reboot
 ---
