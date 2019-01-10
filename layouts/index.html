@@ -4,82 +4,10 @@
     <body>
 	{{- partial "header.html" . -}}
 
+	<h1>Home Page</h1>
+
 	{{ block "main" . }}
-	<div class="container">
-	    <div class="row">
-		<div class="col-2"></div>
-		<div class="col"><h1 class="text-center">Opportunities</h1></div>
-		<div class="col-2"></div>
-	    </div>
-	    <div class="row">
-		<div class="col-sm">
-		    <div class="card">
-			<div class="card-body">
-			    <h3 class="card-title text-center">
-				Internet of Things 
-			    </h3>
-			    <p class="card-text">
-				Everything needs a clowd to connect to. Lights,
-				cameras and actuators.
-			    </p>
-			</div>
-		    </div>
-		</div>
-		
-		<div class="col-sm">
-		    <div class="card">
-			<div class="card-body">
-			    <h3 class="card-title text-center">
-				Computer Vision
-			    </h3>
-			    <p class="card-text">
-				Cameras, streaming video, object recog,
-				neural networks and mobile robots.
-			    </p>
-			</div>
-		    </div>
-		</div>
-
-		<div class="col-sm">
-		    <div class="card">
-			<div class="card-body">
-			    <h3 class="card-title text-center">
-				Physical Computing
-			    </h3>
-			    <p class="card-text">
-				Irrigation, sensor networks, 
-				timeseries databases, robotics
-			    </p>
-			</div>
-		    </div>
-		</div>
-	    </div> <!-- row -->
-
-	    <div class="row">
-		<div class="col-2"></div>
-		<div class="col">
-		    <p class="text-center lead">
-			In addition to being great opportunities these markets have
-			something else in common
-		    </p>
-		    <h3 class="text-center">They All Need Support From a Clowd</h3>
-		</div>
-		<div class="col-2"></div>
-	    </div>
-
-	</div>
-
-	<div class="row">
-	    <div class="col-2"></div>
-	    <div class="col-8">
-		<a href="/clowd">
-		    <button type="button" class="btn btn-primary btn-lg btn-block">
-		      Let's Build a Clowd
-		    </button>
-		</a>
-	    </div>
-	    <div class="col-2"></div>
-	</div>
+	{{- partial "home.html" . -}}
 	{{ end }}
 	{{- partial "footer.html" . -}}
     </body>

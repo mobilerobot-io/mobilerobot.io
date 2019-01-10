@@ -1,18 +1,13 @@
 {{ define "main" }}
 <div class="container">
-	{{ range .Pages }}
-	<article>
+    {{ range .Pages }}
+    <article>
 	<div class="row">
-		<div class="col-2">{{ .Date }}</div>
-		<div class="col-8"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
-		<div class="col-2"></div>
+	    <div class="col-2">{{ .Date }}</div>
+	    <div class="col-8"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+	    <div class="col-2"></div>
 	</div>
-
-	<div class="row">
-		<div>{{ .Summary }}</div>
-	</div>
-
-</article>
-	{{ end }}
+    </article>
+    {{ end }}
 </div>
 {{ end }}
