@@ -2,4 +2,4 @@ build:
 	hugo
 
 serve:
-	hugo serve --disableFastRender --watch
+	hugo serve --disableFastRender --watch --renderToDisk
