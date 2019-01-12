@@ -1,6 +1,7 @@
 ---
-title: Mobile Robots
-date: 2018-10-23
+title: Mobile Robot
+date: 2018-09-24
 ---
 
-This is an index document.
+# It is a new Day
+

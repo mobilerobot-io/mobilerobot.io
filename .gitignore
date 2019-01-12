@@ -11,3 +11,10 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+public
+docs
+resources
+save-layouts
+themes-orig
+themes-hugo
+themes

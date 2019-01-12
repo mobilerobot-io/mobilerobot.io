@@ -3,6 +3,5 @@ title: Mobile Robot
 date: 2018-09-24
 ---
 
-# I am a Mobile Robot
+# It is a new Day
 
-Mobile robots are cool!
