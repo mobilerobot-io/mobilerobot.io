@@ -1,9 +1,17 @@
 {{ define "main" }}
+{{- partial "jumbotron" . -}}
+
 <div class="container">
+    {{ with .Site.GetPage "section" "services" }}
     <div class="row">
-	<div class="col">
-	    <h2>home index.html</h2>
+	{{ range .Pages }}  
+	<div class="col-6">
+	  <a href="{{ .Permalink }}">
+	    {{- partial "card" . -}}
+	  </a>
 	</div>
+	{{ end }}
     </div>
+    {{ end }}
 </div>
 {{ end }}

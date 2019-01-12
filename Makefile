@@ -1,5 +1,7 @@
 build:
+	rm -rf public
 	hugo
 
 serve:
-	hugo serve --disableFastRender --watch --renderToDisk
+	rm -rf public
+	hugo serve --watch --disableFastRender --renderToDisk

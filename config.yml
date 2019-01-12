@@ -2,7 +2,9 @@
 # baseUrl: https://rustyeddy.github.io/mobilerobot.io/
 # baseUrl: http://mobilerobot.io
 # baseUrl: http://localhost:1313/
-# theme: robot
+theme: focus
 publishDir: docs
 canonifyURLs: true
+languageCode: en-us
+title: "Mobile Robot I/O"
 ---

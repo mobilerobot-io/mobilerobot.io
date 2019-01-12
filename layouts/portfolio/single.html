@@ -1,11 +1,12 @@
-{{ define "main" }}
+{{ define "main"}}
 {{- partial "jumbotron" . -}}
 
 <div class="container">
-    <div class="row">
-	<div class="col-4"></div>
+    <div class="row single-page">
+	<div class="col-2"></div>
 	<div class="col">{{ .Content }}</div>
-	<div class="col-4"></div>
+	<div class="col-2"></div>
     </div>
 </div>
+
 {{ end }}

@@ -1,7 +1,6 @@
 ---
-title: Mobile Robot
-date: 2018-09-24
+title: Mobile Robot I/O
+description: We build software that brings hardware alive.
 ---
 
-# It is a new Day
-
+This is the _index md file
