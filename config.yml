@@ -6,4 +6,5 @@ theme: focus
 publishDir: docs
 canonifyURLs: true
 languageCode: en-us
+title: "Mobile Robot I/O"
 ---
