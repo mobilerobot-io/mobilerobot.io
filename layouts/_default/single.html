@@ -1,13 +1,11 @@
-{{ define "main"}}
+{{ define "main" }}
 {{- partial "jumbotron" . -}}
 
 <div class="container">
-    <h3 class="h3 text-centered">{{ .Title }}</h3>
-    <h5 class="h5 text-centered text-muted">{{ .Description }}</h5>
     <div class="row">
-	<div class="col-2"></div>
+	<div class="col-4"></div>
 	<div class="col">{{ .Content }}</div>
-	<div class="col-2"></div>
+	<div class="col-4"></div>
     </div>
 </div>
 {{ end }}
