@@ -9,6 +9,9 @@
 
     <h3 class="text-center">Area's of Specialization</h3>
 
+    {{ .Site.GetPage "section" "services" }}
+
+
     {{ range .Site.Sections }}
     <h4 class="card-title text-center">{{ .Title }}</h4>
 
@@ -22,7 +25,6 @@
 		<p class="text-center pl-2 pr-2">
 		    {{ .Description }}
 		</p>
-		<p>Last Mod {{ .Lastmod }}</p>
 		<p>Current Section {{ .CurrentSection }}</p>
 	    </div> <!-- card-body -->
 	</div>
