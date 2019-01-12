@@ -1,19 +1,11 @@
 {{ define "main" }}
+{{- partial "jumbotron" . -}}
+
 <div class="container">
     <div class="row">
 	{{ range .Pages }}
-	<div class="col-6 mt-3 mb-3">
-	    <div class="card pb-5 pt-5">
-		<!--
-		     <img class="card-img-top text-center" src="{{ .Params.image  }}" alt="Orchestration" />
-		-->
-		<div class="card-body">
-		    <h4 class="card-title text-center">{{ .Title }}</h4>
-		    <p class="text-center pl-2 pr-2">
-			{{ .Description }}
-		    </p>
-		</div> <!-- card-body -->
-	    </div>
+	<div class="col-6">
+	    {{- partial "card" . -}}
 	</div>
 	{{ end }}
     </div> 

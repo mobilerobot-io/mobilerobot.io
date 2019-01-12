@@ -1,5 +1,5 @@
 ---
-title: Sensor Networks and Timeseries Databases
+title: Sensor Networks
 description: >
   Sensor networks gather data of all sorts, it could be atmospheric,
   motion or inventory drivin.  They are everywhere and a fundamental

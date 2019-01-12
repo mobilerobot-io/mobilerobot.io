@@ -1,39 +1,15 @@
 {{ define "main" }}
-<div class="jumbotron">
-    <h1 class="text-center">Mobile Robot I/O</h1>
-    <h3 class="leadin text-center text-muted">
-	We write software that makes hardware live
-    </p>
-</div>
+{{- partial "jumbotron" . -}}
+
 <div class="container">
-
-    <h3 class="text-center">Area's of Specialization</h3>
-
-    {{ .Site.GetPage "section" "services" }}
-
-
-    {{ range .Site.Sections }}
-    <h4 class="card-title text-center">{{ .Title }}</h4>
-
+    {{ with .Site.GetPage "section" "services" }}
     <div class="row">
 	{{ range .Pages }}  
-	<div class="col-4 mt-3 mb-3">
-	    {{ .Title }}
-	</div>
 	<div class="col-6">
-	    <div class="card-body">
-		<p class="text-center pl-2 pr-2">
-		    {{ .Description }}
-		</p>
-		<p>Current Section {{ .CurrentSection }}</p>
-	    </div> <!-- card-body -->
+	    {{- partial "card" . -}}
 	</div>
-	<div class="col"></div>
 	{{ end }}
-
-    </div> 
+    </div>
     {{ end }}
-
-
 </div>
 {{ end }}
