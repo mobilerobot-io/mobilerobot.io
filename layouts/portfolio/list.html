@@ -4,10 +4,8 @@
 <div class="container">
     <div class="row">
 	{{ range .Pages }}
-	<div class="col-6">
-	  <a href="{{ .Permalink }}">
-	    {{- partial "card" . -}}
-	  </a>
+	<div class="col-md-6">
+	  {{- partial "card" . -}}
 	</div>
 	{{ end }}
     </div> 
