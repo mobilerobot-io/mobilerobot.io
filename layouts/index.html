@@ -2,7 +2,33 @@
 {{- partial "jumbotron" . -}}
 
 <div class="container">
+    <div class="row">
+	<div class="col-2"></div>
+	<div class="col content">
+	    {{ .Content }}
+	</div>
+	<div class="col-2"></div>
+    </div>
+
+    {{ range .Pages }}
+    <div class="row">
+	<div class="col-2"></div>
+	<div class="col content">
+	    <h3>{{ .Title }}</h3>
+	    {{ .Description }}
+	</div>
+	<div class="col-2"></div>
+    </div>
+    {{ end }}
+
     {{ with .Site.GetPage "section" "services" }}
+    <div class="row">
+      <div class="col-2"></div>
+	<div class="col content">
+	    {{ .Content }}
+	</div>
+	<div class="col-2"></div>
+    </div>
     <div class="row">
 	{{ range .Pages }}  
 	<div class="col-6">

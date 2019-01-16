@@ -1,6 +1,12 @@
 <div class="jumbotron bg-white">
-    <h1 class="text-center">{{ .Title }}</h1>
-    <h4 class="leadin text-center text-muted">
-	{{ .Description }}
-    </h4>
+    <div class="row">
+	<div class="col-3"></div>
+	<div class="col">
+	    <h1 class="text-center pb-1">{{ .Title }}</h1>
+	    <h5 class="leadin text-center text-muted mt-0">
+		{{ .Description }}
+	    </h5>
+	</div>
+	<div class="col-3"></div>
+    </div>
 </div>
