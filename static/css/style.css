@@ -3,8 +3,7 @@ body {
 }
 
 h1, h2, h3, h5, h4, h6 {
-    margin-top: 4.9rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 
@@ -13,8 +12,7 @@ a {
 }
 
 .section-title {
-    margin: 1.6rem auto;
-    padding: 2rem auto;
+    margin-top: 1.6rem auto;
 }
 
 .card {
@@ -22,7 +20,7 @@ a {
 }
 
 .card-title {
-    align: center;
+    text-align: center;
     margin: 2rem auto;
     padding: 2rem auto;
     font-size: 1.4rem;
@@ -30,5 +28,4 @@ a {
 }
 
 .single-page {
-
 }

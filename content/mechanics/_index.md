@@ -1,7 +1,8 @@
 ---
-title: Electronics ~ Micro Controler and Macro Controllers
+title: Mechanics ~ Chasis
 description: >
-  Our ambitious Tank project is keeping us on our toes!
+  Our first robot is _Tank_, I should say _a tank_ made of OSEPP
+  X-Beam, though any similar gear can come to the party!
 date: 2019-01-16
 category: [ mechanics ]
 ---
