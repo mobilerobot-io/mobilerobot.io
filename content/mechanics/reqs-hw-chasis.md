@@ -1,25 +1,17 @@
 ---
-title: Chasis and Drive Train Requirements
+title: Chassis and Drive Train
 description: >
-  The chasis and the drive train will have a significant impact on the
-  software used to drive the robot.  We'll settle on the requirements
-  for the chasis and drive train.
+  Our targeted research body is a sturdy, but inexpensive block set
+  making it easily reconfigurable but sturdy (temporarily) for short
+  term projects.
 categories: [ robotics, anohter thing ]
+weight: 20
 github: http://mobilerobot-io/tank
----
-
----
-title: Hardware ~ Mechanical
-description: >
-  The mechanical portion of the hardware is concered with the
-  materials, construction and mobility of our robot.
-date: 2018-01-15
-categories: [ robotics, mechanics ]
 resources:
   - OSEPP train chasis
 ---
 
-The mechanical aspect of Robotics will determine if our project is
+The body and drive train of the Robot will determine if our project is
 going to actually function in the real world.  It all starts with a
 design in mind, choices of materials, the design of all functional
 components, mobility, motion and durability of the project. 

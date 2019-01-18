@@ -1,11 +1,14 @@
 ---
 title: The Mobile Robot Project
 description: >
-  The mobile robot project _Tank_ is an R&D effort to build an Open
-  Source autonomous mobile vehicle that streams data and video.
+  Tank is an R&D project to build a small self driving Tank for
+  cruising around your house collecting and sending interesting data
+  and videos. 
 date: 2018-02-02
 weight: 10
 ---
+
+We want to build a self
 
 The Robot must be able to navigate while controlled by a human or
 software, it must be modular, extensible and configurable.  Interested

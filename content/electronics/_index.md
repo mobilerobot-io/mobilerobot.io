@@ -1,5 +1,5 @@
 ---
-title: Electronics ~ Micro Controler and Macro Controllers
+title: Electronics and Microcontrollers
 description: >
   Our ambitious Tank project is keeping us on our toes!
 date: 2019-01-16

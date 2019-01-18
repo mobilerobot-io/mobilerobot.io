@@ -4,7 +4,7 @@ build:
 
 serve:
 	rm -rf public
-	hugo serve --watch --disableFastRender --renderToDisk
+	hugo serve -D --watch --disableFastRender --renderToDisk
 
 clean:
 	rm -rf public docs *~

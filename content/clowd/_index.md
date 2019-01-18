@@ -1,13 +1,22 @@
 ---
-title: Orchestration
+title: Clowd Operations and Networking
 date: 2019-01-04
 description: >
-  Since everything in the world connects to the cloud, that must mean
-  the cloud is one busy hombre, you are right it is, and if it were
-  not for automation we would all be screwed, find out why ...
-weight: 200
-image: "/img/rusty.jpg"
-github: github.com/mobilerobot-io/reboot
+  TODO: Orchestration and the necessity of automating our applications
+  lifecycle. 
+weight: 30
+github: github.com/mobilerobot-io/mobilerobot.io
+todo:
+  - write the content
 ---
 
-Terraform and Ansible are great!
+Tank relys on the Internet to store information about the itself
+(inventory and health), sensor data, video, controls and more. If you
+are interested in how we use the clowd to enhance Tanks experience,
+you will find it here <!--more--> 
+
+TODO: write index content.
+
+### path: content/clowd/_index.md 
+
+

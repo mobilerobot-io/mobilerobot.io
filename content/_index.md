@@ -17,7 +17,13 @@ What makes it even more ambitous is that I am **NOT** an expert, nor
 even very knowledgable in any of these disciplines, expect for a
 certain (questionable) level of proficiency in software. 
 
-Below, I have created independant sections that discuss some of the
-challenges and decisions that are going to be necessary in building
-our robot.  Let's jump in and start building a Robot!
+## About The Tank Project
 
+As previously mentioned, there are many disciplines that must come
+together to make this project successful, below I have attempted to
+create some high level topics that drill down into requirements,
+experiments and trade offs.
+
+Ready to build a Robot?  Jump into your choosen area of interest.  But
+first maybe you want a high level overview of how everything is
+envisioned to come together, have a look at the Tank. 
