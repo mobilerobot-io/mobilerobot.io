@@ -38,4 +38,20 @@ combination of OpenSource HW & SW.
 To learn this stuff we are going to start building and reading in
 between, since after all, there is no better way to learn.
 
+> For complete Requirements and design see [project](/projects).  For
+> a quick overview here are some highlights.
 
+In loose order I am going to bullet point some of our requirements. 
+
+- The architecture SHALL allow a programmable, self driving vehicle
+
+- Chassis prototype are tank treads and skid stear.  Two and four
+  wheels will probably be experimented with.
+  
+- The robot must carry some set of sensors, to help gathering
+  enviornmental information, including a camera
+
+- One the sensors will be a camera that streams real time video.  The
+  bot may optionally store images on the bot.
+
+- Must work with an Interchangable Control system.  In otherwords, 
