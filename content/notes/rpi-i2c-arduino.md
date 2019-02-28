@@ -59,3 +59,53 @@ Incoming status
 ## Performance Measurements
 
 
+---
+title: I2c ~ AKA 2 Wire
+date: 2019-01-17
+description: >
+  Sytem communication bus that can be used by RPi, BBone and 
+  Arduino's including thousands of sensors and stuff!
+categories: 
+  - electronics
+  - communications
+tags: 
+  - i2c
+references:
+  - https://oscarliang.com/raspberry-pi-arduino-connected-i2c/
+
+---
+
+There are some great things about I2C (or Two Wire) as you will see it
+refered to.
+
+## RealTime Communication between Arduino and RPI
+
+I2C seems to be an ideal option for short but low delay communication messages
+such as those that would be experienced in a sensor network, or perhaps a moderate 
+control system.
+
+## Wiring I2C Between RPi & Arduino
+
+The simplest form of wiring between the RPI and an Arduino is as follows:
+
+### Simple ~ RPI Master, arduino Slave
+
+### Flexible ~ RPI & Arduino Logic Separated I2C
+
+This method uses a logic level converter to create separate 3.3v and 5v i2c segments.
+It uses a Voltage Divider (Logic Level Converter) to separate 3.3v segments of the clock and 
+data lines.
+
+Note, the LLC must be _bidirectional_ allowing signals to pass 
+from high to low, and low to high. 
+
+> TODO ~ Fritz it ! we need to add the schematic of an i2c bus
+
+## Wiring I2C BBone & Arduino
+
+## I2C Software Communication
+
+## I2C Example Data Gathering
+
+
+## The Software
