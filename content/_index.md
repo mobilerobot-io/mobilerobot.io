@@ -6,52 +6,37 @@ date: 2018-01-15
 categories: [ robotics ]
 ---
 
-This is an ambitious project for a number of reasons: first Robotics
-is a intricate multi-disceplinary disciplines (mechanics, electronics,
-software, power, sight, sound, and so much more.) 
+This is an ambitious project for a number of reasons: first of all
+Beginning Robotics is a complex topic, beyond the basics are (some
+would say) literally no limits.
 
-But this is particularly ambitious since I do not know a thing about
-Robotics and very little about the various discplines required to
-build even the most simple robot.
+The other reason this is an amitious project: I know very little about
+the various disciplines required to design, build and operate a Robot,
+except one.
 
-Everybody starts at the beginning, right?  
+This project requires a reasonable amount of knowledge in Electronics,
+Mechanics, Materials and Power, it also requires software and
+commuications (which happens to be my background).
 
->Interested?  Want so see what happens, or better, want to
->participate?  I would love to have your help!
+## The Big Idea
 
+The idea is to build an _Affordable yet Useful_ robot.  Something that
+fits a gap between Big Science stuff from NASA, MIT, Standford and
+some of the amazing "toy" robots that can be found or built for under
+$100.
 
-## What will we work on?
+Build on the affordable Robotics and MicroControllers so prevalent
+today to build:
 
-My first thoughts when I hear The word robot is to conjure up an image
-of a science fiction movie or something amazing that NASA or Boston
-dynamics is been working on. But I certainly don't have the budget nor
-the space in my garage toBuild anything like that when aloneSheer lack
-of knowledge.
+> Affordable, but Practical Robots
 
-And that has limited my involvement in Robotics.. Until now, a
-combination of OpenSource HW & SW.
+A robot that can be built by a person or small team in a modest
+workshop or makerspace.
 
-> Affordable AND practical robots.
+## Tank Project
 
-## Project Overview
+The project goal is to build a Mobile Robot that can drive around
+under my house and video tape it.  The Robot will need to navigate
+wirelessly, it will also need to carry some configuration of sensors
+in addition to the camera, such as temprature, moisture, etc.
 
-To learn this stuff we are going to start building and reading in
-between, since after all, there is no better way to learn.
-
-> For complete Requirements and design see [project](/projects).  For
-> a quick overview here are some highlights.
-
-In loose order I am going to bullet point some of our requirements. 
-
-- The architecture SHALL allow a programmable, self driving vehicle
-
-- Chassis prototype are tank treads and skid stear.  Two and four
-  wheels will probably be experimented with.
-  
-- The robot must carry some set of sensors, to help gathering
-  enviornmental information, including a camera
-
-- One the sensors will be a camera that streams real time video.  The
-  bot may optionally store images on the bot.
-
-- Must work with an Interchangable Control system.  In otherwords, 
