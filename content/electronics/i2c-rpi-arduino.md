@@ -4,6 +4,9 @@ description: >
   I2C is simple, cheap and low energy way for a Raspberry PI and
   Arduino's can communicate.
 date: 2019-02-18
+references:
+  - http://dsscircuits.com/articles/effects-of-varying-i2c-pull-up-resistors
+  - https://oscarliang.com/raspberry-pi-arduino-connected-i2c/
 ---
 
 When I first started tinkering with the Arduino, about mid 2018, (yea
