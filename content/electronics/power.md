@@ -7,7 +7,7 @@ description: >
   heavy. 
 ---
 
-Todo Write a summary
-<!--more-->
+Different options for powering robots.  Stationary, near electrical outlets
+is always the easiest, but does not bode well for _mobile_ and _autonomous_.
 
-Write some content
+Batteries are the key factor.
