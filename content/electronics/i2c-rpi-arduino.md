@@ -33,6 +33,20 @@ Let the Arduino (or one of its many cousins) go to town interacting
 with the real world, let the Raspberry PI tell the Arduino what to do,
 and gather data from it.
 
+### Logic Level Converters
+
+I bought a couple LLC from Amazon from Hiletgo.  4 Channel, bidirectional
+Logic Level Controller.
+
+  sdlc lv1 --  -- hv1 sclk
+  sclk lv2 --  -- hv2 sdlc
+  3.3v  lv --  -- hv  5v
+       gnd --  -- gnd
+  sclk lv3 --  -- hv3 sdlc
+  sdlc lv4 --  -- hv4 sclk
+
+The left sides is low voltage.
+
 ### Communicating Controllers
 
 ## Communication Options
@@ -112,3 +126,23 @@ from high to low, and low to high.
 
 
 ## The Software
+---
+title: I2C Bi-Directional Logic Level Converter
+description: >
+  This little beauty give us the ability to have many Raspberry Pis
+  and arduino communicate in a low cost, efficient way.
+date: 2019-03-02
+categories: 
+  - electronics
+  - communication
+tags: 
+  - i2c
+  - serial
+  
+references:
+  - https://www.amazon.com/gp/product/B07F7W91LC/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+
+  
+---
+
+Let the testing begin.  Here is 
