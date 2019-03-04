@@ -5,6 +5,7 @@ description: >
   Arduino's can communicate.
 date: 2019-02-18
 references:
+  - [Nick Gannon ~ Excellent and thourough](http://www.gammon.com.au/i2c)
   - http://dsscircuits.com/articles/effects-of-varying-i2c-pull-up-resistors
   - https://oscarliang.com/raspberry-pi-arduino-connected-i2c/
 ---
@@ -75,6 +76,9 @@ Incoming status
 
 ## Performance Measurements
 
+## I2C Access EEPROM
+
+See the Nick Gammon Article, it is filled with excellent stuff!
 
 ---
 title: I2c ~ AKA 2 Wire
