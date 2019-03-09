@@ -5,11 +5,9 @@ description: Mobile Robots is a World Computing Agency
 published: true
 ---
 
-We Create Software that Moves Hardware
-
-Mobile Robots I/O is a software development agency that works with
-_Makers_, _Manufactures_, _Industrial_ and _Environmental_ service
-companies. 
+We Create Software that Moves Hardware. Mobile Robots I/O is a
+software development agency that works with _Makers_, _Manufactures_,
+_Industrial_ and _Environmental_ service companies.
 
 Our approach to software development is modern and cutting edge.  Our
 abilities are built on experience from the trenches and rigours
