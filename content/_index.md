@@ -1,10 +1,17 @@
 ---
-title: Mobile Robot I/O
+title: Mobile Robot I/O Project
 description: >
   Journals my findings being a newbie DIY / amature Robot builder.
 date: 2018-01-15
 categories: [ robotics ]
 ---
+
+The goal of this project is to build a self driving robot that will
+film under my house, and collect other sensor data, it could be used
+as a mobile DVR or live video streamer.  For under $500 USD!
+
+, mobile DVR or
+live video streamer, for under USD $500.
 
 This is an ambitious project for a number of reasons: first of all
 Beginning Robotics is a complex topic, beyond the basics are (some
