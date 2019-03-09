@@ -1,8 +1,19 @@
 ---
 title: Detailed Design
+date: 2018-11-02
+category: design
+weight: 400
 ---
 
-TBD
+We will use a Raspberry Pi as the main on unit controller.  The
+Raspberry Pi will be attached via one of the common local bus
+protocols (i2c, SPI or Canbus).  Read More ...
+<!--more-->
+
+One Arduino will be dedicated to motor controls, one or more
+additional arduino's maybe used
+
+## Controller
 
 ## Experimentation and PoC
 

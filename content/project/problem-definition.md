@@ -6,6 +6,7 @@ description: >
   thereof is so critical.
 date: 2019-03-05
 category: project
+weight: 100
 ---
 
 We want to build an automous driven vehicle that can film and stream

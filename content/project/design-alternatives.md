@@ -1,16 +1,17 @@
 ---
-title: Tank Design Alternatives
+title: Consider Alternative Designs
 date: 2019-03-04
 description: >
   This is no singular right or wrong design, we can only a "best"
   design based on our alternative choices.
 category: design
+weight: 200
 ---
 
 One of the beautiful things about _robotics_ are the wide variety of
 disciplines involved to successfully build and operate even the most
 basic of robots, let alone something of the scale that we are planning
-to build.
+to build. Read more...<!--more-->
 
 This also means our design has a lot of elements, I will attempt here
 to outline the major components of our mobile robot design.  

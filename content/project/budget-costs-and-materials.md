@@ -1,5 +1,7 @@
 ---
 title: Schedule, Budget and Reality
+date: 2019-02-02
+weight: 800
 ---
 
 Keep track here of what it really cost to build this thing, that

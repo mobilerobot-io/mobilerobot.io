@@ -1,9 +1,11 @@
 ---
 title: Fabricate, Assemble and Maintain
+date: 2019-02-02
+weight: 600
 ---
 
 Time to build our first complete prototype.  Time to get into the shop
-and start making physical world stuff.
+and start making physical world stuff.<!--more-->
 
 > NOTE: we can NOT forget to document our progress or lack thereof!!!
 

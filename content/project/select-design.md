@@ -1,10 +1,12 @@
 ---
 title: Design Selection
+date: 2019-03-03
+weight: 300
 ---
 
 At this point in our R&D we are leaning toward an overall design that
 looks something like this (and subject to change at any knee jerk
-moment): 
+moment): Read more <!--more-->
 
 1. Tank track with skid turning
 2. Arduino Uno (or mega) with motorsheild to control:
