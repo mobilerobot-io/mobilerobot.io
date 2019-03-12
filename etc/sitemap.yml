@@ -1,22 +1,82 @@
 ---
-public:
+mobilerobot.io:
   home:
-  about: 
-  procs:
-    onboarding:
-      resources:
-        asana: project management and scheduling
-        github: source and text control
-        dropbox: collect assets to develop website
-        gdocs: online documentation and file collections
-    devproc:
-      - discovery: requirements, schedule
-      - wireframe: layout, assets placement
-      - styleguide: colors, fonts and typography
-  notes:
-    
-  docs:
-  portfolio:
+    - The Mobile Robot is a Project
+  project:
+    Define the Problem:
+      - Requirements
+      - Constraints
+    Identify Design Alternatives:
+      Mechanics:
+        Chassis: [tank, 2-wheel, 4-wheel, others]
+        Steering: [skid, ackerman, rear-wheel, others]
+        Bill-Of-Materials:
+          off-the-shelf: [kits, parts, misc]
+          custom-parts: [3d-print, cnc, cad]
+      Electronics:
+        MicroControllers: [RPi, Arduino, other]
+        Sensors: [input, output, cameras]
+        Circuits: [perfboards, pcbs, circuits]
+        Power: [batteries, size and weight, LoOps]
+      Software:
+        - MicroControllers: [arduino, RPi, sensors]
+        -
+        CICD: [test, deploy]
+        Communication: [local, realtime, cloud]
+        RTOS: [measurements, limits, constraints]
+        GNC: [Guidance control and nav]
+        ComputerVision: [openCV, GNC]
+    Select Design: >-
+      Select actual designs from each of the alternatives above.
+      Document justification for choices.
+    Develop Detailed Design:
+      Mechanics:
+      Electronics:
+      Software:
+    Communicate Design:
+      Present Design:
+      Collect Feedback:
+      Iterate Design:
+    Fabricate and Assemble:
+      Mechanics: [ manufacture, fabricate, assemble ]
+      Electronics: [circuits, perfboads, circuits, schematics]
+      Software: [development, test, deploy]
+    Evaluate Performance:
+      - Results vs. Requirements
+      - cost vs. budget
+      - Suggested Modifications
 
-private:
-  - proposals
+  about:
+    - The project is Open and Self "funded"
+    - Rusty the software guy
+    - Randy the hardware guy
+    - Hacks for Hire
+
+  project:
+    - Project Definition:
+        - Requirements
+        - Constraints
+    - Design Alternatives
+    - Design Selection
+    - Detailed Design
+    - Design Review / Feedback
+    - Fabricate and Assemble
+    - Budget and Schedule
+    - Evaluate Performance
+    
+  about:
+    - Mobile Robot Project
+    - Rusty, Software and Communications
+    - Randy, Electronics and Production
+    
+  notes:
+    - i2c-rpi-arduino-experience
+    - ...
+
+  maillist:
+    - Join
+    - Thank You
+
+  youtube:
+    - Channel
+  

@@ -6,6 +6,27 @@ date: 2018-01-15
 categories: [ robotics ]
 ---
 
+Hello, and welcome to the _Mobile Robot_ project.  This project was
+created to document the process as we build a _useful_ Mobile Robot
+for under $500.
+
+ > A self driving vehicle capable of filming underneath and around my
+ > house for under $500USD.
+
+To accomplish this goal we are going to have to solve several
+non-trivial problems from a range of disciplines including, but not
+limited to:
+
+## Electronics and Power
+
+By useful we mean, to perform a task or set of tasks that some people
+would find useful.  The goals is to limit ourselves to inexpensive,
+off the shelf electronic components and mechanical elements.
+
+The goal of
+this project is to build a robot that will:
+
+
 The goal of this project is to build a self driving robot that will
 film under my house, and collect other sensor data, it could be used
 as a mobile DVR or live video streamer.  For under $500 USD!

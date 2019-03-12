@@ -1,7 +1,7 @@
 ---
 title: Evaluate Performance
-weight: 700
 date: 2019-04-22
+weight: 700
 ---
 
 OK, we built it, how are we doing?  How long did the research take,
