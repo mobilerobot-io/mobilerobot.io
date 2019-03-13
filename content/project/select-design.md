@@ -1,7 +1,7 @@
 ---
 title: Design Selection
 date: 2019-03-03
-weight: 300
+weight: 9900
 ---
 
 At this point in our R&D we are leaning toward an overall design that
