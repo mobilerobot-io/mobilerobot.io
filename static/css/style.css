@@ -2,7 +2,7 @@ body {
     background: white;
     color: #222222;
     font-family: times;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
@@ -12,7 +12,7 @@ h1, h2, h3, h5, h4, h6 {
 }
 
 a {
-    color: red;
+    color: $primary;
 }
 
 .section-title {
@@ -27,7 +27,7 @@ a {
     text-align: center;
     margin: 2rem auto;
     padding: 2rem auto;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
@@ -39,4 +39,8 @@ a {
     margin-bottom: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.list-group-item {
+    font-size: 1.0rem;
 }
