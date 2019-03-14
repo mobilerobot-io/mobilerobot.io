@@ -1,16 +1,16 @@
 ---
-title: Mobile Robot I/O Project
+title: Mobile Robot I/O Projects
 description: >
-  Mobile Robot I/O is a project to build self driving robot for under
-  $500 USD. 
+  Mobile Robot I/O is a project to learn how to build a self driving
+  robot for under $500 USD.
 date: 2018-01-15
-categories: [ robotics ]
+categories: 
+  - robotics
 ---
 
-We are building an automous driving robot with a video camera to
-capture and stream live video images as it moves about.  If this
-sounds a bit _space age_, why not read a little more and we'll show
-you how it can be done today, [Read more ...](/project)
+The Mobile Robot I/O Project is more than a single project, really it
+is a group of projects related to building, running and maintaining a
+mobile robot.
 <!--more-->
 
 This is an ambitious project to be sure, first because _robots_ are
@@ -20,9 +20,6 @@ Communication Architecture and even websites and servers.
 
 It is especially a challenge since we are NOT experts at any (well
 maybe a couple) of the topics required to build a Robot or self
-driving vehical.
+driving vehicle.
 
-If you are interested in technology and engineering, would like to
-	learn any of these topics, or better yet, want to [contribute: Read
-More](/contribute)
 

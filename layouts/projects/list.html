@@ -1,8 +1,6 @@
 {{ define "main" }}
 <div class="container">
   {{ range .Pages }}
-  <article>
-      
     <div class="row">
 
       <div class="col"></div>
@@ -14,13 +12,20 @@
     </div> <!-- row -->
 
     <div class="row text-align-right">
-      <div class="col"></div>
-      <div class="col-8">{{ .Description }}</div>      
-      <div class="col-8">{{ .Summary }}</div>
-      <div class="col"></div>
+	<div class="col"></div>
+	<div class="col-8">{{ .Description }}</div>      
+	<div class="col"></div>
     </div>
-
-  </article>
+    <div class="row">
+	<div class="col"></div>
+	<div class="col-8">{{ .Summary }}</div>
+	<div class="col"></div>	
+    </div>
+    <div class="row">
+	<div class="col"></div>
+	<div class="col-8">{{ .Summary }}</div>
+	<div class="col"></div>	
+    </div>
   {{ end }}
 </div>
 {{ end }}
