@@ -8,3 +8,5 @@ tags:
   - ansible
   - nginx
 ---
+
+Talk about how ansible was used to update this website.
