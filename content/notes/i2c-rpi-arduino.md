@@ -4,6 +4,8 @@ description: >
   I2C is simple, cheap and low energy way for a Raspberry PI and
   Arduinos can communicate.
 date: 2019-02-18
+categories:
+  - electronics
 ---
 
 When I first started tinkering with the Arduino, about mid 2018, (yea
@@ -25,9 +27,10 @@ One attractive thought is using the Raspberry PI and it's full blown
 OS, programming and communication capabilities as the brains and
 transport.
 
+```
   RPi {3, 5} -- Ard { A3, A4 } (check this)
         Gnd  -- Gnd
-
+```
 
 The Arduino being a better piece of physical computing, and real-time
 hardware would make a dandy duo indeed!
@@ -41,12 +44,14 @@ and gather data from it.
 I bought a couple LLC from Amazon from Hiletgo.  4 Channel, bidirectional
 Logic Level Controller.
 
+```
   sdlc lv1 --  -- hv1 sclk
   sclk lv2 --  -- hv2 sdlc
   3.3v  lv --  -- hv  5v
        gnd --  -- gnd
   sclk lv3 --  -- hv3 sdlc
   sdlc lv4 --  -- hv4 sclk
+```
 
 The left sides is low voltage.
 
@@ -70,85 +75,3 @@ are power hungry and heavy weight.
 - very low latency(?) Great for realtime up to X delay
 - low bandwidth
 
-## Possibilities for Control Loops?
-
-Incoming status 
-
-## Software Design and Tests
-
-## Performance Measurements
-
-## I2C Access EEPROM
-
-See the Nick Gammon Article, it is filled with excellent stuff!
-
----
-title: I2c ~ AKA 2 Wire
-date: 2019-01-17
-description: >
-  Sytem communication bus that can be used by RPi, BBone and 
-  Arduino's including thousands of sensors and stuff!
-categories: 
-  - electronics
-  - communications
-tags: 
-  - i2c
-references:
-  - https://oscarliang.com/raspberry-pi-arduino-connected-i2c/
-
----
-
-There are some great things about I2C (or Two Wire) as you will see it
-refered to.
-
-## RealTime Communication between Arduino and RPI
-
-I2C seems to be an ideal option for short but low delay communication messages
-such as those that would be experienced in a sensor network, or perhaps a moderate 
-control system.
-
-## Wiring I2C Between RPi & Arduino
-
-The simplest form of wiring between the RPI and an Arduino is as follows:
-
-### Simple ~ RPI Master, arduino Slave
-
-### Flexible ~ RPI & Arduino Logic Separated I2C
-
-This method uses a logic level converter to create separate 3.3v and 5v i2c segments.
-It uses a Voltage Divider (Logic Level Converter) to separate 3.3v segments of the clock and 
-data lines.
-
-Note, the LLC must be _bidirectional_ allowing signals to pass 
-from high to low, and low to high. 
-
-> TODO ~ Fritz it ! we need to add the schematic of an i2c bus
-
-## Wiring I2C BBone & Arduino
-
-## I2C Software Communication
-
-## I2C Example Data Gathering
-
-
-## The Software
----
-title: I2C Bi-Directional Logic Level Converter
-description: >
-  This little beauty give us the ability to have many Raspberry Pis
-  and arduino communicate in a low cost, efficient way.
-date: 2019-03-02
-categories: 
-  - electronics
-  - communication
-tags: 
-  - i2c
-  - serial
-  
-references:
-  - https://www.amazon.com/gp/product/B07F7W91LC/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
-
-  
----
-
-Let the testing begin.  Here is 

@@ -2,45 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robotics on Mobile Robot I/O</title>
-    <link>//localhost:1313/categories/robotics/</link>
+    <link>/categories/robotics/</link>
     <description>Recent content in Robotics on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//localhost:1313/categories/robotics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/robotics/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Chassis and Drive Train</title>
-      <link>//localhost:1313/notes/reqs-hw-chasis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/notes/reqs-hw-chasis/</guid>
-      <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
-going to actually function in the real world.  It all starts with a
-design in mind, choices of materials, the design of all functional
-components, mobility, motion and durability of the project.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Requirements ~ The Controller</title>
-      <link>//localhost:1313/notes/reqs-controller/</link>
-      <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/notes/reqs-controller/</guid>
-      <description>The controller has two primary parts, the hardware and sofware elements. A good system design, like ours will separate the specific hardware and the controlling software.
-Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence it needs to be free of tethers, both electronics, controls and power.
- must be responsive, there should be no (minimized) percievable delay from  TODO: Determine HW Control type There are a number of choices to select for HW control, RFI seems to be a good candidate.</description>
-    </item>
     
     <item>
       <title>Mobile Robot I/O Project</title>
-      <link>//localhost:1313/</link>
+      <link>/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/</guid>
+      <guid>/</guid>
       <description>&lt;p&gt;Building a useful Robot is hard, in large part because Robotics is an
 inter-disciplinary subject matter requiring a high level of mastery of
 a number of complex subjects, (some of which we have listed below).
@@ -49,10 +25,10 @@ a number of complex subjects, (some of which we have listed below).
     
     <item>
       <title>Mobile Robot I/O Projects</title>
-      <link>//localhost:1313/projects/</link>
+      <link>/projects/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/</guid>
+      <guid>/projects/</guid>
       <description>&lt;p&gt;The Mobile Robot I/O Project is more than a single project, really it
 is a group of projects related to building, running and maintaining a
 mobile robot.

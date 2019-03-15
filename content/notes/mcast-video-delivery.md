@@ -5,9 +5,13 @@ description: >
   deliver streaming video and real time audio communications between
   millions of people simultaneously amoung millions of people.
 date: 2018-08-22
-references:
-  - Cisco CRS
-  - GateD and Greenhills
+categories:
+  - software
+tags:
+  - networking
+  - multicast
+  - onos
+  - software defined network
 ---
   
 I lead a team at Cisco Systems to build a system that would deliver

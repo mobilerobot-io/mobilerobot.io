@@ -1,6 +1,8 @@
 ---
 title: The Go Schedular in Depth
+date: 2018-04-04
 draft: true
+category: software
 ---
 
 This is a three part series:

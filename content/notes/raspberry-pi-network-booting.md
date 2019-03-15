@@ -2,6 +2,14 @@
 title: Reconfigure the Raspberry Pi by Rebooting
 description: >
   Network boot Raspberry Pi, let us give it a try
+category: software
+date: 2018-05-17
+tags:
+  - dhcp
+  - pxe
+  - netboot
+  - tftp
+  - bootp
 ---
 
 Booting a Raspberry Pi from an SD card or USB stick is pretty neat and

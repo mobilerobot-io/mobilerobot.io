@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile Robot Updates on Mobile Robot I/O</title>
-    <link>//localhost:1313/email/</link>
+    <link>/email/</link>
     <description>Recent content in Mobile Robot Updates on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//localhost:1313/email/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/email/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

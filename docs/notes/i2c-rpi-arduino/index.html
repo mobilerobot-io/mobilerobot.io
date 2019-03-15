@@ -5,24 +5,24 @@
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-<link rel="stylesheet" href="//localhost:1313/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 
 <title>Connecting a Raspberry PI and Arduino with I2C</title>
 <body><header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-	<a class="navbar-brand text-muted text-monospace" href="//localhost:1313/">Mobile Robot I/O</a>
+	<a class="navbar-brand text-muted text-monospace" href="/">Mobile Robot I/O</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    <nav class="navbar-nav justify-content-end">
-  	        <a class="nav-link" href="//localhost:1313/projects">projects</a>
-  	        <a class="nav-link" href="//localhost:1313/design">design</a>
-  	        <a class="nav-link" href="//localhost:1313/about">about</a>
-  	        <a class="nav-link" href="//localhost:1313/contact">contact</a>
-  	        <a class="nav-link" href="//localhost:1313/youtube">youtube</a>
-  	        <a class="nav-link" href="//localhost:1313/email">email</a>
+  	        <a class="nav-link" href="/projects">projects</a>
+  	        <a class="nav-link" href="/design">design</a>
+  	        <a class="nav-link" href="/about">about</a>
+  	        <a class="nav-link" href="/contact">contact</a>
+  	        <a class="nav-link" href="/youtube">youtube</a>
+  	        <a class="nav-link" href="/email">email</a>
  	    </nav>
 	</div>
     </nav>
@@ -42,17 +42,16 @@
 </div>
 <div id="main">
 <div class="container">
-    <article>
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <a href="//localhost:1313/notes/i2c-rpi-arduino/">Connecting a Raspberry PI and Arduino with I2C</a>
-            </div>
-            <div class="col-2"></div>
-        </div>
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8">
+        <a href="/notes/i2c-rpi-arduino/">Connecting a Raspberry PI and Arduino with I2C</a>
+    </div>
+    <div class="col-2"></div>
+  </div>
+  <div class="row">
+      <div class="col"></div>
+      <div class="col-8">
 
 <p>When I first started tinkering with the Arduino, about mid 2018, (yea
 I know, I am waaaaay late to the game) It was so easy to find great
@@ -77,8 +76,9 @@ you need.</p>
 OS, programming and communication capabilities as the brains and
 transport.</p>
 
-<p>RPi {3, 5} &ndash; Ard { A3, A4 } (check this)
-        Gnd  &ndash; Gnd</p>
+<pre><code>  RPi {3, 5} -- Ard { A3, A4 } (check this)
+        Gnd  -- Gnd
+</code></pre>
 
 <p>The Arduino being a better piece of physical computing, and real-time
 hardware would make a dandy duo indeed!</p>
@@ -92,12 +92,13 @@ and gather data from it.</p>
 <p>I bought a couple LLC from Amazon from Hiletgo.  4 Channel, bidirectional
 Logic Level Controller.</p>
 
-<p>sdlc lv1 &ndash;  &ndash; hv1 sclk
-  sclk lv2 &ndash;  &ndash; hv2 sdlc
-  3.3v  lv &ndash;  &ndash; hv  5v
-       gnd &ndash;  &ndash; gnd
-  sclk lv3 &ndash;  &ndash; hv3 sdlc
-  sdlc lv4 &ndash;  &ndash; hv4 sclk</p>
+<pre><code>  sdlc lv1 --  -- hv1 sclk
+  sclk lv2 --  -- hv2 sdlc
+  3.3v  lv --  -- hv  5v
+       gnd --  -- gnd
+  sclk lv3 --  -- hv3 sdlc
+  sdlc lv4 --  -- hv4 sclk
+</code></pre>
 
 <p>The left sides is low voltage.</p>
 
@@ -122,96 +123,9 @@ and mostlikely a ground) so 4 wires &hellip;</li>
 <li>very low latency(?) Great for realtime up to X delay</li>
 <li>low bandwidth</li>
 </ul>
-
-<h2 id="possibilities-for-control-loops">Possibilities for Control Loops?</h2>
-
-<p>Incoming status</p>
-
-<h2 id="software-design-and-tests">Software Design and Tests</h2>
-
-<h2 id="performance-measurements">Performance Measurements</h2>
-
-<h2 id="i2c-access-eeprom">I2C Access EEPROM</h2>
-
-<p>See the Nick Gammon Article, it is filled with excellent stuff!</p>
-
-<hr />
-
-<p>title: I2c ~ AKA 2 Wire
-date: 2019-01-17
-description: &gt;
-  Sytem communication bus that can be used by RPi, BBone and
-  Arduino&rsquo;s including thousands of sensors and stuff!
-categories:
-  - electronics
-  - communications
-tags:
-  - i2c
-references:
-  - <a href="https://oscarliang.com/raspberry-pi-arduino-connected-i2c/">https://oscarliang.com/raspberry-pi-arduino-connected-i2c/</a></p>
-
-<hr />
-
-<p>There are some great things about I2C (or Two Wire) as you will see it
-refered to.</p>
-
-<h2 id="realtime-communication-between-arduino-and-rpi">RealTime Communication between Arduino and RPI</h2>
-
-<p>I2C seems to be an ideal option for short but low delay communication messages
-such as those that would be experienced in a sensor network, or perhaps a moderate
-control system.</p>
-
-<h2 id="wiring-i2c-between-rpi-arduino">Wiring I2C Between RPi &amp; Arduino</h2>
-
-<p>The simplest form of wiring between the RPI and an Arduino is as follows:</p>
-
-<h3 id="simple-rpi-master-arduino-slave">Simple ~ RPI Master, arduino Slave</h3>
-
-<h3 id="flexible-rpi-arduino-logic-separated-i2c">Flexible ~ RPI &amp; Arduino Logic Separated I2C</h3>
-
-<p>This method uses a logic level converter to create separate 3.3v and 5v i2c segments.
-It uses a Voltage Divider (Logic Level Converter) to separate 3.3v segments of the clock and
-data lines.</p>
-
-<p>Note, the LLC must be <em>bidirectional</em> allowing signals to pass
-from high to low, and low to high.</p>
-
-<blockquote>
-<p>TODO ~ Fritz it ! we need to add the schematic of an i2c bus</p>
-</blockquote>
-
-<h2 id="wiring-i2c-bbone-arduino">Wiring I2C BBone &amp; Arduino</h2>
-
-<h2 id="i2c-software-communication">I2C Software Communication</h2>
-
-<h2 id="i2c-example-data-gathering">I2C Example Data Gathering</h2>
-
-<h2 id="the-software">The Software</h2>
-
-<hr />
-
-<p>title: I2C Bi-Directional Logic Level Converter
-description: &gt;
-  This little beauty give us the ability to have many Raspberry Pis
-  and arduino communicate in a low cost, efficient way.
-date: 2019-03-02
-categories:
-  - electronics
-  - communication
-tags:
-  - i2c
-  - serial</p>
-
-<p>references:
-  - <a href="https://www.amazon.com/gp/product/B07F7W91LC/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&amp;psc=1">https://www.amazon.com/gp/product/B07F7W91LC/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&amp;psc=1</a></p>
-
-<hr />
-
-<p>Let the testing begin.  Here is</p>
 </div>
-            <div class="col-2"></div>
-        </div>
-    </article>
+      <div class="col"></div>
+  </div>
 </div>
 
     </div><footer id="footer" class="container">
@@ -227,5 +141,5 @@ tags:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+</body>
 </html>
