@@ -7,4 +7,10 @@ publishDir: docs
 canonifyURLs: true
 languageCode: en-us
 title: "Mobile Robot I/O"
+categories:
+  - Electronics
+  - Software
+  - Mechanics
+params:
+  author: Rusty Eddy
 ---

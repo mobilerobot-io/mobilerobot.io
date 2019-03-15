@@ -10,6 +10,26 @@
 
     <h2 class="text-center">Subjects of Interest</h2>
 
+
+    <div class="container">
+	<div class="row">
+	    {{ $vals := .Site.Taxonomies.categories }}
+	    {{ range $key, $val := $vals }}
+	    <div class="col-4">
+		<div class="card">
+		    <div class="card-title"><h4>{{ $key }}</h4></div>
+		    <div class="card-body">
+			{{ range $val.Pages }}
+			<a class="list-group-item list-group-item-action" href="{{ .Permalink }}">{{ .Title }}</a>
+			{{ end }}
+		    </div>
+		</div> <!-- card -->
+	    </div>
+	    {{ end }}
+	</div> <!-- title row  -->
+    </div>
+
+    <!-- 
     <div class="row">
 	<div class="col-4">
 	    <div class="card">
@@ -23,7 +43,7 @@
 		    <a href="/categories/electronics" class="card-link">[Read More...]</a>
 		</div>
 	    </div>
-	</div> <!-- col-4 -->
+	</div>
 
 	<div class="col-4">
 	    <div class="card">
@@ -37,7 +57,7 @@
 		    <a href="/categories/software" class="card-link">[Read More...]</a>
 		</div>
 	    </div>
-	</div> <!-- col -->
+	</div>
 
 	<div class="col-4">
 	    <div class="card">
@@ -52,19 +72,11 @@
 		</div>
 	    </div>
 	</div> <!-- col -->
-
-    </div> <!-- row -->
+        </div>
+    -->
 </div> <!-- container -->
 
 <div class="container pt-5 pb-5">
-    <div class="row pt-3 pb-3">
-	<div class="col"></div>
-	<div class="col-8">
-	    <h2 class="text-center">Projects and Applications</h2>
-	</div>
-	<div class="col"></div>
-    </div> <!-- row -->
-
     <div class="row">
 	<div class="col"></div>
 	<div class="col-8">
@@ -73,7 +85,21 @@
 	<div class="col"></div>
     </div>
 </div>
-</div> <!--container-->
+
+<div class="container">
+    <div class="row">
+	{{ $section := where $.Site.RegularPages "Section" "projects" }}
+	{{ range $section }}
+	<div class="col-4">
+	    <div class="card">
+		<div class="card-title">
+		    <a class="list-group-item-action" href="{{ .Permalink }}"><h5>{{ .Title }}</h5></a>
+		</div>
+	    </div>
+	</div>
+	{{ end }}
+    </div>
+</div>
 
 <div class="container-fluid bg-primary pt-5 pb-5">
   <div class="row">

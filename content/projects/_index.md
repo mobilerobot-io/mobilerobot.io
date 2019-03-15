@@ -1,12 +1,14 @@
 ---
-title: Mobile Robot I/O Projects
+title: Projects
 description: >
-  Mobile Robot I/O is a project to learn how to build a self driving
-  robot for under $500 USD.
+  Mobile Robot I/O is really a collection of projects with the overall
+  goal to learn how to build an affordable self driving robot.
 date: 2018-01-15
 categories: 
   - robotics
 ---
+
+### Project Definition
 
 The Mobile Robot I/O Project is more than a single project, really it
 is a group of projects related to building, running and maintaining a
