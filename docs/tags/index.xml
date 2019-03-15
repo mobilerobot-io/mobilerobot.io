@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mobile Robot I/O</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ansible</title>
-      <link>/tags/ansible/</link>
+      <link>//localhost:1313/tags/ansible/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ansible/</guid>
+      <guid>//localhost:1313/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Infra as Code</title>
-      <link>/tags/infra-as-code/</link>
+      <link>//localhost:1313/tags/infra-as-code/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/infra-as-code/</guid>
+      <guid>//localhost:1313/tags/infra-as-code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nginx</title>
-      <link>/tags/nginx/</link>
+      <link>//localhost:1313/tags/nginx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/nginx/</guid>
+      <guid>//localhost:1313/tags/nginx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Terraform</title>
-      <link>/tags/terraform/</link>
+      <link>//localhost:1313/tags/terraform/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/terraform/</guid>
+      <guid>//localhost:1313/tags/terraform/</guid>
       <description></description>
     </item>
     

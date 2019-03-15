@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mobile Robot I/O</title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anohter Thing</title>
-      <link>/categories/anohter-thing/</link>
+      <link>//localhost:1313/categories/anohter-thing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/categories/anohter-thing/</guid>
+      <guid>//localhost:1313/categories/anohter-thing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clowd</title>
-      <link>/categories/clowd/</link>
+      <link>//localhost:1313/categories/clowd/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/clowd/</guid>
+      <guid>//localhost:1313/categories/clowd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Devops</title>
-      <link>/categories/devops/</link>
+      <link>//localhost:1313/categories/devops/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/devops/</guid>
+      <guid>//localhost:1313/categories/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mechanics</title>
-      <link>/categories/mechanics/</link>
+      <link>//localhost:1313/categories/mechanics/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/mechanics/</guid>
+      <guid>//localhost:1313/categories/mechanics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robotics</title>
-      <link>/categories/robotics/</link>
+      <link>//localhost:1313/categories/robotics/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/robotics/</guid>
+      <guid>//localhost:1313/categories/robotics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>/categories/software/</link>
+      <link>//localhost:1313/categories/software/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/software/</guid>
+      <guid>//localhost:1313/categories/software/</guid>
       <description></description>
     </item>
     
