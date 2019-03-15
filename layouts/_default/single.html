@@ -1,32 +1,16 @@
 {{ define "main" }}
 <div class="container">
-<<<<<<< HEAD
     <div class="row">
         <div class="col"></div>
         <div class="col-8">
             <a href="{{ .Permalink }}">{{ .Title }}</a>
         </div>
         <div class="col"></div>
-    </div>
+    </div> <!-- row -->
     <div class="row">
         <div class="col"></div>
         <div class="col-8">{{ .Content }}</div>
         <div class="col"></div>
-    </div>
-
-=======
-  <div class="row">
-    <div class="col"></div>
-    <div class="col-8">
-        <a href="{{ .URL }}">{{ .Title }}</a>
-    </div>
-    <div class="col-2"></div>
-  </div>
-  <div class="row">
-      <div class="col"></div>
-      <div class="col-8">{{ .Content }}</div>
-      <div class="col"></div>
-  </div>
->>>>>>> a98e82b4f35093272a185d5e6c674c98bb8aea47
+    </div> <!-- row -->
 </div>
 {{ end }}
