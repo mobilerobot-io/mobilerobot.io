@@ -3,317 +3,327 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/notes/project/</loc>
+    <loc>//localhost:1313/notes/project/</loc>
     <lastmod>2018-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/process/01-problem-definition/</loc>
+    <loc>//localhost:1313/projects/process/01-problem-definition/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/process/02-design-alternatives/</loc>
+    <loc>//localhost:1313/projects/process/02-design-alternatives/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/process/03-select-design/</loc>
+    <loc>//localhost:1313/notes/orchestration/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/projects/process/03-select-design/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/process/04-detailed-design/</loc>
+    <loc>//localhost:1313/projects/process/04-detailed-design/</loc>
     <lastmod>2018-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/process/05-communicate-design/</loc>
+    <loc>//localhost:1313/projects/process/05-communicate-design/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/process/06-fabricate-and-assemble/</loc>
+    <loc>//localhost:1313/projects/process/06-fabricate-and-assemble/</loc>
     <lastmod>2019-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/process/09-budget-costs-and-materials/</loc>
+    <loc>//localhost:1313/projects/process/09-budget-costs-and-materials/</loc>
     <lastmod>2019-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/process/10-evalutate-performance/</loc>
+    <loc>//localhost:1313/projects/process/10-evalutate-performance/</loc>
     <lastmod>2019-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/control-system/</loc>
+    <loc>//localhost:1313/projects/control-system/</loc>
     <lastmod>2019-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/email/</loc>
+    <loc>//localhost:1313/email/</loc>
     <lastmod>2019-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/on-vehicle-communications/</loc>
+    <loc>//localhost:1313/projects/on-vehicle-communications/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/chassis-drive-train/</loc>
+    <loc>//localhost:1313/projects/chassis-drive-train/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/arduino-nano/</loc>
+    <loc>//localhost:1313/notes/arduino-nano/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/youtube/</loc>
+    <loc>//localhost:1313/youtube/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/zumo/</loc>
+    <loc>//localhost:1313/projects/zumo/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/process/</loc>
+    <loc>//localhost:1313/projects/process/</loc>
     <lastmod>2019-02-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/i2c-rpi-arduino/</loc>
+    <loc>//localhost:1313/notes/i2c-rpi-arduino/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/</loc>
+    <loc>//localhost:1313/notes/</loc>
     <lastmod>2019-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/reboot/</loc>
+    <loc>//localhost:1313/notes/reboot/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2018-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/mcast-video-delivery/</loc>
+    <loc>//localhost:1313/notes/mcast-video-delivery/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/rpi-adafruit-tftp-display/</loc>
+    <loc>//localhost:1313/notes/rpi-adafruit-tftp-display/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/raspberry-pi-network-booting/</loc>
+    <loc>//localhost:1313/notes/raspberry-pi-network-booting/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/websites/</loc>
+    <loc>//localhost:1313/notes/websites/</loc>
     <lastmod>2018-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/sensor-networks/</loc>
+    <loc>//localhost:1313/notes/sensor-networks/</loc>
     <lastmod>2018-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/power/</loc>
+    <loc>//localhost:1313/notes/go-scheduler-in-depth/</loc>
+    <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/notes/power/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/software/</loc>
+    <loc>//localhost:1313/notes/software/</loc>
     <lastmod>2018-02-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/reqs-controller/</loc>
+    <loc>//localhost:1313/notes/reqs-controller/</loc>
     <lastmod>2018-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/robotics/</loc>
+    <loc>//localhost:1313/notes/robotics/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/</loc>
+    <loc>//localhost:1313/projects/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/adafruit/</loc>
+    <loc>//localhost:1313/tags/adafruit/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ansible/</loc>
+    <loc>//localhost:1313/tags/ansible/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/bootp/</loc>
+    <loc>//localhost:1313/tags/bootp/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/notes/reqs-hw-chasis/</loc>
+    <loc>//localhost:1313/notes/reqs-hw-chasis/</loc>
   </url>
   
   <url>
-    <loc>/categories/clowd/</loc>
+    <loc>//localhost:1313/categories/clowd/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/devops/</loc>
+    <loc>//localhost:1313/categories/devops/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/dhcp/</loc>
+    <loc>//localhost:1313/tags/dhcp/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/display/</loc>
+    <loc>//localhost:1313/tags/display/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/electronics/</loc>
+    <loc>//localhost:1313/categories/electronics/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/infra-as-code/</loc>
+    <loc>//localhost:1313/tags/infra-as-code/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/mechanics/</loc>
+    <loc>//localhost:1313/categories/mechanics/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/notes/mobile-robot-website/</loc>
+    <loc>//localhost:1313/notes/mobile-robot-website/</loc>
   </url>
   
   <url>
-    <loc>/tags/multicast/</loc>
+    <loc>//localhost:1313/tags/multicast/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/netboot/</loc>
+    <loc>//localhost:1313/tags/netboot/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/networking/</loc>
+    <loc>//localhost:1313/tags/networking/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/nginx/</loc>
+    <loc>//localhost:1313/tags/nginx/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/onos/</loc>
+    <loc>//localhost:1313/tags/onos/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/pxe/</loc>
+    <loc>//localhost:1313/tags/pxe/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/robotics/</loc>
+    <loc>//localhost:1313/categories/robotics/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/sdl/</loc>
+    <loc>//localhost:1313/tags/sdl/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/software/</loc>
+    <loc>//localhost:1313/categories/software/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/software-defined-network/</loc>
+    <loc>//localhost:1313/tags/software-defined-network/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/terraform/</loc>
+    <loc>//localhost:1313/tags/terraform/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/tft/</loc>
+    <loc>//localhost:1313/tags/tft/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/tftp/</loc>
+    <loc>//localhost:1313/tags/tftp/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
