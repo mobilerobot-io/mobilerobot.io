@@ -2,24 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anohter Thing on Mobile Robot I/O</title>
-    <link>//localhost:1313/categories/anohter-thing/</link>
+    <link>/categories/anohter-thing/</link>
     <description>Recent content in Anohter Thing on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="//localhost:1313/categories/anohter-thing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/anohter-thing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Chassis and Drive Train</title>
-      <link>//localhost:1313/notes/reqs-hw-chasis/</link>
+      <link>/notes/reqs-hw-chasis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/reqs-hw-chasis/</guid>
+      <guid>/notes/reqs-hw-chasis/</guid>
       <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
 going to actually function in the real world.  It all starts with a
 design in mind, choices of materials, the design of all functional
-components, mobility, motion and durability of the project.&lt;/p&gt;</description>
+components, mobility, motion and durability of the project.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

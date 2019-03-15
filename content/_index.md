@@ -12,8 +12,6 @@ inter-disciplinary subject matter requiring a high level of mastery of
 a number of complex subjects, (some of which we have listed below). 
 <!--more-->
 
-#### Master Of None
-
 What makes makes this project even more challenging is that we are not
 _Roboticists_ nor are experts at very many of the fields we are going
 to need to master (or find somebody that has) these topics to make
