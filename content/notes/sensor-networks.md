@@ -5,6 +5,7 @@ description: >
   motion or inventory drivin.  They are everywhere and a fundamental
   component of Big Data and machine learning.
 date: 2018-04-15
+categories: [ electronics, software ]
 ---
 
 ## TODO: write ups

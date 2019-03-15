@@ -5,7 +5,7 @@ description: >
   very superficial level, the controller takes all incoming inputs,
   matches input with a callback.
 date: 2018-02-04
-categories: [ robotics, software ]
+categories: [ electronics, software ]
 ---
 
 The controller has two primary parts, the hardware and sofware

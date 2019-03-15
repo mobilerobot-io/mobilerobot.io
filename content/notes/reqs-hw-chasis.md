@@ -4,8 +4,7 @@ description: >
   Our targeted research body is a sturdy, but inexpensive block set
   making it easily reconfigurable but sturdy (temporarily) for short
   term projects.
-categories: [ robotics, anohter thing ]
-weight: 20
+categories: [ mechanics ]
 github: http://mobilerobot-io/tank
 resources:
   - OSEPP train chasis
