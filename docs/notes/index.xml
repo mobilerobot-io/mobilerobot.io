@@ -2,43 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Field Notes Robot Building on Mobile Robot I/O</title>
-    <link>//localhost:1313/notes/</link>
+    <link>/notes/</link>
     <description>Recent content in Field Notes Robot Building on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Mobile Robot Project</title>
-      <link>//localhost:1313/notes/project/</link>
+      <link>/notes/project/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/project/</guid>
+      <guid>/notes/project/</guid>
       <description>&lt;p&gt;We want to build a self&lt;/p&gt;
 
 &lt;p&gt;The Robot must be able to navigate while controlled by a human or
 software, it must be modular, extensible and configurable.  Interested
-in the project?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Orchestration</title>
-      <link>//localhost:1313/notes/orchestration/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/notes/orchestration/</guid>
-      <description>Terraform and Ansible are great!</description>
+in the project? &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Arduino Nano</title>
-      <link>//localhost:1313/notes/arduino-nano/</link>
+      <link>/notes/arduino-nano/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/arduino-nano/</guid>
+      <guid>/notes/arduino-nano/</guid>
       <description>I flashed the onbaord LED and I made the RGB LED change colors. It is powered with a old style mini (small) USB adaptor.
 I was able to connect the Arduino Nanos to the I2C bus created for internal communications.
 Power can be brought in through a 5v Vin pin.</description>
@@ -46,10 +37,10 @@ Power can be brought in through a 5v Vin pin.</description>
     
     <item>
       <title>Connecting a Raspberry PI and Arduino with I2C</title>
-      <link>//localhost:1313/notes/i2c-rpi-arduino/</link>
+      <link>/notes/i2c-rpi-arduino/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/i2c-rpi-arduino/</guid>
+      <guid>/notes/i2c-rpi-arduino/</guid>
       <description>When I first started tinkering with the Arduino, about mid 2018, (yea I know, I am waaaaay late to the game) It was so easy to find great tutorials, but that changed quickly once you start filling up the pins you need.
  The Whole is Greater than the sum of the parts
  References:  [Nick Gannon ~ Excellent and thourough](&amp;ldquo;http://www.gammon.com.au/i2c&amp;quot;) &amp;ldquo;http://dsscircuits.com/articles/effects-of-varying-i2c-pull-up-resistors&amp;quot; &amp;ldquo;https://oscarliang.com/raspberry-pi-arduino-connected-i2c/&amp;quot;  Macro and Micro Controllers One attractive thought is using the Raspberry PI and it&amp;rsquo;s full blown OS, programming and communication capabilities as the brains and transport.</description>
@@ -57,84 +48,88 @@ Power can be brought in through a 5v Vin pin.</description>
     
     <item>
       <title>Tank and The Internets</title>
-      <link>//localhost:1313/notes/reboot/</link>
+      <link>/notes/reboot/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/reboot/</guid>
+      <guid>/notes/reboot/</guid>
       <description>&lt;p&gt;As Tank roams about, it will be gathering and transmitting data
 according to the application, that data will be collected, by a
-collector and sent to storage.&lt;/p&gt;</description>
+collector and sent to storage.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Large Scale Video Delivery</title>
-      <link>//localhost:1313/notes/mcast-video-delivery/</link>
+      <link>/notes/mcast-video-delivery/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/mcast-video-delivery/</guid>
+      <guid>/notes/mcast-video-delivery/</guid>
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major&lt;/p&gt;</description>
+other major
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>TFTP Display with Adafruit 2.8 LCD</title>
-      <link>//localhost:1313/notes/rpi-adafruit-tftp-display/</link>
+      <link>/notes/rpi-adafruit-tftp-display/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/rpi-adafruit-tftp-display/</guid>
+      <guid>/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.&lt;/p&gt;</description>
+function.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Reconfigure the Raspberry Pi by Rebooting</title>
-      <link>//localhost:1313/notes/raspberry-pi-network-booting/</link>
+      <link>/notes/raspberry-pi-network-booting/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/raspberry-pi-network-booting/</guid>
+      <guid>/notes/raspberry-pi-network-booting/</guid>
       <description>Booting a Raspberry Pi from an SD card or USB stick is pretty neat and all, but they are inadequate for sustainded, reliable production use.
 The quality of the SD comes into question immediately. Even the best of SD cards can go south out of nowhere! I do not know much about sd cards at all, except that I have blasted through about 12 of them this with 3 RPI&amp;rsquo;s (and a BeableBone), that is too expensive.</description>
     </item>
     
     <item>
       <title>Website Management &amp; Optimization</title>
-      <link>//localhost:1313/notes/websites/</link>
+      <link>/notes/websites/</link>
       <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/websites/</guid>
+      <guid>/notes/websites/</guid>
       <description>&lt;p&gt;If you are like me, and many (most) people? You may have had you
 website built because it is obvious everybody needs one, but did you
 really have specific goals, and are you tracking results enough to
-know if it is working?&lt;/p&gt;</description>
+know if it is working?&lt;/p&gt;
+
+&lt;h2 id=&#34;hugomore42&#34;&gt;&lt;/h2&gt;
+
+&lt;p&gt;title: Mobile Robot Website
+description: &amp;gt;
+  This website is used to loosely tie together information rlated and
+  relevant to our Robotics R&amp;amp;D project.
+date: 2018-05-22
+weight: 100
+todo:
+  - Write the content for this web page&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Sensor Networks</title>
-      <link>//localhost:1313/notes/sensor-networks/</link>
+      <link>/notes/sensor-networks/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/sensor-networks/</guid>
+      <guid>/notes/sensor-networks/</guid>
       <description> TODO: write ups  sierra hydrographics ACOE GOES software timeseries databases example sensor network around the house (throw in hardware)  </description>
     </item>
     
     <item>
-      <title>The Go Schedular in Depth</title>
-      <link>//localhost:1313/notes/go-scheduler-in-depth/</link>
-      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/notes/go-scheduler-in-depth/</guid>
-      <description>This is a three part series:
- part2: https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html  PS Look at the company for inspiration</description>
-    </item>
-    
-    <item>
       <title>DC Power, Batteries and Solar</title>
-      <link>//localhost:1313/notes/power/</link>
+      <link>/notes/power/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/power/</guid>
+      <guid>/notes/power/</guid>
       <description>Different options for powering robots. Stationary, near electrical outlets is always the easiest, but does not bode well for mobile and autonomous.
 Batteries are the key factor.
 Make a list of my various power supplies.
@@ -143,19 +138,19 @@ Also make a link to the Youtube video that shows how to make a multi voltage pow
     
     <item>
       <title>Software Development</title>
-      <link>//localhost:1313/notes/software/</link>
+      <link>/notes/software/</link>
       <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/software/</guid>
+      <guid>/notes/software/</guid>
       <description>Software best practices.</description>
     </item>
     
     <item>
       <title>Requirements ~ The Controller</title>
-      <link>//localhost:1313/notes/reqs-controller/</link>
+      <link>/notes/reqs-controller/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/reqs-controller/</guid>
+      <guid>/notes/reqs-controller/</guid>
       <description>The controller has two primary parts, the hardware and sofware elements. A good system design, like ours will separate the specific hardware and the controlling software.
 Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence it needs to be free of tethers, both electronics, controls and power.
  must be responsive, there should be no (minimized) percievable delay from  TODO: Determine HW Control type There are a number of choices to select for HW control, RFI seems to be a good candidate.</description>
@@ -163,33 +158,35 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
     
     <item>
       <title>Robotics and IoT</title>
-      <link>//localhost:1313/notes/robotics/</link>
+      <link>/notes/robotics/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/robotics/</guid>
+      <guid>/notes/robotics/</guid>
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
+drones.  You name it everything. Now lets consider how we use it.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chassis and Drive Train</title>
-      <link>//localhost:1313/notes/reqs-hw-chasis/</link>
+      <link>/notes/reqs-hw-chasis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/reqs-hw-chasis/</guid>
+      <guid>/notes/reqs-hw-chasis/</guid>
       <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
 going to actually function in the real world.  It all starts with a
 design in mind, choices of materials, the design of all functional
-components, mobility, motion and durability of the project.&lt;/p&gt;</description>
+components, mobility, motion and durability of the project.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mobile Robot Website</title>
-      <link>//localhost:1313/notes/mobile-robot-website/</link>
+      <link>/notes/mobile-robot-website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/mobile-robot-website/</guid>
+      <guid>/notes/mobile-robot-website/</guid>
       <description>Talk about how ansible was used to update this website. Terraform to provision the virtual host, ansible to manage configurations.
 NGINX and Static sites generated with Hugo</description>
     </item>
