@@ -2,23 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tft on Mobile Robot I/O</title>
-    <link>//localhost:1313/tags/tft/</link>
+    <link>/tags/tft/</link>
     <description>Recent content in Tft on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//localhost:1313/tags/tft/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tft/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TFTP Display with Adafruit 2.8 LCD</title>
-      <link>//localhost:1313/notes/rpi-adafruit-tftp-display/</link>
+      <link>/notes/rpi-adafruit-tftp-display/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/notes/rpi-adafruit-tftp-display/</guid>
+      <guid>/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.&lt;/p&gt;</description>
+function.
+&lt;/p&gt;</description>
     </item>
     
   </channel>
