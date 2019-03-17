@@ -4,7 +4,10 @@ date: 2019-03-03
 description: >
   These projects makeup some of the active and deployed projects that 
   are needed to complete our Mobile Robot
-category: project
+categories: 
+  - project
+  - mechanics
+
 ---
 
 A system as complex as a self driving vehicle is the combination of the

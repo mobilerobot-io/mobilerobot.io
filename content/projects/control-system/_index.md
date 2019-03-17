@@ -1,10 +1,10 @@
 ---
-title: Control System
+title: Control Systems
 description: >
   One of the most complex aspects of a self navigating vehicle is the control
   system.
 date: 2019-03-14
-category: software
+category: project 
 ---
 
 This project, the control system will determine how easy or difficult it will

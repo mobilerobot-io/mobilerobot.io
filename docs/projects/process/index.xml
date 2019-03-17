@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project Process on Mobile Robot I/O</title>
-    <link>/projects/process/</link>
+    <link>//localhost:1313/projects/process/</link>
     <description>Recent content in Project Process on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/projects/process/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//localhost:1313/projects/process/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Problem Definition</title>
-      <link>/projects/process/01-problem-definition/</link>
+      <link>//localhost:1313/projects/process/01-problem-definition/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/projects/process/01-problem-definition/</guid>
+      <guid>//localhost:1313/projects/process/01-problem-definition/</guid>
       <description>&lt;p&gt;We want to build an automous driven vehicle that can film and stream
 video from under my house, for under USD $500.  The vehical must also
 be able to communicate select sensor data.&lt;/p&gt;</description>
@@ -24,10 +24,10 @@ be able to communicate select sensor data.&lt;/p&gt;</description>
     
     <item>
       <title>Consider Alternative Designs</title>
-      <link>/projects/process/02-design-alternatives/</link>
+      <link>//localhost:1313/projects/process/02-design-alternatives/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/projects/process/02-design-alternatives/</guid>
+      <guid>//localhost:1313/projects/process/02-design-alternatives/</guid>
       <description>&lt;p&gt;One of the beautiful things about &lt;em&gt;robotics&lt;/em&gt; are the wide variety of
 disciplines involved to successfully build and operate even the most
 basic of robots, let alone something of the scale that we are planning
@@ -36,10 +36,10 @@ to build. Read more&amp;hellip;&lt;/p&gt;</description>
     
     <item>
       <title>Design Selection</title>
-      <link>/projects/process/03-select-design/</link>
+      <link>//localhost:1313/projects/process/03-select-design/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/projects/process/03-select-design/</guid>
+      <guid>//localhost:1313/projects/process/03-select-design/</guid>
       <description>&lt;p&gt;At this point in our R&amp;amp;D we are leaning toward an overall design that
 looks something like this (and subject to change at any knee jerk
 moment): Read more&lt;/p&gt;</description>
@@ -47,10 +47,10 @@ moment): Read more&lt;/p&gt;</description>
     
     <item>
       <title>Detailed Design</title>
-      <link>/projects/process/04-detailed-design/</link>
+      <link>//localhost:1313/projects/process/04-detailed-design/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/projects/process/04-detailed-design/</guid>
+      <guid>//localhost:1313/projects/process/04-detailed-design/</guid>
       <description>&lt;p&gt;We will use a Raspberry Pi as the main on unit controller.  The
 Raspberry Pi will be attached via one of the common local bus
 protocols (i2c, SPI or Canbus).  Read More &amp;hellip;&lt;/p&gt;</description>
@@ -58,10 +58,10 @@ protocols (i2c, SPI or Canbus).  Read More &amp;hellip;&lt;/p&gt;</description>
     
     <item>
       <title>Design Feedback</title>
-      <link>/projects/process/05-communicate-design/</link>
+      <link>//localhost:1313/projects/process/05-communicate-design/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/projects/process/05-communicate-design/</guid>
+      <guid>//localhost:1313/projects/process/05-communicate-design/</guid>
       <description>&lt;p&gt;This is where we start communicating (or socializing) or designs.  We
 sincerly want to get qualified opinions and advice regarding our
 designs.&lt;/p&gt;</description>
@@ -69,30 +69,30 @@ designs.&lt;/p&gt;</description>
     
     <item>
       <title>Fabricate, Assemble and Maintain</title>
-      <link>/projects/process/06-fabricate-and-assemble/</link>
+      <link>//localhost:1313/projects/process/06-fabricate-and-assemble/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/projects/process/06-fabricate-and-assemble/</guid>
+      <guid>//localhost:1313/projects/process/06-fabricate-and-assemble/</guid>
       <description>&lt;p&gt;Time to build our first complete prototype.  Time to get into the shop
 and start making physical world stuff.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Schedule, Budget and Reality</title>
-      <link>/projects/process/09-budget-costs-and-materials/</link>
+      <link>//localhost:1313/projects/process/09-budget-costs-and-materials/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/projects/process/09-budget-costs-and-materials/</guid>
+      <guid>//localhost:1313/projects/process/09-budget-costs-and-materials/</guid>
       <description>Keep track here of what it really cost to build this thing, that includes failed experiments.
 Did we stick to schedule and budget, but put out the numbers for a</description>
     </item>
     
     <item>
       <title>Evaluate Performance</title>
-      <link>/projects/process/10-evalutate-performance/</link>
+      <link>//localhost:1313/projects/process/10-evalutate-performance/</link>
       <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/projects/process/10-evalutate-performance/</guid>
+      <guid>//localhost:1313/projects/process/10-evalutate-performance/</guid>
       <description>&lt;p&gt;OK, we built it, how are we doing?  How long did the research take,
 how long did the build take?&lt;/p&gt;</description>
     </item>
