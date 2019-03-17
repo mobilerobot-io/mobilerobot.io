@@ -2,26 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking on Mobile Robot I/O</title>
-    <link>/tags/networking/</link>
+    <link>//localhost:1313/tags/networking/</link>
     <description>Recent content in Networking on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//localhost:1313/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Large Scale Video Delivery</title>
-      <link>/notes/mcast-video-delivery/</link>
+      <link>//localhost:1313/notes/mcast-video-delivery/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/notes/mcast-video-delivery/</guid>
+      <guid>//localhost:1313/notes/mcast-video-delivery/</guid>
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major
-&lt;/p&gt;</description>
+other major&lt;/p&gt;</description>
     </item>
     
   </channel>

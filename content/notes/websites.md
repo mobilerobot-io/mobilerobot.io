@@ -1,17 +1,24 @@
 ---
-title: Website Management & Optimization
+title: Management This Website
 description: >
-  If your website is not performing at a level you expect, and I bet
-  it is not, we can help you fix that.
+  This document will contain some basic information about how this
+  website is managed, so I do not forget.
 date: 2018-05-13
 category: software
 ---
+
+Even what at first glance would seem to be the simplist of websites
+will end up being a lot of work, if that site is to become
+productive.  
+<!--more-->
+
+## Website Goals
 
 If you are like me, and many (most) people? You may have had you
 website built because it is obvious everybody needs one, but did you
 really have specific goals, and are you tracking results enough to
 know if it is working?
-<!--more-->
+
 ---
 title: Mobile Robot Website
 description: >

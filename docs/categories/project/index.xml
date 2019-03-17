@@ -2,25 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project on Mobile Robot I/O</title>
-    <link>/categories/project/</link>
+    <link>//localhost:1313/categories/project/</link>
     <description>Recent content in Project on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//localhost:1313/categories/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Chasis and Drive Train</title>
-      <link>/projects/chassis-drive-train/</link>
+      <link>//localhost:1313/projects/chassis-drive-train/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/projects/chassis-drive-train/</guid>
+      <guid>//localhost:1313/projects/chassis-drive-train/</guid>
       <description>&lt;p&gt;A system as complex as a self driving vehicle is the combination of the
 integration of a few complex projects.  This page will keep us updated
-on the current projects and status of these projects.
-&lt;/p&gt;</description>
+on the current projects and status of these projects.&lt;/p&gt;</description>
     </item>
     
   </channel>
