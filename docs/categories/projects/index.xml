@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Mobile Robot I/O</title>
+    <link>//localhost:1313/categories/projects/</link>
+    <description>Recent content in Projects on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Active Projects</title>
+      <link>//localhost:1313/projects/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/</guid>
+      <description>&lt;h3 id=&#34;project-definition&#34;&gt;Project Definition&lt;/h3&gt;
+
+&lt;p&gt;The Mobile Robot I/O Project is more than a single project, really it
+is a group of projects related to building, running and maintaining a
+mobile robot.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

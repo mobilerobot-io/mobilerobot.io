@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>//localhost:1313/projects/process/01-problem-definition/</loc>
+    <loc>//localhost:1313/process/01-problem-definition/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/projects/process/02-design-alternatives/</loc>
+    <loc>//localhost:1313/process/02-design-alternatives/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,32 +23,32 @@
   </url>
   
   <url>
-    <loc>//localhost:1313/projects/process/03-select-design/</loc>
+    <loc>//localhost:1313/process/03-select-design/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/projects/process/04-detailed-design/</loc>
+    <loc>//localhost:1313/process/04-detailed-design/</loc>
     <lastmod>2018-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/projects/process/05-communicate-design/</loc>
+    <loc>//localhost:1313/process/05-communicate-design/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/projects/process/06-fabricate-and-assemble/</loc>
+    <loc>//localhost:1313/process/06-fabricate-and-assemble/</loc>
     <lastmod>2019-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/projects/process/09-budget-costs-and-materials/</loc>
+    <loc>//localhost:1313/process/09-budget-costs-and-materials/</loc>
     <lastmod>2019-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/projects/process/10-evalutate-performance/</loc>
+    <loc>//localhost:1313/process/10-evalutate-performance/</loc>
     <lastmod>2019-02-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,7 +78,7 @@
   </url>
   
   <url>
-    <loc>//localhost:1313/projects/process/</loc>
+    <loc>//localhost:1313/process/</loc>
     <lastmod>2019-02-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -290,14 +290,14 @@
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/pxe/</loc>
-    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/categories/projects/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/categories/robotics/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/pxe/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

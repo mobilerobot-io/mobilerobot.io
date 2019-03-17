@@ -5,7 +5,7 @@ description: >
   goal to learn how to build an affordable self driving robot.
 date: 2018-01-15
 categories: 
-  - robotics
+  - projects
 ---
 
 ### Project Definition
