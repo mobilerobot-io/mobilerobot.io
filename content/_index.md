@@ -4,7 +4,10 @@ description: >
   Mobile Robot I/O is a set of closely related projects to establish a
   set of Best Practices for building mobile robots.
 date: 2018-01-15
-categories: [ robotics ]
+categories: 
+  - /categories/electronics
+  - /categories/software
+  - /categories/mechanics
 ---
 
 Building a useful Robot is hard, in large part because Robotics is an

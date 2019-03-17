@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>On Vehicle Communication on Mobile Robot I/O</title>
-    <link>//localhost:1313/projects/on-vehicle-communications/</link>
+    <link>/projects/on-vehicle-communications/</link>
     <description>Recent content in On Vehicle Communication on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//localhost:1313/projects/on-vehicle-communications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/projects/on-vehicle-communications/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

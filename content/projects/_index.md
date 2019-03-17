@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Active Projects
 description: >
   Mobile Robot I/O is really a collection of projects with the overall
   goal to learn how to build an affordable self driving robot.

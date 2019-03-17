@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Control System on Mobile Robot I/O</title>
-    <link>//localhost:1313/projects/control-system/</link>
+    <link>/projects/control-system/</link>
     <description>Recent content in Control System on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//localhost:1313/projects/control-system/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/projects/control-system/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
