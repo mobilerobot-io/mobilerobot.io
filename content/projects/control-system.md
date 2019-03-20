@@ -1,34 +1,41 @@
 ---
 title: Control Systems
 description: >
-  One of the most complex aspects of a self navigating vehicle is the control
-  system.
+  The control system is the entire loop of the person or algorithm
+  taking sensor inputs and telling the motor controls what to do the
+  inputs. 
 date: 2019-03-14
 category: project 
 ---
 
 The first couple _mobile robot_ kits I played with where really
-awesome, but after the "demo" programs, as amazing as they were got
-boring pretty quick, and after all, how many things can you do with a
-little car that races around a colored line, or wanders through a
-contrived mazed avoid collisions with walls.  I want more from a
-robot!<!--more--> 
+awesome, but after an hour of playing with the "demo" programs, as
+amazing as they were got boring pretty quick.  After all, how many
+things can you do with a little car that races around a line,
+or wanders through a contrived mazed avoid collisions with walls.  I
+want more from a robot!<!--more-->
 
 ## Modular Controls
 
 The first thing that comes to mind is a modular control system.  While
 the ultimate goal is to create a _self driving_ vehical, that should
-not preclude use from Allowing humans to take control.  As Matter of
-factThat is a hard requirement.  Our systems will allow humans still
-override the robot, at the humans discretion. 
+not preclude a human from taking control on demand.  As matter of
+fact, human intervention or _hybrid_ control is a hard requirement.
 
 Not only Do we need to switch controls from humans, Back-and-forth
 between the human and the computer, The communication mechanism the
-human usesMake changeAs well as theInput the sensor inputs and
-algorithms the computer driven algorithms use. 
+human uses may change, from Wifi to RFID or Blue Tooth Light.
+Joystick, or motion control, etc.
 
-So what is imperative that we do not have to rewriteSee The soccer
-application for every combination of possibleControl mechanisms and
+Likewise, we will have a variety sensor and camera inputs from 
+periphereals. 
+
+## Do NOT Rewrite Software
+
+It is imperative that we do not have to rewrite our software evertime
+one of these elements change.  If you 
+The soccer
+pplication for every combination of possibleControl mechanisms and
 driving algorithms canceled. 
 
 To accomplish this goal we were we will separate out the sensor
