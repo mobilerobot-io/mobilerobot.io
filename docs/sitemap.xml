@@ -3,321 +3,331 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mobilerobot.io/notes/project/</loc>
+    <loc>http://localhost:1313/notes/project/</loc>
     <lastmod>2018-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/process/01-problem-definition/</loc>
+    <loc>http://localhost:1313/process/01-problem-definition/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/process/02-design-alternatives/</loc>
+    <loc>http://localhost:1313/process/02-design-alternatives/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/process/03-select-design/</loc>
+    <loc>http://localhost:1313/notes/orchestration/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/process/03-select-design/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/process/04-detailed-design/</loc>
+    <loc>http://localhost:1313/process/04-detailed-design/</loc>
     <lastmod>2018-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/process/05-communicate-design/</loc>
+    <loc>http://localhost:1313/process/05-communicate-design/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/process/06-fabricate-and-assemble/</loc>
+    <loc>http://localhost:1313/process/06-fabricate-and-assemble/</loc>
     <lastmod>2019-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/process/09-budget-costs-and-materials/</loc>
+    <loc>http://localhost:1313/process/09-budget-costs-and-materials/</loc>
     <lastmod>2019-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/process/10-evalutate-performance/</loc>
+    <loc>http://localhost:1313/process/10-evalutate-performance/</loc>
     <lastmod>2019-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/control-system/</loc>
+    <loc>http://localhost:1313/projects/control-system/</loc>
     <lastmod>2019-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/on-vehicle-communications/</loc>
+    <loc>http://localhost:1313/projects/on-vehicle-communications/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/arduino-nano/</loc>
+    <loc>http://localhost:1313/notes/arduino-nano/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/zumo/</loc>
+    <loc>http://localhost:1313/projects/zumo/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/process/</loc>
+    <loc>http://localhost:1313/process/</loc>
     <lastmod>2019-02-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/i2c-rpi-arduino/</loc>
+    <loc>http://localhost:1313/notes/i2c-rpi-arduino/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/</loc>
+    <loc>http://localhost:1313/notes/</loc>
     <lastmod>2019-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/reboot/</loc>
+    <loc>http://localhost:1313/notes/reboot/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2018-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/mcast-video-delivery/</loc>
+    <loc>http://localhost:1313/notes/mcast-video-delivery/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</loc>
+    <loc>http://localhost:1313/notes/rpi-adafruit-tftp-display/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/raspberry-pi-network-booting/</loc>
+    <loc>http://localhost:1313/notes/raspberry-pi-network-booting/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/websites/</loc>
+    <loc>http://localhost:1313/notes/websites/</loc>
     <lastmod>2018-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/sensor-networks/</loc>
+    <loc>http://localhost:1313/notes/sensor-networks/</loc>
     <lastmod>2018-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/power/</loc>
+    <loc>http://localhost:1313/notes/go-scheduler-in-depth/</loc>
+    <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/notes/power/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/software/</loc>
+    <loc>http://localhost:1313/notes/software/</loc>
     <lastmod>2018-02-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/reqs-controller/</loc>
+    <loc>http://localhost:1313/notes/reqs-controller/</loc>
     <lastmod>2018-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/robotics/</loc>
+    <loc>http://localhost:1313/notes/robotics/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/categories/electronics/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/categories/mechanics/</loc>
+    <loc>http://localhost:1313/categories/categories/electronics/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/categories/software/</loc>
+    <loc>http://localhost:1313/categories/categories/mechanics/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/adafruit/</loc>
+    <loc>http://localhost:1313/categories/categories/software/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/adafruit/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/ansible/</loc>
+    <loc>http://localhost:1313/tags/ansible/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/bootp/</loc>
+    <loc>http://localhost:1313/tags/bootp/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/reqs-hw-chasis/</loc>
+    <loc>http://localhost:1313/notes/reqs-hw-chasis/</loc>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/clowd/</loc>
+    <loc>http://localhost:1313/categories/clowd/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/devops/</loc>
+    <loc>http://localhost:1313/categories/devops/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/dhcp/</loc>
+    <loc>http://localhost:1313/tags/dhcp/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/display/</loc>
+    <loc>http://localhost:1313/tags/display/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/electronics/</loc>
+    <loc>http://localhost:1313/categories/electronics/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/infra-as-code/</loc>
+    <loc>http://localhost:1313/tags/infra-as-code/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/mechanics/</loc>
+    <loc>http://localhost:1313/categories/mechanics/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/mobile-robot-website/</loc>
+    <loc>http://localhost:1313/notes/mobile-robot-website/</loc>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/multicast/</loc>
+    <loc>http://localhost:1313/tags/multicast/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/netboot/</loc>
+    <loc>http://localhost:1313/tags/netboot/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/networking/</loc>
+    <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/nginx/</loc>
+    <loc>http://localhost:1313/tags/nginx/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/onos/</loc>
+    <loc>http://localhost:1313/tags/onos/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/projects/</loc>
+    <loc>http://localhost:1313/categories/projects/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/pxe/</loc>
+    <loc>http://localhost:1313/tags/pxe/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/sdl/</loc>
+    <loc>http://localhost:1313/tags/sdl/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/software/</loc>
+    <loc>http://localhost:1313/categories/software/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/software-defined-network/</loc>
+    <loc>http://localhost:1313/tags/software-defined-network/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/terraform/</loc>
+    <loc>http://localhost:1313/tags/terraform/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/tft/</loc>
+    <loc>http://localhost:1313/tags/tft/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/tftp/</loc>
+    <loc>http://localhost:1313/tags/tftp/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
