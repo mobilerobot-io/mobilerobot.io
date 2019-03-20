@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Electronics on Mobile Robot I/O</title>
-    <link>http://localhost:1313/categories/electronics/</link>
+    <link>http://mobilerobot.io/categories/electronics/</link>
     <description>Recent content in Electronics on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/electronics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mobilerobot.io/categories/electronics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Connecting a Raspberry PI and Arduino with I2C</title>
-      <link>http://localhost:1313/notes/i2c-rpi-arduino/</link>
+      <link>http://mobilerobot.io/notes/i2c-rpi-arduino/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/i2c-rpi-arduino/</guid>
+      <guid>http://mobilerobot.io/notes/i2c-rpi-arduino/</guid>
       <description>When I first started tinkering with the Arduino, about mid 2018, (yea I know, I am waaaaay late to the game) It was so easy to find great tutorials, but that changed quickly once you start filling up the pins you need.
  The Whole is Greater than the sum of the parts
  References:  [Nick Gannon ~ Excellent and thourough](&amp;ldquo;http://www.gammon.com.au/i2c&amp;quot;) &amp;ldquo;http://dsscircuits.com/articles/effects-of-varying-i2c-pull-up-resistors&amp;quot; &amp;ldquo;https://oscarliang.com/raspberry-pi-arduino-connected-i2c/&amp;quot;  Macro and Micro Controllers One attractive thought is using the Raspberry PI and it&amp;rsquo;s full blown OS, programming and communication capabilities as the brains and transport.</description>
@@ -24,29 +24,29 @@
     
     <item>
       <title>TFTP Display with Adafruit 2.8 LCD</title>
-      <link>http://localhost:1313/notes/rpi-adafruit-tftp-display/</link>
+      <link>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/rpi-adafruit-tftp-display/</guid>
+      <guid>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
 function.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Sensor Networks</title>
-      <link>http://localhost:1313/notes/sensor-networks/</link>
+      <link>http://mobilerobot.io/notes/sensor-networks/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/sensor-networks/</guid>
+      <guid>http://mobilerobot.io/notes/sensor-networks/</guid>
       <description> TODO: write ups  sierra hydrographics ACOE GOES software timeseries databases example sensor network around the house (throw in hardware)  </description>
     </item>
     
     <item>
       <title>Requirements ~ The Controller</title>
-      <link>http://localhost:1313/notes/reqs-controller/</link>
+      <link>http://mobilerobot.io/notes/reqs-controller/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/reqs-controller/</guid>
+      <guid>http://mobilerobot.io/notes/reqs-controller/</guid>
       <description>The controller has two primary parts, the hardware and sofware elements. A good system design, like ours will separate the specific hardware and the controlling software.
 Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence it needs to be free of tethers, both electronics, controls and power.
  must be responsive, there should be no (minimized) percievable delay from  TODO: Determine HW Control type There are a number of choices to select for HW control, RFI seems to be a good candidate.</description>
