@@ -98,6 +98,11 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/notes/osepp-tank-kit/</loc>
+    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/notes/mcast-video-delivery/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
   </url>
@@ -195,6 +200,12 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/tags/chassis/</loc>
+    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/notes/reqs-hw-chasis/</loc>
   </url>
   
@@ -274,6 +285,12 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/tags/osepp/</loc>
+    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/categories/projects/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -306,6 +323,12 @@
   <url>
     <loc>http://mobilerobot.io/tags/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/tank/</loc>
+    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

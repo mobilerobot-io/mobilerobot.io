@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="http://mobilerobot.io/css/style.css">
 
 
-<title>On Vehicle Communication</title>
+<title>Chassis</title>
 <body><header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
 	<a class="navbar-brand text-muted text-monospace" href="http://mobilerobot.io/">Mobile Robot I/O</a>
@@ -28,10 +28,9 @@
     <div class="row">
 	<div class="col-3"></div>
 	<div class="col">
-	    <h1 class="text-center pb-1">On Vehicle Communication</h1>
+	    <h1 class="text-center pb-1">Chassis</h1>
 	    <h5 class="leadin text-center text-muted mt-0">
-		On vehicle communication involves rapid, but low volume, low latency sensor inputs required for realtime response.
-
+		
 	    </h5>
 	</div>
 	<div class="col-3"></div>
@@ -40,63 +39,41 @@
 <div id="main">
 <div class="container">
     <div class="row">
-        <div class="col"></div>
-        <div class="col-8">
+	<div class="col"></div> 
+	<div class="col-8">
+	    <article class="article">
+		
+	    </article>
+	</div>
+	<div class="col"></div> 
+    </div>
 
-<p>One of the first issues that we came against was the specific configurations
-of the micro-controllers as well and the number and configuration of pins and
-hardware particulars.</p>
+    
+    <div class="row">
+	<div class="col"></div> 
+	<div class="col-8">
+	    <div class="title">
+		<a href="http://mobilerobot.io/notes/osepp-tank-kit/">OSEPP Tank Kit</a>
+	    </div>
+	</div> 
+	<div class="col"></div>
+    </div>
 
-<h2 id="macro-micro-controllers">Macro-Micro Controllers</h2>
+    <div class="row mb-3">
+	<div class="col text-mute small text-right">
+	    <div class="date">
+		August 24, 2018
+	    </div>
+	</div> 
+	<div class="col-8">
+	    <div class="description">
+		My first robot kit was this OSEPP Tank Kit, two tank reads driven by two DC motors.  Here is a little bit about that kit
 
-<p>The system should be flexible enough to allow one or more macro-controls
-communicating with one or more micro-controllers.</p>
-
-<h2 id="communication-mechanism">Communication Mechanism</h2>
-
-<p>We have a rather complex set of communication requirements, we have
-signals between sensors, motors and <em>micro-controllers</em>.  We also have
-the communication from the <em>micro-controllers</em> and the
-<em>macro-controller</em>.</p>
-
-<p>The <em>Macro-controller</em> to on premise I/O devices like a monitor to
-display real-time video, or sensor inputs that help the driving
-control with navigation info, the drive controller may respond with
-control instructions.</p>
-
-<h3 id="wired">Wired</h3>
-
-<ol>
-<li><p>Arduino i2c -&gt; Motor Controls</p>
-
-<ol>
-<li>Adafruit / OSEPP Motor Controller</li>
-<li>Balance Sensor</li>
-</ol></li>
-
-<li><p>Arduino i2c &lt;- Sensor Data</p></li>
-
-<li><p>SPI RPi -&gt; Arduino</p>
-
-<ol>
-<li>Arudiuno + Motor Controller</li>
-</ol></li>
-
-<li><p>RPi Wifi -&gt; Prem</p></li>
-
-<li><p>RPi Wifi -&gt; Cloud</p></li>
-</ol>
-
-<h3 id="wireless">Wireless</h3>
-
-<ol>
-<li>RF</li>
-<li>BlueTooth</li>
-<li>Wifi</li>
-</ol>
-</div>
-        <div class="col"></div>
-    </div> 
+	    </div>
+	</div> 
+	<div class="col"></div>
+    </div>
+    
 </div>
 
     </div><footer id="footer" class="container">

@@ -116,9 +116,12 @@ how long did the build take?&lt;/p&gt;</description>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/control-system/</guid>
-      <description>This project, the control system will determine how easy or difficult it will be to integrate various controls both human and automated.
-Problem Definition The robot must be controllable by a variety of methods that include both human and computer controls. To accomplish this goal, it is essential that the software is developed as modular and inter-conencted.
-Requirements Our drive system must be able to adapt to various steering algorithms including skid, Ackerman and Rear Assisted stearing.</description>
+      <description>&lt;p&gt;The first couple &lt;em&gt;mobile robot&lt;/em&gt; kits I played with where really
+awesome, but after the &amp;ldquo;demo&amp;rdquo; programs, as amazing as they were got
+boring pretty quick, and after all, how many things can you do with a
+little car that races around a colored line, or wanders through a
+contrived mazed avoid collisions with walls.  I want more from a
+robot!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -127,7 +130,10 @@ Requirements Our drive system must be able to adapt to various steering algorith
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/chasis-drive-train/</guid>
-      <description></description>
+      <description>&lt;p&gt;I first bought the Tank constructor kit from OSEPP to build my first robot
+frame, it was cool, modular building blocks with a Tank Tread and two
+DC motors that sat opposite of each other, generating the movement for
+this vehicle.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -187,6 +193,15 @@ Power can be brought in through a 5v Vin pin.</description>
       <description>&lt;p&gt;As Tank roams about, it will be gathering and transmitting data
 according to the application, that data will be collected, by a
 collector and sent to storage.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OSEPP Tank Kit</title>
+      <link>http://mobilerobot.io/notes/osepp-tank-kit/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/osepp-tank-kit/</guid>
+      <description>TODO: Place some photos, and pointers to everything.</description>
     </item>
     
     <item>
