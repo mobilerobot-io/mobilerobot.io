@@ -63,11 +63,6 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/chassis-drive-train/</loc>
-    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/projects/zumo/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
@@ -270,12 +265,6 @@
   <url>
     <loc>http://mobilerobot.io/tags/onos/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/project/</loc>
-    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

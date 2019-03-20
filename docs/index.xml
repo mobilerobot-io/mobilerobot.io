@@ -111,6 +111,28 @@ how long did the build take?&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Control Systems</title>
+      <link>http://mobilerobot.io/projects/control-system/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/control-system/</guid>
+      <description>This project, the control system will determine how easy or difficult it will be to integrate various controls both human and automated.
+Problem Definition The robot must be controllable by a variety of methods that include both human and computer controls. To accomplish this goal, it is essential that the software is developed as modular and inter-conencted.
+Requirements Our drive system must be able to adapt to various steering algorithms including skid, Ackerman and Rear Assisted stearing.</description>
+    </item>
+    
+    <item>
+      <title>On Vehicle Communication</title>
+      <link>http://mobilerobot.io/projects/on-vehicle-communications/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/on-vehicle-communications/</guid>
+      <description>One of the first issues that we came against was the specific configurations of the micro-controllers as well and the number and configuration of pins and hardware particulars.
+Macro-Micro Controllers The system should be flexible enough to allow one or more macro-controls communicating with one or more micro-controllers.
+Communication Mechanism We have a rather complex set of communication requirements, we have signals between sensors, motors and micro-controllers. We also have the communication from the micro-controllers and the macro-controller.</description>
+    </item>
+    
+    <item>
       <title>Arduino Nano</title>
       <link>http://mobilerobot.io/notes/arduino-nano/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
@@ -119,6 +141,21 @@ how long did the build take?&lt;/p&gt;</description>
       <description>I flashed the onbaord LED and I made the RGB LED change colors. It is powered with a old style mini (small) USB adaptor.
 I was able to connect the Arduino Nanos to the I2C bus created for internal communications.
 Power can be brought in through a 5v Vin pin.</description>
+    </item>
+    
+    <item>
+      <title>Zumo Bot Control Mods</title>
+      <link>http://mobilerobot.io/projects/zumo/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/zumo/</guid>
+      <description>TODO: talk about the changes to the Zumo bot and what they accomplished.
+ Project Description
+ Circuits used
+ Software used
+ Mechanical Parts used
+ Videos and images of project
+  On so forth.</description>
     </item>
     
     <item>

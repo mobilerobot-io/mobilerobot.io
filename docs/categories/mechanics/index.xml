@@ -23,17 +23,6 @@ Communication Mechanism We have a rather complex set of communication requiremen
     </item>
     
     <item>
-      <title>Chasis and Drive Train</title>
-      <link>http://mobilerobot.io/projects/chassis-drive-train/</link>
-      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/projects/chassis-drive-train/</guid>
-      <description>&lt;p&gt;A system as complex as a self driving vehicle is the combination of the
-integration of a few complex projects.  This page will keep us updated
-on the current projects and status of these projects.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Chassis and Drive Train</title>
       <link>http://mobilerobot.io/notes/reqs-hw-chasis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
