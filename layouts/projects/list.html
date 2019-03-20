@@ -14,19 +14,22 @@
 	{{ range .Pages }}
 	<div class="col-md-4">
 	    <div class="card">
-		<div class="card-title">
-		    <a class="card-link" href="{{ .Permalink }}">
-			<h5>{{ .Title }}</h5>
-		    </a>
-		</div>
 		<div class="card-body">
-		    <p>{{ .Description }}</p>
+		    <div class="card-title">
+			<a class="card-link" href="{{ .Permalink }}">
+			    <h5>{{ .Title }}</h5>
+			</a>
+		    </div>
+		    <p class="card-text">
+			{{ .Description }}
+		    </p>
+		    <p class="card-link">
+			<a class="text-muted" href="{{ .Permalink }}">[Read more...]</a>
+		    </p>
 		</div>
 	    </div>
-
 	</div>
 	{{ end }}
     </div>
-
 </div>
 {{ end }}
