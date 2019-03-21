@@ -53,17 +53,17 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/projects/chasis-drive-train/</loc>
+    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/projects/on-vehicle-communications/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://mobilerobot.io/notes/arduino-nano/</loc>
-    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/projects/chassis-drive-train/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -95,6 +95,11 @@
   <url>
     <loc>http://mobilerobot.io/about/</loc>
     <lastmod>2018-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/osepp-tank-kit/</loc>
+    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -195,6 +200,12 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/tags/chassis/</loc>
+    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/notes/reqs-hw-chasis/</loc>
   </url>
   
@@ -274,8 +285,8 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/project/</loc>
-    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+    <loc>http://mobilerobot.io/tags/osepp/</loc>
+    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -312,6 +323,12 @@
   <url>
     <loc>http://mobilerobot.io/tags/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/tank/</loc>
+    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
