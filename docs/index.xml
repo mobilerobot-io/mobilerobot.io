@@ -21,7 +21,7 @@
 
 &lt;p&gt;The Robot must be able to navigate while controlled by a human or
 software, it must be modular, extensible and configurable.  Interested
-in the project?&lt;/p&gt;</description>
+in the project? &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,7 +32,8 @@ in the project?&lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/01-problem-definition/</guid>
       <description>&lt;p&gt;We want to build an automous driven vehicle that can film and stream
 video from under my house, for under USD $500.  The vehical must also
-be able to communicate select sensor data.&lt;/p&gt;</description>
+be able to communicate select sensor data.
+ &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,7 +56,7 @@ to build. Read more&amp;hellip;&lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/03-select-design/</guid>
       <description>&lt;p&gt;At this point in our R&amp;amp;D we are leaning toward an overall design that
 looks something like this (and subject to change at any knee jerk
-moment): Read more&lt;/p&gt;</description>
+moment): Read more &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -66,7 +67,8 @@ moment): Read more&lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/04-detailed-design/</guid>
       <description>&lt;p&gt;We will use a Raspberry Pi as the main on unit controller.  The
 Raspberry Pi will be attached via one of the common local bus
-protocols (i2c, SPI or Canbus).  Read More &amp;hellip;&lt;/p&gt;</description>
+protocols (i2c, SPI or Canbus).  Read More &amp;hellip;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -77,7 +79,8 @@ protocols (i2c, SPI or Canbus).  Read More &amp;hellip;&lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/05-communicate-design/</guid>
       <description>&lt;p&gt;This is where we start communicating (or socializing) or designs.  We
 sincerly want to get qualified opinions and advice regarding our
-designs.&lt;/p&gt;</description>
+designs.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -107,7 +110,7 @@ Did we stick to schedule and budget, but put out the numbers for a</description>
       
       <guid>http://mobilerobot.io/process/10-evalutate-performance/</guid>
       <description>&lt;p&gt;OK, we built it, how are we doing?  How long did the research take,
-how long did the build take?&lt;/p&gt;</description>
+how long did the build take? &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -140,7 +143,8 @@ Power can be brought in through a 5v Vin pin.</description>
       <guid>http://mobilerobot.io/notes/reboot/</guid>
       <description>&lt;p&gt;As Tank roams about, it will be gathering and transmitting data
 according to the application, that data will be collected, by a
-collector and sent to storage.&lt;/p&gt;</description>
+collector and sent to storage.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -152,7 +156,8 @@ collector and sent to storage.&lt;/p&gt;</description>
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major&lt;/p&gt;</description>
+other major
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -162,7 +167,8 @@ other major&lt;/p&gt;</description>
       
       <guid>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.&lt;/p&gt;</description>
+function.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -183,7 +189,8 @@ The quality of the SD comes into question immediately. Even the best of SD cards
       <guid>http://mobilerobot.io/notes/websites/</guid>
       <description>&lt;p&gt;Even what at first glance would seem to be the simplist of websites
 will end up being a lot of work, if that site is to become
-productive.&lt;/p&gt;</description>
+productive.&lt;br /&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -235,7 +242,8 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
       <guid>http://mobilerobot.io/notes/robotics/</guid>
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
+drones.  You name it everything. Now lets consider how we use it.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -247,7 +255,8 @@ drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</des
       <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
 going to actually function in the real world.  It all starts with a
 design in mind, choices of materials, the design of all functional
-components, mobility, motion and durability of the project.&lt;/p&gt;</description>
+components, mobility, motion and durability of the project.
+&lt;/p&gt;</description>
     </item>
     
     <item>
