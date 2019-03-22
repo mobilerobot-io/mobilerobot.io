@@ -41,10 +41,20 @@
 <div class="container">
     <div class="row">
         <div class="col"></div>
-        <div class="col-8"><p>The first couple <em>mobile robot</em> kits I played with where awesome, and
+        <div class="col-8"><p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+The first couple <em>mobile robot</em> kits I played with where awesome, and
 really eye opening in terms what they are capable of, but after an
 hour of playing with the &ldquo;demo&rdquo; programs, as amazing as they were got
 boring pretty quick.</p>
+
+<p>=======
+The first couple <em>mobile robot</em> kits I played with where really
+awesome, but after an hour of playing with the &ldquo;demo&rdquo; programs, as
+amazing as they were got boring pretty quick.  After all, how many
+things can you do with a little car that races around a line,
+or wander through a shoe box maze and avoid collisions with walls.
+Want more from a robot?<!--more-->
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 05f83dde96638c05d5cba69657905d91a6fabeb7</p>
 
 <p>After all, how many things can you do with a little car that races
 around a line, or wanders through a contrived mazed avoid collisions
@@ -79,25 +89,77 @@ modular:</p>
 
 <h3 id="switching-vehical-controllers">Switching Vehical Controllers</h3>
 
-<p>The first thing that comes to mind is a modular control system.  While
-the ultimate goal is to create a <em>self driving</em> vehical, that should
-not preclude a human from taking control on demand.  As matter of
-fact, human intervention or <em>hybrid</em> control is a hard requirement.</p>
+<p>The first thing problem I had was either rewritting or rebuilding a
+different example software every time I did a configuration change.</p>
+
+<p>Specifically, there are [at least] three important types software
+components that need to be modified for difference configurations:</p>
+
+<ol>
+<li><p>Decision inputs: where is the data used to make the driving
+decisions coming from?  Sensors, map, vision, human control?</p></li>
+
+<li><p>How is the vehical being controlled, by human or computer
+algorightm (remote or local)?</p></li>
+
+<li><p>Steering controls: changes determining on the wheels, motors,
+number of each and the chassis design, just to name a few.</p></li>
+</ol>
+
+<p>Having said all this, it is imperative the software is broke into
+these modules, with well defined interfaces.</p>
+
+<h2 id="limitations-of-hardware">Limitations of Hardware</h2>
+
+<p>The Arduino is the workhorse of the maker world, for very good reason,
+but I quickly realized I was running out of pins for all the things I
+wanted to attach to Arduino.</p>
+
+<p>A motorshield on one Arduino, and a large number of sensors will
+overwhelm the hardware power of one of these devices.  More important,
+the processing power can easily become overwhelmed with some of the
+smarts required for the driving algorightms and moving time-series
+data into the clowd.</p>
+
+<p>For that reason we will setup a Micro/Macro Controller arrangement for
+our purpose.</p>
+
+<h2 id="macro-and-micro-controller">Macro and Micro Controller</h2>
+
+<p>Based on the strengths and limitation of our choice of hardware,
+Generally speaking, I think our Arduino has an edge on the RPi interms
+of hardware support and it&rsquo;s dedication in embedded devices.</p>
+
+<p>The Raspberry Pi, on the other hand has a full scale linux on a
+multiprocessor, lending it well to powerful, albiet small and
+dedicated tasks, like driving algo&rsquo;s.</p>
+
+<h3 id="macro-controller">Macro Controller</h3>
+
+<p>While the ultimate goal is to create a <em>self driving</em> vehical, that
+should not preclude a human from taking control on demand.  As matter
+of fact, human intervention or <em>hybrid</em> control is a hard requirement.</p>
 
 <p>Not only Do we need to switch controls from humans, Back-and-forth
 between the human and the computer, The communication mechanism the
 human uses may change, from Wifi to RFID or Blue Tooth Light.
 Joystick, or motion control, etc.</p>
 
-<p>We have not even begun to speak of camera and live video streams and
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+We have not even begun to speak of camera and live video streams and
 <em>Computer Vision</em>.</p>
 
 <h3 id="inputs-and-guidance">Inputs and Guidance</h3>
 
 <p>To guide a vehical safely, requires timely and accurrate system
 inputs.  The inputs may come from a variety of different sources,
-including but not limitted to cameras and CV, distance detectors,
-LiDAR, GPS and more.</p>
+including but not limitted to cameras and CV, distance detectors,</p>
+
+<h1 id="lidar-gps-and-more">LiDAR, GPS and more.</h1>
+
+<p>Likewise, we will have a variety sensor and camera inputs from
+periphereals.
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 05f83dde96638c05d5cba69657905d91a6fabeb7</p>
 
 <h2 id="do-not-rewrite-software">Do NOT Rewrite Software</h2>
 

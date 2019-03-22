@@ -8,10 +8,19 @@ date: 2019-03-14
 category: project 
 ---
 
+<<<<<<< HEAD
 The first couple _mobile robot_ kits I played with where awesome, and
 really eye opening in terms what they are capable of, but after an
 hour of playing with the "demo" programs, as amazing as they were got
 boring pretty quick.<!--more-->
+=======
+The first couple _mobile robot_ kits I played with where really
+awesome, but after an hour of playing with the "demo" programs, as
+amazing as they were got boring pretty quick.  After all, how many
+things can you do with a little car that races around a line,
+or wander through a shoe box maze and avoid collisions with walls.
+Want more from a robot?<!--more-->
+>>>>>>> 05f83dde96638c05d5cba69657905d91a6fabeb7
 
 After all, how many things can you do with a little car that races
 around a line, or wanders through a contrived mazed avoid collisions
@@ -46,16 +55,61 @@ modular:
 
 ### Switching Vehical Controllers
 
-The first thing that comes to mind is a modular control system.  While
-the ultimate goal is to create a _self driving_ vehical, that should
-not preclude a human from taking control on demand.  As matter of
-fact, human intervention or _hybrid_ control is a hard requirement.
+The first thing problem I had was either rewritting or rebuilding a
+different example software every time I did a configuration change.
+
+Specifically, there are [at least] three important types software
+components that need to be modified for difference configurations:
+
+1. Decision inputs: where is the data used to make the driving
+   decisions coming from?  Sensors, map, vision, human control?
+
+2. How is the vehical being controlled, by human or computer
+   algorightm (remote or local)?
+
+3. Steering controls: changes determining on the wheels, motors,
+   number of each and the chassis design, just to name a few.
+   
+Having said all this, it is imperative the software is broke into
+these modules, with well defined interfaces.
+
+## Limitations of Hardware 
+
+The Arduino is the workhorse of the maker world, for very good reason,
+but I quickly realized I was running out of pins for all the things I
+wanted to attach to Arduino.
+
+A motorshield on one Arduino, and a large number of sensors will
+overwhelm the hardware power of one of these devices.  More important,
+the processing power can easily become overwhelmed with some of the
+smarts required for the driving algorightms and moving time-series
+data into the clowd.
+
+For that reason we will setup a Micro/Macro Controller arrangement for
+our purpose.
+
+## Macro and Micro Controller
+
+Based on the strengths and limitation of our choice of hardware, 
+Generally speaking, I think our Arduino has an edge on the RPi interms
+of hardware support and it's dedication in embedded devices.
+
+The Raspberry Pi, on the other hand has a full scale linux on a
+multiprocessor, lending it well to powerful, albiet small and
+dedicated tasks, like driving algo's.
+
+### Macro Controller
+
+While the ultimate goal is to create a _self driving_ vehical, that
+should not preclude a human from taking control on demand.  As matter
+of fact, human intervention or _hybrid_ control is a hard requirement.
 
 Not only Do we need to switch controls from humans, Back-and-forth
 between the human and the computer, The communication mechanism the
 human uses may change, from Wifi to RFID or Blue Tooth Light.
 Joystick, or motion control, etc.
 
+<<<<<<< HEAD
 We have not even begun to speak of camera and live video streams and
 _Computer Vision_.
 
@@ -65,6 +119,13 @@ To guide a vehical safely, requires timely and accurrate system
 inputs.  The inputs may come from a variety of different sources,
 including but not limitted to cameras and CV, distance detectors,
 LiDAR, GPS and more.
+=======
+
+
+
+Likewise, we will have a variety sensor and camera inputs from 
+periphereals. 
+>>>>>>> 05f83dde96638c05d5cba69657905d91a6fabeb7
 
 ## Do NOT Rewrite Software
 
