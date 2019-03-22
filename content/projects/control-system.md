@@ -8,14 +8,43 @@ date: 2019-03-14
 category: project 
 ---
 
-The first couple _mobile robot_ kits I played with where really
-awesome, but after an hour of playing with the "demo" programs, as
-amazing as they were got boring pretty quick.  After all, how many
-things can you do with a little car that races around a line,
-or wanders through a contrived mazed avoid collisions with walls.  I
-want more from a robot!<!--more-->
+The first couple _mobile robot_ kits I played with where awesome, and
+really eye opening in terms what they are capable of, but after an
+hour of playing with the "demo" programs, as amazing as they were got
+boring pretty quick.<!--more-->
 
-## Modular Controls
+After all, how many things can you do with a little car that races
+around a line, or wanders through a contrived mazed avoid collisions
+with walls.
+
+How can we combine these neat sensors in a set of software tools that
+can be easily re-used to create reconfigurable robots, to some extent
+support "live" hardware swapping?  
+
+## Zero Downtime Software
+
+Also, how can we manage the software on a live robot?  This sounds
+like a job for industrial strength, _distributed system_ with a
+friendly API.  Is it possible? 
+
+Oh, it has to be all OpenSource.  It is entirely acceptable, and
+preferable to use other well established Open Source products.
+
+Let's see what it takes to move these toy kits to a useful part of our
+everyday life.
+
+## Human Or Computer Controlled Vehical
+
+We are going to build a _modular_ control system, both hardware and
+software.  There are a number of different hardware configurations we
+would like to experiment and work with, likewise, there is a variety
+of software configruations and algorithms that we are going to want to
+use. 
+
+Let's identify a couple key reasons the software has been designed as
+modular: 
+
+### Switching Vehical Controllers
 
 The first thing that comes to mind is a modular control system.  While
 the ultimate goal is to create a _self driving_ vehical, that should
@@ -27,76 +56,36 @@ between the human and the computer, The communication mechanism the
 human uses may change, from Wifi to RFID or Blue Tooth Light.
 Joystick, or motion control, etc.
 
-Likewise, we will have a variety sensor and camera inputs from 
-periphereals. 
+We have not even begun to speak of camera and live video streams and
+_Computer Vision_.
+
+### Inputs and Guidance
+
+To guide a vehical safely, requires timely and accurrate system
+inputs.  The inputs may come from a variety of different sources,
+including but not limitted to cameras and CV, distance detectors,
+LiDAR, GPS and more.
 
 ## Do NOT Rewrite Software
 
 It is imperative that we do not have to rewrite our software evertime
-one of these elements change.  If you 
-The soccer
-pplication for every combination of possibleControl mechanisms and
-driving algorithms canceled. 
+one of these elements change. 
 
 To accomplish this goal we were we will separate out the sensor
-inputBy gathering them together and feeding them as a stream of
-consciousness to our driving algorithmWhatever that may beActually we
-will just write that date out to a message busThat message bus will be
-listen to buy everything that wants to pick up the data. 
+inputs, gathering them together and feeding them as a stream of data
+to our driving/decision making algorithms whatever that may be. 
 
-A moderately poor rendering of the above idea can be seen in the image
-below:
+We will mostlikey send our input streams to a _message bus_, the
+consumers on the message bus will be the _decision making algorithm_
+and most likely the logging software.
 
-
-
-The control systems that will be required include, but are not limited
-to: 
+### Requirements
 
 - Human controls over Wifi, RFID or BlueTooth
 - Computer guided algorithms
 - Inputs include: video, distance sensor, light and color recognition, etc
 
-The The experiments we will be making are going to be veried, And
-therefore it is critical that we do not have to re-create all the
-software required to make our robot work.
-
-
-
-
-
-how useful is a robot that roams around
-a colored line, after about a half hour or so?  I quickly realized I
-wanted more from a Robot<!--more-->
-
-## Many Types of Control
-
-The Robot Architecture must be able to support multiple type of
-inputs.  The inputs can include:
-
-- Human with a remote control 
-- Computer driven algorithm on vehical
-
-### Communications
-
-
-
-## Requirements for Control System
-
-The control software should must be flexible and allow the robot to be
-controlled from any one of the following:
-
-1. Human with remote control.
-2. Computer algorithm
-
-Communication mechanims 
-
-Inputs can 
-
-
-
-From the first Robotics kits I bought, I quickly realized the type of
-Robot I want to build goes beyond the _immediate_ capabilities of
-these beginner / education kits. <!--more-->
+## Hardware Flexibility and Extensions
 
 I also realized that certain applications would exhaust the available
 HW resources of an Arduino or Raspberry Pi, but generally speaking I like
@@ -122,11 +111,12 @@ Arduino's are loyal, strong soldiers that will faithfully follow
 orders, however they are pretty dumb, at least compared to a Raspberry
 Pi. 
 
+The Raspberry Pi consumes a significant amount of energy, and provides
+a tremendous amount of processing power compared to the Arduino.  
 
-
-a very manageable for us. now, we are going to keep it cheep and very accessable, we'll keep
-our choices to the Arduino and Raspberry Pi family of products (for a
-number of reasons).  We can use this as a base mark.
+For now, we are going to keep it cheap and accessable our choices of
+hardware micro/macro controllers to be from the Arduino and Raspberry
+Pi family of products.
 
 ### Running out of Pins
 
@@ -142,31 +132,3 @@ Pheww, that is a lot to ask of that Arudino, how pins does it have,
 but more importantly, how much of it's processing power and
 communication capabilities are we going to exhaust?
 
-### Pie Anybody
-
-Why not use a Rasp
-
-
-## Problem Definition
-
-The robot must be controllable by a variety of methods that include both human
-and computer controls.  To accomplish this goal, it is essential that the
-software is developed as modular and inter-conencted.
-
-### Requirements 
-
-Our drive system must be able to adapt to various steering algorithms
-including _skid_, _Ackerman_ and _Rear Assisted_ stearing.
-
-In addition to supporting a variety of drive trains, it is also necessary to
-support different drive algorithms, guided by various sensor data, including
-but not limited variety of sensor data and camera images, proximity sensros
-and so on.
-
-### Constraints
-
-## Design Alternatives
-
-## Design Decision
-
-## Desicision Feedback

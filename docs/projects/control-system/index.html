@@ -41,14 +41,43 @@
 <div class="container">
     <div class="row">
         <div class="col"></div>
-        <div class="col-8"><p>The first couple <em>mobile robot</em> kits I played with where really
-awesome, but after an hour of playing with the &ldquo;demo&rdquo; programs, as
-amazing as they were got boring pretty quick.  After all, how many
-things can you do with a little car that races around a line,
-or wanders through a contrived mazed avoid collisions with walls.  I
-want more from a robot!</p>
+        <div class="col-8"><p>The first couple <em>mobile robot</em> kits I played with where awesome, and
+really eye opening in terms what they are capable of, but after an
+hour of playing with the &ldquo;demo&rdquo; programs, as amazing as they were got
+boring pretty quick.</p>
 
-<h2 id="modular-controls">Modular Controls</h2>
+<p>After all, how many things can you do with a little car that races
+around a line, or wanders through a contrived mazed avoid collisions
+with walls.</p>
+
+<p>How can we combine these neat sensors in a set of software tools that
+can be easily re-used to create reconfigurable robots, to some extent
+support &ldquo;live&rdquo; hardware swapping?</p>
+
+<h2 id="zero-downtime-software">Zero Downtime Software</h2>
+
+<p>Also, how can we manage the software on a live robot?  This sounds
+like a job for industrial strength, <em>distributed system</em> with a
+friendly API.  Is it possible?</p>
+
+<p>Oh, it has to be all OpenSource.  It is entirely acceptable, and
+preferable to use other well established Open Source products.</p>
+
+<p>Let&rsquo;s see what it takes to move these toy kits to a useful part of our
+everyday life.</p>
+
+<h2 id="human-or-computer-controlled-vehical">Human Or Computer Controlled Vehical</h2>
+
+<p>We are going to build a <em>modular</em> control system, both hardware and
+software.  There are a number of different hardware configurations we
+would like to experiment and work with, likewise, there is a variety
+of software configruations and algorithms that we are going to want to
+use.</p>
+
+<p>Let&rsquo;s identify a couple key reasons the software has been designed as
+modular:</p>
+
+<h3 id="switching-vehical-controllers">Switching Vehical Controllers</h3>
 
 <p>The first thing that comes to mind is a modular control system.  While
 the ultimate goal is to create a <em>self driving</em> vehical, that should
@@ -60,28 +89,30 @@ between the human and the computer, The communication mechanism the
 human uses may change, from Wifi to RFID or Blue Tooth Light.
 Joystick, or motion control, etc.</p>
 
-<p>Likewise, we will have a variety sensor and camera inputs from
-periphereals.</p>
+<p>We have not even begun to speak of camera and live video streams and
+<em>Computer Vision</em>.</p>
+
+<h3 id="inputs-and-guidance">Inputs and Guidance</h3>
+
+<p>To guide a vehical safely, requires timely and accurrate system
+inputs.  The inputs may come from a variety of different sources,
+including but not limitted to cameras and CV, distance detectors,
+LiDAR, GPS and more.</p>
 
 <h2 id="do-not-rewrite-software">Do NOT Rewrite Software</h2>
 
 <p>It is imperative that we do not have to rewrite our software evertime
-one of these elements change.  If you
-The soccer
-pplication for every combination of possibleControl mechanisms and
-driving algorithms canceled.</p>
+one of these elements change.</p>
 
 <p>To accomplish this goal we were we will separate out the sensor
-inputBy gathering them together and feeding them as a stream of
-consciousness to our driving algorithmWhatever that may beActually we
-will just write that date out to a message busThat message bus will be
-listen to buy everything that wants to pick up the data.</p>
+inputs, gathering them together and feeding them as a stream of data
+to our driving/decision making algorithms whatever that may be.</p>
 
-<p>A moderately poor rendering of the above idea can be seen in the image
-below:</p>
+<p>We will mostlikey send our input streams to a <em>message bus</em>, the
+consumers on the message bus will be the <em>decision making algorithm</em>
+and most likely the logging software.</p>
 
-<p>The control systems that will be required include, but are not limited
-to:</p>
+<h3 id="requirements">Requirements</h3>
 
 <ul>
 <li>Human controls over Wifi, RFID or BlueTooth</li>
@@ -89,43 +120,7 @@ to:</p>
 <li>Inputs include: video, distance sensor, light and color recognition, etc</li>
 </ul>
 
-<p>The The experiments we will be making are going to be veried, And
-therefore it is critical that we do not have to re-create all the
-software required to make our robot work.</p>
-
-<p>how useful is a robot that roams around
-a colored line, after about a half hour or so?  I quickly realized I
-wanted more from a Robot<!--more--></p>
-
-<h2 id="many-types-of-control">Many Types of Control</h2>
-
-<p>The Robot Architecture must be able to support multiple type of
-inputs.  The inputs can include:</p>
-
-<ul>
-<li>Human with a remote control</li>
-<li>Computer driven algorithm on vehical</li>
-</ul>
-
-<h3 id="communications">Communications</h3>
-
-<h2 id="requirements-for-control-system">Requirements for Control System</h2>
-
-<p>The control software should must be flexible and allow the robot to be
-controlled from any one of the following:</p>
-
-<ol>
-<li>Human with remote control.</li>
-<li>Computer algorithm</li>
-</ol>
-
-<p>Communication mechanims</p>
-
-<p>Inputs can</p>
-
-<p>From the first Robotics kits I bought, I quickly realized the type of
-Robot I want to build goes beyond the <em>immediate</em> capabilities of
-these beginner / education kits. <!--more--></p>
+<h2 id="hardware-flexibility-and-extensions">Hardware Flexibility and Extensions</h2>
 
 <p>I also realized that certain applications would exhaust the available
 HW resources of an Arduino or Raspberry Pi, but generally speaking I like
@@ -150,9 +145,12 @@ and focused on the application.</p>
 orders, however they are pretty dumb, at least compared to a Raspberry
 Pi.</p>
 
-<p>a very manageable for us. now, we are going to keep it cheep and very accessable, we&rsquo;ll keep
-our choices to the Arduino and Raspberry Pi family of products (for a
-number of reasons).  We can use this as a base mark.</p>
+<p>The Raspberry Pi consumes a significant amount of energy, and provides
+a tremendous amount of processing power compared to the Arduino.</p>
+
+<p>For now, we are going to keep it cheap and accessable our choices of
+hardware micro/macro controllers to be from the Arduino and Raspberry
+Pi family of products.</p>
 
 <h3 id="running-out-of-pins">Running out of Pins</h3>
 
@@ -166,35 +164,7 @@ some form of on vehical diagnostics and a corresponding UI.</p>
 
 <p>Pheww, that is a lot to ask of that Arudino, how pins does it have,
 but more importantly, how much of it&rsquo;s processing power and
-communication capabilities are we going to exhaust?</p>
-
-<h3 id="pie-anybody">Pie Anybody</h3>
-
-<p>Why not use a Rasp</p>
-
-<h2 id="problem-definition">Problem Definition</h2>
-
-<p>The robot must be controllable by a variety of methods that include both human
-and computer controls.  To accomplish this goal, it is essential that the
-software is developed as modular and inter-conencted.</p>
-
-<h3 id="requirements">Requirements</h3>
-
-<p>Our drive system must be able to adapt to various steering algorithms
-including <em>skid</em>, <em>Ackerman</em> and <em>Rear Assisted</em> stearing.</p>
-
-<p>In addition to supporting a variety of drive trains, it is also necessary to
-support different drive algorithms, guided by various sensor data, including
-but not limited variety of sensor data and camera images, proximity sensros
-and so on.</p>
-
-<h3 id="constraints">Constraints</h3>
-
-<h2 id="design-alternatives">Design Alternatives</h2>
-
-<h2 id="design-decision">Design Decision</h2>
-
-<h2 id="desicision-feedback">Desicision Feedback</h2></div>
+communication capabilities are we going to exhaust?</p></div>
         <div class="col"></div>
     </div> 
 </div>

@@ -6,10 +6,21 @@
     <description>Recent content in Software on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mobilerobot.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arduino Interupts</title>
+      <link>http://mobilerobot.io/notes/arduino-interupts/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/arduino-interupts/</guid>
+      <description>Nick Gammon does a great job describing interupts on the Arduino, when and I why you might want to use them. As an overly summarized version, if you want to be able to get a notification when data has arrived without having to sleep and poll for data.
+Talk about Ardiuno interupts, non-blocking I/O and Nearly Real Time OS. This is a very good, and very indepth article.
+TODO: Add some code snippets as examples for running external engines.</description>
+    </item>
     
     <item>
       <title>On Vehicle Communication</title>
@@ -31,8 +42,7 @@ Communication Mechanism We have a rather complex set of communication requiremen
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major
-&lt;/p&gt;</description>
+other major&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -42,8 +52,7 @@ other major
       
       <guid>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.
-&lt;/p&gt;</description>
+function.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -74,8 +83,7 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
       <guid>http://mobilerobot.io/notes/robotics/</guid>
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.
-&lt;/p&gt;</description>
+drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
     </item>
     
   </channel>
