@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Active Projects on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/projects/</link>
+    <description>Recent content in Active Projects on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Control Systems</title>
+      <link>http://mobilerobot.io/projects/control-system/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/control-system/</guid>
+      <description>&lt;p&gt;The first couple &lt;em&gt;mobile robot&lt;/em&gt; kits I played with where really
+awesome, but after an hour of playing with the &amp;ldquo;demo&amp;rdquo; programs, as
+amazing as they were got boring pretty quick.  After all, how many
+things can you do with a little car that races around a line,
+or wander through a shoe box maze and avoid collisions with walls.
+Want more from a robot?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Chasis and Drive Train</title>
+      <link>http://mobilerobot.io/projects/chasis-drive-train/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/chasis-drive-train/</guid>
+      <description>&lt;p&gt;I first bought the Tank constructor kit from OSEPP to build my first robot
+frame, it was cool, modular building blocks with a Tank Tread and two
+DC motors that sat opposite of each other, generating the movement for
+this vehicle.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>On Vehicle Communication</title>
+      <link>http://mobilerobot.io/projects/on-vehicle-communications/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/on-vehicle-communications/</guid>
+      <description>One of the first issues that we came against was the specific configurations of the micro-controllers as well and the number and configuration of pins and hardware particulars.
+Macro-Micro Controllers The system should be flexible enough to allow one or more macro-controls communicating with one or more micro-controllers.
+Communication Mechanism We have a rather complex set of communication requirements, we have signals between sensors, motors and micro-controllers. We also have the communication from the micro-controllers and the macro-controller.</description>
+    </item>
+    
+    <item>
+      <title>Zumo Bot Control Mods</title>
+      <link>http://mobilerobot.io/projects/zumo/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/zumo/</guid>
+      <description>TODO: talk about the changes to the Zumo bot and what they accomplished.
+ Project Description
+ Circuits used
+ Software used
+ Mechanical Parts used
+ Videos and images of project
+  On so forth.</description>
+    </item>
+    
+  </channel>
+</rss>

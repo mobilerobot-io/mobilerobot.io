@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/tags/</link>
+    <description>Recent content in Tags on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adafruit</title>
+      <link>http://mobilerobot.io/tags/adafruit/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/adafruit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ansible</title>
+      <link>http://mobilerobot.io/tags/ansible/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bootp</title>
+      <link>http://mobilerobot.io/tags/bootp/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/bootp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chassis</title>
+      <link>http://mobilerobot.io/tags/chassis/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/chassis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dhcp</title>
+      <link>http://mobilerobot.io/tags/dhcp/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/dhcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Display</title>
+      <link>http://mobilerobot.io/tags/display/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/display/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infra as Code</title>
+      <link>http://mobilerobot.io/tags/infra-as-code/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/infra-as-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multicast</title>
+      <link>http://mobilerobot.io/tags/multicast/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/multicast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Netboot</title>
+      <link>http://mobilerobot.io/tags/netboot/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/netboot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>http://mobilerobot.io/tags/networking/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>http://mobilerobot.io/tags/nginx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Onos</title>
+      <link>http://mobilerobot.io/tags/onos/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/onos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Osepp</title>
+      <link>http://mobilerobot.io/tags/osepp/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/osepp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pxe</title>
+      <link>http://mobilerobot.io/tags/pxe/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/pxe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sdl</title>
+      <link>http://mobilerobot.io/tags/sdl/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/sdl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Defined Network</title>
+      <link>http://mobilerobot.io/tags/software-defined-network/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/software-defined-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tank</title>
+      <link>http://mobilerobot.io/tags/tank/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/tank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>http://mobilerobot.io/tags/terraform/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/terraform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tft</title>
+      <link>http://mobilerobot.io/tags/tft/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/tft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tftp</title>
+      <link>http://mobilerobot.io/tags/tftp/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/tags/tftp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

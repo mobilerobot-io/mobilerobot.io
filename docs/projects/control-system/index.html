@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel="stylesheet" href="http://mobilerobot.io/css/style.css">
+
+
+<title>Control Systems</title>
+<body><header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+	<a class="navbar-brand text-muted text-monospace" href="http://mobilerobot.io/">Mobile Robot I/O</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <nav class="navbar-nav justify-content-end">
+  	        <a class="nav-link" href="http://mobilerobot.io/projects">projects</a>
+  	        <a class="nav-link" href="http://mobilerobot.io/notes">notes</a>
+  	        <a class="nav-link" href="http://mobilerobot.io/about">about</a>
+ 	    </nav>
+	</div>
+    </nav>
+</header>
+<div class="jumbotron">
+    <div class="row">
+	<div class="col-3"></div>
+	<div class="col">
+	    <h1 class="text-center pb-1">Control Systems</h1>
+	    <h5 class="leadin text-center text-muted mt-0">
+		The control system is the entire loop of the person or algorithm taking sensor inputs and telling the motor controls what to do the inputs. 
+
+	    </h5>
+	</div>
+	<div class="col-3"></div>
+    </div>
+</div>
+<div id="main">
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-8"><p>The first couple <em>mobile robot</em> kits I played with where really
+awesome, but after an hour of playing with the &ldquo;demo&rdquo; programs, as
+amazing as they were got boring pretty quick.  After all, how many
+things can you do with a little car that races around a line,
+or wander through a shoe box maze and avoid collisions with walls.
+Want more from a robot?</p>
+
+<h2 id="modular-controls">Modular Controls</h2>
+
+<p>The first thing problem I had was either rewritting or rebuilding a
+different example software every time I did a configuration change.</p>
+
+<p>Specifically, there are [at least] three important types software
+components that need to be modified for difference configurations:</p>
+
+<ol>
+<li><p>Decision inputs: where is the data used to make the driving
+decisions coming from?  Sensors, map, vision, human control?</p></li>
+
+<li><p>How is the vehical being controlled, by human or computer
+algorightm (remote or local)?</p></li>
+
+<li><p>Steering controls: changes determining on the wheels, motors,
+number of each and the chassis design, just to name a few.</p></li>
+</ol>
+
+<p>Having said all this, it is imperative the software is broke into
+these modules, with well defined interfaces.</p>
+
+<h2 id="limitations-of-hardware">Limitations of Hardware</h2>
+
+<p>The Arduino is the workhorse of the maker world, for very good reason,
+but I quickly realized I was running out of pins for all the things I
+wanted to attach to Arduino.</p>
+
+<p>A motorshield on one Arduino, and a large number of sensors will
+overwhelm the hardware power of one of these devices.  More important,
+the processing power can easily become overwhelmed with some of the
+smarts required for the driving algorightms and moving time-series
+data into the clowd.</p>
+
+<p>For that reason we will setup a Micro/Macro Controller arrangement for
+our purpose.</p>
+
+<h2 id="macro-and-micro-controller">Macro and Micro Controller</h2>
+
+<p>Based on the strengths and limitation of our choice of hardware,
+Generally speaking, I think our Arduino has an edge on the RPi interms
+of hardware support and it&rsquo;s dedication in embedded devices.</p>
+
+<p>The Raspberry Pi, on the other hand has a full scale linux on a
+multiprocessor, lending it well to powerful, albiet small and
+dedicated tasks, like driving algo&rsquo;s.</p>
+
+<h3 id="macro-controller">Macro Controller</h3>
+
+<p>While the ultimate goal is to create a <em>self driving</em> vehical, that
+should not preclude a human from taking control on demand.  As matter
+of fact, human intervention or <em>hybrid</em> control is a hard requirement.</p>
+
+<p>Not only Do we need to switch controls from humans, Back-and-forth
+between the human and the computer, The communication mechanism the
+human uses may change, from Wifi to RFID or Blue Tooth Light.
+Joystick, or motion control, etc.</p>
+
+<p>Likewise, we will have a variety sensor and camera inputs from
+periphereals.</p>
+
+<h2 id="do-not-rewrite-software">Do NOT Rewrite Software</h2>
+
+<p>It is imperative that we do not have to rewrite our software evertime
+one of these elements change.  If you
+The soccer
+pplication for every combination of possibleControl mechanisms and
+driving algorithms canceled.</p>
+
+<p>To accomplish this goal we were we will separate out the sensor
+inputBy gathering them together and feeding them as a stream of
+consciousness to our driving algorithmWhatever that may beActually we
+will just write that date out to a message busThat message bus will be
+listen to buy everything that wants to pick up the data.</p>
+
+<p>A moderately poor rendering of the above idea can be seen in the image
+below:</p>
+
+<p>The control systems that will be required include, but are not limited
+to:</p>
+
+<ul>
+<li>Human controls over Wifi, RFID or BlueTooth</li>
+<li>Computer guided algorithms</li>
+<li>Inputs include: video, distance sensor, light and color recognition, etc</li>
+</ul>
+
+<p>The The experiments we will be making are going to be veried, And
+therefore it is critical that we do not have to re-create all the
+software required to make our robot work.</p>
+
+<p>how useful is a robot that roams around
+a colored line, after about a half hour or so?  I quickly realized I
+wanted more from a Robot<!--more--></p>
+
+<h2 id="many-types-of-control">Many Types of Control</h2>
+
+<p>The Robot Architecture must be able to support multiple type of
+inputs.  The inputs can include:</p>
+
+<ul>
+<li>Human with a remote control</li>
+<li>Computer driven algorithm on vehical</li>
+</ul>
+
+<h3 id="communications">Communications</h3>
+
+<h2 id="requirements-for-control-system">Requirements for Control System</h2>
+
+<p>The control software should must be flexible and allow the robot to be
+controlled from any one of the following:</p>
+
+<ol>
+<li>Human with remote control.</li>
+<li>Computer algorithm</li>
+</ol>
+
+<p>Communication mechanims</p>
+
+<p>Inputs can</p>
+
+<p>From the first Robotics kits I bought, I quickly realized the type of
+Robot I want to build goes beyond the <em>immediate</em> capabilities of
+these beginner / education kits. <!--more--></p>
+
+<p>I also realized that certain applications would exhaust the available
+HW resources of an Arduino or Raspberry Pi, but generally speaking I like
+the Arduino for <em>dedicated</em> hardware projects that require just a
+little communication.  I like the Raspberry Pi for the general purpose Shit</p>
+
+<h2 id="choosing-a-controller-arduino-vs-raspberry-pi">Choosing a Controller Arduino vs. Raspberry Pi</h2>
+
+<p>This is a topic that demands an entire branch of Engineering is
+control systems, or basically: developing an automated system that
+responds to various inputs in real-time allowing the safe and accurate
+delivery of payload.</p>
+
+<p>For our purposes, we are going to keep it simple and stick making
+Decision and choosing between an and Arduino and a raspberry
+pie. Although there are plenty of other choices, Let us keep it simple
+and focused on the application.</p>
+
+<h3 id="arduino-strength-is-realtime-dedicated-hardware">Arduino Strength is RealTime Dedicated Hardware</h3>
+
+<p>Arduino&rsquo;s are loyal, strong soldiers that will faithfully follow
+orders, however they are pretty dumb, at least compared to a Raspberry
+Pi.</p>
+
+<p>a very manageable for us. now, we are going to keep it cheep and very accessable, we&rsquo;ll keep
+our choices to the Arduino and Raspberry Pi family of products (for a
+number of reasons).  We can use this as a base mark.</p>
+
+<h3 id="running-out-of-pins">Running out of Pins</h3>
+
+<p>This is were two fundamental problems: The Arduino need to run 2-4 DC
+motors to move the bot, 2 servo&rsquo;s to control the camera&rsquo;s.  We are
+going to also drive a number of sensors for distance, color, light,
+etc.</p>
+
+<p>The bot will have a camera and streaming video.  We will also want
+some form of on vehical diagnostics and a corresponding UI.</p>
+
+<p>Pheww, that is a lot to ask of that Arudino, how pins does it have,
+but more importantly, how much of it&rsquo;s processing power and
+communication capabilities are we going to exhaust?</p>
+
+<h3 id="pie-anybody">Pie Anybody</h3>
+
+<p>Why not use a Rasp</p>
+
+<h2 id="problem-definition">Problem Definition</h2>
+
+<p>The robot must be controllable by a variety of methods that include both human
+and computer controls.  To accomplish this goal, it is essential that the
+software is developed as modular and inter-conencted.</p>
+
+<h3 id="requirements">Requirements</h3>
+
+<p>Our drive system must be able to adapt to various steering algorithms
+including <em>skid</em>, <em>Ackerman</em> and <em>Rear Assisted</em> stearing.</p>
+
+<p>In addition to supporting a variety of drive trains, it is also necessary to
+support different drive algorithms, guided by various sensor data, including
+but not limited variety of sensor data and camera images, proximity sensros
+and so on.</p>
+
+<h3 id="constraints">Constraints</h3>
+
+<h2 id="design-alternatives">Design Alternatives</h2>
+
+<h2 id="design-decision">Design Decision</h2>
+
+<h2 id="desicision-feedback">Desicision Feedback</h2></div>
+        <div class="col"></div>
+    </div> 
+</div>
+
+    </div><footer id="footer" class="container">
+    <div class="row mt-5 pt-5">
+	<div class="col-2"></div>
+	<div class="col-8 text-small text-right text-muted">
+	    Eddy Consulting, LLC, Copyright 2006-2019
+	</div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
