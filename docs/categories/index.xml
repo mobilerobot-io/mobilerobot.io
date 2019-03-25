@@ -57,11 +57,29 @@
     </item>
     
     <item>
+      <title>Electrical</title>
+      <link>http://mobilerobot.io/categories/electrical/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/electrical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Electronics</title>
       <link>http://mobilerobot.io/categories/electronics/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/categories/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mechanical</title>
+      <link>http://mobilerobot.io/categories/mechanical/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/mechanical/</guid>
       <description></description>
     </item>
     
@@ -86,7 +104,7 @@
     <item>
       <title>Software</title>
       <link>http://mobilerobot.io/categories/software/</link>
-      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/categories/software/</guid>
       <description></description>

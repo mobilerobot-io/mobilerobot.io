@@ -111,6 +111,15 @@ how long did the build take?&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>GNC ~ Guidance, Navigation and Control</title>
+      <link>http://mobilerobot.io/projects/guidance-navigation-control/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/guidance-navigation-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Arduino Interupts</title>
       <link>http://mobilerobot.io/notes/arduino-interupts/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
@@ -127,11 +136,8 @@ TODO: Add some code snippets as examples for running external engines.</descript
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/control-system/</guid>
-      <description>&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
-The first couple &lt;em&gt;mobile robot&lt;/em&gt; kits I played with where awesome, and
-really eye opening in terms what they are capable of, but after an
-hour of playing with the &amp;ldquo;demo&amp;rdquo; programs, as amazing as they were got
-boring pretty quick.&lt;/p&gt;</description>
+      <description>Problem Definition When setting out to create a Mobile Robot one is faced with a lot of choices, like how does the robot steer or control itself? Does it have, legs, wheels or tracks? How will it be controlled, through computer vision, distance sensors or humans?
+What Platform and Language? You are also have to ask the question, what platform will all this run on? Arduino for the sharper hardware support or the raspberry pi and it&amp;rsquo;s superior computing capabilities and software support?</description>
     </item>
     
     <item>
@@ -284,7 +290,9 @@ Also make a link to the Youtube video that shows how to make a multi voltage pow
       <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/notes/software/</guid>
-      <description>Software best practices.</description>
+      <description>This document will attempt to capture and define some Software best practices that we&amp;rsquo;ll practice during our software development process.
+Zero Downtime Software Also, how can we manage the software on a live robot? This sounds like a job for industrial strength, distributed system with a friendly API. Is it possible?
+Oh, it has to be all OpenSource. It is entirely acceptable, and preferable to use other well established Open Source products.</description>
     </item>
     
     <item>
@@ -307,6 +315,16 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
 drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino vs Raspberry Pi</title>
+      <link>http://mobilerobot.io/notes/rpi-vs-arduino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/rpi-vs-arduino/</guid>
+      <description>Limitations of Hardware The Arduino is the workhorse of the maker world, for very good reason, but I quickly realized I was running out of pins for all the things I wanted to attach to Arduino.
+A motorshield on one Arduino, and a large number of sensors will overwhelm the hardware power of one of these devices. More important, the processing power can easily become overwhelmed with some of the smarts required for the driving algorightms and moving time-series data into the clowd.</description>
     </item>
     
     <item>

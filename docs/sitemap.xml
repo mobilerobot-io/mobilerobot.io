@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/projects/guidance-navigation-control/</loc>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/notes/arduino-interupts/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
   </url>
@@ -193,6 +198,10 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/notes/rpi-vs-arduino/</loc>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/tags/bootp/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -239,6 +248,12 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/categories/electrical/</loc>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/categories/electronics/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -247,6 +262,12 @@
   <url>
     <loc>http://mobilerobot.io/tags/infra-as-code/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/mechanical/</loc>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -315,7 +336,7 @@
   
   <url>
     <loc>http://mobilerobot.io/categories/software/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

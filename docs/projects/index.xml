@@ -12,16 +12,22 @@
     
     
     <item>
+      <title>GNC ~ Guidance, Navigation and Control</title>
+      <link>http://mobilerobot.io/projects/guidance-navigation-control/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/guidance-navigation-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Control Systems</title>
       <link>http://mobilerobot.io/projects/control-system/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/control-system/</guid>
-      <description>&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
-The first couple &lt;em&gt;mobile robot&lt;/em&gt; kits I played with where awesome, and
-really eye opening in terms what they are capable of, but after an
-hour of playing with the &amp;ldquo;demo&amp;rdquo; programs, as amazing as they were got
-boring pretty quick.&lt;/p&gt;</description>
+      <description>Problem Definition When setting out to create a Mobile Robot one is faced with a lot of choices, like how does the robot steer or control itself? Does it have, legs, wheels or tracks? How will it be controlled, through computer vision, distance sensors or humans?
+What Platform and Language? You are also have to ask the question, what platform will all this run on? Arduino for the sharper hardware support or the raspberry pi and it&amp;rsquo;s superior computing capabilities and software support?</description>
     </item>
     
     <item>

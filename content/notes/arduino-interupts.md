@@ -15,3 +15,17 @@ OS.  This is a very good, and very indepth article.
 
 TODO: Add some code snippets as examples for running external
 engines. 
+
+### Arduino Strength is RealTime Dedicated Hardware
+
+Arduino's are loyal, strong soldiers that will faithfully follow
+orders, however they are pretty dumb, at least compared to a Raspberry
+Pi. 
+
+The Raspberry Pi consumes a significant amount of energy, and provides
+a tremendous amount of processing power compared to the Arduino.  
+
+For now, we are going to keep it cheap and accessable our choices of
+hardware micro/macro controllers to be from the Arduino and Raspberry
+Pi family of products.
+
