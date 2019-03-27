@@ -268,6 +268,11 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/tags/digital-ocean/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/tags/display/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -282,6 +287,11 @@
   <url>
     <loc>http://mobilerobot.io/categories/electronics/</loc>
     <lastmod>2019-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/hugo/</loc>
     <priority>0</priority>
   </url>
   
@@ -301,10 +311,6 @@
     <loc>http://mobilerobot.io/categories/mechanics/</loc>
     <lastmod>2019-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/notes/mobile-robot-website/</loc>
   </url>
   
   <url>
@@ -424,6 +430,10 @@
     <loc>http://mobilerobot.io/tags/tftp/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/about/this-website/</loc>
   </url>
   
 </urlset>

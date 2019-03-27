@@ -30,8 +30,8 @@ RC station.  Additional controls like buttons, or a screen for output
 are on the whishlist.  
 
 A single remote joystick is what we need for starters.  We are going
-to use the very popular [NRF24L01 chip], 
+to use the very popular [NRF24L01 chip](/notes/programming-the-nlrf24l01). 
 
-[]
+
 
 
