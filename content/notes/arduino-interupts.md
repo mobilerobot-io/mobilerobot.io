@@ -1,6 +1,10 @@
 ---
 title: Arduino Interupts
-references:
+description: >
+  The standard loop is great for many examples, tutorials and evern
+  some applications, however when lots of things happen at random
+  times and you want an efficient response from your hardware,
+  Interupts may be in order.
 date: 2019-03-22
 categories: software
 ---

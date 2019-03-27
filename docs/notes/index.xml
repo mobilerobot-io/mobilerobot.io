@@ -35,6 +35,16 @@ This is just the begining.</description>
     </item>
     
     <item>
+      <title>Programming the NRF240L1 RF Tranceiver</title>
+      <link>http://mobilerobot.io/notes/programming-the-nlrf24l01/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/programming-the-nlrf24l01/</guid>
+      <description> This RC reciever chip is very easy to use out of the box, yet provides some very sophisticated capabilities. The first project We&amp;rsquo;ll start using this chip will be a remote control Joystick for our mobile robot.
+Todos:  point to the datasheet load personal photos of my project with NRF20L  pull the image from evernote  fritz a diagram post code that I use and or wrote Try to do an eagle cad  SPI Interface Point To Point Send and Recieve Mesh Networks Support on Arduino Suipport on Raspberry Pi </description>
+    </item>
+    
+    <item>
       <title>Arduino Interupts</title>
       <link>http://mobilerobot.io/notes/arduino-interupts/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
@@ -137,6 +147,16 @@ productive.&lt;/p&gt;</description>
       
       <guid>http://mobilerobot.io/notes/sensor-networks/</guid>
       <description> TODO: write ups  sierra hydrographics ACOE GOES software timeseries databases example sensor network around the house (throw in hardware)  </description>
+    </item>
+    
+    <item>
+      <title>The Go Schedular in Depth</title>
+      <link>http://mobilerobot.io/notes/go-scheduler-in-depth/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/go-scheduler-in-depth/</guid>
+      <description>This is a three part series:
+ part2: https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html  PS Look at the company for inspiration</description>
     </item>
     
     <item>

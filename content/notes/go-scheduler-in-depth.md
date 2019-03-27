@@ -1,7 +1,10 @@
 ---
 title: The Go Schedular in Depth
 date: 2018-04-04
-draft: true
+description: >
+  One of the many great things about Go is it's inbred support for
+  concurrancy.  Understanding the Go schedule will give you the magic
+  beans for writting some higly efficient software.
 category: software
 ---
 

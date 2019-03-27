@@ -6,10 +6,21 @@
     <description>Recent content in Software on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mobilerobot.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RF Remote Control</title>
+      <link>http://mobilerobot.io/projects/rf-remote-control/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/rf-remote-control/</guid>
+      <description>Project Definition Our mobile robot is going to need a remote control, may as well be a joystick. Yes, we do have high hopes of getting the vehicle to drive itself, we are still going to support a Human controlled switch over.
+Following is a quick-n-dirty block diagram of the project design.
+RF Remote Control Electronics The first pass at the remote control will be a single joystick on the RC station.</description>
+    </item>
     
     <item>
       <title>GNC ~ Guidance, Navigation and Control</title>

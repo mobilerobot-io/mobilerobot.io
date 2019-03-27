@@ -53,6 +53,16 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/projects/rf-remote-control/</loc>
+    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/programming-the-nlrf24l01/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/projects/guidance-navigation-control/</loc>
     <lastmod>2019-03-24T00:00:00+00:00</lastmod>
   </url>
@@ -140,6 +150,11 @@
   <url>
     <loc>http://mobilerobot.io/notes/sensor-networks/</loc>
     <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/go-scheduler-in-depth/</loc>
+    <lastmod>2018-04-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -266,7 +281,7 @@
   
   <url>
     <loc>http://mobilerobot.io/categories/electronics/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -284,7 +299,7 @@
   
   <url>
     <loc>http://mobilerobot.io/categories/mechanics/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -316,6 +331,18 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/tags/nlrf24/</loc>
+    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/nrf240l1/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/tags/onos/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -340,6 +367,12 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/tags/remote-control/</loc>
+    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/tags/sdl/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -347,13 +380,19 @@
   
   <url>
     <loc>http://mobilerobot.io/categories/software/</loc>
-    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://mobilerobot.io/tags/software-defined-network/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/spi/</loc>
+    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

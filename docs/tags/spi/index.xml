@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spi on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/tags/spi/</link>
+    <description>Recent content in Spi on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/tags/spi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RF Remote Control</title>
+      <link>http://mobilerobot.io/projects/rf-remote-control/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/rf-remote-control/</guid>
+      <description>Project Definition Our mobile robot is going to need a remote control, may as well be a joystick. Yes, we do have high hopes of getting the vehicle to drive itself, we are still going to support a Human controlled switch over.
+Following is a quick-n-dirty block diagram of the project design.
+RF Remote Control Electronics The first pass at the remote control will be a single joystick on the RC station.</description>
+    </item>
+    
+    <item>
+      <title>Programming the NRF240L1 RF Tranceiver</title>
+      <link>http://mobilerobot.io/notes/programming-the-nlrf24l01/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/programming-the-nlrf24l01/</guid>
+      <description> This RC reciever chip is very easy to use out of the box, yet provides some very sophisticated capabilities. The first project We&amp;rsquo;ll start using this chip will be a remote control Joystick for our mobile robot.
+Todos:  point to the datasheet load personal photos of my project with NRF20L  pull the image from evernote  fritz a diagram post code that I use and or wrote Try to do an eagle cad  SPI Interface Point To Point Send and Recieve Mesh Networks Support on Arduino Suipport on Raspberry Pi </description>
+    </item>
+    
+  </channel>
+</rss>
