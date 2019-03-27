@@ -25,6 +25,16 @@ in the project?&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Draw I/O and SVG Images</title>
+      <link>http://mobilerobot.io/notes/draw-io-and-svg-images/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/draw-io-and-svg-images/</guid>
+      <description>I have created my first (but not last diagram with Draw.IO). I guess the important part is incorporating the SVG graphics. They are so clean and scalable, however they can also be automated and linked from.
+This is just the begining.</description>
+    </item>
+    
+    <item>
       <title>Arduino Interupts</title>
       <link>http://mobilerobot.io/notes/arduino-interupts/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
