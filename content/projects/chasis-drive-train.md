@@ -8,69 +8,35 @@ description: >
 todo: 
   - place an images of all vehicles
   - place links to all kits
+  - design a rover body with plenty of room for electronics
+  - learn Fusion360 and Eagle Cad
 ---
 
-I first bought the Tank constructor kit from OSEPP to build my first robot
-frame, it was cool, modular building blocks with a Tank Tread and two
-DC motors that sat opposite of each other, generating the movement for
-this vehicle.<!--more-->
+It has hit me in very clear term, It has occured to me how big 
+of a challenge it is to create the mechanical housing,
+with all the cooling, cable management, room for power,
+be modular and easy to maintian.
 
-The first kit I bought from OSEPP was a Tank Tread vehical,
-electronics where sold seperately, but could be purchased in a kit.  I
-am not so interested in the kit, as I am in learning what it takes to
-build a robot.
+Oh yea, all the while maintaining the optimized motors, 
+suspension, steering and drive train.
 
-## Demo Software 
+Well here we go.  It first started to occur to me after 
+I built the first robot vehical "kit" when I routed a 
+few wires incorrectly, then wanted to add a couple more
+components.
 
-I loaded and ran a couple of the pieces of demo software, they were
-pretty neat to watch, but once the novelty wore off you end up with a
-rather expensive and kinda boring toy.
+Things fell off, wires got ran over I then began to realise
+the importance of suspension and how _non-trivial_ steering
+schemes are.
 
-The Robot could be _driven_ by any of the following configuraitons:
+But most important of all the above.  It MUST look COOL!
 
-- Line tracking - follow a black line on the ground
-- Follow light with an IR sensor
-- Maze with a ping sensor
-- Human controlled over Blue Tooth
+## OH, That is Why Great Design is So Hard
 
-### Reconfig Hardware, Rewrite Software
+It has finally occurred to me how important and HARD good
+design is.  
 
-Every demo required a hardware reconfiguration, and a completely
-different piece of software to be loaded.  Changing control
-algorigthms requires the bot to be completely shutdown, hardware
-re-configured and new software loaded.
+> Great designers are Unicorns!
 
-This is required for two reasons, the project was developed with a
-single Arduino and a sensor or two depending on the demo application. 
-
-### Beyond The Toy
-
-The quest now is to build something "useful", by some definition of
-useful.  It became clear to me, To create something useful Is going to
-require a more sophisticated and modular software design.
-
-### Different Drive Trains 
-
-And as Will see you later, I am in the purchasing a couple more
-Hardware kitsThat involve a two wheel balancing robotAs well as a
-four-wheel-drive robot, and a little two wheel skidder.
-
-It became clear, that I could not settle on a single power train
-system, tracks, two wheels, four wheels, let alone something sexier
-and more exotic like Mechanum (spelling on this?) wheels.
-
-
-
-Hence, the requirement of our GNC software will allow modular support
-for a variety of mechanical steering mechanisms.  Of course, certain
-steering algorithms can only work on particular steering controls.
-
-## Steering Algorithms
-
-### Skid Steering 
-
-### Ackerman Steering 
-
-### Rear Wheel Steering
-
-## Suspension
+OK I get it.  Time to start meeting some great designers
+and learning what elements make up great designs.
