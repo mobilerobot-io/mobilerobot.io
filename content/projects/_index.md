@@ -8,36 +8,22 @@ categories:
   - projects
 ---
 
-The Mobile Robot I/O project is really a collection of very different
-projects all coming together to make a specification of building _self
-driving robots_. 
+Robotics is inter-disciplinary, for me that is one of it's most intreging(sp)
+aspects, you have to get a lot of things right to get a Minimum Viable Robot
+(MVR).
+
+This project primary goal, a _self driving videographer_ is still a long ways
+away from an MVP, which is really a collection of different projects all coming
+together to make a specification of building _self driving robots_. 
 <!--more-->
 
-I am starting this _not knowing what I don't know_, I know that.  At
-this point to get our basic bot rollin, here are the major projects
-going on now.  
+The current state of the project is that we have built the _kits_ and got them 
+working, now the work in primarily going into separating, what I am calling
+the _application_ code from the _control code_.
 
-### Mechanical
-
-I was surprised out how quickly _mechanics_ became an issue, before
-building a bot, you need to really think through not just tracks
-vs. wheels, ignore turning and suspension.  Also, how to neatly mount
-all the perhiphs and Keep wires from becoming a mess.
-
-### Electrical
-
-The electrical, is what attracted me, initially.  Not a subject I knew
-much about, but electronics makes magic happen, it causes the _real
-world_ mechanics to come alive!  These days, with the low pricess of
-very powerful hardware, and the Open-ness of software, there are
-truley endless possibilities.
-
-### Software Rules
-
-The electronics are awesome, the mechanics amazing, but software is
-what puts the ___smart___ in _normal and boring objects_ like, phones,
-cars and doorbells.  Software is a topics I know quite a thing or two
-about, let us see how we can jump in and start creating some robots.
+We are also working with very basic chasis, either wheel or tank tranks, with
+rather compact chassis.  We will have to step up the chasis size to accomadate
+more electronics, gizmo attachments and batteries to supply ample power.
 
 <center><h2 class="mt-5">Do any of these projects interest you?</h2></center>
 

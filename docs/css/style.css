@@ -11,6 +11,11 @@ h1, h2, h3, h5, h4, h6 {
     font-family: sans-serif;
 }
 
+h1.header {
+    color: red;
+    font-size: 56px;
+}
+
 a {
     color: $primary;
 }
@@ -43,4 +48,8 @@ a {
 
 .list-group-item {
     font-size: 1.0rem;
+}
+
+.home-image {
+    background-size: 20px 30px;
 }

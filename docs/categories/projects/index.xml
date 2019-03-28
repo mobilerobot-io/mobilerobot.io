@@ -17,9 +17,13 @@
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/</guid>
-      <description>&lt;p&gt;The Mobile Robot I/O project is really a collection of very different
-projects all coming together to make a specification of building &lt;em&gt;self
-driving robots&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Robotics is inter-disciplinary, for me that is one of it&amp;rsquo;s most intreging(sp)
+aspects, you have to get a lot of things right to get a Minimum Viable Robot
+(MVR).&lt;/p&gt;
+
+&lt;p&gt;This project primary goal, a &lt;em&gt;self driving videographer&lt;/em&gt; is still a long ways
+away from an MVP, which is really a collection of different projects all coming
+together to make a specification of building &lt;em&gt;self driving robots&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
