@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software Defined Network on Mobile Robot I/O</title>
-    <link>http://localhost:1313/tags/software-defined-network/</link>
+    <link>http://mobilerobot.io/tags/software-defined-network/</link>
     <description>Recent content in Software Defined Network on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/software-defined-network/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mobilerobot.io/tags/software-defined-network/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Large Scale Video Delivery</title>
-      <link>http://localhost:1313/notes/mcast-video-delivery/</link>
+      <link>http://mobilerobot.io/notes/mcast-video-delivery/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/mcast-video-delivery/</guid>
+      <guid>http://mobilerobot.io/notes/mcast-video-delivery/</guid>
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital Ocean on Mobile Robot I/O</title>
-    <link>http://localhost:1313/tags/digital-ocean/</link>
+    <link>http://mobilerobot.io/tags/digital-ocean/</link>
     <description>Recent content in Digital Ocean on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://localhost:1313/tags/digital-ocean/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mobilerobot.io/tags/digital-ocean/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Making of The Mobile Robot Website</title>
-      <link>http://localhost:1313/about/this-website/</link>
+      <link>http://mobilerobot.io/about/this-website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/this-website/</guid>
+      <guid>http://mobilerobot.io/about/this-website/</guid>
       <description>Talk about how ansible was used to update this website. Terraform to provision the virtual host, ansible to manage configurations.
 Mobile Robot Website is:
  Markdown for authoring documents Github for version control and deployment NGINX is the web server Hugo is the Static Site Generator HAProxy is the LB Linux is the server Digital Ocean Provides the serverj Digital Ocean Provides the CDN  NGINX and Static sites generated with Hugo</description>
