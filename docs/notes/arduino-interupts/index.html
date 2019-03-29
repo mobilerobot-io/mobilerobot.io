@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel="stylesheet" href="http://localhost:1313/css/style.css">
+
+
+<title>Arduino Interupts</title>
+<body><header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+	<a class="navbar-brand text-muted text-monospace" href="http://localhost:1313/">Mobile Robot I/O</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <nav class="navbar-nav justify-content-end">
+  	        <a class="nav-link" href="http://localhost:1313/projects">projects</a>
+  	        <a class="nav-link" href="http://localhost:1313/notes">notes</a>
+  	        <a class="nav-link" href="http://localhost:1313/about">about</a>
+ 	    </nav>
+	</div>
+    </nav>
+</header>
+<div class="jumbotron bg-white">
+    <div class="row">
+	<div class="col"></div>
+	<div class="col-8">
+	    <h1 class="text-center header pb-1">Arduino Interupts</h1>
+	    <h5 class="leadin text-center text-muted mt-0">
+		The standard loop is great for many examples, tutorials and evern some applications, however when lots of things happen at random times and you want an efficient response from your hardware, Interupts may be in order.
+
+	    </h5>
+	</div>
+	<div class="col"></div>
+    </div>
+</div>
+<div id="main">
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-8">
+            <a href="http://localhost:1313/notes/arduino-interupts/">Arduino Interupts</a>
+        </div>
+        <div class="col"></div>
+    </div> 
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-8">
+
+<p>Nick Gammon does a great job <a href="http://gammon.com.au/interrupts">describing interupts on the Arduino</a>,
+when and I why you might want to use them.  As an overly summarized version,
+if you want to be able to get a notification when data has arrived
+without having to sleep and poll for data.</p>
+
+<p>Talk about Ardiuno interupts, non-blocking I/O and Nearly Real Time
+OS.  This is a very good, and very indepth article.</p>
+
+<p>TODO: Add some code snippets as examples for running external
+engines.</p>
+
+<h3 id="arduino-strength-is-realtime-dedicated-hardware">Arduino Strength is RealTime Dedicated Hardware</h3>
+
+<p>Arduino&rsquo;s are loyal, strong soldiers that will faithfully follow
+orders, however they are pretty dumb, at least compared to a Raspberry
+Pi.</p>
+
+<p>The Raspberry Pi consumes a significant amount of energy, and provides
+a tremendous amount of processing power compared to the Arduino.</p>
+
+<p>For now, we are going to keep it cheap and accessable our choices of
+hardware micro/macro controllers to be from the Arduino and Raspberry
+Pi family of products.</p>
+</div>
+        <div class="col"></div>
+    </div> 
+</div>
+
+    </div><footer id="footer" class="container">
+    <div class="row mt-5 pt-5">
+	<div class="col-2"></div>
+	<div class="col-8 text-small text-right text-muted">
+	    Eddy Consulting, LLC, Copyright 2006-2019
+	</div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+</html>

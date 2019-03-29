@@ -1,0 +1,55 @@
+body {
+    background: white;
+    color: #222222;
+    font-family: times;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+h1, h2, h3, h5, h4, h6 {
+    margin-top: 1.4rem;
+    font-family: sans-serif;
+}
+
+h1.header {
+    color: red;
+    font-size: 56px;
+}
+
+a {
+    color: $primary;
+}
+
+.section-title {
+    margin-top: 1.1rem auto;
+}
+
+.card {
+    margin: 2rem auto;
+}
+
+.card-title {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.single-page {
+}
+
+.footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.list-group-item {
+    font-size: 1.0rem;
+}
+
+.home-image {
+    background-size: 20px 30px;
+}

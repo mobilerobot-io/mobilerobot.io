@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel="stylesheet" href="http://localhost:1313/css/style.css">
+
+
+<title>Connecting a Raspberry PI and Arduino with I2C</title>
+<body><header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+	<a class="navbar-brand text-muted text-monospace" href="http://localhost:1313/">Mobile Robot I/O</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <nav class="navbar-nav justify-content-end">
+  	        <a class="nav-link" href="http://localhost:1313/projects">projects</a>
+  	        <a class="nav-link" href="http://localhost:1313/notes">notes</a>
+  	        <a class="nav-link" href="http://localhost:1313/about">about</a>
+ 	    </nav>
+	</div>
+    </nav>
+</header>
+<div class="jumbotron bg-white">
+    <div class="row">
+	<div class="col"></div>
+	<div class="col-8">
+	    <h1 class="text-center header pb-1">Connecting a Raspberry PI and Arduino with I2C</h1>
+	    <h5 class="leadin text-center text-muted mt-0">
+		I2C is simple, cheap and low energy way for a Raspberry PI and Arduinos can communicate.
+
+	    </h5>
+	</div>
+	<div class="col"></div>
+    </div>
+</div>
+<div id="main">
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-8">
+            <a href="http://localhost:1313/notes/i2c-rpi-arduino/">Connecting a Raspberry PI and Arduino with I2C</a>
+        </div>
+        <div class="col"></div>
+    </div> 
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-8">
+
+<p>When I first started tinkering with the Arduino, about mid 2018, (yea
+I know, I am waaaaay late to the game) It was so easy to find great
+tutorials, but that changed quickly once you start filling up the pins
+you need.</p>
+
+<blockquote>
+<p>The Whole is Greater than the sum of the parts</p>
+</blockquote>
+
+<h2 id="references">References:</h2>
+
+<ul>
+<li>[Nick Gannon ~ Excellent and thourough](&ldquo;<a href="http://www.gammon.com.au/i2c&quot;">http://www.gammon.com.au/i2c&quot;</a>)</li>
+<li>&ldquo;<a href="http://dsscircuits.com/articles/effects-of-varying-i2c-pull-up-resistors&quot;">http://dsscircuits.com/articles/effects-of-varying-i2c-pull-up-resistors&quot;</a></li>
+<li>&ldquo;<a href="https://oscarliang.com/raspberry-pi-arduino-connected-i2c/&quot;">https://oscarliang.com/raspberry-pi-arduino-connected-i2c/&quot;</a></li>
+</ul>
+
+<h2 id="macro-and-micro-controllers">Macro and Micro Controllers</h2>
+
+<p>One attractive thought is using the Raspberry PI and it&rsquo;s full blown
+OS, programming and communication capabilities as the brains and
+transport.</p>
+
+<pre><code>  RPi {3, 5} -- Ard { A3, A4 } (check this)
+        Gnd  -- Gnd
+</code></pre>
+
+<p>The Arduino being a better piece of physical computing, and real-time
+hardware would make a dandy duo indeed!</p>
+
+<p>Let the Arduino (or one of its many cousins) go to town interacting
+with the real world, let the Raspberry PI tell the Arduino what to do,
+and gather data from it.</p>
+
+<h3 id="logic-level-converters">Logic Level Converters</h3>
+
+<p>I bought a couple LLC from Amazon from Hiletgo.  4 Channel, bidirectional
+Logic Level Controller.</p>
+
+<pre><code>  sdlc lv1 --  -- hv1 sclk
+  sclk lv2 --  -- hv2 sdlc
+  3.3v  lv --  -- hv  5v
+       gnd --  -- gnd
+  sclk lv3 --  -- hv3 sdlc
+  sdlc lv4 --  -- hv4 sclk
+</code></pre>
+
+<p>The left sides is low voltage.</p>
+
+<h3 id="communicating-controllers">Communicating Controllers</h3>
+
+<h2 id="communication-options">Communication Options</h2>
+
+<h3 id="usb-ethernet-and-wireless">USB, Ethernet and Wireless</h3>
+
+<p>Fast, relatively expenseive, in the case of USB, Ethernet and 802.x
+are power hungry and heavy weight.</p>
+
+<h3 id="i2c-simple-wiring-and-close-proximity">I2C, Simple wiring and Close Proximity</h3>
+
+<ul>
+<li>close proximity</li>
+<li>low - moderate bandwidth (400k simplex)</li>
+<li>super simple and cheap</li>
+<li>need two wires for data and clock signals (yes, you also need power
+and mostlikely a ground) so 4 wires &hellip;</li>
+<li>it has been around forever and very well established sets hardware</li>
+<li>very low latency(?) Great for realtime up to X delay</li>
+<li>low bandwidth</li>
+</ul>
+</div>
+        <div class="col"></div>
+    </div> 
+</div>
+
+    </div><footer id="footer" class="container">
+    <div class="row mt-5 pt-5">
+	<div class="col-2"></div>
+	<div class="col-8 text-small text-right text-muted">
+	    Eddy Consulting, LLC, Copyright 2006-2019
+	</div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+</html>

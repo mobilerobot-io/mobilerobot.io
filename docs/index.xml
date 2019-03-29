@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile Robot I/O Project on Mobile Robot I/O</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Mobile Robot I/O Project on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Mobile Robot Project</title>
+      <link>http://localhost:1313/notes/project/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/project/</guid>
+      <description>&lt;p&gt;We want to build a self&lt;/p&gt;
+
+&lt;p&gt;The Robot must be able to navigate while controlled by a human or
+software, it must be modular, extensible and configurable.  Interested
+in the project?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Problem Definition</title>
+      <link>http://localhost:1313/process/01-problem-definition/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/process/01-problem-definition/</guid>
+      <description>&lt;p&gt;We want to build an automous driven vehicle that can film and stream
+video from under my house, for under USD $500.  The vehical must also
+be able to communicate select sensor data.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Consider Alternative Designs</title>
+      <link>http://localhost:1313/process/02-design-alternatives/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/process/02-design-alternatives/</guid>
+      <description>&lt;p&gt;One of the beautiful things about &lt;em&gt;robotics&lt;/em&gt; are the wide variety of
+disciplines involved to successfully build and operate even the most
+basic of robots, let alone something of the scale that we are planning
+to build. Read more&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Orchestration</title>
+      <link>http://localhost:1313/notes/orchestration/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/orchestration/</guid>
+      <description>Terraform and Ansible are great!</description>
+    </item>
+    
+    <item>
+      <title>Design Selection</title>
+      <link>http://localhost:1313/process/03-select-design/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/process/03-select-design/</guid>
+      <description>&lt;p&gt;At this point in our R&amp;amp;D we are leaning toward an overall design that
+looks something like this (and subject to change at any knee jerk
+moment): Read more&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Detailed Design</title>
+      <link>http://localhost:1313/process/04-detailed-design/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/process/04-detailed-design/</guid>
+      <description>&lt;p&gt;We will use a Raspberry Pi as the main on unit controller.  The
+Raspberry Pi will be attached via one of the common local bus
+protocols (i2c, SPI or Canbus).  Read More &amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Design Feedback</title>
+      <link>http://localhost:1313/process/05-communicate-design/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/process/05-communicate-design/</guid>
+      <description>&lt;p&gt;This is where we start communicating (or socializing) or designs.  We
+sincerly want to get qualified opinions and advice regarding our
+designs.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fabricate, Assemble and Maintain</title>
+      <link>http://localhost:1313/process/06-fabricate-and-assemble/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/process/06-fabricate-and-assemble/</guid>
+      <description>&lt;p&gt;Time to build our first complete prototype.  Time to get into the shop
+and start making physical world stuff.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Schedule, Budget and Reality</title>
+      <link>http://localhost:1313/process/09-budget-costs-and-materials/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/process/09-budget-costs-and-materials/</guid>
+      <description>Keep track here of what it really cost to build this thing, that includes failed experiments.
+Did we stick to schedule and budget, but put out the numbers for a</description>
+    </item>
+    
+    <item>
+      <title>Evaluate Performance</title>
+      <link>http://localhost:1313/process/10-evalutate-performance/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/process/10-evalutate-performance/</guid>
+      <description>&lt;p&gt;OK, we built it, how are we doing?  How long did the research take,
+how long did the build take?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Draw I/O and SVG Images</title>
+      <link>http://localhost:1313/notes/draw-io-and-svg-images/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/draw-io-and-svg-images/</guid>
+      <description>I have created my first (but not last diagram with Draw.IO). I guess the important part is incorporating the SVG graphics. They are so clean and scalable, however they can also be automated and linked from.
+This is just the begining.</description>
+    </item>
+    
+    <item>
+      <title>RF Remote Control</title>
+      <link>http://localhost:1313/projects/rf-remote-control/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/rf-remote-control/</guid>
+      <description>Project Definition Our mobile robot is going to need a remote control, may as well be a joystick. Yes, we do have high hopes of getting the vehicle to drive itself, we are still going to support a Human controlled switch over.
+Following is a quick-n-dirty block diagram of the project design.
+RF Remote Control Electronics The first pass at the remote control will be a single joystick on the RC station.</description>
+    </item>
+    
+    <item>
+      <title>Programming the NRF240L1 RF Tranceiver</title>
+      <link>http://localhost:1313/notes/programming-the-nlrf24l01/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/programming-the-nlrf24l01/</guid>
+      <description> This RC reciever chip is very easy to use out of the box, yet provides some very sophisticated capabilities. The first project We&amp;rsquo;ll start using this chip will be a remote control Joystick for our mobile robot.
+Todos:  point to the datasheet load personal photos of my project with NRF20L  pull the image from evernote  fritz a diagram post code that I use and or wrote Try to do an eagle cad  SPI Interface Point To Point Send and Recieve Mesh Networks Support on Arduino Suipport on Raspberry Pi </description>
+    </item>
+    
+    <item>
+      <title>GNC ~ Guidance, Navigation and Control</title>
+      <link>http://localhost:1313/projects/guidance-navigation-control/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/guidance-navigation-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino Interupts</title>
+      <link>http://localhost:1313/notes/arduino-interupts/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/arduino-interupts/</guid>
+      <description>Nick Gammon does a great job describing interupts on the Arduino, when and I why you might want to use them. As an overly summarized version, if you want to be able to get a notification when data has arrived without having to sleep and poll for data.
+Talk about Ardiuno interupts, non-blocking I/O and Nearly Real Time OS. This is a very good, and very indepth article.
+TODO: Add some code snippets as examples for running external engines.</description>
+    </item>
+    
+    <item>
+      <title>Control Systems</title>
+      <link>http://localhost:1313/projects/control-system/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/control-system/</guid>
+      <description>Problem Definition When setting out to create a Mobile Robot one is faced with a lot of choices, like how does the robot steer or control itself? Does it have, legs, wheels or tracks? How will it be controlled, through computer vision, distance sensors or humans?
+What Platform and Language? You are also have to ask the question, what platform will all this run on? Arduino for the sharper hardware support or the raspberry pi and it&amp;rsquo;s superior computing capabilities and software support?</description>
+    </item>
+    
+    <item>
+      <title>The Chasis and Drive Train</title>
+      <link>http://localhost:1313/projects/chasis-drive-train/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/chasis-drive-train/</guid>
+      <description>It has hit me in very clear term, It has occured to me how big of a challenge it is to create the mechanical housing, with all the cooling, cable management, room for power, be modular and easy to maintian.
+Oh yea, all the while maintaining the optimized motors, suspension, steering and drive train.
+Well here we go. It first started to occur to me after I built the first robot vehical &amp;ldquo;kit&amp;rdquo; when I routed a few wires incorrectly, then wanted to add a couple more components.</description>
+    </item>
+    
+    <item>
+      <title>On Vehicle Communication</title>
+      <link>http://localhost:1313/projects/on-vehicle-communications/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/on-vehicle-communications/</guid>
+      <description>One of the first issues that we came against was the specific configurations of the micro-controllers as well and the number and configuration of pins and hardware particulars.
+Macro-Micro Controllers The system should be flexible enough to allow one or more macro-controls communicating with one or more micro-controllers.
+Communication Mechanism We have a rather complex set of communication requirements, we have signals between sensors, motors and micro-controllers. We also have the communication from the micro-controllers and the macro-controller.</description>
+    </item>
+    
+    <item>
+      <title>Arduino Nano</title>
+      <link>http://localhost:1313/notes/arduino-nano/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/arduino-nano/</guid>
+      <description>I flashed the onbaord LED and I made the RGB LED change colors. It is powered with a old style mini (small) USB adaptor.
+I was able to connect the Arduino Nanos to the I2C bus created for internal communications.
+Power can be brought in through a 5v Vin pin.</description>
+    </item>
+    
+    <item>
+      <title>Zumo Bot Control Mods</title>
+      <link>http://localhost:1313/projects/zumo/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/zumo/</guid>
+      <description>TODO: talk about the changes to the Zumo bot and what they accomplished.
+ Project Description
+ Circuits used
+ Software used
+ Mechanical Parts used
+ Videos and images of project
+  On so forth.</description>
+    </item>
+    
+    <item>
+      <title>Connecting a Raspberry PI and Arduino with I2C</title>
+      <link>http://localhost:1313/notes/i2c-rpi-arduino/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/i2c-rpi-arduino/</guid>
+      <description>When I first started tinkering with the Arduino, about mid 2018, (yea I know, I am waaaaay late to the game) It was so easy to find great tutorials, but that changed quickly once you start filling up the pins you need.
+ The Whole is Greater than the sum of the parts
+ References:  [Nick Gannon ~ Excellent and thourough](&amp;ldquo;http://www.gammon.com.au/i2c&amp;quot;) &amp;ldquo;http://dsscircuits.com/articles/effects-of-varying-i2c-pull-up-resistors&amp;quot; &amp;ldquo;https://oscarliang.com/raspberry-pi-arduino-connected-i2c/&amp;quot;  Macro and Micro Controllers One attractive thought is using the Raspberry PI and it&amp;rsquo;s full blown OS, programming and communication capabilities as the brains and transport.</description>
+    </item>
+    
+    <item>
+      <title>Tank and The Internets</title>
+      <link>http://localhost:1313/notes/reboot/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/reboot/</guid>
+      <description>&lt;p&gt;As Tank roams about, it will be gathering and transmitting data
+according to the application, that data will be collected, by a
+collector and sent to storage.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OSEPP Tank Kit</title>
+      <link>http://localhost:1313/notes/osepp-tank-kit/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/osepp-tank-kit/</guid>
+      <description>TODO: Place some photos, and pointers to everything.</description>
+    </item>
+    
+    <item>
+      <title>Large Scale Video Delivery</title>
+      <link>http://localhost:1313/notes/mcast-video-delivery/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/mcast-video-delivery/</guid>
+      <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
+streaming video to millions of users, simultaneously. That same
+technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
+other major&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TFTP Display with Adafruit 2.8 LCD</title>
+      <link>http://localhost:1313/notes/rpi-adafruit-tftp-display/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/rpi-adafruit-tftp-display/</guid>
+      <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
+function.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reconfigure the Raspberry Pi by Rebooting</title>
+      <link>http://localhost:1313/notes/raspberry-pi-network-booting/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/raspberry-pi-network-booting/</guid>
+      <description>Booting a Raspberry Pi from an SD card or USB stick is pretty neat and all, but they are inadequate for sustainded, reliable production use.
+The quality of the SD comes into question immediately. Even the best of SD cards can go south out of nowhere! I do not know much about sd cards at all, except that I have blasted through about 12 of them this with 3 RPI&amp;rsquo;s (and a BeableBone), that is too expensive.</description>
+    </item>
+    
+    <item>
+      <title>Management This Website</title>
+      <link>http://localhost:1313/notes/websites/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/websites/</guid>
+      <description>&lt;p&gt;Even what at first glance would seem to be the simplist of websites
+will end up being a lot of work, if that site is to become
+productive.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sensor Networks</title>
+      <link>http://localhost:1313/notes/sensor-networks/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/sensor-networks/</guid>
+      <description> TODO: write ups  sierra hydrographics ACOE GOES software timeseries databases example sensor network around the house (throw in hardware)  </description>
+    </item>
+    
+    <item>
+      <title>The Go Schedular in Depth</title>
+      <link>http://localhost:1313/notes/go-scheduler-in-depth/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go-scheduler-in-depth/</guid>
+      <description>This is a three part series:
+ part2: https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html  PS Look at the company for inspiration</description>
+    </item>
+    
+    <item>
+      <title>DC Power, Batteries and Solar</title>
+      <link>http://localhost:1313/notes/power/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/power/</guid>
+      <description>Different options for powering robots. Stationary, near electrical outlets is always the easiest, but does not bode well for mobile and autonomous.
+Batteries are the key factor.
+Make a list of my various power supplies.
+Also make a link to the Youtube video that shows how to make a multi voltage power supply from an old PC power supply.</description>
+    </item>
+    
+    <item>
+      <title>Software Development</title>
+      <link>http://localhost:1313/notes/software/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/software/</guid>
+      <description>This document will attempt to capture and define some Software best practices that we&amp;rsquo;ll practice during our software development process.
+Zero Downtime Software Also, how can we manage the software on a live robot? This sounds like a job for industrial strength, distributed system with a friendly API. Is it possible?
+Oh, it has to be all OpenSource. It is entirely acceptable, and preferable to use other well established Open Source products.</description>
+    </item>
+    
+    <item>
+      <title>Requirements ~ The Controller</title>
+      <link>http://localhost:1313/notes/reqs-controller/</link>
+      <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/reqs-controller/</guid>
+      <description>The controller has two primary parts, the hardware and sofware elements. A good system design, like ours will separate the specific hardware and the controlling software.
+Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence it needs to be free of tethers, both electronics, controls and power.
+ must be responsive, there should be no (minimized) percievable delay from  TODO: Determine HW Control type There are a number of choices to select for HW control, RFI seems to be a good candidate.</description>
+    </item>
+    
+    <item>
+      <title>Robotics and IoT</title>
+      <link>http://localhost:1313/notes/robotics/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/robotics/</guid>
+      <description>&lt;p&gt;The world is full of things that rely on software to work, from
+sprinkler systems, to cars and jet airplanes, laptops, cell phones and
+drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino vs Raspberry Pi</title>
+      <link>http://localhost:1313/notes/rpi-vs-arduino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/rpi-vs-arduino/</guid>
+      <description>Limitations of Hardware The Arduino is the workhorse of the maker world, for very good reason, but I quickly realized I was running out of pins for all the things I wanted to attach to Arduino.
+A motorshield on one Arduino, and a large number of sensors will overwhelm the hardware power of one of these devices. More important, the processing power can easily become overwhelmed with some of the smarts required for the driving algorightms and moving time-series data into the clowd.</description>
+    </item>
+    
+    <item>
+      <title>Chassis and Drive Train</title>
+      <link>http://localhost:1313/notes/reqs-hw-chasis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/reqs-hw-chasis/</guid>
+      <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
+going to actually function in the real world.  It all starts with a
+design in mind, choices of materials, the design of all functional
+components, mobility, motion and durability of the project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Making of The Mobile Robot Website</title>
+      <link>http://localhost:1313/about/this-website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/this-website/</guid>
+      <description>Talk about how ansible was used to update this website. Terraform to provision the virtual host, ansible to manage configurations.
+Mobile Robot Website is:
+ Markdown for authoring documents Github for version control and deployment NGINX is the web server Hugo is the Static Site Generator HAProxy is the LB Linux is the server Digital Ocean Provides the serverj Digital Ocean Provides the CDN  NGINX and Static sites generated with Hugo</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mechanics on Mobile Robot I/O</title>
+    <link>http://localhost:1313/categories/mechanics/</link>
+    <description>Recent content in Mechanics on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/mechanics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RF Remote Control</title>
+      <link>http://localhost:1313/projects/rf-remote-control/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/rf-remote-control/</guid>
+      <description>Project Definition Our mobile robot is going to need a remote control, may as well be a joystick. Yes, we do have high hopes of getting the vehicle to drive itself, we are still going to support a Human controlled switch over.
+Following is a quick-n-dirty block diagram of the project design.
+RF Remote Control Electronics The first pass at the remote control will be a single joystick on the RC station.</description>
+    </item>
+    
+    <item>
+      <title>On Vehicle Communication</title>
+      <link>http://localhost:1313/projects/on-vehicle-communications/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/on-vehicle-communications/</guid>
+      <description>One of the first issues that we came against was the specific configurations of the micro-controllers as well and the number and configuration of pins and hardware particulars.
+Macro-Micro Controllers The system should be flexible enough to allow one or more macro-controls communicating with one or more micro-controllers.
+Communication Mechanism We have a rather complex set of communication requirements, we have signals between sensors, motors and micro-controllers. We also have the communication from the micro-controllers and the macro-controller.</description>
+    </item>
+    
+    <item>
+      <title>Chassis and Drive Train</title>
+      <link>http://localhost:1313/notes/reqs-hw-chasis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/reqs-hw-chasis/</guid>
+      <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
+going to actually function in the real world.  It all starts with a
+design in mind, choices of materials, the design of all functional
+components, mobility, motion and durability of the project.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
