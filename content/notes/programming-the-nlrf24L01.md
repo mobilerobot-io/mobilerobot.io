@@ -39,7 +39,8 @@ He suggests either buying a voltage regulator to ensure we get a
 smooth regulated 3.3v.  
 
 Or you could stick a 1-10 uF Capacitor between the Vcc and Ground
-terminals. 
+terminals, that minimally should regulated the 5v step down to a
+regulated 3.3v.
 
 ## SPI Interface
 
