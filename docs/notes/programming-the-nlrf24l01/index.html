@@ -69,7 +69,25 @@ robot.</p>
 <li>Try to do an eagle cad</li>
 </ul>
 
+<h2 id="source-voltage">Source Voltage</h2>
+
+<p>According to <a href="https://medium.com/@benjamindavidfraser/arduino-nrf24l01-communications-947e1acb33fb">Benjamin David
+Fraser</a>
+Plugging the NRF24L02 directly into the Arduino 3.3v power supply pin,
+will produce unregulated power, which will eventually lead to flaky or
+failed communications.</p>
+
+<p>He suggests either buying a voltage regulator to ensure we get a
+smooth regulated 3.3v.</p>
+
+<p>Or you could stick a 1-10 uF Capacitor between the Vcc and Ground
+terminals.</p>
+
 <h2 id="spi-interface">SPI Interface</h2>
+
+<p>The NRF24L01 operates from the SPI Interface, so controlling the chip
+with the standard pin outs on the Arduino or Raspberry Pi will be
+adequate for controlling the chip.</p>
 
 <h2 id="point-to-point-send-and-recieve">Point To Point Send and Recieve</h2>
 

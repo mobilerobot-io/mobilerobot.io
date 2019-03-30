@@ -9,6 +9,8 @@ category: electronics
 tags:
   - nrf240l1
   - spi
+todo:
+  - Voltage Regulator for smooth 3.3v
 ---
 
 This RC reciever chip is very easy to use out of the box, yet provides
@@ -25,8 +27,25 @@ robot.
 - post code that I use and or wrote
 - Try to do an eagle cad
 
+## Source Voltage
+
+According to [Benjamin David
+Fraser](https://medium.com/@benjamindavidfraser/arduino-nrf24l01-communications-947e1acb33fb)
+Plugging the NRF24L02 directly into the Arduino 3.3v power supply pin,
+will produce unregulated power, which will eventually lead to flaky or
+failed communications.
+
+He suggests either buying a voltage regulator to ensure we get a
+smooth regulated 3.3v.  
+
+Or you could stick a 1-10 uF Capacitor between the Vcc and Ground
+terminals. 
 
 ## SPI Interface
+
+The NRF24L01 operates from the SPI Interface, so controlling the chip
+with the standard pin outs on the Arduino or Raspberry Pi will be
+adequate for controlling the chip.
 
 ## Point To Point Send and Recieve
 
