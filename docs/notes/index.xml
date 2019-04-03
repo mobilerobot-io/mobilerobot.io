@@ -21,7 +21,27 @@
 
 &lt;p&gt;The Robot must be able to navigate while controlled by a human or
 software, it must be modular, extensible and configurable.  Interested
-in the project? &lt;/p&gt;</description>
+in the project?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino Pro Mini</title>
+      <link>http://mobilerobot.io/notes/arduino-pro-mini/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/arduino-pro-mini/</guid>
+      <description>I bought this thing for $7.99, it does not have a usb connected nor the requesit circuitry to upload programs with,
+The Pro comes without the mini-USB connector and hence requires a FTDI serial adapter to load the software on the chip.</description>
+    </item>
+    
+    <item>
+      <title>Micro Controller Communication Options</title>
+      <link>http://mobilerobot.io/notes/micro-communication-options/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/micro-communication-options/</guid>
+      <description>Our vehical is required to support at least power 4-DC motors, 2 Servos for the camera&amp;rsquo;s Pan &amp;amp; Tilt functions. There will be at least one camera, perhaps more streaming video. There will be an assortment of sensors, including distance, atmosphere, LED lights and so on.
+Lot&amp;rsquo;s of stuff going on That being the case, we will keep a couple Arduino&amp;rsquo;s and a Raspberry Pi busy keeping our Robot vehicle rolling.</description>
     </item>
     
     <item>
@@ -85,8 +105,7 @@ Power can be brought in through a 5v Vin pin.</description>
       <guid>http://mobilerobot.io/notes/reboot/</guid>
       <description>&lt;p&gt;As Tank roams about, it will be gathering and transmitting data
 according to the application, that data will be collected, by a
-collector and sent to storage.
-&lt;/p&gt;</description>
+collector and sent to storage.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -107,8 +126,7 @@ collector and sent to storage.
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major
-&lt;/p&gt;</description>
+other major&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -118,8 +136,7 @@ other major
       
       <guid>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.
-&lt;/p&gt;</description>
+function.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -140,8 +157,7 @@ The quality of the SD comes into question immediately. Even the best of SD cards
       <guid>http://mobilerobot.io/notes/websites/</guid>
       <description>&lt;p&gt;Even what at first glance would seem to be the simplist of websites
 will end up being a lot of work, if that site is to become
-productive.&lt;br /&gt;
-&lt;/p&gt;</description>
+productive.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -205,8 +221,7 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
       <guid>http://mobilerobot.io/notes/robotics/</guid>
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.
-&lt;/p&gt;</description>
+drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -215,8 +230,36 @@ drones.  You name it everything. Now lets consider how we use it.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/notes/rpi-vs-arduino/</guid>
-      <description>Limitations of Hardware The Arduino is the workhorse of the maker world, for very good reason, but I quickly realized I was running out of pins for all the things I wanted to attach to Arduino.
-A motorshield on one Arduino, and a large number of sensors will overwhelm the hardware power of one of these devices. More important, the processing power can easily become overwhelmed with some of the smarts required for the driving algorightms and moving time-series data into the clowd.</description>
+      <description>&lt;p&gt;My goal is to build a very simple RTOS communication module for the
+on-board vehicle control system.&lt;/p&gt;
+
+&lt;h2 id=&#34;limitations-of-hardware&#34;&gt;Limitations of Hardware&lt;/h2&gt;
+
+&lt;p&gt;The Arduino is the workhorse of the maker world, for very good reason,
+but I quickly realized I was running out of pins for all the things I
+wanted to attach to Arduino.&lt;/p&gt;
+
+&lt;p&gt;A motorshield on one Arduino, and a large number of sensors will
+overwhelm the hardware power of one of these devices.  More important,
+the processing power can easily become overwhelmed with some of the
+smarts required for the driving algorightms and moving time-series
+data into the clowd.&lt;/p&gt;
+
+&lt;p&gt;For that reason we will setup a Micro/Macro Controller arrangement for
+our purpose.&lt;/p&gt;
+
+&lt;p&gt;The Arduino is perhaps the greatest things to ever happen for the
+Weekend Warrior wanting to play &lt;em&gt;Electrical Engineer&lt;/em&gt; (which is me).&lt;/p&gt;
+
+&lt;p&gt;The Arduino comes with a mind numbing option of extreemly cheep (or
+expensive and sophisticated) after market eco system of input sensors,
+motors and so on.&lt;/p&gt;
+
+&lt;p&gt;The Arduino, is THANKFULLY very simple to use. This also means that it
+lacks a lot in comparison with the full blown operating system.
+&lt;em&gt;Mobile Robots&lt;/em&gt; requires a rather complex combination of inputs
+sensors (distance, temprature, atmosphere), cameras (live video) and
+outputs such as electric motors, leds, speakers and displays.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -228,8 +271,7 @@ A motorshield on one Arduino, and a large number of sensors will overwhelm the h
       <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
 going to actually function in the real world.  It all starts with a
 design in mind, choices of materials, the design of all functional
-components, mobility, motion and durability of the project.
-&lt;/p&gt;</description>
+components, mobility, motion and durability of the project.&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -23,15 +23,6 @@ RF Remote Control Electronics The first pass at the remote control will be a sin
     </item>
     
     <item>
-      <title>GNC ~ Guidance, Navigation and Control</title>
-      <link>http://mobilerobot.io/projects/guidance-navigation-control/</link>
-      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/projects/guidance-navigation-control/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Arduino Interupts</title>
       <link>http://mobilerobot.io/notes/arduino-interupts/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
@@ -62,8 +53,7 @@ Communication Mechanism We have a rather complex set of communication requiremen
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major
-&lt;/p&gt;</description>
+other major&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -73,8 +63,7 @@ other major
       
       <guid>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.
-&lt;/p&gt;</description>
+function.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -105,8 +94,7 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
       <guid>http://mobilerobot.io/notes/robotics/</guid>
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.
-&lt;/p&gt;</description>
+drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
     </item>
     
   </channel>

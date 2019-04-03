@@ -48,6 +48,16 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/notes/arduino-pro-mini/</loc>
+    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/micro-communication-options/</loc>
+    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/notes/draw-io-and-svg-images/</loc>
     <lastmod>2019-03-27T00:00:00+00:00</lastmod>
   </url>
@@ -63,7 +73,7 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/guidance-navigation-control/</loc>
+    <loc>http://mobilerobot.io/projects/onboard-communications-with-i2c/</loc>
     <lastmod>2019-03-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -188,19 +198,19 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/categories-electronics/</loc>
+    <loc>http://mobilerobot.io/categories/categories/electronics/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/categories-mechanics/</loc>
+    <loc>http://mobilerobot.io/categories/categories/mechanics/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/categories-software/</loc>
+    <loc>http://mobilerobot.io/categories/categories/software/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -298,12 +308,6 @@
   <url>
     <loc>http://mobilerobot.io/tags/infra-as-code/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/mechanical/</loc>
-    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

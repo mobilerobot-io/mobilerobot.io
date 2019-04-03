@@ -21,7 +21,7 @@
 
 &lt;p&gt;The Robot must be able to navigate while controlled by a human or
 software, it must be modular, extensible and configurable.  Interested
-in the project? &lt;/p&gt;</description>
+in the project?&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,8 +32,7 @@ in the project? &lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/01-problem-definition/</guid>
       <description>&lt;p&gt;We want to build an automous driven vehicle that can film and stream
 video from under my house, for under USD $500.  The vehical must also
-be able to communicate select sensor data.
- &lt;/p&gt;</description>
+be able to communicate select sensor data.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -56,7 +55,7 @@ to build. Read more&amp;hellip;&lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/03-select-design/</guid>
       <description>&lt;p&gt;At this point in our R&amp;amp;D we are leaning toward an overall design that
 looks something like this (and subject to change at any knee jerk
-moment): Read more &lt;/p&gt;</description>
+moment): Read more&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,8 +66,7 @@ moment): Read more &lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/04-detailed-design/</guid>
       <description>&lt;p&gt;We will use a Raspberry Pi as the main on unit controller.  The
 Raspberry Pi will be attached via one of the common local bus
-protocols (i2c, SPI or Canbus).  Read More &amp;hellip;
-&lt;/p&gt;</description>
+protocols (i2c, SPI or Canbus).  Read More &amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -79,8 +77,7 @@ protocols (i2c, SPI or Canbus).  Read More &amp;hellip;
       <guid>http://mobilerobot.io/process/05-communicate-design/</guid>
       <description>&lt;p&gt;This is where we start communicating (or socializing) or designs.  We
 sincerly want to get qualified opinions and advice regarding our
-designs.
-&lt;/p&gt;</description>
+designs.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -110,7 +107,27 @@ Did we stick to schedule and budget, but put out the numbers for a</description>
       
       <guid>http://mobilerobot.io/process/10-evalutate-performance/</guid>
       <description>&lt;p&gt;OK, we built it, how are we doing?  How long did the research take,
-how long did the build take? &lt;/p&gt;</description>
+how long did the build take?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino Pro Mini</title>
+      <link>http://mobilerobot.io/notes/arduino-pro-mini/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/arduino-pro-mini/</guid>
+      <description>I bought this thing for $7.99, it does not have a usb connected nor the requesit circuitry to upload programs with,
+The Pro comes without the mini-USB connector and hence requires a FTDI serial adapter to load the software on the chip.</description>
+    </item>
+    
+    <item>
+      <title>Micro Controller Communication Options</title>
+      <link>http://mobilerobot.io/notes/micro-communication-options/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/micro-communication-options/</guid>
+      <description>Our vehical is required to support at least power 4-DC motors, 2 Servos for the camera&amp;rsquo;s Pan &amp;amp; Tilt functions. There will be at least one camera, perhaps more streaming video. There will be an assortment of sensors, including distance, atmosphere, LED lights and so on.
+Lot&amp;rsquo;s of stuff going on That being the case, we will keep a couple Arduino&amp;rsquo;s and a Raspberry Pi busy keeping our Robot vehicle rolling.</description>
     </item>
     
     <item>
@@ -145,12 +162,14 @@ Todos:  point to the datasheet load personal photos of my project with NRF20L  p
     </item>
     
     <item>
-      <title>GNC ~ Guidance, Navigation and Control</title>
-      <link>http://mobilerobot.io/projects/guidance-navigation-control/</link>
+      <title>Onboard Communication Over an I2C Bus</title>
+      <link>http://mobilerobot.io/projects/onboard-communications-with-i2c/</link>
       <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/projects/guidance-navigation-control/</guid>
-      <description></description>
+      <guid>http://mobilerobot.io/projects/onboard-communications-with-i2c/</guid>
+      <description>For reasons documentented in Micro Communicaiton Options and RPI Vs. Arduion we established the reasons why our vehicle will host a couple arduino&amp;rsquo;s and a Raspberry Pi.
+Macro to Micro Controller Communication Our basic architecture has the Raspberry Pi controlling show on the Vehical itself. The Arduino&amp;rsquo;s are used to collect sensor inputs then send them to the macro-controller for further processing and storage.
+RPI Master Arduino Slave  Sensor Inputs Motor Outputs  Todo A single simple image</description>
     </item>
     
     <item>
@@ -241,8 +260,7 @@ Power can be brought in through a 5v Vin pin.</description>
       <guid>http://mobilerobot.io/notes/reboot/</guid>
       <description>&lt;p&gt;As Tank roams about, it will be gathering and transmitting data
 according to the application, that data will be collected, by a
-collector and sent to storage.
-&lt;/p&gt;</description>
+collector and sent to storage.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -263,8 +281,7 @@ collector and sent to storage.
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major
-&lt;/p&gt;</description>
+other major&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -274,8 +291,7 @@ other major
       
       <guid>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.
-&lt;/p&gt;</description>
+function.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -296,8 +312,7 @@ The quality of the SD comes into question immediately. Even the best of SD cards
       <guid>http://mobilerobot.io/notes/websites/</guid>
       <description>&lt;p&gt;Even what at first glance would seem to be the simplist of websites
 will end up being a lot of work, if that site is to become
-productive.&lt;br /&gt;
-&lt;/p&gt;</description>
+productive.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -361,8 +376,7 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
       <guid>http://mobilerobot.io/notes/robotics/</guid>
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.
-&lt;/p&gt;</description>
+drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -371,8 +385,36 @@ drones.  You name it everything. Now lets consider how we use it.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/notes/rpi-vs-arduino/</guid>
-      <description>Limitations of Hardware The Arduino is the workhorse of the maker world, for very good reason, but I quickly realized I was running out of pins for all the things I wanted to attach to Arduino.
-A motorshield on one Arduino, and a large number of sensors will overwhelm the hardware power of one of these devices. More important, the processing power can easily become overwhelmed with some of the smarts required for the driving algorightms and moving time-series data into the clowd.</description>
+      <description>&lt;p&gt;My goal is to build a very simple RTOS communication module for the
+on-board vehicle control system.&lt;/p&gt;
+
+&lt;h2 id=&#34;limitations-of-hardware&#34;&gt;Limitations of Hardware&lt;/h2&gt;
+
+&lt;p&gt;The Arduino is the workhorse of the maker world, for very good reason,
+but I quickly realized I was running out of pins for all the things I
+wanted to attach to Arduino.&lt;/p&gt;
+
+&lt;p&gt;A motorshield on one Arduino, and a large number of sensors will
+overwhelm the hardware power of one of these devices.  More important,
+the processing power can easily become overwhelmed with some of the
+smarts required for the driving algorightms and moving time-series
+data into the clowd.&lt;/p&gt;
+
+&lt;p&gt;For that reason we will setup a Micro/Macro Controller arrangement for
+our purpose.&lt;/p&gt;
+
+&lt;p&gt;The Arduino is perhaps the greatest things to ever happen for the
+Weekend Warrior wanting to play &lt;em&gt;Electrical Engineer&lt;/em&gt; (which is me).&lt;/p&gt;
+
+&lt;p&gt;The Arduino comes with a mind numbing option of extreemly cheep (or
+expensive and sophisticated) after market eco system of input sensors,
+motors and so on.&lt;/p&gt;
+
+&lt;p&gt;The Arduino, is THANKFULLY very simple to use. This also means that it
+lacks a lot in comparison with the full blown operating system.
+&lt;em&gt;Mobile Robots&lt;/em&gt; requires a rather complex combination of inputs
+sensors (distance, temprature, atmosphere), cameras (live video) and
+outputs such as electric motors, leds, speakers and displays.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -384,8 +426,7 @@ A motorshield on one Arduino, and a large number of sensors will overwhelm the h
       <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
 going to actually function in the real world.  It all starts with a
 design in mind, choices of materials, the design of all functional
-components, mobility, motion and durability of the project.
-&lt;/p&gt;</description>
+components, mobility, motion and durability of the project.&lt;/p&gt;</description>
     </item>
     
     <item>

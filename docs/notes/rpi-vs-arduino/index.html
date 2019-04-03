@@ -30,7 +30,8 @@
 	<div class="col-8">
 	    <h1 class="text-center header pb-1">Arduino vs Raspberry Pi</h1>
 	    <h5 class="leadin text-center text-muted mt-0">
-		
+		The Arduino has a better hardware interface IMO, however the Raspberry Pi&#39;s software environment is far superior to the Arduino. Why not marry the two?
+
 	    </h5>
 	</div>
 	<div class="col"></div>
@@ -47,7 +48,8 @@
     </div> 
     <div class="row">
         <div class="col"></div>
-        <div class="col-8">
+        <div class="col-8"><p>My goal is to build a very simple RTOS communication module for the
+on-board vehicle control system.</p>
 
 <h2 id="limitations-of-hardware">Limitations of Hardware</h2>
 
@@ -63,7 +65,78 @@ data into the clowd.</p>
 
 <p>For that reason we will setup a Micro/Macro Controller arrangement for
 our purpose.</p>
-</div>
+
+<p>The Arduino is perhaps the greatest things to ever happen for the
+Weekend Warrior wanting to play <em>Electrical Engineer</em> (which is me).</p>
+
+<p>The Arduino comes with a mind numbing option of extreemly cheep (or
+expensive and sophisticated) after market eco system of input sensors,
+motors and so on.</p>
+
+<p>The Arduino, is THANKFULLY very simple to use. This also means that it
+lacks a lot in comparison with the full blown operating system.
+<em>Mobile Robots</em> requires a rather complex combination of inputs
+sensors (distance, temprature, atmosphere), cameras (live video) and
+outputs such as electric motors, leds, speakers and displays.</p>
+
+<p>Not to mention, the software that needs to calculate motion and
+identify video&rsquo;s in realtime.  We basically need some moderately
+sophisticated software that will need to run somewhere.</p>
+
+<h2 id="distributing-the-workload">Distributing the Workload</h2>
+
+<p>Rather than searching for the <em>right</em> piece of hardware, one of our
+<em>first principals</em> is that no single piece of hardware will be
+sufficiently satisfy all of our present and future applicaiton
+requirements.</p>
+
+<p>Rather we&rsquo;ll assume that hardware will evolve and be replaced and
+hence we will in many cases come up with designs that involve two or
+more <em>macro</em> and <em>micro</em> <em>controllers</em>, each performing certain tasks
+for which they are best suited.</p>
+
+<h3 id="highest-and-best-use">Highest and Best Use</h3>
+
+<p>For the sake of discussion, most of our designs and builds will
+revolve around the Arduino and Raspberry Pi, in large part because the
+imense popularity of both platforms, also both platforms are very well
+and massively supported.</p>
+
+<p>Good help and quality software are easy to find in both cases.
+Likewise, we do not want to spend large amounts time doing
+<em>portability</em> work.</p>
+
+<h4 id="arduino-has-supperior-hardware-support">Arduino Has Supperior Hardware Support</h4>
+
+<p>The Arduino is perhaps the greatest things to ever happen for the
+Weekend Warrior wanting to play <em>Electrical Engineer</em> (which is me).</p>
+
+<p>The Arduino comes with a mind numbing option of extreemly cheep (or
+expensive and sophisticated) after market eco system of input sensors,
+motors and so on.</p>
+
+<p>The Arduino, is THANKFULLY very simple to use. This also means that it
+lacks a lot in comparison with the full blown operating system.
+`</p>
+
+<h2 id="best-of-class">Best of Class</h2>
+
+<p>Rather than hunt for the single <em>best</em> platform to build our vehicle
+and application around (and perhaps commit to a given SDK, eco system)
+we are going to assume that hardware and software will need to evolve
+quickly, and hence we&rsquo;ll focus on the <em>interfaces</em> amoung the
+sub-systems.</p>
+
+<p>This will, <strong>in theory</strong> allow builders to design very <em>flexible</em>
+systems. For example, I wrote my opinion that, in general the Arduino
+is a superior Hardware and <em>Real Time</em> Platform, but the Raspberry Pi
+is a far superior general computing platform, specifically for
+software development.</p>
+
+<h2 id="raspberry-pi-arduino-over-i2c">Raspberry Pi + Arduino Over I2C</h2>
+
+<p>So we are going to do away with forcing an architecture one type of
+board or another, we will.</p></div>
         <div class="col"></div>
     </div> 
 </div>
