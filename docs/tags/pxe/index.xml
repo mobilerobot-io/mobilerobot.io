@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pxe on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/tags/pxe/</link>
+    <description>Recent content in Pxe on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/tags/pxe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reconfigure the Raspberry Pi by Rebooting</title>
+      <link>http://mobilerobot.io/notes/raspberry-pi-network-booting/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/raspberry-pi-network-booting/</guid>
+      <description>Booting a Raspberry Pi from an SD card or USB stick is pretty neat and all, but they are inadequate for sustainded, reliable production use.
+The quality of the SD comes into question immediately. Even the best of SD cards can go south out of nowhere! I do not know much about sd cards at all, except that I have blasted through about 12 of them this with 3 RPI&amp;rsquo;s (and a BeableBone), that is too expensive.</description>
+    </item>
+    
+  </channel>
+</rss>

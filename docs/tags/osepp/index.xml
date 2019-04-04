@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osepp on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/tags/osepp/</link>
+    <description>Recent content in Osepp on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/tags/osepp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OSEPP Tank Kit</title>
+      <link>http://mobilerobot.io/notes/osepp-tank-kit/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/osepp-tank-kit/</guid>
+      <description>TODO: Place some photos, and pointers to everything.</description>
+    </item>
+    
+  </channel>
+</rss>
