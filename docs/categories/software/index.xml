@@ -6,10 +6,21 @@
     <description>Recent content in Software on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mobilerobot.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Installing OpenCV and Running on Raspberry Pi</title>
+      <link>http://mobilerobot.io/notes/rpi-opencv/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/rpi-opencv/</guid>
+      <description>Install OpenCV on a raspberry pie, at least how I have been trying to do it, by downloading the source code and building has been a very tedious task, for which I have yet to celebrate any form of success.
+On to Plan B Therefore I think I am going to head off and try plan B, for now Plan B is one of the following three options:
+ Use PXE to boot The raspberry pie and mount the file systems over NFS.</description>
+    </item>
     
     <item>
       <title>RF Remote Control</title>

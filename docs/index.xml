@@ -111,6 +111,17 @@ how long did the build take?&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Installing OpenCV and Running on Raspberry Pi</title>
+      <link>http://mobilerobot.io/notes/rpi-opencv/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/rpi-opencv/</guid>
+      <description>Install OpenCV on a raspberry pie, at least how I have been trying to do it, by downloading the source code and building has been a very tedious task, for which I have yet to celebrate any form of success.
+On to Plan B Therefore I think I am going to head off and try plan B, for now Plan B is one of the following three options:
+ Use PXE to boot The raspberry pie and mount the file systems over NFS.</description>
+    </item>
+    
+    <item>
       <title>Arduino Pro Mini</title>
       <link>http://mobilerobot.io/notes/arduino-pro-mini/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>

@@ -43,6 +43,59 @@
 	<div class="col-4 text-center">
 	    <div class="card">
 		<div class="card-title">
+		    Installing OpenCV and Running on Raspberry Pi
+		</div>
+		<div class="card-body">
+		    
+
+<p>Install OpenCV on a raspberry pie, at least how I have been trying to
+do it, by downloading the source code and building has been a very
+tedious task, for which I have yet to celebrate any form of success.</p>
+
+<h2 id="on-to-plan-b">On to Plan B</h2>
+
+<p>Therefore I think I am going to head off and try plan B, for now Plan B is
+one of the following three options:</p>
+
+<ol>
+<li><p>Use PXE to boot The raspberry pie and mount the file systems over
+NFS.  I can then install OpenCV without concern for running out of
+space on the SD card.  In there the build should also go faster.</p></li>
+
+<li><p>The second option would be simply to use raspberry pipe to stream
+the video from the raspberry pie to a another computer connected to
+the network that will then be able to process the streaming video.</p></li>
+
+<li><p>A third option is to store the video locally and a later
+uploaded the video for post mobile processing.</p></li>
+</ol>
+
+<p>The third option is really not an option it is more of a feature that
+required rather than a replacement for <em>Real Time</em> OpenCV processing.</p>
+
+<p>Post process looses the <em>Real Time</em> aspect of our camera and hence an
+import requirement for the project.   But an important fallback
+feature just the same.</p>
+
+<h2 id="opencv-on-linux-virtualbox">OpenCV on Linux VirtualBox</h2>
+
+<p>I am also manage some back up and install a open CV on my Mac
+laptopWhich is becoming cluttered with a bunch nonsense, So I think I
+will install open CD on a virtualMachine running clinicsAndy done with
+it.</p>
+
+<p>I can use this to process Video Streams from a Raspberry Pi, at least
+in theory.  But then if we can not do this, we are in really bad
+shape!</p>
+
+		</div>
+	    </div>
+
+	</div>
+	
+	<div class="col-4 text-center">
+	    <div class="card">
+		<div class="card-title">
 		    RF Remote Control
 		</div>
 		<div class="card-body">

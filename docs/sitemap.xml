@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/notes/rpi-opencv/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/notes/arduino-pro-mini/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -260,6 +265,12 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/categories/computer-vision/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/categories/design/</loc>
     <lastmod>2019-03-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -373,6 +384,12 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/categories/opencv/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/tags/osepp/</loc>
     <lastmod>2018-08-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -404,7 +421,7 @@
   
   <url>
     <loc>http://mobilerobot.io/categories/software/</loc>
-    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

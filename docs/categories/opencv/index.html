@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="http://mobilerobot.io/css/style.css">
 
 
-<title>Categories</title>
+<title>Opencv</title>
 <body><header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
 	<a class="navbar-brand text-muted text-monospace" href="http://mobilerobot.io/">Mobile Robot I/O</a>
@@ -28,7 +28,7 @@
     <div class="row">
 	<div class="col"></div>
 	<div class="col-8">
-	    <h1 class="text-center header pb-1">Categories</h1>
+	    <h1 class="text-center header pb-1">Opencv</h1>
 	    <h5 class="leadin text-center text-muted mt-0">
 		
 	    </h5>
@@ -43,154 +43,51 @@
 	<div class="col-4 text-center">
 	    <div class="card">
 		<div class="card-title">
-		    /Categories/Electronics
+		    Installing OpenCV and Running on Raspberry Pi
 		</div>
 		<div class="card-body">
 		    
-		</div>
-	    </div>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    /Categories/Mechanics
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<p>Install OpenCV on a raspberry pie, at least how I have been trying to
+do it, by downloading the source code and building has been a very
+tedious task, for which I have yet to celebrate any form of success.</p>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    /Categories/Software
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<h2 id="on-to-plan-b">On to Plan B</h2>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Clowd
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<p>Therefore I think I am going to head off and try plan B, for now Plan B is
+one of the following three options:</p>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Computer Vision
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<ol>
+<li><p>Use PXE to boot The raspberry pie and mount the file systems over
+NFS.  I can then install OpenCV without concern for running out of
+space on the SD card.  In there the build should also go faster.</p></li>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Design
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<li><p>The second option would be simply to use raspberry pipe to stream
+the video from the raspberry pie to a another computer connected to
+the network that will then be able to process the streaming video.</p></li>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Devops
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<li><p>A third option is to store the video locally and a later
+uploaded the video for post mobile processing.</p></li>
+</ol>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Electrical
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<p>The third option is really not an option it is more of a feature that
+required rather than a replacement for <em>Real Time</em> OpenCV processing.</p>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Electronics
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<p>Post process looses the <em>Real Time</em> aspect of our camera and hence an
+import requirement for the project.   But an important fallback
+feature just the same.</p>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Mechanics
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<h2 id="opencv-on-linux-virtualbox">OpenCV on Linux VirtualBox</h2>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Opencv
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<p>I am also manage some back up and install a open CV on my Mac
+laptopWhich is becoming cluttered with a bunch nonsense, So I think I
+will install open CD on a virtualMachine running clinicsAndy done with
+it.</p>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Projects
-		</div>
-		<div class="card-body">
-		    
-		</div>
-	    </div>
+<p>I can use this to process Video Streams from a Raspberry Pi, at least
+in theory.  But then if we can not do this, we are in really bad
+shape!</p>
 
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Software
-		</div>
-		<div class="card-body">
-		    
 		</div>
 	    </div>
 
