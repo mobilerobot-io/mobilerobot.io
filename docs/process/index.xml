@@ -19,7 +19,8 @@
       <guid>http://mobilerobot.io/process/01-problem-definition/</guid>
       <description>&lt;p&gt;We want to build an automous driven vehicle that can film and stream
 video from under my house, for under USD $500.  The vehical must also
-be able to communicate select sensor data.&lt;/p&gt;</description>
+be able to communicate select sensor data.
+ &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -42,7 +43,7 @@ to build. Read more&amp;hellip;&lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/03-select-design/</guid>
       <description>&lt;p&gt;At this point in our R&amp;amp;D we are leaning toward an overall design that
 looks something like this (and subject to change at any knee jerk
-moment): Read more&lt;/p&gt;</description>
+moment): Read more &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,7 +54,8 @@ moment): Read more&lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/04-detailed-design/</guid>
       <description>&lt;p&gt;We will use a Raspberry Pi as the main on unit controller.  The
 Raspberry Pi will be attached via one of the common local bus
-protocols (i2c, SPI or Canbus).  Read More &amp;hellip;&lt;/p&gt;</description>
+protocols (i2c, SPI or Canbus).  Read More &amp;hellip;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,7 +66,8 @@ protocols (i2c, SPI or Canbus).  Read More &amp;hellip;&lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/05-communicate-design/</guid>
       <description>&lt;p&gt;This is where we start communicating (or socializing) or designs.  We
 sincerly want to get qualified opinions and advice regarding our
-designs.&lt;/p&gt;</description>
+designs.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -94,7 +97,7 @@ Did we stick to schedule and budget, but put out the numbers for a</description>
       
       <guid>http://mobilerobot.io/process/10-evalutate-performance/</guid>
       <description>&lt;p&gt;OK, we built it, how are we doing?  How long did the research take,
-how long did the build take?&lt;/p&gt;</description>
+how long did the build take? &lt;/p&gt;</description>
     </item>
     
   </channel>

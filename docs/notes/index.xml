@@ -21,7 +21,7 @@
 
 &lt;p&gt;The Robot must be able to navigate while controlled by a human or
 software, it must be modular, extensible and configurable.  Interested
-in the project?&lt;/p&gt;</description>
+in the project? &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -116,7 +116,8 @@ Power can be brought in through a 5v Vin pin.</description>
       <guid>http://mobilerobot.io/notes/reboot/</guid>
       <description>&lt;p&gt;As Tank roams about, it will be gathering and transmitting data
 according to the application, that data will be collected, by a
-collector and sent to storage.&lt;/p&gt;</description>
+collector and sent to storage.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -137,7 +138,8 @@ collector and sent to storage.&lt;/p&gt;</description>
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major&lt;/p&gt;</description>
+other major
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -147,7 +149,8 @@ other major&lt;/p&gt;</description>
       
       <guid>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.&lt;/p&gt;</description>
+function.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -168,7 +171,8 @@ The quality of the SD comes into question immediately. Even the best of SD cards
       <guid>http://mobilerobot.io/notes/websites/</guid>
       <description>&lt;p&gt;Even what at first glance would seem to be the simplist of websites
 will end up being a lot of work, if that site is to become
-productive.&lt;/p&gt;</description>
+productive.&lt;br /&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -232,7 +236,8 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
       <guid>http://mobilerobot.io/notes/robotics/</guid>
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
+drones.  You name it everything. Now lets consider how we use it.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -270,7 +275,8 @@ motors and so on.&lt;/p&gt;
 lacks a lot in comparison with the full blown operating system.
 &lt;em&gt;Mobile Robots&lt;/em&gt; requires a rather complex combination of inputs
 sensors (distance, temprature, atmosphere), cameras (live video) and
-outputs such as electric motors, leds, speakers and displays.&lt;/p&gt;</description>
+outputs such as electric motors, leds, speakers and displays.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -282,7 +288,8 @@ outputs such as electric motors, leds, speakers and displays.&lt;/p&gt;</descrip
       <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
 going to actually function in the real world.  It all starts with a
 design in mind, choices of materials, the design of all functional
-components, mobility, motion and durability of the project.&lt;/p&gt;</description>
+components, mobility, motion and durability of the project.
+&lt;/p&gt;</description>
     </item>
     
     <item>
