@@ -13,28 +13,37 @@
     
     <item>
       <title>/Categories/Electronics</title>
-      <link>http://mobilerobot.io/categories/categories-electronics/</link>
+      <link>http://mobilerobot.io/categories/categories/electronics/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/categories/categories-electronics/</guid>
+      <guid>http://mobilerobot.io/categories/categories/electronics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>/Categories/Mechanics</title>
-      <link>http://mobilerobot.io/categories/categories-mechanics/</link>
+      <link>http://mobilerobot.io/categories/categories/mechanics/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/categories/categories-mechanics/</guid>
+      <guid>http://mobilerobot.io/categories/categories/mechanics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>/Categories/Software</title>
-      <link>http://mobilerobot.io/categories/categories-software/</link>
+      <link>http://mobilerobot.io/categories/categories/software/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/categories/categories-software/</guid>
+      <guid>http://mobilerobot.io/categories/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>http://mobilerobot.io/categories/cloud/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/cloud/</guid>
       <description></description>
     </item>
     
@@ -116,6 +125,15 @@
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/categories/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>http://mobilerobot.io/categories/robotics/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/robotics/</guid>
       <description></description>
     </item>
     

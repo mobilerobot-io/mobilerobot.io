@@ -21,15 +21,25 @@
 
 &lt;p&gt;The Robot must be able to navigate while controlled by a human or
 software, it must be modular, extensible and configurable.  Interested
-in the project? &lt;/p&gt;</description>
+in the project?&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Installing OpenCV and Running on Raspberry Pi</title>
-      <link>http://mobilerobot.io/notes/rpi-opencv/</link>
+      <title>Open Source Robotics Projects</title>
+      <link>http://mobilerobot.io/notes/related-projects/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/related-projects/</guid>
+      <description>I did not realize it at the time I started the MobileRobot.IO project that what I was setting out to build is what is commonly reffered to as a Rover. Basically a wandering vehicle typically to do some form of discovery.
+Rovers Here is a two wheeled Rover that connects an (Arduino and a Raspberry Pi over an I2C bus)[https://www.hackster.io/peejster/rover-c42139].</description>
+    </item>
+    
+    <item>
+      <title>OpenCV Installing and Getting Started on Raspberry Pi</title>
+      <link>http://mobilerobot.io/notes/opencv-getting-started/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/notes/rpi-opencv/</guid>
+      <guid>http://mobilerobot.io/notes/opencv-getting-started/</guid>
       <description>Install OpenCV on a raspberry pie, at least how I have been trying to do it, by downloading the source code and building has been a very tedious task, for which I have yet to celebrate any form of success.
 On to Plan B Therefore I think I am going to head off and try plan B, for now Plan B is one of the following three options:
  Use PXE to boot The raspberry pie and mount the file systems over NFS.</description>
@@ -116,8 +126,7 @@ Power can be brought in through a 5v Vin pin.</description>
       <guid>http://mobilerobot.io/notes/reboot/</guid>
       <description>&lt;p&gt;As Tank roams about, it will be gathering and transmitting data
 according to the application, that data will be collected, by a
-collector and sent to storage.
-&lt;/p&gt;</description>
+collector and sent to storage.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -138,8 +147,7 @@ collector and sent to storage.
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major
-&lt;/p&gt;</description>
+other major&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -149,8 +157,7 @@ other major
       
       <guid>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.
-&lt;/p&gt;</description>
+function.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -171,8 +178,7 @@ The quality of the SD comes into question immediately. Even the best of SD cards
       <guid>http://mobilerobot.io/notes/websites/</guid>
       <description>&lt;p&gt;Even what at first glance would seem to be the simplist of websites
 will end up being a lot of work, if that site is to become
-productive.&lt;br /&gt;
-&lt;/p&gt;</description>
+productive.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -236,8 +242,7 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
       <guid>http://mobilerobot.io/notes/robotics/</guid>
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.
-&lt;/p&gt;</description>
+drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -275,8 +280,7 @@ motors and so on.&lt;/p&gt;
 lacks a lot in comparison with the full blown operating system.
 &lt;em&gt;Mobile Robots&lt;/em&gt; requires a rather complex combination of inputs
 sensors (distance, temprature, atmosphere), cameras (live video) and
-outputs such as electric motors, leds, speakers and displays.
-&lt;/p&gt;</description>
+outputs such as electric motors, leds, speakers and displays.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -288,8 +292,7 @@ outputs such as electric motors, leds, speakers and displays.
       <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
 going to actually function in the real world.  It all starts with a
 design in mind, choices of materials, the design of all functional
-components, mobility, motion and durability of the project.
-&lt;/p&gt;</description>
+components, mobility, motion and durability of the project.&lt;/p&gt;</description>
     </item>
     
     <item>

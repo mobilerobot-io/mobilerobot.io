@@ -7,12 +7,30 @@ date: 2019-03-14
 category: project 
 ---
 
-## Problem Definition
+A key element of building progressive robotics, espcially if you are a
+Garage Mechanic like me, is having software that can be easily used in
+a variety different configurations, both hardware and software.
 
-When setting out to create a Mobile Robot one is faced with a lot of
-choices, like how does the robot steer or control itself?  Does it
-have, legs, wheels or tracks?  How will it be controlled, through
-computer vision, distance sensors or humans?
+In otherwords, we want to avoid re-writting software as much as
+possible.  It can, arguable be the most time comsuming and complex
+aspect of many hardware projects.
+
+## Resuable Software is Mandatory
+
+We certainly do not want to _rewrite_ significant portions of code
+just because we have introduced a joy stick into our ecosystem.  And
+we especially do not want copy and re-copy code from project to
+project leaving an unkempt mess of rats nested source code a long the
+way. 
+
+#### For Example
+
+When setting out to create a Mobile Robot one of the many choices we
+need to decide on are things like how does the robot steer and control
+itself? 
+
+Does it have, legs, wheels or tracks?  How will it be controlled,
+through computer vision, distance sensors or humans?
 
 ### What Platform and Language?
 

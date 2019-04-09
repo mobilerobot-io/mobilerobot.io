@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="http://mobilerobot.io/css/style.css">
 
 
-<title>Installing OpenCV and Running on Raspberry Pi</title>
+<title>Store the Simple but Powerful Object Storage Library</title>
 <body><header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
 	<a class="navbar-brand text-muted text-monospace" href="http://mobilerobot.io/">Mobile Robot I/O</a>
@@ -28,9 +28,9 @@
     <div class="row">
 	<div class="col"></div>
 	<div class="col-8">
-	    <h1 class="text-center header pb-1">Installing OpenCV and Running on Raspberry Pi</h1>
+	    <h1 class="text-center header pb-1">Store the Simple but Powerful Object Storage Library</h1>
 	    <h5 class="leadin text-center text-muted mt-0">
-		I have yet to be able to install OpenCV on a Raspberry PI.  Running out of SD card space was the killer, but there has to be a better way, let us go find one!
+		The store library provides a simple but powerful object storage library saves Go objects to the disk as JSON objects.  It also interfaces with a variety of different backing stores, like AWS and Digital Ocean
 
 	    </h5>
 	</div>
@@ -41,54 +41,20 @@
 <div class="container">
     <div class="row">
         <div class="col"></div>
-        <div class="col-8">
-            <a href="http://mobilerobot.io/notes/rpi-opencv/">Installing OpenCV and Running on Raspberry Pi</a>
-        </div>
-        <div class="col"></div>
-    </div> 
-    <div class="row">
-        <div class="col"></div>
-        <div class="col-8">
+        <div class="col-8"><p>These days, it is hard to assume anything about the platform that we
+may be developing on. For example, an <em>Arduino</em> or <em>Cloud Native</em>
+applicaiton might not have a local disk to write to.</p>
 
-<p>Install OpenCV on a raspberry pie, at least how I have been trying to
-do it, by downloading the source code and building has been a very
-tedious task, for which I have yet to celebrate any form of success.</p>
+<p>Source code for <a href="http://github.com/">store is here</a></p>
 
-<h2 id="on-to-plan-b">On to Plan B</h2>
+<p>Or an perhaps an embedded micro controller may temporarily not have
+access to the internet and need temporary storage.  These cases need
+to be taken into account in addition to the traditional
+<em>&ldquo;persistance&rdquo;</em> issues need to be delt with.</p>
 
-<p>Therefore I think I am going to head off and try plan B, for now Plan B is
-one of the following three options:</p>
-
-<ol>
-<li><p>Use PXE to boot The raspberry pie and mount the file systems over
-NFS.  I can then install OpenCV without concern for running out of
-space on the SD card.  In there the build should also go faster.</p></li>
-
-<li><p>The second option would be simply to use raspberry pipe to stream
-the video from the raspberry pie to a another computer connected to
-the network that will then be able to process the streaming video.</p></li>
-
-<li><p>A third option is to store the video locally and a later
-uploaded the video for post mobile processing.</p></li>
-</ol>
-
-<p>The third option is really not an option it is more of a feature that
-required rather than a replacement for <em>Real Time</em> OpenCV processing.</p>
-
-<p>Post process looses the <em>Real Time</em> aspect of our camera and hence an
-import requirement for the project.   But an important fallback
-feature just the same.</p>
-
-<h2 id="opencv-on-linux-virtualbox">OpenCV on Linux VirtualBox</h2>
-
-<p>I am also manage some back up and install a open CV on my Mac
-laptopWhich is becoming cluttered with a bunch nonsense, So I think I
-will install open CD on a virtualMachine running clinicsAndy done with
-it.</p>
-
-<p>I can use this to process Video Streams from a Raspberry Pi, at least
-in theory.  But then if we can not do this, we are in really bad
-shape!</p>
+<p>Once frequent thing to do when programming with Go would be
+<em>marshalling</em> native Go objects to disk as text files formatted as
+JSON.  The <em>store</em> library does this automatically for you.</p>
 </div>
         <div class="col"></div>
     </div> 

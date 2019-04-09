@@ -21,7 +21,7 @@
 
 &lt;p&gt;The Robot must be able to navigate while controlled by a human or
 software, it must be modular, extensible and configurable.  Interested
-in the project? &lt;/p&gt;</description>
+in the project?&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,8 +32,7 @@ in the project? &lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/01-problem-definition/</guid>
       <description>&lt;p&gt;We want to build an automous driven vehicle that can film and stream
 video from under my house, for under USD $500.  The vehical must also
-be able to communicate select sensor data.
- &lt;/p&gt;</description>
+be able to communicate select sensor data.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -56,7 +55,7 @@ to build. Read more&amp;hellip;&lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/03-select-design/</guid>
       <description>&lt;p&gt;At this point in our R&amp;amp;D we are leaning toward an overall design that
 looks something like this (and subject to change at any knee jerk
-moment): Read more &lt;/p&gt;</description>
+moment): Read more&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,8 +66,7 @@ moment): Read more &lt;/p&gt;</description>
       <guid>http://mobilerobot.io/process/04-detailed-design/</guid>
       <description>&lt;p&gt;We will use a Raspberry Pi as the main on unit controller.  The
 Raspberry Pi will be attached via one of the common local bus
-protocols (i2c, SPI or Canbus).  Read More &amp;hellip;
-&lt;/p&gt;</description>
+protocols (i2c, SPI or Canbus).  Read More &amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -79,8 +77,7 @@ protocols (i2c, SPI or Canbus).  Read More &amp;hellip;
       <guid>http://mobilerobot.io/process/05-communicate-design/</guid>
       <description>&lt;p&gt;This is where we start communicating (or socializing) or designs.  We
 sincerly want to get qualified opinions and advice regarding our
-designs.
-&lt;/p&gt;</description>
+designs.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -110,15 +107,25 @@ Did we stick to schedule and budget, but put out the numbers for a</description>
       
       <guid>http://mobilerobot.io/process/10-evalutate-performance/</guid>
       <description>&lt;p&gt;OK, we built it, how are we doing?  How long did the research take,
-how long did the build take? &lt;/p&gt;</description>
+how long did the build take?&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Installing OpenCV and Running on Raspberry Pi</title>
-      <link>http://mobilerobot.io/notes/rpi-opencv/</link>
+      <title>Open Source Robotics Projects</title>
+      <link>http://mobilerobot.io/notes/related-projects/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/related-projects/</guid>
+      <description>I did not realize it at the time I started the MobileRobot.IO project that what I was setting out to build is what is commonly reffered to as a Rover. Basically a wandering vehicle typically to do some form of discovery.
+Rovers Here is a two wheeled Rover that connects an (Arduino and a Raspberry Pi over an I2C bus)[https://www.hackster.io/peejster/rover-c42139].</description>
+    </item>
+    
+    <item>
+      <title>OpenCV Installing and Getting Started on Raspberry Pi</title>
+      <link>http://mobilerobot.io/notes/opencv-getting-started/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/notes/rpi-opencv/</guid>
+      <guid>http://mobilerobot.io/notes/opencv-getting-started/</guid>
       <description>Install OpenCV on a raspberry pie, at least how I have been trying to do it, by downloading the source code and building has been a very tedious task, for which I have yet to celebrate any form of success.
 On to Plan B Therefore I think I am going to head off and try plan B, for now Plan B is one of the following three options:
  Use PXE to boot The raspberry pie and mount the file systems over NFS.</description>
@@ -142,6 +149,17 @@ The Pro comes without the mini-USB connector and hence requires a FTDI serial ad
       <guid>http://mobilerobot.io/notes/micro-communication-options/</guid>
       <description>Our vehical is required to support at least power 4-DC motors, 2 Servos for the camera&amp;rsquo;s Pan &amp;amp; Tilt functions. There will be at least one camera, perhaps more streaming video. There will be an assortment of sensors, including distance, atmosphere, LED lights and so on.
 Lot&amp;rsquo;s of stuff going on That being the case, we will keep a couple Arduino&amp;rsquo;s and a Raspberry Pi busy keeping our Robot vehicle rolling.</description>
+    </item>
+    
+    <item>
+      <title>Store the Simple but Powerful Object Storage Library</title>
+      <link>http://mobilerobot.io/projects/store/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/store/</guid>
+      <description>These days, it is hard to assume anything about the platform that we may be developing on. For example, an Arduino or Cloud Native applicaiton might not have a local disk to write to.
+Source code for store is here
+Or an perhaps an embedded micro controller may temporarily not have access to the internet and need temporary storage. These cases need to be taken into account in addition to the traditional &amp;ldquo;persistance&amp;rdquo; issues need to be delt with.</description>
     </item>
     
     <item>
@@ -203,8 +221,9 @@ TODO: Add some code snippets as examples for running external engines.</descript
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/control-system/</guid>
-      <description>Problem Definition When setting out to create a Mobile Robot one is faced with a lot of choices, like how does the robot steer or control itself? Does it have, legs, wheels or tracks? How will it be controlled, through computer vision, distance sensors or humans?
-What Platform and Language? You are also have to ask the question, what platform will all this run on? Arduino for the sharper hardware support or the raspberry pi and it&amp;rsquo;s superior computing capabilities and software support?</description>
+      <description>A key element of building progressive robotics, espcially if you are a Garage Mechanic like me, is having software that can be easily used in a variety different configurations, both hardware and software.
+In otherwords, we want to avoid re-writting software as much as possible. It can, arguable be the most time comsuming and complex aspect of many hardware projects.
+Resuable Software is Mandatory We certainly do not want to rewrite significant portions of code just because we have introduced a joy stick into our ecosystem.</description>
     </item>
     
     <item>
@@ -274,8 +293,7 @@ Power can be brought in through a 5v Vin pin.</description>
       <guid>http://mobilerobot.io/notes/reboot/</guid>
       <description>&lt;p&gt;As Tank roams about, it will be gathering and transmitting data
 according to the application, that data will be collected, by a
-collector and sent to storage.
-&lt;/p&gt;</description>
+collector and sent to storage.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -296,8 +314,7 @@ collector and sent to storage.
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major
-&lt;/p&gt;</description>
+other major&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -307,8 +324,7 @@ other major
       
       <guid>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.
-&lt;/p&gt;</description>
+function.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -329,8 +345,7 @@ The quality of the SD comes into question immediately. Even the best of SD cards
       <guid>http://mobilerobot.io/notes/websites/</guid>
       <description>&lt;p&gt;Even what at first glance would seem to be the simplist of websites
 will end up being a lot of work, if that site is to become
-productive.&lt;br /&gt;
-&lt;/p&gt;</description>
+productive.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -394,8 +409,7 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
       <guid>http://mobilerobot.io/notes/robotics/</guid>
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.
-&lt;/p&gt;</description>
+drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -433,8 +447,7 @@ motors and so on.&lt;/p&gt;
 lacks a lot in comparison with the full blown operating system.
 &lt;em&gt;Mobile Robots&lt;/em&gt; requires a rather complex combination of inputs
 sensors (distance, temprature, atmosphere), cameras (live video) and
-outputs such as electric motors, leds, speakers and displays.
-&lt;/p&gt;</description>
+outputs such as electric motors, leds, speakers and displays.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -446,8 +459,7 @@ outputs such as electric motors, leds, speakers and displays.
       <description>&lt;p&gt;The body and drive train of the Robot will determine if our project is
 going to actually function in the real world.  It all starts with a
 design in mind, choices of materials, the design of all functional
-components, mobility, motion and durability of the project.
-&lt;/p&gt;</description>
+components, mobility, motion and durability of the project.&lt;/p&gt;</description>
     </item>
     
     <item>

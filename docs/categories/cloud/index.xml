@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/categories/cloud/</link>
+    <description>Recent content in Cloud on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Store the Simple but Powerful Object Storage Library</title>
+      <link>http://mobilerobot.io/projects/store/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/store/</guid>
+      <description>These days, it is hard to assume anything about the platform that we may be developing on. For example, an Arduino or Cloud Native applicaiton might not have a local disk to write to.
+Source code for store is here
+Or an perhaps an embedded micro controller may temporarily not have access to the internet and need temporary storage. These cases need to be taken into account in addition to the traditional &amp;ldquo;persistance&amp;rdquo; issues need to be delt with.</description>
+    </item>
+    
+  </channel>
+</rss>

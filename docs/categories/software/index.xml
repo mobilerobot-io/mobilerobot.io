@@ -12,14 +12,25 @@
     
     
     <item>
-      <title>Installing OpenCV and Running on Raspberry Pi</title>
-      <link>http://mobilerobot.io/notes/rpi-opencv/</link>
+      <title>OpenCV Installing and Getting Started on Raspberry Pi</title>
+      <link>http://mobilerobot.io/notes/opencv-getting-started/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/notes/rpi-opencv/</guid>
+      <guid>http://mobilerobot.io/notes/opencv-getting-started/</guid>
       <description>Install OpenCV on a raspberry pie, at least how I have been trying to do it, by downloading the source code and building has been a very tedious task, for which I have yet to celebrate any form of success.
 On to Plan B Therefore I think I am going to head off and try plan B, for now Plan B is one of the following three options:
  Use PXE to boot The raspberry pie and mount the file systems over NFS.</description>
+    </item>
+    
+    <item>
+      <title>Store the Simple but Powerful Object Storage Library</title>
+      <link>http://mobilerobot.io/projects/store/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/store/</guid>
+      <description>These days, it is hard to assume anything about the platform that we may be developing on. For example, an Arduino or Cloud Native applicaiton might not have a local disk to write to.
+Source code for store is here
+Or an perhaps an embedded micro controller may temporarily not have access to the internet and need temporary storage. These cases need to be taken into account in addition to the traditional &amp;ldquo;persistance&amp;rdquo; issues need to be delt with.</description>
     </item>
     
     <item>
@@ -64,8 +75,7 @@ Communication Mechanism We have a rather complex set of communication requiremen
       <description>&lt;p&gt;I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;amp;T and
-other major
-&lt;/p&gt;</description>
+other major&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -75,8 +85,7 @@ other major
       
       <guid>http://mobilerobot.io/notes/rpi-adafruit-tftp-display/</guid>
       <description>&lt;p&gt;The number #1 thing to make sure of is select the first option in the ADA TFT
-function.
-&lt;/p&gt;</description>
+function.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -107,8 +116,7 @@ Hardware Requirements  wireless ~ but which  The vehicle will be automous, hence
       <guid>http://mobilerobot.io/notes/robotics/</guid>
       <description>&lt;p&gt;The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.
-&lt;/p&gt;</description>
+drones.  You name it everything. Now lets consider how we use it.&lt;/p&gt;</description>
     </item>
     
   </channel>

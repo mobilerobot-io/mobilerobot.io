@@ -43,7 +43,7 @@
 	<div class="col-4 text-center">
 	    <div class="card">
 		<div class="card-title">
-		    Installing OpenCV and Running on Raspberry Pi
+		    OpenCV Installing and Getting Started on Raspberry Pi
 		</div>
 		<div class="card-body">
 		    
@@ -87,6 +87,60 @@ it.</p>
 <p>I can use this to process Video Streams from a Raspberry Pi, at least
 in theory.  But then if we can not do this, we are in really bad
 shape!</p>
+
+<h3 id="settle-for-opencv-2-on-rpi">Settle For OpenCV 2 on RPI</h3>
+
+<p>Well, as far as on vehicle processing, I am going to stick with
+OpenCV-2 (ancient, OpenCV 4.0 recently released) but trying to build
+was way to slow, so any software built on vehicle will have to be
+constrained to OpenCV 2.0 for now.</p>
+
+<p>Hopefully soon enough somebody will update the situation, which I
+expect will be soon.</p>
+
+<h2 id="installed-opencv-4-0-1-on-vm">Installed OpenCV 4.0.1 on VM</h2>
+
+<p>In the mean time, we can move our OpenCV 4.0 processing to a desktop
+or VM for now.</p>
+
+<p>To that end I compiled OpenCV straight from the github now ready to
+go.</p>
+
+<h3 id="stream-from-rpi-to-host">Stream From RPI to Host?</h3>
+
+<p>We could go for streaming the video from the RPI to the host with
+OpenCV 4.0 for advanced processing.  That sounds like something sexy
+to do, but I wonder what the performance would be?</p>
+
+<h4 id="what-about-performance">What about Performance?</h4>
+
+<p>Answer this question.</p>
+
+		</div>
+	    </div>
+
+	</div>
+	
+	<div class="col-4 text-center">
+	    <div class="card">
+		<div class="card-title">
+		    Store the Simple but Powerful Object Storage Library
+		</div>
+		<div class="card-body">
+		    <p>These days, it is hard to assume anything about the platform that we
+may be developing on. For example, an <em>Arduino</em> or <em>Cloud Native</em>
+applicaiton might not have a local disk to write to.</p>
+
+<p>Source code for <a href="http://github.com/">store is here</a></p>
+
+<p>Or an perhaps an embedded micro controller may temporarily not have
+access to the internet and need temporary storage.  These cases need
+to be taken into account in addition to the traditional
+<em>&ldquo;persistance&rdquo;</em> issues need to be delt with.</p>
+
+<p>Once frequent thing to do when programming with Go would be
+<em>marshalling</em> native Go objects to disk as text files formatted as
+JSON.  The <em>store</em> library does this automatically for you.</p>
 
 		</div>
 	    </div>
@@ -238,8 +292,7 @@ control instructions.</p>
 		    <p>I lead a team at Cisco Systems to build a system that would deliver
 streaming video to millions of users, simultaneously. That same
 technology has been used by DIRECTV, TimeWarner Cable, AT&amp;T and
-other major
-</p>
+other major</p>
 
 <h2 id="todo">Todo</h2>
 
@@ -260,8 +313,7 @@ other major
 		</div>
 		<div class="card-body">
 		    <p>The number #1 thing to make sure of is select the first option in the ADA TFT
-function.
-</p>
+function.</p>
 		</div>
 	    </div>
 
@@ -340,8 +392,7 @@ be a good candidate.</p>
 		<div class="card-body">
 		    <p>The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
-drones.  You name it everything. Now lets consider how we use it.
-</p>
+drones.  You name it everything. Now lets consider how we use it.</p>
 		</div>
 	    </div>
 
