@@ -16,6 +16,9 @@ Otto is a micro service with Routing, Logging and configuration right
 out of the box.  Additional routes can be registered, via plugins
 written to satisfy a very simple interface.
 
+The Otto [repository is here](http://github.com/mobilerobot-io/otto)
+along with some example plugins.
+
 ## Plugins
 
 - Echo
@@ -24,3 +27,5 @@ written to satisfy a very simple interface.
 - Dork for managing Digital Ocean infrastructure
 
 ## What else can otto do?
+
+- Join in on MQTT groups
