@@ -22,5 +22,14 @@ On to Plan B Therefore I think I am going to head off and try plan B, for now Pl
  Use PXE to boot The raspberry pie and mount the file systems over NFS.</description>
     </item>
     
+    <item>
+      <title>OpenCV with the PiCamera</title>
+      <link>http://mobilerobot.io/projects/picamera-and-opencv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/picamera-and-opencv/</guid>
+      <description>Started working on an the Raspberry Pi camera and transmitting the video to a webpage.</description>
+    </item>
+    
   </channel>
 </rss>

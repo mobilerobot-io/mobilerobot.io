@@ -43,6 +43,41 @@
 	<div class="col-4 text-center">
 	    <div class="card">
 		<div class="card-title">
+		    Otto the Pluggable Micro-Server for Micro-Controllers
+		</div>
+		<div class="card-body">
+		    
+
+<p>Otto is a micro service with Routing, Logging and configuration right
+out of the box.  Additional routes can be registered, via plugins
+written to satisfy a very simple interface.</p>
+
+<p>The Otto <a href="http://github.com/mobilerobot-io/otto">repository is here</a>
+along with some example plugins.</p>
+
+<h2 id="plugins">Plugins</h2>
+
+<ul>
+<li>Echo</li>
+<li>Wally the website walker</li>
+<li>Store the object storage, cloud aware storage library</li>
+<li>Dork for managing Digital Ocean infrastructure</li>
+</ul>
+
+<h2 id="what-else-can-otto-do">What else can otto do?</h2>
+
+<ul>
+<li>Join in on MQTT groups</li>
+</ul>
+
+		</div>
+	    </div>
+
+	</div>
+	
+	<div class="col-4 text-center">
+	    <div class="card">
+		<div class="card-title">
 		    OpenCV Installing and Getting Started on Raspberry Pi
 		</div>
 		<div class="card-body">
@@ -221,71 +256,6 @@ Pi family of products.</p>
 	<div class="col-4 text-center">
 	    <div class="card">
 		<div class="card-title">
-		    On Vehicle Communication
-		</div>
-		<div class="card-body">
-		    
-
-<p>One of the first issues that we came against was the specific configurations
-of the micro-controllers as well and the number and configuration of pins and
-hardware particulars.</p>
-
-<h2 id="macro-micro-controllers">Macro-Micro Controllers</h2>
-
-<p>The system should be flexible enough to allow one or more macro-controls
-communicating with one or more micro-controllers.</p>
-
-<h2 id="communication-mechanism">Communication Mechanism</h2>
-
-<p>We have a rather complex set of communication requirements, we have
-signals between sensors, motors and <em>micro-controllers</em>.  We also have
-the communication from the <em>micro-controllers</em> and the
-<em>macro-controller</em>.</p>
-
-<p>The <em>Macro-controller</em> to on premise I/O devices like a monitor to
-display real-time video, or sensor inputs that help the driving
-control with navigation info, the drive controller may respond with
-control instructions.</p>
-
-<h3 id="wired">Wired</h3>
-
-<ol>
-<li><p>Arduino i2c -&gt; Motor Controls</p>
-
-<ol>
-<li>Adafruit / OSEPP Motor Controller</li>
-<li>Balance Sensor</li>
-</ol></li>
-
-<li><p>Arduino i2c &lt;- Sensor Data</p></li>
-
-<li><p>SPI RPi -&gt; Arduino</p>
-
-<ol>
-<li>Arudiuno + Motor Controller</li>
-</ol></li>
-
-<li><p>RPi Wifi -&gt; Prem</p></li>
-
-<li><p>RPi Wifi -&gt; Cloud</p></li>
-</ol>
-
-<h3 id="wireless">Wireless</h3>
-
-<ol>
-<li>RF</li>
-<li>BlueTooth</li>
-<li>Wifi</li>
-</ol>
-
-		</div>
-	    </div>
-
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
 		    Large Scale Video Delivery
 		</div>
 		<div class="card-body">
@@ -393,6 +363,20 @@ be a good candidate.</p>
 		    <p>The world is full of things that rely on software to work, from
 sprinkler systems, to cars and jet airplanes, laptops, cell phones and
 drones.  You name it everything. Now lets consider how we use it.</p>
+		</div>
+	    </div>
+
+	</div>
+	
+	<div class="col-4 text-center">
+	    <div class="card">
+		<div class="card-title">
+		    OpenCV with the PiCamera
+		</div>
+		<div class="card-body">
+		    <p>Started working on an the Raspberry Pi camera and transmitting the
+video to a webpage.</p>
+
 		</div>
 	    </div>
 

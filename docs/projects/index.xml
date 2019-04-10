@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Otto the Pluggable Micro-Server for Micro-Controllers</title>
+      <link>http://mobilerobot.io/projects/otto-micro-server-for-micro-controllers/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/otto-micro-server-for-micro-controllers/</guid>
+      <description> Otto is a micro service with Routing, Logging and configuration right out of the box. Additional routes can be registered, via plugins written to satisfy a very simple interface.
+The Otto repository is here along with some example plugins.
+Plugins  Echo Wally the website walker Store the object storage, cloud aware storage library Dork for managing Digital Ocean infrastructure  What else can otto do?  Join in on MQTT groups  </description>
+    </item>
+    
+    <item>
       <title>Store the Simple but Powerful Object Storage Library</title>
       <link>http://mobilerobot.io/projects/store/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
@@ -67,17 +78,6 @@ Well here we go. It first started to occur to me after I built the first robot v
     </item>
     
     <item>
-      <title>On Vehicle Communication</title>
-      <link>http://mobilerobot.io/projects/on-vehicle-communications/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/projects/on-vehicle-communications/</guid>
-      <description>One of the first issues that we came against was the specific configurations of the micro-controllers as well and the number and configuration of pins and hardware particulars.
-Macro-Micro Controllers The system should be flexible enough to allow one or more macro-controls communicating with one or more micro-controllers.
-Communication Mechanism We have a rather complex set of communication requirements, we have signals between sensors, motors and micro-controllers. We also have the communication from the micro-controllers and the macro-controller.</description>
-    </item>
-    
-    <item>
       <title>Zumo Bot Control Mods</title>
       <link>http://mobilerobot.io/projects/zumo/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
@@ -90,6 +90,15 @@ Communication Mechanism We have a rather complex set of communication requiremen
  Mechanical Parts used
  Videos and images of project
   On so forth.</description>
+    </item>
+    
+    <item>
+      <title>OpenCV with the PiCamera</title>
+      <link>http://mobilerobot.io/projects/picamera-and-opencv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/picamera-and-opencv/</guid>
+      <description>Started working on an the Raspberry Pi camera and transmitting the video to a webpage.</description>
     </item>
     
   </channel>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/tags/golang/</link>
+    <description>Recent content in Golang on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Otto the Pluggable Micro-Server for Micro-Controllers</title>
+      <link>http://mobilerobot.io/projects/otto-micro-server-for-micro-controllers/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/otto-micro-server-for-micro-controllers/</guid>
+      <description> Otto is a micro service with Routing, Logging and configuration right out of the box. Additional routes can be registered, via plugins written to satisfy a very simple interface.
+The Otto repository is here along with some example plugins.
+Plugins  Echo Wally the website walker Store the object storage, cloud aware storage library Dork for managing Digital Ocean infrastructure  What else can otto do?  Join in on MQTT groups  </description>
+    </item>
+    
+  </channel>
+</rss>

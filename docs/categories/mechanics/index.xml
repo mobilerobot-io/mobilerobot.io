@@ -23,17 +23,6 @@ RF Remote Control Electronics The first pass at the remote control will be a sin
     </item>
     
     <item>
-      <title>On Vehicle Communication</title>
-      <link>http://mobilerobot.io/projects/on-vehicle-communications/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/projects/on-vehicle-communications/</guid>
-      <description>One of the first issues that we came against was the specific configurations of the micro-controllers as well and the number and configuration of pins and hardware particulars.
-Macro-Micro Controllers The system should be flexible enough to allow one or more macro-controls communicating with one or more micro-controllers.
-Communication Mechanism We have a rather complex set of communication requirements, we have signals between sensors, motors and micro-controllers. We also have the communication from the micro-controllers and the macro-controller.</description>
-    </item>
-    
-    <item>
       <title>Chassis and Drive Train</title>
       <link>http://mobilerobot.io/notes/reqs-hw-chasis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
