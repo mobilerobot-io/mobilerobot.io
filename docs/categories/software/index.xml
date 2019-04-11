@@ -34,6 +34,17 @@ On to Plan B Therefore I think I am going to head off and try plan B, for now Pl
     </item>
     
     <item>
+      <title>Raspberry Pi Webserver Takes Control</title>
+      <link>http://mobilerobot.io/projects/raspberry-pi-flask-python-server/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/raspberry-pi-flask-python-server/</guid>
+      <description>I have written a Flask server for the Raspberry Pi that does a great job of controlling the Raspberry Pi and its hardware, including the camera!
+[TODO]
+It does quite a few things. I need to document them here.</description>
+    </item>
+    
+    <item>
       <title>Store the Simple but Powerful Object Storage Library</title>
       <link>http://mobilerobot.io/projects/store/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>

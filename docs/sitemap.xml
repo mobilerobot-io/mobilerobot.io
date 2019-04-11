@@ -63,6 +63,11 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/projects/raspberry-pi-flask-python-server/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/notes/arduino-pro-mini/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -341,6 +346,12 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/tags/flask/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/tags/golang/</loc>
     <lastmod>2019-04-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -376,6 +387,12 @@
   
   <url>
     <loc>http://mobilerobot.io/notes/messaging-and-mqtt/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/microservice/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

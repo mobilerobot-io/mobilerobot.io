@@ -15,3 +15,6 @@ I have written a Flask server for the Raspberry Pi that does a great
 job of controlling the Raspberry Pi and its hardware, including the 
 camera!
 
+[TODO]
+
+It does quite a few things.  I need to document them here.
