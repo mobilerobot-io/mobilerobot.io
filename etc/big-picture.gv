@@ -1,0 +1,10 @@
+graph "physical" {
+      
+}
+
+graph "mobilerobot" {
+      joystick -- RF;
+      RF -- mqtt -- inputs -- ctl-loop -- outputs ;
+      joystick -- inputs;
+      mqtt -> influxDB;
+}
