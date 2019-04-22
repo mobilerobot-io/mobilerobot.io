@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="http://mobilerobot.io/css/style.css">
 
 
-<title>Sensor Networks</title>
+<title>Installing the Adafruit Motorkit</title>
 <body><header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
 	<a class="navbar-brand text-muted text-monospace" href="http://mobilerobot.io/">Mobile Robot I/O</a>
@@ -28,10 +28,9 @@
     <div class="row">
 	<div class="col"></div>
 	<div class="col-8">
-	    <h1 class="text-center header pb-1">Sensor Networks</h1>
+	    <h1 class="text-center header pb-1">Installing the Adafruit Motorkit</h1>
 	    <h5 class="leadin text-center text-muted mt-0">
-		Sensor networks gather data of all sorts, it could be atmospheric, motion or inventory drivin.  They are everywhere and a fundamental component of Big Data and machine learning.
-
+		
 	    </h5>
 	</div>
 	<div class="col"></div>
@@ -42,24 +41,26 @@
     <div class="row">
         <div class="col"></div>
         <div class="col-8">
-            <a href="http://mobilerobot.io/notes/sensor-networks/">Sensor Networks</a>
+            <a href="http://mobilerobot.io/notes/adafruit-motor-kit/">Installing the Adafruit Motorkit</a>
         </div>
         <div class="col"></div>
     </div> 
     <div class="row">
         <div class="col"></div>
-        <div class="col-8">
+        <div class="col-8"><p>According to the Adafruit instructions.</p>
 
-<h2 id="todo-write-ups">TODO: write ups</h2>
+<blockquote>
+<p>Now to move a motor you can set the throttle attribute. We don&rsquo;t
+call it speed because it doesn&rsquo;t correlate to a particular number of
+revolutions per minute (RPM). RPM depends on the motor and the
+voltage which is unknown.</p>
+</blockquote>
 
-<ul>
-<li>sierra hydrographics</li>
-<li>ACOE</li>
-<li>GOES software</li>
-<li>timeseries databases</li>
-<li>example sensor network</li>
-<li>around the house (throw in hardware)</li>
-</ul>
+<p>So, if we want to correlate speed with throttle, we must factor in
+voltage, the motor, size of wheels, etc.  Or supply a feedback
+mechanism to the throttle mechanism causing the throttle to back off.</p>
+
+<p>Well, that sounds pretty simple!</p>
 </div>
         <div class="col"></div>
     </div> 
