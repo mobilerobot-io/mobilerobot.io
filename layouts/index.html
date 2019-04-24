@@ -1,51 +1,11 @@
 {{ define "main" }}
-
 <div class="container">
     <div class="row">
 	<div class="col"></div>
-	<div class="col-9">
+	<div class="col-8">
 	    {{ .Content }}
 	</div>
 	<div class="col"></div>
-    </div>
-</div>
-
-<!--
-<div class="container">
-    <div class="row pt-3">
-	<div class="col-md-4">
-	    <img class="card-img-top" src="https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/Remote-Control-RF.png" />
-	</div>
-	<div class="col-md-4 p-4">
-	    <img class="card-img-top" src="https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/mr01.svg"/>
-	</div>
-	<div class="col-md-4">
-	    <img class="card-img-top" src="https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/cloud.png" />
-	</div>
-    </div>
-    <div class="row">
-	{{ range .Params.categories }}
-	{{ with $.Site.GetPage . }}
-	<div class="col-4">
-	    <div class="card">
-		<div class="card-body">
-		    <div class="card-title">
-			<h3 class="text-center">{{ .Title }}</h3>
-		    </div>
-		    <div class="card-text">
-			<ul class="list-group-flush">
-			    {{ range .Pages }}
-			    <li class="list-group-item">
-				<a href="{{ .Permalink }}" class="card-link">{{ .Title }}</a>
-			    </li>
-			    {{ end }}
-			</ul>
-		    </div>
-		</div>
-	    </div>
-	</div>
-	{{ end }}
-	{{ end }}
     </div>
 </div>
 
@@ -55,9 +15,7 @@
 	    <h2 class="text-center">Active Projects</h2>
 	</div> 
     </div>
-</div>
 
-<div class="container">
     <div class="row">
 	{{ $section := where $.Site.Pages "Section" "projects" }}
 	{{ range $section }}
@@ -81,18 +39,4 @@
 	{{ end }}
     </div>
 </div>
-
-<div class="container-fluid bg-primary pt-5 pb-5">
-    <div class="row">
-	<div class="col"></div>
-	<div class="col-4">
-	    <h2 class="text-left">TODO Email</h2>
-	</div>
-	<div class="col-4">
-	    <h2 class="text-right">TODO Youtube</h2>
-	</div>
-	    <div class="col"></div>
-    </div>
-</div>
--->
 {{ end }}
