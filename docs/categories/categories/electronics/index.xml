@@ -17,9 +17,9 @@
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/</guid>
-      <description>&lt;p&gt;Building a useful Robot is hard, in large part because Robotics is an
-inter-disciplinary subject matter requiring a high level of mastery of
-a number of complex subjects, (some of which we have listed below).&lt;/p&gt;</description>
+      <description>&lt;p&gt;This project has been created to document my discovery path to
+learning how to build non-trivial, useful, real-world robots that are
+also affordable.&lt;/p&gt;</description>
     </item>
     
   </channel>

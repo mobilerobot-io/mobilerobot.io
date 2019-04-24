@@ -3,16 +3,12 @@
   {{- partial "head.html" . -}}
   <body>
     {{- partial "header.html" . -}}
+
     {{- partial "jumbotron.html" . -}}
+
     <div id="main">
 	{{- block "main" . -}}
-	<div class="row">
-	    <div class="col"></div>
-	    <div class="col-8">
-		{{ .Content }}
-	    </div>
-	    <div class="col"></div>
-	/div>
+	{{- partial "content.html" . -}}
 	{{ end }}
     </div>
     {{- partial "footer.html" . -}}
