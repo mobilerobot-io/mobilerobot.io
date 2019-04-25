@@ -40,3 +40,19 @@ This will allow us the most bang for our buck.
 
 TODO: add a pic of the control station.
 
+## Kiosk Mode
+
+Our user interface will be local server software that will provider
+our controller with everyting it needs to do to control our mobile
+robots and assocociated components.
+
+### Monitor Mode
+
+Monitor mode will provide us with a _health status_ of our
+environment, Configuration mode allows us to modify configurations and
+control mode allows us to control our vehicles.
+
+We are going to write a Webapp served up by the local machine, which
+will be run in Kiosk mode.  We'll need to determine all the screens
+that will run in Kiosk mode, but we will have our local server,
+serving up some cool stuff!
