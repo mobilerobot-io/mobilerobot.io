@@ -70,6 +70,12 @@ a {
     padding-bottom: 2rem;
 }
 
+.copyright {
+    float: right;
+    text-decoration: italic;
+    font-size: 0.9rem;
+}
+
 .list-group-item {
     font-size: 1.0rem;
 }
