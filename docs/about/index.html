@@ -45,18 +45,29 @@
 	    <article class="article">
 		
 
-<p>This website was created to track the Mobile Robot Project, which is
-to build a robot for under $500.  While this project is about building
-an actual real world Robotic Vehicle, it is not about doing it in one
-specific way.</p>
+<p>This website was created to track and document the development of the
+Mobile Robot Project, an attempt to build a Discovery Rover, a remote
+controllable, video streaming discovery rover.  For under $500.</p>
+
+<p>While this website documents the development of a specific mobile
+robot. It is by no means an attempt to say this is <strong>the</strong> way to
+build a mobile robot.</p>
+
+<p>Rather, it is my intention to document The results of various Proof of
+concepts that lead to our design decisions.  It  Is also a goal of this
+project to create a set of modular and reusable blocks of hardware and
+software that will aid in the <em>rapid prototyping</em> of different
+configurations of robots to support a variety of applications.</p>
+
+<h2 id="robotics-library">Robotics Library</h2>
 
 <p>I intend to document a variety of design trade-offs as we come across
 them.  It is my hope that the documents and other resources that I
 stumble across are going to be of help, perhaps for a different
-application or perhaps to understand the reasoning behind the choice
+application or perhaps to understand the reasoning behind the choices
 we do make.</p>
 
-<h2 id="shoulders-of-giants">Shoulders of Giants</h2>
+<h2 id="shoulders-of-giants-and-reinventing-the-wheel">Shoulders of Giants and ReInventing the Wheel</h2>
 
 <p>At this point, early in The development of the robotic project, I
 really don&rsquo;t know what alternatives are available, Nor do I have an
@@ -66,43 +77,89 @@ understanding of previous or existing works.</p>
 the number of cases, But during that process discover the principal
 challenges in developing a particular application.</p>
 
-<p>In the process of doing so I expect they will run acrossGreat pieces
-of software that Will laterUsing and perhaps scrapping a lot of what
-we write and create.</p>
+<p>In the process of doing so I expect we&rsquo;ll run across great pieces
+of software that obselete peices of software we begin writing.
+However, I do want to state that I am avoiding, at this very early
+stage to avoid embracing specific technologies (arduino vs. raspberry
+pi), or frameworks (Robot OS) and certainly proprietary systems, all
+for the sake of <em>first principals</em>.</p>
 
-<p>Anyway favor you&rsquo;re interest in this project and I hope you will
-follow along, And perhapsSign up to keep up with what we&rsquo;re doing or
-better yet maybe chick didn&rsquo;t contribute some good stuff.</p>
+<blockquote>
+<p>I believe firmly that we should have a fundamental grasp of most all
+elements that make up our vehical to make the most appropriate
+design decisions</p>
+</blockquote>
 
-<p>Building  a useful Robot is hard, in large part because robots require
-mastery of many subjects including but not limited to mechanics,
-materials, electronics and power, software and communications.
-Combine that with the fact that I am not a <em>Robotisicst</em>, hence
-approach this project with ignorance, and preconcived ideas.</p>
+<h3 id="frameworks-and-first-principals">Frameworks and First Principals</h3>
+
+<p>Frameworks (well written), when embraced early on, enforce industry
+<em>best practices</em> and remove large amounts of tedium and
+insconsistancies inherent in building <em>systems</em> of hardware and
+software.</p>
+
+<p>Because frameworks save the user from the <em>tedium</em> and <em>learning
+curves</em> of underlying technologies that easily comes at the price of
+understanding the underlything technologies, hence limiting the
+developer to the <em>current</em> capabilities of thier framework of choice.</p>
+
+<p>It may also limit the range of solutions the Roboticiscts has
+available at their discresion.</p>
+
+<h4 id="first-principals-first">First Principals First</h4>
+
+<p>There is a high likelyhood that We embrace popular library packages
+And indeed may be a framework or two, but they will have only been
+selected because they have demonstrated the best fit for a given
+application.</p>
+
+<p>By approaching our design by <em>First Principals</em> have approached this
+by learning first principles, Understanding our applications true
+requirements, and only then mapping the application requirements to
+the capabilities of a given library or framework, Can we really
+achieve The maximum flexibility And powerfull solutions.</p>
+
+<h2 id="beyond-the-basics">Beyond The Basics</h2>
 
 <p>Without question this project is going to be about discovery.  We have
 started taking on mini projects beyond the introductory and trivial.</p>
 
 <p>Introductory material for virtually every aspect and technology that
-will be used on the mobile robot project Can be readily found on the
+will be used on the mobile robot project can be readily found on the
 Internet.</p>
 
-<p>However, Finding material thatGoes beyond the introduction to a more
+<p>However, Finding material that goes beyond the introduction to a more
 systematic development ofA real world projectBecomes trickier to find,
 With a very good reason Hey well-built real-world systemIs difficult
 to do.</p>
 
-<p>That is precisely what a robotic vehicle is</p>
+<p>That makes sense for two reasons, difficult things are more difficult
+to do and to document.  Second is because once you get beyond the
+trivial technical tutorial, you are almost always connecting diverse
+set of &ldquo;tools&rdquo; that constitute a <em>system</em>.</p>
 
-<p>While it is easy to find introductory material for pretty much every
-technology we use or look at on this project will have plenti</p>
+<p>Documenting <em>systems</em> is even harder than documenting even advanced,
+but isolated technical topics.  Yet that is what we will strive to
+achieve, a clear documentation of the <em>systems</em> involved in maintaning
+a Mobile Robot.</p>
 
-<p>Obtaining mastery in one of these areas is a significan undertaking
-anything more than that is the land of unicorns!</p>
+<p>Our focus will be less on introductory tutorials for popular
+technologies, however, we will have ample pointers to good resources.
+Heck, there are some GREAT tutorials that we will not improve on, so
+why replicate, we&rsquo;ll just provide a link to such resources.</p>
 
 <p>I do not know much of anything about building robots.  I do have a
 background in software engineering, so that is the portal I will be
 viewing this project from.</p>
+
+<blockquote>
+<p>My background is software and communications, with that I will
+approach my robotics journey, I intend to learn a lot about
+electronics, mechanics and computer vision.</p>
+
+<p>What would you like to learn?</p>
+</blockquote>
+
+<p><a href="http://todo">TODO</a> Put a sign up sheet here!</p>
 
 <h2 id="about-this-website">About This Website</h2>
 
