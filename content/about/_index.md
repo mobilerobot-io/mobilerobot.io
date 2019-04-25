@@ -130,3 +130,8 @@ at digital ocean.
 
 The repository for all sources are under the [github
 repo](http://github.com/mobilerobot-io/mobilerobot.io). 
+
+I just added Google Analytics to the site, let's see if _we_ get any
+visitors.  At the time of this writing, I am pretty much talking to
+myself.
+
