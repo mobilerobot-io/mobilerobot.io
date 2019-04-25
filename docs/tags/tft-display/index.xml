@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tft Display on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/tags/tft-display/</link>
+    <description>Recent content in Tft Display on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/tags/tft-display/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Control Station Display</title>
+      <link>http://mobilerobot.io/projects/control-station-display/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/control-station-display/</guid>
+      <description>We are going to build a simple control station that begins with a Raspberry Pi and connected 7 inch touchscreen tablet.
+I decided that it would really cool to use a Raspberry Pi as the control station for MBR, even cooler, why not attach a 7in touch screen to the RPI for configuring and monitoring the robot / system.
+Power The standard power taken from Mains should be fed with a 2Amp power supply connected to the Display Adapter Card.</description>
+    </item>
+    
+  </channel>
+</rss>
