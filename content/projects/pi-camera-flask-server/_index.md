@@ -27,3 +27,20 @@ accepting REST calls to perform application specific functions.
 I have created a flask server that will accept REST requests to
 control the PiCamera, AdaFruitMotorSheild and other stuff.
   
+
+Refer to the PiCamera documentation here:
+https://picamera.readthedocs.io/en/release-1.13/. 
+
+The software can be found in [github
+repository](http://github.com/mobilerobot-io/rpid). 
+
+And how to write and operate a flask based server for your project. 
+
+## TODO ~ Turn streaming On and Off
+
+The next task is to turn video streaming On and Off, this may require
+duping and modifying somewhat a python script ...
+
+
+
+  
