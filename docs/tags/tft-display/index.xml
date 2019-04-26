@@ -17,9 +17,10 @@
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/control-station-display/</guid>
-      <description>We are going to build a simple control station that begins with a Raspberry Pi and connected 7 inch touchscreen tablet.
-I decided that it would really cool to use a Raspberry Pi as the control station for MBR, even cooler, why not attach a 7in touch screen to the RPI for configuring and monitoring the robot / system.
-Power The standard power taken from Mains should be fed with a 2Amp power supply connected to the Display Adapter Card.</description>
+      <description>&lt;p&gt;We are going to build a simple control station that begins with a
+Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
+setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
+tabs and tool bars etc.&lt;/p&gt;</description>
     </item>
     
   </channel>

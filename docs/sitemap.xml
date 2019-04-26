@@ -13,13 +13,28 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/chassis/</loc>
+    <loc>http://mobilerobot.io/projects/rover-chassis/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://mobilerobot.io/about/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/projects/control-station-app/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/projects/pi-camera-flask-server/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/inventory/rpi4/</loc>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -46,14 +61,50 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/tags/camera/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/categories/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/categories/computer-video/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/front-end-ui/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/categories/hardware/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/inventory/</loc>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/pi-camera/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/picamera/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,6 +116,7 @@
   
   <url>
     <loc>http://mobilerobot.io/tags/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
