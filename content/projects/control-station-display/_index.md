@@ -11,10 +11,20 @@ categories:
 tags:
   - tft display
   - touch screen
+status: wip
+todo:
+  - provide pics for article
+  - complete article and proof read
 ---
 
 We are going to build a simple control station that begins with a
-Raspberry Pi and connected _7 inch touchscreen tablet_.
+Raspberry Pi and connected _7 inch touchscreen tablet_.  I have it
+setup in "kiosk mode", which is basically full page chrome without the
+tabs and tool bars etc.
+<!--more-->
+
+The touchscreen installation was nearly trivial, though I am using two
+power supplies, it would complain with just one.
 
 I decided that it would really cool to use a Raspberry Pi as the 
 _control station_ for MBR, even cooler, why not attach a 7in touch
@@ -40,7 +50,7 @@ This will allow us the most bang for our buck.
 
 TODO: add a pic of the control station.
 
-## Kiosk Mode
+## Chromium Kiosk Mode
 
 Our user interface will be local server software that will provider
 our controller with everyting it needs to do to control our mobile
@@ -56,3 +66,10 @@ We are going to write a Webapp served up by the local machine, which
 will be run in Kiosk mode.  We'll need to determine all the screens
 that will run in Kiosk mode, but we will have our local server,
 serving up some cool stuff!
+
+## Additional SPI(?) Pins
+
+The adapter board attached to the screen has a couple additional pins
+that allow stuff.
+
+TODO: check out the pins on this display
