@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="http://mobilerobot.io/css/style.css">
 
 
-<title>Software</title>
+<title>Communications</title>
 <body><header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
 	<a class="navbar-brand text-muted text-monospace" href="http://mobilerobot.io/">Mobile Robot I/O</a>
@@ -28,7 +28,7 @@
     <div class="row">
 	<div class="col"></div>
 	<div class="col-md-6">
-	    <h1 class="text-center header pb-1">Software</h1>
+	    <h1 class="text-center header pb-1">Communications</h1>
 	    <h5 class="leadin text-center text-muted mt-0">
 		
 	    </h5>
@@ -39,72 +39,6 @@
 <div id="main">
 <div class="container">
     <div class="row">
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Control Station Display
-		</div>
-		<div class="card-body">
-		    <p>We are going to build a simple control station that begins with a
-Raspberry Pi and connected <em>7 inch touchscreen tablet</em>.  I have it
-setup in &ldquo;kiosk mode&rdquo;, which is basically full page chrome without the
-tabs and tool bars etc.</p>
-
-<p>The touchscreen installation was nearly trivial, though I am using two
-power supplies, it would complain with just one.</p>
-
-<p>I decided that it would really cool to use a Raspberry Pi as the
-<em>control station</em> for MBR, even cooler, why not attach a 7in touch
-screen to the RPI for configuring and monitoring the robot / system.</p>
-
-<h2 id="power">Power</h2>
-
-<p>The standard power taken from Mains should be fed with a 2Amp power
-supply connected to the <strong>Display Adapter Card</strong>.</p>
-
-<p>You can optionally attach and additional 2am power supply to the
-RaspiBerry Pi thus driving power to the display and adapter card, in
-addition to the power supplied to the display, thus powering the Pi
-and Display seperately.</p>
-
-<h2 id="graphics">Graphics</h2>
-
-<p>Graphics for control software can be done in a number of different
-ways.  Unless compelled by good reason otherwise, we&rsquo;ll stick to
-webapps: HTML, CSS and JavaScript through a web server.</p>
-
-<p>This will allow us the most bang for our buck.</p>
-
-<p>TODO: add a pic of the control station.</p>
-
-<h2 id="chromium-kiosk-mode">Chromium Kiosk Mode</h2>
-
-<p>Our user interface will be local server software that will provider
-our controller with everyting it needs to do to control our mobile
-robots and assocociated components.</p>
-
-<h3 id="monitor-mode">Monitor Mode</h3>
-
-<p>Monitor mode will provide us with a <em>health status</em> of our
-environment, Configuration mode allows us to modify configurations and
-control mode allows us to control our vehicles.</p>
-
-<p>We are going to write a Webapp served up by the local machine, which
-will be run in Kiosk mode.  We&rsquo;ll need to determine all the screens
-that will run in Kiosk mode, but we will have our local server,
-serving up some cool stuff!</p>
-
-<h2 id="additional-spi-pins">Additional SPI(?) Pins</h2>
-
-<p>The adapter board attached to the screen has a couple additional pins
-that allow stuff.</p>
-
-<p>TODO: check out the pins on this display</p>
-		</div>
-	    </div>
-
-	</div>
 	
 	<div class="col-4 text-center">
 	    <div class="card">
@@ -218,38 +152,6 @@ to 0xBF.  Again, short packets have (2^6 = 32)  independent types.</p>
 <p>If desired, the compact and short packets can be turned off,
 altogether allocating the entire 2^8 == 256 types to be regular
 messages.</p>
-		</div>
-	    </div>
-
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    PiCamera Flask Server
-		</div>
-		<div class="card-body">
-		    
-
-<p>I have created a python / Flask based server to run on the Raspberry
-accepting REST calls to perform application specific functions.</p>
-
-<p>I have created a flask server that will accept REST requests to
-control the PiCamera, AdaFruitMotorSheild and other stuff.</p>
-
-<p>Refer to the PiCamera documentation here:
-<a href="https://picamera.readthedocs.io/en/release-1.13/">https://picamera.readthedocs.io/en/release-1.13/</a>.</p>
-
-<p>The software can be found in <a href="http://github.com/mobilerobot-io/rpid">github
-repository</a>.</p>
-
-<p>And how to write and operate a flask based server for your project.</p>
-
-<h2 id="todo-turn-streaming-on-and-off">TODO ~ Turn streaming On and Off</h2>
-
-<p>The next task is to turn video streaming On and Off, this may require
-duping and modifying somewhat a python script &hellip;</p>
-
 		</div>
 	    </div>
 
