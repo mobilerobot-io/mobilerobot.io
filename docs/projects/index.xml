@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile Robot Projects on Mobile Robot I/O</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>http://mobilerobot.io/projects/</link>
     <description>Recent content in Mobile Robot Projects on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mobilerobot.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Joystick Controls for Mobile Robot</title>
-      <link>http://localhost:1313/projects/remote-joystick/</link>
+      <link>http://mobilerobot.io/projects/remote-joystick/</link>
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/remote-joystick/</guid>
+      <guid>http://mobilerobot.io/projects/remote-joystick/</guid>
       <description>This was a simple but very cool project. Setup an Arduino Nano with a Joystick inputs with an RF output back to a control station (or the vehicle if control software resides on vehical).
 Requirements Develop a wireless Remote Control capable of controlling (i.e. send inputs to control software) able to control the vehicles motion.
 The Joystick must be able to communicate wirelessley.
@@ -25,10 +25,10 @@ The Joystick must be able to communicate wirelessley.
     
     <item>
       <title>Control Station Display</title>
-      <link>http://localhost:1313/projects/control-station-display/</link>
+      <link>http://mobilerobot.io/projects/control-station-display/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/control-station-display/</guid>
+      <guid>http://mobilerobot.io/projects/control-station-display/</guid>
       <description>&lt;p&gt;We are going to build a simple control station that begins with a
 Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
 setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
@@ -38,20 +38,20 @@ tabs and tool bars etc.
     
     <item>
       <title>Mobile Robot Chassis</title>
-      <link>http://localhost:1313/projects/rover-chassis/</link>
+      <link>http://mobilerobot.io/projects/rover-chassis/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/rover-chassis/</guid>
+      <guid>http://mobilerobot.io/projects/rover-chassis/</guid>
       <description>I quickly outgrew my first introductory robotics kit. I started with my first Robotic Kit (actually 4 of them), I choose the kits that provided the chassis only, after all, I did not know if I would want to base it on a Raspberry Pi or Arduino (or both), perhaps something else entirely? Follow the story and find out what happened:
 Intro Robotic Kits All inclusive Bring Your own Electronics Open Source Software Choosing Your Controller(s) Raspberry Pi ~ Pros and Cons Arduino ~ Pros and Cons Motorsheilds Others Were Rubber Meets the Road 2, 4 or 6 wheels Track Systems Wheels in Track System Number of Motors 1, 2, 4 or 6 wheel drive?</description>
     </item>
     
     <item>
       <title>TLV the Type Length Vector Protocol</title>
-      <link>http://localhost:1313/projects/tlv/</link>
+      <link>http://mobilerobot.io/projects/tlv/</link>
       <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/tlv/</guid>
+      <guid>http://mobilerobot.io/projects/tlv/</guid>
       <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
 messages around a complex, distributed system.&lt;br /&gt;
 &lt;/p&gt;</description>
@@ -59,22 +59,26 @@ messages around a complex, distributed system.&lt;br /&gt;
     
     <item>
       <title>Control Station App</title>
-      <link>http://localhost:1313/projects/control-station-application/</link>
+      <link>http://mobilerobot.io/projects/control-station-application/</link>
       <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/control-station-application/</guid>
+      <guid>http://mobilerobot.io/projects/control-station-application/</guid>
       <description>Our control station will run a 7in touch panel attached to a Raspberry Pi with various periphereals attached. To this end, it is a simple, self contained webserver UI written Go.
 Plugins keep it real Otto accepts plugins that allow new functionality to be added by simply implementing the simple interface specific in the interface specification.
 Otto GUI Otto comes with a built in GUI (HTML) interface as well as a provide REST interface and MQTT message bus.</description>
     </item>
     
     <item>
-      <title>Rock and Roll</title>
-      <link>http://localhost:1313/projects/rock-and-roll/</link>
-      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      <title>PiCamera Flask Server</title>
+      <link>http://mobilerobot.io/projects/pi-camera-flask-server/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/rock-and-roll/</guid>
-      <description>Here is some information about this project.</description>
+      <guid>http://mobilerobot.io/projects/pi-camera-flask-server/</guid>
+      <description>I have created a python / Flask based server to run on the Raspberry accepting REST calls to perform application specific functions.
+I have created a flask server that will accept REST requests to control the PiCamera, AdaFruitMotorSheild and other stuff.
+Refer to the PiCamera documentation here: https://picamera.readthedocs.io/en/release-1.13/.
+The software can be found in github repository.
+And how to write and operate a flask based server for your project.</description>
     </item>
     
   </channel>
