@@ -75,11 +75,29 @@
     </item>
     
     <item>
+      <title>Electronics</title>
+      <link>http://localhost:1313/categories/electronics/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hardware</title>
       <link>http://localhost:1313/categories/hardware/</link>
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/categories/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motors</title>
+      <link>http://localhost:1313/categories/motors/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/motors/</guid>
       <description></description>
     </item>
     

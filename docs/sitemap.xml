@@ -73,6 +73,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/projects/motor-controllers/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
@@ -92,6 +97,12 @@
   <url>
     <loc>http://localhost:1313/categories/categories-software/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/adafruit/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -138,6 +149,12 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/categories/electronics/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/tags/embedded/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -164,6 +181,18 @@
   <url>
     <loc>http://localhost:1313/tags/joystick/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/motors/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/motorshield/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -198,6 +227,12 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/tags/raspberry-pi/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/tags/rtos/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -217,7 +252,7 @@
   
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
