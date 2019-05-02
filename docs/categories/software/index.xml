@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Mobile Robot I/O</title>
-    <link>http://mobilerobot.io/categories/software/</link>
+    <link>http://localhost:1313/categories/software/</link>
     <description>Recent content in Software on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://mobilerobot.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Control Station Display</title>
-      <link>http://mobilerobot.io/projects/control-station-display/</link>
+      <link>http://localhost:1313/projects/control-station-display/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/projects/control-station-display/</guid>
+      <guid>http://localhost:1313/projects/control-station-display/</guid>
       <description>&lt;p&gt;We are going to build a simple control station that begins with a
 Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
 setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
@@ -26,10 +26,10 @@ tabs and tool bars etc.
     
     <item>
       <title>TLV the Type Length Vector Protocol</title>
-      <link>http://mobilerobot.io/projects/tlv/</link>
+      <link>http://localhost:1313/projects/tlv/</link>
       <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/projects/tlv/</guid>
+      <guid>http://localhost:1313/projects/tlv/</guid>
       <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
 messages around a complex, distributed system.&lt;br /&gt;
 &lt;/p&gt;</description>
@@ -37,10 +37,10 @@ messages around a complex, distributed system.&lt;br /&gt;
     
     <item>
       <title>PiCamera Flask Server</title>
-      <link>http://mobilerobot.io/projects/pi-camera-flask-server/</link>
+      <link>http://localhost:1313/projects/pi-camera-flask-server/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/projects/pi-camera-flask-server/</guid>
+      <guid>http://localhost:1313/projects/pi-camera-flask-server/</guid>
       <description>I have created a python / Flask based server to run on the Raspberry accepting REST calls to perform application specific functions.
 I have created a flask server that will accept REST requests to control the PiCamera, AdaFruitMotorSheild and other stuff.
 Refer to the PiCamera documentation here: https://picamera.readthedocs.io/en/release-1.13/.
