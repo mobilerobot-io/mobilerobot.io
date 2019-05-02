@@ -20,7 +20,8 @@
       <description>&lt;p&gt;We are going to build a simple control station that begins with a
 Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
 setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
-tabs and tool bars etc.&lt;/p&gt;</description>
+tabs and tool bars etc.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,7 +31,8 @@ tabs and tool bars etc.&lt;/p&gt;</description>
       
       <guid>http://mobilerobot.io/projects/tlv/</guid>
       <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.&lt;/p&gt;</description>
+messages around a complex, distributed system.&lt;br /&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
