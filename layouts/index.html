@@ -1,12 +1,25 @@
 {{ define "main" }}
 
 <div class="container pt-5 pb-5">
-    <div class="row">
-	<div class="col">
-	    <h2 class="text-center">Active Projects</h2>
-	</div> 
-    </div>
+  <div class="row">
+    <div class="col"></col>
+    <div class="col-8">
+      <title class="title text-center">{{ .Title }}</title>
+      <section class="summary">
+	  {{ .Summary }}
+      </section>
+    </col>
+    <div class="col"></col>
+  </div>
+</div>
 
+<div class="container-fluid pt-5 pb-5">
+  <div class="row">
+    <div class="col">
+      <h2 class="text-center">Active Projects</h2>
+    </div>
+  </div>
+    
     <div class="row">
 	{{ $section := where $.Site.Pages "Section" "projects" }}
 	{{ range $section }}

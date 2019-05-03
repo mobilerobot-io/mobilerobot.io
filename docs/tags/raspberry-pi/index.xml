@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on Mobile Robot I/O</title>
+    <link>http://localhost:1313/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inexpensive Motor Controllers for Arduino and Raspberry Pi</title>
+      <link>http://localhost:1313/projects/motor-controllers/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/motor-controllers/</guid>
+      <description>What are the first things to consider when developing a mobile robot Is how you&amp;rsquo;re going to make it move, and that is typically using motors. The cool thing is that inexpensive electrical motors are plentiful, however putting them to good use is a bit complex, Here we will conquer some of that complexity.
+We will consider the following 3 things:
+ What type of motor(s) do we need? How are we going to power them?</description>
+    </item>
+    
+  </channel>
+</rss>

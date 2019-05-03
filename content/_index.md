@@ -1,9 +1,8 @@
 ---
 title: Mobile Robot I/O Project
 description: >
-  Mobile Robot is a project to build self driving robot that can
-  stream video and communicate on the Internet, all for under 500
-  dollars! 
+  Mobile Robot is a project to build self driving video camera for
+  under 500 dollars! 
 date: 2018-01-15
 categories: 
   - /categories/electronics
@@ -11,9 +10,11 @@ categories:
   - /categories/software
 ---
 
-This project has been created to document my discovery path to
-learning how to build non-trivial, useful, real-world robots that are
-also affordable.
+This website document the progress of the Mobile Robot Project, both
+the discovery of available technologies pertinant to building and
+afforable mobile vehicle, the engineering process necessary to develop
+an industrial strength device.  And of course, our own implementation
+of said Robot.
 <!--more-->
 
 The potential applications for such a robot are endless, and it is
