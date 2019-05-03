@@ -12,6 +12,22 @@
     
     
     <item>
+      <title>MQTT For Controllor Communication</title>
+      <link>http://mobilerobot.io/projects/mqtt-for-controller-communication/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/mqtt-for-controller-communication/</guid>
+      <description>&lt;p&gt;The MQTT message server a general purpose as a systems message bus our
+project components can use to read and write data in near realtime.
+This data is used for a number of purposes, to advertise changes to
+control inputs and sensors, publish control messages to motor
+controllors and by the dashboard to display our realtime sensor
+data. This describes how our MQTT bus is being used and how we got it
+all hooked up!
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>The Go Periph Library</title>
       <link>http://mobilerobot.io/notes/go-periph-library/</link>
       <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
@@ -52,7 +68,8 @@ Quick Feature Recap Coolness beyond the Arduino Some of the interesting things t
       <description>&lt;p&gt;We are going to build a simple control station that begins with a
 Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
 setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
-tabs and tool bars etc.&lt;/p&gt;</description>
+tabs and tool bars etc.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -72,7 +89,8 @@ Intro Robotic Kits All inclusive Bring Your own Electronics Open Source Software
       
       <guid>http://mobilerobot.io/projects/tlv/</guid>
       <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.&lt;/p&gt;</description>
+messages around a complex, distributed system.&lt;br /&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Communications on Mobile Robot I/O</title>
-    <link>http://mobilerobot.io/categories/communications/</link>
-    <description>Recent content in Communications on Mobile Robot I/O</description>
+    <title>Mqtt on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/tags/mqtt/</link>
+    <description>Recent content in Mqtt on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://mobilerobot.io/categories/communications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mobilerobot.io/tags/mqtt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -24,17 +24,6 @@ control inputs and sensors, publish control messages to motor
 controllors and by the dashboard to display our realtime sensor
 data. This describes how our MQTT bus is being used and how we got it
 all hooked up!
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>TLV the Type Length Vector Protocol</title>
-      <link>http://mobilerobot.io/projects/tlv/</link>
-      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/projects/tlv/</guid>
-      <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.&lt;br /&gt;
 &lt;/p&gt;</description>
     </item>
     

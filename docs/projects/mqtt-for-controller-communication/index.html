@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="http://mobilerobot.io/css/style.css">
 
 
-<title>/Categories/Mechanics</title>
+<title>MQTT For Controllor Communication</title>
 <body><header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
 	<a class="navbar-brand text-muted text-monospace" href="http://mobilerobot.io/">Mobile Robot I/O</a>
@@ -28,85 +28,59 @@
     <div class="row">
 	<div class="col"></div>
 	<div class="col-md-6">
-	    <h1 class="text-center header pb-1">/Categories/Mechanics</h1>
+	    <h1 class="text-center header pb-1">MQTT For Controllor Communication</h1>
 	    <h5 class="leadin text-center text-muted mt-0">
-		
+		Publish/Subscribe is an popular solution to distributed system communications, where you do not want to directly couple the publisher and subscribers.  That is a fundamental design of this MBR project. 
+
 	    </h5>
 	</div>
 	<div class="col"></div>
     </div>
 </div>
 <div id="main">
-<div class="container">
-    <div class="row">
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Mobile Robot I/O Project
-		</div>
-		<div class="card-body">
-		    <p>This website document the progress of the Mobile Robot Project, both
-the discovery of available technologies pertinant to building and
-afforable mobile vehicle, the engineering process necessary to develop
-an industrial strength device.  And of course, our own implementation
-of said Robot.</p>
+<div class="container"><div class="row">
+    <div class="col"></div>
+    <div class="col-lg-8">
+	<article class="article">
+	    <p>The MQTT message server a general purpose as a systems message bus our
+project components can use to read and write data in near realtime.
+This data is used for a number of purposes, to advertise changes to
+control inputs and sensors, publish control messages to motor
+controllors and by the dashboard to display our realtime sensor
+data. This describes how our MQTT bus is being used and how we got it
+all hooked up!
+</p>
 
-<p>The potential applications for such a robot are endless, and it is
-easy for me to get carried away with all the cool and useful things
-this <em>Robot</em> can do, and stay focused on delivering the promise.</p>
+<h2 id="mqtt-bus-uses">MQTT Bus Uses</h2>
 
-<h3 id="interesting-but-overwhelming">Interesting but Overwhelming</h3>
+<ul>
+<li>Advertise Joystick inputs for vehicle control</li>
+<li>Advertise Sensor readings for sensor networks</li>
+<li>Consume vehical controls by the motor controllers</li>
+<li>Consume all sorts of data for the Dashboard and realtime graphs</li>
+</ul>
 
-<p>One thing quickly became obvious is that a working Robot, <em>any</em>
-working Robot is a network of multi-disciplinary connection
-<em>compromises</em>.</p>
+<h2 id="architecture">Architecture</h2>
 
-<p>To the end of minimizing <em>overwhelm</em> and keeping the interest factor
-high, we are going to set out a series of <em>project goals</em> that will
-help us stay focused on an end objective, evaluate our current
-activities (to avoid rabbit trails) and finally gain a sense of
-satisfaction and accomplishment when we hit our goals.</p>
+<p>Mosquitto MQTT Broker is running on a system wide Raspberry Pi. All
+sensor and control inputs are written to the appropriate topics on the
+MQTT bus.</p>
 
-<h2 id="evolving-project">Evolving Project</h2>
+<p>In the future we&rsquo;ll want to run an MQTT bus on vehical incase we
+loose contact with our control station.</p>
 
-<p>I would like to know that this project is not a one in done deal, Nor
-is it one specific Solution to the seated project goals, rather I am
-looking to Establish a set of best practices being applied to building
-Affordable robotic projects.</p>
+<h2 id="mqtt-channels">MQTT Channels</h2>
 
-<p>My ultimate goal will be achieved Is this website is to become a
-useful resource For serious hobbyist professionals alike.</p>
-
-<h3 id="project-goals">Project Goals</h3>
-
-<p>The first two <em>high level</em> goals for this project are:</p>
-
-<h4 id="goal-1-computer-and-human-controlled">Goal 1 ~ Computer and Human Controlled</h4>
-
-<p>Our vehical will can be controlled by either a human with a remote
-control, or by a <em>control algorigthm</em> running on, one of the vehicles
-MCUs.</p>
-
-<p>The control method must be selectable at runtime, in other words, a
-human operator will be able to switch the vehicles primary control
-between computer algorightm and webapp for example.</p>
-
-<h4 id="goal-2-stream-live-video-and-sensor-data">Goal 2 ~ Stream Live Video and Sensor Data</h4>
-
-<p>The vehicle when supplied with the appropriate equipment Is required
-to stream the corresponding data back Control station, That may be
-monitored by a human.</p>
-
-<p>To require datatypes That must be streamed back to the control station
-are Live streaming video As well as sensor data Such as temperature
-moisture etc.</p>
-		</div>
-	    </div>
-
-	</div>
-	
+<ul>
+<li>sensors/<sensor>/data</li>
+<li>motor/<cmd>/data&hellip;</li>
+<li>errors</li>
+<li>warnings</li>
+</ul>
+	</article>
     </div>
+    <div class="col"></div>
+</div>
 </div>
 
     </div><footer id="footer" class="container mb-5 pb-5">

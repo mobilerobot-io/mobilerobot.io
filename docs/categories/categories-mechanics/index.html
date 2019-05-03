@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="http://mobilerobot.io/css/style.css">
 
 
-<title>Control Station Display</title>
+<title>/Categories/Mechanics</title>
 <body><header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
 	<a class="navbar-brand text-muted text-monospace" href="http://mobilerobot.io/">Mobile Robot I/O</a>
@@ -28,80 +28,86 @@
     <div class="row">
 	<div class="col"></div>
 	<div class="col-md-6">
-	    <h1 class="text-center header pb-1">Control Station Display</h1>
+	    <h1 class="text-center header pb-1">/Categories/Mechanics</h1>
 	    <h5 class="leadin text-center text-muted mt-0">
-		The control station is where the robot will come to refuel and reload applications, it also manages off vehical cloud controls, including compute, storage networking.
-
+		
 	    </h5>
 	</div>
 	<div class="col"></div>
     </div>
 </div>
 <div id="main">
-<div class="container"><div class="row">
-    <div class="col"></div>
-    <div class="col-lg-8">
-	<article class="article">
-	    <p>We are going to build a simple control station that begins with a
-Raspberry Pi and connected <em>7 inch touchscreen tablet</em>.  I have it
-setup in &ldquo;kiosk mode&rdquo;, which is basically full page chrome without the
-tabs and tool bars etc.
+<div class="container">
+    <div class="row">
+	
+	<div class="col-4 text-center">
+	    <div class="card">
+		<div class="card-title">
+		    Mobile Robot I/O Project
+		</div>
+		<div class="card-body">
+		    <p>This website document the progress of the Mobile Robot Project, both
+the discovery of available technologies pertinant to building and
+afforable mobile vehicle, the engineering process necessary to develop
+an industrial strength device.  And of course, our own implementation
+of said Robot.
 </p>
 
-<p>The touchscreen installation was nearly trivial, though I am using two
-power supplies, it would complain with just one.</p>
+<p>The potential applications for such a robot are endless, and it is
+easy for me to get carried away with all the cool and useful things
+this <em>Robot</em> can do, and stay focused on delivering the promise.</p>
 
-<p>I decided that it would really cool to use a Raspberry Pi as the
-<em>control station</em> for MBR, even cooler, why not attach a 7in touch
-screen to the RPI for configuring and monitoring the robot / system.</p>
+<h3 id="interesting-but-overwhelming">Interesting but Overwhelming</h3>
 
-<h2 id="power">Power</h2>
+<p>One thing quickly became obvious is that a working Robot, <em>any</em>
+working Robot is a network of multi-disciplinary connection
+<em>compromises</em>.</p>
 
-<p>The standard power taken from Mains should be fed with a 2Amp power
-supply connected to the <strong>Display Adapter Card</strong>.</p>
+<p>To the end of minimizing <em>overwhelm</em> and keeping the interest factor
+high, we are going to set out a series of <em>project goals</em> that will
+help us stay focused on an end objective, evaluate our current
+activities (to avoid rabbit trails) and finally gain a sense of
+satisfaction and accomplishment when we hit our goals.</p>
 
-<p>You can optionally attach and additional 2am power supply to the
-RaspiBerry Pi thus driving power to the display and adapter card, in
-addition to the power supplied to the display, thus powering the Pi
-and Display seperately.</p>
+<h2 id="evolving-project">Evolving Project</h2>
 
-<h2 id="graphics">Graphics</h2>
+<p>I would like to know that this project is not a one in done deal, Nor
+is it one specific Solution to the seated project goals, rather I am
+looking to Establish a set of best practices being applied to building
+Affordable robotic projects.</p>
 
-<p>Graphics for control software can be done in a number of different
-ways.  Unless compelled by good reason otherwise, we&rsquo;ll stick to
-webapps: HTML, CSS and JavaScript through a web server.</p>
+<p>My ultimate goal will be achieved Is this website is to become a
+useful resource For serious hobbyist professionals alike.</p>
 
-<p>This will allow us the most bang for our buck.</p>
+<h3 id="project-goals">Project Goals</h3>
 
-<p>TODO: add a pic of the control station.</p>
+<p>The first two <em>high level</em> goals for this project are:</p>
 
-<h2 id="chromium-kiosk-mode">Chromium Kiosk Mode</h2>
+<h4 id="goal-1-computer-and-human-controlled">Goal 1 ~ Computer and Human Controlled</h4>
 
-<p>Our user interface will be local server software that will provider
-our controller with everyting it needs to do to control our mobile
-robots and assocociated components.</p>
+<p>Our vehical will can be controlled by either a human with a remote
+control, or by a <em>control algorigthm</em> running on, one of the vehicles
+MCUs.</p>
 
-<h3 id="monitor-mode">Monitor Mode</h3>
+<p>The control method must be selectable at runtime, in other words, a
+human operator will be able to switch the vehicles primary control
+between computer algorightm and webapp for example.</p>
 
-<p>Monitor mode will provide us with a <em>health status</em> of our
-environment, Configuration mode allows us to modify configurations and
-control mode allows us to control our vehicles.</p>
+<h4 id="goal-2-stream-live-video-and-sensor-data">Goal 2 ~ Stream Live Video and Sensor Data</h4>
 
-<p>We are going to write a Webapp served up by the local machine, which
-will be run in Kiosk mode.  We&rsquo;ll need to determine all the screens
-that will run in Kiosk mode, but we will have our local server,
-serving up some cool stuff!</p>
+<p>The vehicle when supplied with the appropriate equipment Is required
+to stream the corresponding data back Control station, That may be
+monitored by a human.</p>
 
-<h2 id="additional-spi-pins">Additional SPI(?) Pins</h2>
+<p>To require datatypes That must be streamed back to the control station
+are Live streaming video As well as sensor data Such as temperature
+moisture etc.</p>
+		</div>
+	    </div>
 
-<p>The adapter board attached to the screen has a couple additional pins
-that allow stuff.</p>
-
-<p>TODO: check out the pins on this display</p>
-	</article>
+	</div>
+	
     </div>
-    <div class="col"></div>
-</div>
 </div>
 
     </div><footer id="footer" class="container mb-5 pb-5">

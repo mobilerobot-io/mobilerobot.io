@@ -43,6 +43,52 @@
 	<div class="col-4 text-center">
 	    <div class="card">
 		<div class="card-title">
+		    MQTT For Controllor Communication
+		</div>
+		<div class="card-body">
+		    <p>The MQTT message server a general purpose as a systems message bus our
+project components can use to read and write data in near realtime.
+This data is used for a number of purposes, to advertise changes to
+control inputs and sensors, publish control messages to motor
+controllors and by the dashboard to display our realtime sensor
+data. This describes how our MQTT bus is being used and how we got it
+all hooked up!
+</p>
+
+<h2 id="mqtt-bus-uses">MQTT Bus Uses</h2>
+
+<ul>
+<li>Advertise Joystick inputs for vehicle control</li>
+<li>Advertise Sensor readings for sensor networks</li>
+<li>Consume vehical controls by the motor controllers</li>
+<li>Consume all sorts of data for the Dashboard and realtime graphs</li>
+</ul>
+
+<h2 id="architecture">Architecture</h2>
+
+<p>Mosquitto MQTT Broker is running on a system wide Raspberry Pi. All
+sensor and control inputs are written to the appropriate topics on the
+MQTT bus.</p>
+
+<p>In the future we&rsquo;ll want to run an MQTT bus on vehical incase we
+loose contact with our control station.</p>
+
+<h2 id="mqtt-channels">MQTT Channels</h2>
+
+<ul>
+<li>sensors/<sensor>/data</li>
+<li>motor/<cmd>/data&hellip;</li>
+<li>errors</li>
+<li>warnings</li>
+</ul>
+		</div>
+	    </div>
+
+	</div>
+	
+	<div class="col-4 text-center">
+	    <div class="card">
+		<div class="card-title">
 		    The Go Periph Library
 		</div>
 		<div class="card-body">
@@ -63,7 +109,8 @@ code to help start developing our own interactions.</p>
 		    <p>We are going to build a simple control station that begins with a
 Raspberry Pi and connected <em>7 inch touchscreen tablet</em>.  I have it
 setup in &ldquo;kiosk mode&rdquo;, which is basically full page chrome without the
-tabs and tool bars etc.</p>
+tabs and tool bars etc.
+</p>
 
 <p>The touchscreen installation was nearly trivial, though I am using two
 power supplies, it would complain with just one.</p>
@@ -127,7 +174,8 @@ that allow stuff.</p>
 		</div>
 		<div class="card-body">
 		    <p>TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.</p>
+messages around a complex, distributed system.<br />
+</p>
 
 <p>The TLV protocol provides only message formatting by definition.  How
 the application handles said messages is up to the application, that
