@@ -1,72 +1,5 @@
 ---
 title: About
-<<<<<<< HEAD
-description: This page is about this Project
-date: 2019-04-20
----
-
-I am a software engineer by trade, and design.  Much of the 30 years
-or so I have been programming and messing with computers have involved
-computer networks, real-time systems or the Internet, in one way or
-another.
-
-I have always been fascinated with the idea that a person can get two
-electronic boxes to talk to one another, or used by humans to
-communicate with one another.  How cool is that!
-
-## Computer Communication
-
-These days, I am still just as fascinated with _computer
-communications_ as ever, only now it is less focused on global
-internet style communications, but more close proximity and real time
-networks, like those you might see on a Robot or automobile. 
-
-### Let Them Eat Chips
-
-That is due to the fact that hardware (powerful, sophisticated)
-hardware can be purchased for less than a days worth of meals is mind
-boggling to me.
-
-We are now sitting in a game changing technological perfect storm,
-powerful micro controllers / computers and cheap electronics have
-opened access to building blocks available to almost everybody.
-
-Technology for less the a cup of coffee that can interact with the
-real world.  You know things like _Sensor Networks_ and _Robotics_.
-Each requiring realtime interprocess communication as well as
-connecting to the Internet in an IoT sort of way.
-
-### A Robot For a Nice Dinner?
-
-Now a $4 chip easily connects to a ubiquitous wifi network.  Has
-enough processing power to collect real time video and interact with
-the physical world through programmable "pins" that observe and change
-the world is INSANE.
-
-## Build a Robot with Video
-
-This website was created to track and document the development of the
-Mobile Robot Project, an attempt to build a Discovery Rover, a remote
-controllable, video streaming discovery rover.  For under $500.
-
-While this website documents the development of a specific mobile
-robot. It is by no means an attempt to say this is **the** way to
-build a mobile robot.
-
-Rather, it is my intention to document The results of various Proof of
-concepts that lead to our design decisions.  It  Is also a goal of this
-project to create a set of modular and reusable blocks of hardware and
-software that will aid in the _rapid prototyping_ of different
-configurations of robots to support a variety of applications.
-
-## Robotics Library
-
-I intend to document a variety of design trade-offs as we come across
-them.  It is my hope that the documents and other resources that I
-stumble across are going to be of help, perhaps for a different
-application or perhaps to understand the reasoning behind the choices
-we do make.
-=======
 description: >
   Mobile Robot I/O is an actvie project of to develop a mobile video
   camera for under $500!
@@ -117,7 +50,6 @@ I will happily take on a few programming gigs to help fund this
 effort!  Also, I would like put together an agency that specializes in
 building customized automation and robotic systems with modern
 hardware. 
->>>>>>> 085970d6d0704881459bf837f545b3489541058a
 
 ## About This Website
 
