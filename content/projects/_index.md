@@ -14,18 +14,10 @@ communication, these are just high level disciplines, each of these
 categories involves many specialties.
 <!--more-->
 
-## A Little Help From My Friends
+## A List Of Interesting Projects
 
-At the end of the day, it is most likely too ambitious a task to build
-one of the worlds finest, affordable, OpenSource robots all on my
-own.  The end product will require relying on many others, through
-Open Source sofware and hardware, information available on Youtube,
-and even best of all, meeting people face to face that share a passion
-and skills for building Robots.
+The Mobile Robot Project is really a gathering of quite a few
+interesting, and moderately complex sub-projects, that I will attempt
+to capture in these pages.
 
-I certainly need help, both learning what it will take to build
-this robot, but better, maybe get some helping hands to chip in and
-make this project fabulous!
 
-Is there something on this site you would like to see, or a particular
-interest you happen to have?
