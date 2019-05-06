@@ -21,8 +21,3 @@ specs here: and compare with other well known options (arduino's, stm32 or
 Raspberry Pi.
 
 ## Quick Feature Recap
-
-### Coolness beyond the Arduino
-
-Some of the interesting things that set this chip apart from the arduino, also
-pitfalls that come along with this more advanced chip.
