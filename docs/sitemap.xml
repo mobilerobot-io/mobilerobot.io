@@ -3,310 +3,331 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mobilerobot.io/projects/mqtt-for-controller-communication/</loc>
+    <loc>http://localhost:1313/projects/mqtt-for-controller-communication/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/go-periph-library/</loc>
+    <loc>http://localhost:1313/notes/go-periph-library/</loc>
     <lastmod>2019-04-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/remote-joystick/</loc>
+    <loc>http://localhost:1313/projects/remote-joystick/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/esp32/</loc>
+    <loc>http://localhost:1313/notes/esp32/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/</loc>
+    <loc>http://localhost:1313/inventory/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/control-station-display/</loc>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/inventory/rpi-7inch-touch-screen-element14/</loc>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/projects/control-station-display/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/rover-chassis/</loc>
+    <loc>http://localhost:1313/projects/rover-chassis/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/tlv/</loc>
+    <loc>http://localhost:1313/projects/tlv/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/nrf24l01/</loc>
+    <loc>http://localhost:1313/notes/nrf24l01/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/control-station-application/</loc>
+    <loc>http://localhost:1313/projects/control-station-application/</loc>
     <lastmod>2019-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/pi-camera-flask-server/</loc>
+    <loc>http://localhost:1313/projects/pi-camera-flask-server/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/inventory/rpi4/</loc>
+    <loc>http://localhost:1313/inventory/rpi4/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/</loc>
+    <loc>http://localhost:1313/projects/i2c-mcu-communications/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/notes/</loc>
     <lastmod>2019-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/motor-controllers/</loc>
+    <loc>http://localhost:1313/projects/motor-controllers/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/categories/electronics/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/categories/mechanics/</loc>
+    <loc>http://localhost:1313/categories/categories/electronics/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/categories/software/</loc>
+    <loc>http://localhost:1313/categories/categories/mechanics/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/adafruit/</loc>
+    <loc>http://localhost:1313/categories/categories/software/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/adafruit/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/arduino/</loc>
+    <loc>http://localhost:1313/tags/arduino/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/arduino/</loc>
+    <loc>http://localhost:1313/categories/arduino/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/camera/</loc>
+    <loc>http://localhost:1313/tags/camera/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/communications/</loc>
+    <loc>http://localhost:1313/categories/communications/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/computer-video/</loc>
+    <loc>http://localhost:1313/categories/computer-video/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/electronics/</loc>
+    <loc>http://localhost:1313/categories/display/</loc>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/electronics/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/embedded/</loc>
+    <loc>http://localhost:1313/tags/embedded/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/esp32/</loc>
+    <loc>http://localhost:1313/tags/esp32/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/front-end-ui/</loc>
+    <loc>http://localhost:1313/tags/front-end-ui/</loc>
     <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/golang/</loc>
+    <loc>http://localhost:1313/tags/golang/</loc>
     <lastmod>2019-04-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/gpio/</loc>
+    <loc>http://localhost:1313/tags/gpio/</loc>
     <lastmod>2019-04-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/hardware/</loc>
+    <loc>http://localhost:1313/categories/hardware/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/inventory/</loc>
-    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/i2c/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/joystick/</loc>
+    <loc>http://localhost:1313/tags/joystick/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/micro-controller/</loc>
+    <loc>http://localhost:1313/categories/micro-controller/</loc>
     <lastmod>2019-04-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/mosquitto/</loc>
+    <loc>http://localhost:1313/tags/mosquitto/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/motors/</loc>
+    <loc>http://localhost:1313/categories/motors/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/motorshield/</loc>
+    <loc>http://localhost:1313/tags/motorshield/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/mqtt/</loc>
+    <loc>http://localhost:1313/tags/mqtt/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/nano/</loc>
+    <loc>http://localhost:1313/tags/nano/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/nrf240l1/</loc>
+    <loc>http://localhost:1313/tags/nrf240l1/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/nrf24l/</loc>
+    <loc>http://localhost:1313/tags/nrf24l/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/periph.io/</loc>
+    <loc>http://localhost:1313/tags/periph.io/</loc>
     <lastmod>2019-04-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/pi-camera/</loc>
+    <loc>http://localhost:1313/tags/pi-camera/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/picamera/</loc>
+    <loc>http://localhost:1313/tags/picamera/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/raspberry-pi/</loc>
+    <loc>http://localhost:1313/tags/raspberry-pi/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/rtos/</loc>
+    <loc>http://localhost:1313/tags/rtos/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/software/</loc>
+    <loc>http://localhost:1313/categories/software/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/spi/</loc>
+    <loc>http://localhost:1313/tags/spi/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/tft-display/</loc>
+    <loc>http://localhost:1313/tags/tft-display/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/tlv/</loc>
+    <loc>http://localhost:1313/tags/tlv/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/touch-screen/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/touch-screen/</loc>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
