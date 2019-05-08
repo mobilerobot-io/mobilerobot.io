@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Field Notes Robot Building on Mobile Robot I/O</title>
-    <link>http://localhost:1313/notes/</link>
+    <link>http://mobilerobot.io/notes/</link>
     <description>Recent content in Field Notes Robot Building on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mobilerobot.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Go Periph Library</title>
-      <link>http://localhost:1313/notes/go-periph-library/</link>
+      <link>http://mobilerobot.io/notes/go-periph-library/</link>
       <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/go-periph-library/</guid>
+      <guid>http://mobilerobot.io/notes/go-periph-library/</guid>
       <description>Periph provides a lot of useful utilitie along with example source code to help start developing our own interactions.</description>
     </item>
     
     <item>
       <title>The ESP32</title>
-      <link>http://localhost:1313/notes/esp32/</link>
+      <link>http://mobilerobot.io/notes/esp32/</link>
       <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/esp32/</guid>
+      <guid>http://mobilerobot.io/notes/esp32/</guid>
       <description> You need to push the RESET button to get them to write flash.
 A power packed chip that I have just started playing with. Give some quick specs here: and compare with other well known options (arduino&amp;rsquo;s, stm32 or Raspberry Pi.
 Quick Feature Recap </description>
@@ -33,10 +33,10 @@ Quick Feature Recap </description>
     
     <item>
       <title>The NRF240L1 RF Transceiver</title>
-      <link>http://localhost:1313/notes/nrf24l01/</link>
+      <link>http://mobilerobot.io/notes/nrf24l01/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/nrf24l01/</guid>
+      <guid>http://mobilerobot.io/notes/nrf24l01/</guid>
       <description>This RC reciever chip is very easy to use out of the box, yet provides some very sophisticated capabilities. The first project We&amp;rsquo;ll start using this chip will be a remote control Joystick for our mobile robot.
 Todos:  point to the datasheet load personal photos of my project with NRF20L  pull the image from evernote  fritz a diagram post code that I use and or wrote Try to do an eagle cad  Source Voltage According to Benjamin David Fraser Plugging the NRF24L02 directly into the Arduino 3.</description>
     </item>
