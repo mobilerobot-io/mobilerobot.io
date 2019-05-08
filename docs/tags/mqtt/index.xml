@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mqtt on Mobile Robot I/O</title>
+    <link>http://localhost:1313/tags/mqtt/</link>
+    <description>Recent content in Mqtt on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/mqtt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MQTT For Controllor Communication</title>
+      <link>http://localhost:1313/projects/mqtt-for-controller-communication/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/mqtt-for-controller-communication/</guid>
+      <description>&lt;p&gt;The MQTT message server a general purpose as a systems message bus our
+project components can use to read and write data in near realtime.
+This data is used for a number of purposes, to advertise changes to
+control inputs and sensors, publish control messages to motor
+controllors and by the dashboard to display our realtime sensor
+data. This describes how our MQTT bus is being used and how we got it
+all hooked up!
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
