@@ -144,5 +144,15 @@ We will consider the following 3 things:
  What type of motor(s) do we need? How are we going to power them?</description>
     </item>
     
+    <item>
+      <title>Otto the Micro Server ~ Small, Fast and Pluggable!</title>
+      <link>http://mobilerobot.io/projects/otto-mico-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/otto-mico-server/</guid>
+      <description>Otto is a small, simple micro-server written in Go. It handles requisit communications and related infra structure required by servers and controllers. The applications and functionality will be provided via pluggins.
+Otto can run as a REST server in a data center or the controller on micro-controller type of computer. Otto was developed with the notion that much of the code that makes for a good server (or any application for that matter) requires redundant but import supporting infrastructure.</description>
+    </item>
+    
   </channel>
 </rss>
