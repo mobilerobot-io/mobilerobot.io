@@ -1,5 +1,9 @@
 {{ define "main" }}
 <div class="container">
+    <img class="img" src="{{ .Params.image }}" />
+</div>
+
+<div class="container">
     {{- partial "content" . -}}
 </div>
 {{ end }}

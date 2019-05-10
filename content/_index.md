@@ -8,13 +8,13 @@ categories:
   - /categories/electronics
   - /categories/mechanics
   - /categories/software
+image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/software-block.png
 ---
 
 This website documents the progress of learning how to build a Mobile
-Robot. This site captures a lot of technical details, a myriad of
-things I learned during my Proof Of Concept, as well as the many
-versions of Robots I have built, contributed to and found
-interesting. 
+Robot. This site captures a lot of technical details, and a myriad of
+things I have learned during my process of doing Proof Of Concepts,
+building prototype robots and trying to get production ready.
 <!--more-->
 
 The end goal is to build an industrial strength _mobile rover with a

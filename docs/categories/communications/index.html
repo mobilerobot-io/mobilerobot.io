@@ -47,7 +47,14 @@
 		    MQTT For Controllor Communication
 		</div>
 		<div class="card-body">
-		    <p>The MQTT message server a general purpose as a systems message bus our
+		    <p>The MQTT message bus is a simple but critical element of our MBR
+software design.  MQTT provides what is know as a <em>publish/suscribe</em>
+or <em>pubsub</em> model useful for many types of computer communication,
+including <em>real time</em> control software, like we use to drive our
+mobile vehicle.  This article will go into detail on our controll
+system software and the various components required to make it happen!</p>
+
+<p>The MQTT message server a general purpose as a systems message bus our
 project components can use to read and write data in near realtime.
 This data is used for a number of purposes, to advertise changes to
 control inputs and sensors, publish control messages to motor

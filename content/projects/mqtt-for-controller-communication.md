@@ -6,6 +6,7 @@ description: >
   publisher and subscribers.  That is a fundamental design of this MBR
   project. 
 date: 2019-05-03
+image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/software-block.png
 categories:
   - software
   - communications
@@ -14,6 +15,14 @@ tags:
   - mosquitto
 ---
 
+The MQTT message bus is a simple but critical element of our MBR
+software design.  MQTT provides what is know as a _publish/suscribe_
+or _pubsub_ model useful for many types of computer communication,
+including _real time_ control software, like we use to drive our
+mobile vehicle.  This article will go into detail on our controll
+system software and the various components required to make it happen! 
+
+<!--more-->
 The MQTT message server a general purpose as a systems message bus our
 project components can use to read and write data in near realtime.
 This data is used for a number of purposes, to advertise changes to
@@ -21,7 +30,7 @@ control inputs and sensors, publish control messages to motor
 controllors and by the dashboard to display our realtime sensor
 data. This describes how our MQTT bus is being used and how we got it
 all hooked up!
-<!--more-->
+
 
 ## MQTT Bus Uses
 
