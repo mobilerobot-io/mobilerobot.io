@@ -11,6 +11,7 @@ categories:
 tags:
   - tft display
   - touch screen
+image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/display-and-motors.jpg
 status: wip
 todo:
   - provide pics for article

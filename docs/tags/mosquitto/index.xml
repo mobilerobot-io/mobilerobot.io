@@ -18,11 +18,10 @@
       
       <guid>http://mobilerobot.io/projects/mqtt-for-controller-communication/</guid>
       <description>&lt;p&gt;The MQTT message bus is a simple but critical element of our MBR
-software design.  MQTT provides what is know as a &lt;em&gt;publish/suscribe&lt;/em&gt;
-or &lt;em&gt;pubsub&lt;/em&gt; model useful for many types of computer communication,
-including &lt;em&gt;real time&lt;/em&gt; control software, like we use to drive our
-mobile vehicle.  This article will go into detail on our controll
-system software and the various components required to make it happen!&lt;/p&gt;</description>
+software design.  MQTT provides what is known as a &lt;em&gt;publish/suscribe&lt;/em&gt;
+or &lt;em&gt;pubsub&lt;/em&gt; communications model.  This model of machine to machine
+communication has some attractive benefits for realtime driving
+algorithms that we will discuss in this post.&lt;/p&gt;</description>
     </item>
     
   </channel>

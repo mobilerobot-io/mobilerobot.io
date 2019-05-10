@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Joystick Controls for Mobile Robot</title>
-      <link>http://mobilerobot.io/projects/remote-joystick/</link>
+      <title>RF Joystick Controllor</title>
+      <link>http://mobilerobot.io/projects/rf-joystick-controller/</link>
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/projects/remote-joystick/</guid>
+      <guid>http://mobilerobot.io/projects/rf-joystick-controller/</guid>
       <description>This was a simple but very cool project. Setup an Arduino Nano with a Joystick inputs with an RF output back to a control station (or the vehicle if control software resides on vehical).
 Requirements Develop a wireless Remote Control capable of controlling (i.e. send inputs to control software) able to control the vehicles motion.
 The Joystick must be able to communicate wirelessley.

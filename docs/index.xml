@@ -18,11 +18,10 @@
       
       <guid>http://mobilerobot.io/projects/mqtt-for-controller-communication/</guid>
       <description>&lt;p&gt;The MQTT message bus is a simple but critical element of our MBR
-software design.  MQTT provides what is know as a &lt;em&gt;publish/suscribe&lt;/em&gt;
-or &lt;em&gt;pubsub&lt;/em&gt; model useful for many types of computer communication,
-including &lt;em&gt;real time&lt;/em&gt; control software, like we use to drive our
-mobile vehicle.  This article will go into detail on our controll
-system software and the various components required to make it happen!&lt;/p&gt;</description>
+software design.  MQTT provides what is known as a &lt;em&gt;publish/suscribe&lt;/em&gt;
+or &lt;em&gt;pubsub&lt;/em&gt; communications model.  This model of machine to machine
+communication has some attractive benefits for realtime driving
+algorithms that we will discuss in this post.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,11 +34,11 @@ system software and the various components required to make it happen!&lt;/p&gt;
     </item>
     
     <item>
-      <title>Joystick Controls for Mobile Robot</title>
-      <link>http://mobilerobot.io/projects/remote-joystick/</link>
+      <title>RF Joystick Controllor</title>
+      <link>http://mobilerobot.io/projects/rf-joystick-controller/</link>
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/projects/remote-joystick/</guid>
+      <guid>http://mobilerobot.io/projects/rf-joystick-controller/</guid>
       <description>This was a simple but very cool project. Setup an Arduino Nano with a Joystick inputs with an RF output back to a control station (or the vehicle if control software resides on vehical).
 Requirements Develop a wireless Remote Control capable of controlling (i.e. send inputs to control software) able to control the vehicles motion.
 The Joystick must be able to communicate wirelessley.
