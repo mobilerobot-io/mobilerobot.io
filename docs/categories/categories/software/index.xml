@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>/Categories/Software on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/categories/categories/software/</link>
+    <description>Recent content in /Categories/Software on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/categories/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mobile Robot I/O Project</title>
+      <link>http://mobilerobot.io/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/</guid>
+      <description>&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+This website documents the progress of learning how to build a Mobile
+Robot. This site captures a lot of technical details, and a myriad of
+things I have learned during my process of doing Proof Of Concepts,&lt;/p&gt;
+
+&lt;h1 id=&#34;building-prototype-robots-and-trying-to-get-production-ready&#34;&gt;building prototype robots and trying to get production ready.&lt;/h1&gt;
+
+&lt;p&gt;This website is about the Mobile Robot Project: the discovery of
+available technologies pertinant to building an affordable mobile
+video camera, the engineering process used to develop  a production
+ready, industrial strength vehical.  I will, of course include my own
+implementation of these finding, right here in this website.
+&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; a151de2565ef602f3cbac308fb573629b0ce2de4&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
