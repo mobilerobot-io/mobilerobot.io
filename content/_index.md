@@ -10,11 +10,11 @@ categories:
   - /categories/software
 ---
 
-This website document the progress of the Mobile Robot Project, both
-the discovery of available technologies pertinant to building and
-afforable mobile vehicle, the engineering process necessary to develop
-an industrial strength device.  And of course, our own implementation
-of said Robot.
+This website is about the Mobile Robot Project: the discovery of
+available technologies pertinant to building an affordable mobile
+video camera, the engineering process used to develop  a production
+ready, industrial strength vehical.  I will, of course include my own
+implementation of these finding, right here in this website. 
 <!--more-->
 
 The potential applications for such a robot are endless, and it is
