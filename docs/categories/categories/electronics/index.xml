@@ -17,11 +17,11 @@
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/</guid>
-      <description>&lt;p&gt;This website document the progress of the Mobile Robot Project, both
-the discovery of available technologies pertinant to building and
-afforable mobile vehicle, the engineering process necessary to develop
-an industrial strength device.  And of course, our own implementation
-of said Robot.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This website documents the progress of learning how to build a Mobile
+Robot. This site captures a lot of technical details, a myriad of
+things I learned during my Proof Of Concept, as well as the many
+versions of Robots I have built, contributed to and found
+interesting.&lt;/p&gt;</description>
     </item>
     
   </channel>
