@@ -37,6 +37,10 @@ Joystick or Keyboard.  Replacing, say the keyboard with Joystick
 control requires new  software to be added to the controlled item, as
 well as created for the controller.
 
+It also opens up opportunity for logging, learning, testing and
+replays! 
+
+
 Keyboards, programs or canned messages can be formed to sned the same
 communication. 
 
