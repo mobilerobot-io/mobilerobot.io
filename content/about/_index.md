@@ -70,3 +70,8 @@ I just added Google Analytics to the site, let's see if _we_ get any
 visitors.  At the time of this writing, I am pretty much talking to
 myself.
 
+## TODO ~ About 
+
+- Proof read & Edit
+- Picture of car and Myself (maybe workspace also)
+
