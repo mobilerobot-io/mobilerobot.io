@@ -1,10 +1,11 @@
 ---
-title: Joystick Controls for Mobile Robot
+title: RF Joystick Controllor 
 description: >
   This project adds a Joystick to the controlls for MobileRobot. The
   first version is simple, and Arduino Nano, with a cheap joystick and
   an nRF24L01 RF transciever.
 date: 2019-04-26
+image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/tank-green-blue.png
 categories:
   - hardware
   - arduino
@@ -96,8 +97,6 @@ mechanism.
 
 That is the communication layer will understand the [TLV and TLString
 protocols](/projects/tlv), provide the application. 
-
-
 
 ### Arduino I/O
 

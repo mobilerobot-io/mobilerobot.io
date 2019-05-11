@@ -8,13 +8,14 @@ categories:
   - /categories/electronics
   - /categories/mechanics
   - /categories/software
+image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/software-block.png
 ---
 
 This website is about the Mobile Robot Project: the discovery of
 available technologies pertinant to building an affordable mobile
 video camera, the engineering process used to develop  a production
 ready, industrial strength vehical.  I will, of course include my own
-implementation of these finding, right here in this website. 
+implementation of these finding, right here in this website.  FOO
 <!--more-->
 
 The end goal is to build an industrial strength _mobile rover with a
