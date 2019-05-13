@@ -123,3 +123,10 @@ loose contact with our control station.
 - motor/<cmd>/data...
 - errors
 - warnings
+
+## TODO
+
+- draw an image of the MQTT communication
+- document the MQTT installation process for broker
+- document otto mqtt client to output process
+- show some code examples.

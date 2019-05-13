@@ -51,7 +51,8 @@
 software design.  MQTT provides what is known as a <em>publish/suscribe</em>
 or <em>pubsub</em> communications model.  This model of machine to machine
 communication has some attractive benefits for realtime driving
-algorithms that we will discuss in this post.</p>
+algorithms that we will discuss in this post.
+</p>
 
 <h2 id="pubsub-message-bus-and-realtime-communications">Pubsub message bus and realtime communications</h2>
 
@@ -67,6 +68,9 @@ ties a particular device with a specific controller.  For example, a
 Joystick or Keyboard.  Replacing, say the keyboard with Joystick
 control requires new  software to be added to the controlled item, as
 well as created for the controller.</p>
+
+<p>It also opens up opportunity for logging, learning, testing and
+replays!</p>
 
 <p>Keyboards, programs or canned messages can be formed to sned the same
 communication.</p>
@@ -146,6 +150,15 @@ loose contact with our control station.</p>
 <li>errors</li>
 <li>warnings</li>
 </ul>
+
+<h2 id="todo">TODO</h2>
+
+<ul>
+<li>draw an image of the MQTT communication</li>
+<li>document the MQTT installation process for broker</li>
+<li>document otto mqtt client to output process</li>
+<li>show some code examples.</li>
+</ul>
 		</div>
 	    </div>
 
@@ -158,7 +171,8 @@ loose contact with our control station.</p>
 		</div>
 		<div class="card-body">
 		    <p>TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.</p>
+messages around a complex, distributed system.<br />
+</p>
 
 <p>The TLV protocol provides only message formatting by definition.  How
 the application handles said messages is up to the application, that

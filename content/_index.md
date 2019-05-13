@@ -31,3 +31,9 @@ strength device.  And of course, our own implementation of said Robot.
 - TODO Other great resources
 - Jetson Nano
 
+
+## Todo ~ Home Page
+
+- rewrite the last paragraph of the intro
+- block diagram of project
+- picture of actual robot

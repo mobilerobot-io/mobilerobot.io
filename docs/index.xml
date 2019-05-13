@@ -21,7 +21,8 @@
 software design.  MQTT provides what is known as a &lt;em&gt;publish/suscribe&lt;/em&gt;
 or &lt;em&gt;pubsub&lt;/em&gt; communications model.  This model of machine to machine
 communication has some attractive benefits for realtime driving
-algorithms that we will discuss in this post.&lt;/p&gt;</description>
+algorithms that we will discuss in this post.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,7 +66,8 @@ Quick Feature Recap </description>
       <description>&lt;p&gt;We are going to build a simple control station that begins with a
 Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
 setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
-tabs and tool bars etc.&lt;/p&gt;</description>
+tabs and tool bars etc.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -85,7 +87,8 @@ Intro Robotic Kits All inclusive Bring Your own Electronics Open Source Software
       
       <guid>http://mobilerobot.io/projects/tlv/</guid>
       <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.&lt;/p&gt;</description>
+messages around a complex, distributed system.&lt;br /&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>

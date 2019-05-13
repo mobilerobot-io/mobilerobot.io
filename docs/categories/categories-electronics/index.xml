@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>/Categories/Mechanics on Mobile Robot I/O</title>
-    <link>http://mobilerobot.io/categories/categories/mechanics/</link>
-    <description>Recent content in /Categories/Mechanics on Mobile Robot I/O</description>
+    <title>/Categories/Electronics on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/categories/categories-electronics/</link>
+    <description>Recent content in /Categories/Electronics on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://mobilerobot.io/categories/categories/mechanics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mobilerobot.io/categories/categories-electronics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,7 +21,8 @@
 available technologies pertinant to building an affordable mobile
 video camera, the engineering process used to develop  a production
 ready, industrial strength vehical.  I will, of course include my own
-implementation of these finding, right here in this website.  FOO&lt;/p&gt;</description>
+implementation of these finding, right here in this website.  FOO
+&lt;/p&gt;</description>
     </item>
     
   </channel>

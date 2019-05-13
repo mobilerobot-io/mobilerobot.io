@@ -21,7 +21,8 @@
 software design.  MQTT provides what is known as a &lt;em&gt;publish/suscribe&lt;/em&gt;
 or &lt;em&gt;pubsub&lt;/em&gt; communications model.  This model of machine to machine
 communication has some attractive benefits for realtime driving
-algorithms that we will discuss in this post.&lt;/p&gt;</description>
+algorithms that we will discuss in this post.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,7 +32,8 @@ algorithms that we will discuss in this post.&lt;/p&gt;</description>
       
       <guid>http://mobilerobot.io/projects/tlv/</guid>
       <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.&lt;/p&gt;</description>
+messages around a complex, distributed system.&lt;br /&gt;
+&lt;/p&gt;</description>
     </item>
     
   </channel>
