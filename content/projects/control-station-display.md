@@ -57,6 +57,10 @@ Our user interface will be local server software that will provider
 our controller with everyting it needs to do to control our mobile
 robots and assocociated components.
 
+> TODO ~ locate the chromium kiosk mode and how to start in that
+> mode. 
+
+
 ### Monitor Mode
 
 Monitor mode will provide us with a _health status_ of our
