@@ -17,9 +17,9 @@
       <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/notes/esp32/</guid>
-      <description> You need to push the RESET button to get them to write flash.
+      <description>You need to push the RESET button to get them to write flash.
 A power packed chip that I have just started playing with. Give some quick specs here: and compare with other well known options (arduino&amp;rsquo;s, stm32 or Raspberry Pi.
-Quick Feature Recap </description>
+Standout Features  Builtin Wifi &amp;amp; BT and others Dual Core Powerful esp-idf FreeRTOS (Arduino optional) Great Feature Set!  Usage Interactive Console over UART This demonstrates using the serial port for an interactive console while ESP is running other things.</description>
     </item>
     
   </channel>

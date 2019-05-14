@@ -143,6 +143,10 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/projects/control-design/</loc>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/categories/electronics/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -229,6 +233,10 @@
     <loc>http://mobilerobot.io/tags/mqtt/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/projects/multicast-routing/</loc>
   </url>
   
   <url>

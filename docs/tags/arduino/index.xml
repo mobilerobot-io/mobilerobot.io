@@ -29,9 +29,12 @@ The Joystick must be able to communicate wirelessley.
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/motor-controllers/</guid>
-      <description>What are the first things to consider when developing a mobile robot Is how you&amp;rsquo;re going to make it move, and that is typically using motors. The cool thing is that inexpensive electrical motors are plentiful, however putting them to good use is a bit complex, Here we will conquer some of that complexity.
-We will consider the following 3 things:
- What type of motor(s) do we need? How are we going to power them?</description>
+      <description>&lt;p&gt;Whenever started to build a mobile robot and first started this
+project I set out to pick up motor controller and a platform to
+buildMy Tom&amp;rsquo;s vehicle around. The two most on his choices at least to
+me were a Raspberry Pie or an Arduino.  As I found out selecting
+either platform I choose it would have been a bad idea, and here is
+why.&lt;/p&gt;</description>
     </item>
     
   </channel>
