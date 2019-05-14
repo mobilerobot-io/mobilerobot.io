@@ -15,6 +15,40 @@ tags:
 date: 2018-08-22
 ---
 
+Whenever started to build a mobile robot and first started this
+project I set out to pick up motor controller and a platform to
+buildMy Tom's vehicle around. The two most on his choices at least to
+me were a Raspberry Pie or an Arduino.  As I found out selecting
+either platform I choose it would have been a bad idea, and here is
+why. 
+<!--more-->
+
+I eventually realized that neither platform, the Raspberry Pie nor the
+Arduino had everything I really wanted.  The Arduino certainly lacks a
+robust development environment, which Is great for getting started
+programming embedded devices, but hardly sufficient for Somebody that
+makes a living programming.
+
+## Niether one will Cut it
+
+The Raspberry Pi hardware and Linux OS are not well suited for an
+"embedded real time" system.  But does offer an endless choice of
+development environments.
+
+### Leave our Options Open
+
+It became clear, that neither platgorm would be ideal for my general
+development plans.  Neither of them were ideal to solely commit to.
+
+However, if I could combine them, I could get quite a bit further, by
+having access to the advantages that both worlds?Add
+
+
+Before I get into any detail on these "hobby" controllers is
+
+
+
+
 What are the first things to consider when developing a mobile robot
 Is how you're going to make it move, and that is typically using
 motors.  The cool thing is that inexpensive electrical motors are
