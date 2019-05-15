@@ -1,5 +1,6 @@
 ---
 title: Control Design
+draft: true
 ---
 
 Early in the process of building the first set of mobile robots I

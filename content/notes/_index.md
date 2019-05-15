@@ -6,6 +6,7 @@ description: >
   come across and overcome some of the many challenges building our
   Robot. 
 category: robotics
+draft: true
 ---
 
 This section contains notes regarding the electronics and power as we build
