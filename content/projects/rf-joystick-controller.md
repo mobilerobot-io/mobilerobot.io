@@ -6,6 +6,7 @@ description: >
   an nRF24L01 RF transciever.
 date: 2019-04-26
 image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/tank-green-blue.png
+draft: true
 categories:
   - hardware
   - arduino

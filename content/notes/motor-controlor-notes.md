@@ -25,23 +25,6 @@ and as a superior platform for general computing including running
 Control Software.  This is how we do it on the West side ...
 <!--more-->
 
-We will find as we progress and start building larger vehicles that
-our notion of _Motor Controller_ will change significantly.  At this
-stage, the controller we are going to deal with include:
-
-1. [Adafruit v2 Arduino DC/Stepper MotorController](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/using-dc-motors)
-2. [OSEPP v2 MotorController]()
-
-The code in this library can be compiled by with the 
-[Arduino IDE](http://arduino.io/downloads) to an UNO with an Adafrutit
-v.2 (or compatible) motor controller.  One of the MBR vehicles OSEPP
-Two Wheel balancer uses an OSEPP motor library wich is very similar
-(but) different than the Adafruit version.
-	
-I have also used, and own some of the early v1 style motorshields from
-Adafruit.  Outdated, yes, but still very useful and easy to use.  We
-will make good use of these OG motor controllers for sure!
-
 Whenever started to build a mobile robot and first started this
 project I set out to pick up motor controller and a platform to
 buildMy Tom's vehicle around. The two most on his choices at least to
@@ -204,5 +187,4 @@ Connect the motor controller to the MQTT control channel.  NOTE: on
 vehicle may use the motor control channel when availble, however, must
 always be able to regain control (or shutdown completely) if the
 control channel has been lost. 
-
 
