@@ -6,6 +6,7 @@ description: >
   is built right into the Arduino, Raspberry Pi and lots of other chips, lets
   see what it takes to use it for inter-MCU communications.
 draft: true
+image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/display-and-motors.jpg
 categories: 
   - software
   - communications

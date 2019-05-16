@@ -2,10 +2,12 @@
 title: Mobile Robot Chassis
 category: mechanical
 date: 2019-04-22
+draft: true
 description: >
   The chassis makes up the body of the vehicle, steering system and
   the drive train that moves the car, pretty much all mechanical. We
   started with a kit but quickly outgrew it.
+image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/display-and-motors.jpg
 ---
 
 I quickly outgrew my first introductory robotics kit. I started with
