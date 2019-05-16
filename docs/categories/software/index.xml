@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/categories/software/</link>
+    <description>Recent content in Software on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Skid Steering</title>
+      <link>http://mobilerobot.io/notes/skid-steering/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/skid-steering/</guid>
+      <description>Skid steering basics
+ Based on fixed direction wheels[1] or tracks There are two groups or sides of wheels: left and right All wheels in a group MUST always point in the same direction All wheels in a group MUST always rotate at the same rate Direction is determined by the speed of the two wheel groups  To move straight all motors rotate at the same rate Forward and Reverse are determined by positive and negative values Turning is achieved by varying the throttle on the right and left   Example The Skidder class has the following API, as you can see all of the movements we desire can be accomplished with a single API call</description>
+    </item>
+    
+    <item>
+      <title>The Raspberry Pi Motor Controller from Adafruit</title>
+      <link>http://mobilerobot.io/projects/raspberry-pi-motor-controller/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/raspberry-pi-motor-controller/</guid>
+      <description>&lt;p&gt;This project was to build a simple automous driving vehical using a
+Raspberry Pi and a simple DC motor controller.  There is not much room
+thing to put too much in the way of sensors or a camera, so we will
+use it to test our &lt;em&gt;control algorigthms&lt;/em&gt; and MQTT bus usage.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MQTT For Controllor Communication</title>
+      <link>http://mobilerobot.io/projects/mqtt-for-controller-communication/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/mqtt-for-controller-communication/</guid>
+      <description>&lt;p&gt;The MQTT message bus is a simple but critical element of our MBR
+software design.  MQTT provides what is known as a &lt;em&gt;publish/suscribe&lt;/em&gt;
+or &lt;em&gt;pubsub&lt;/em&gt; communications model.  This model of machine to machine
+communication has some attractive benefits for realtime driving
+algorithms that we will discuss in this post.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Control Station Display</title>
+      <link>http://mobilerobot.io/projects/control-station-display/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/control-station-display/</guid>
+      <description>&lt;p&gt;We are going to build a simple control station that begins with a
+Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
+setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
+tabs and tool bars etc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TLV the Type Length Vector Protocol</title>
+      <link>http://mobilerobot.io/projects/tlv/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/tlv/</guid>
+      <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
+messages around a complex, distributed system.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PiCamera Flask Server</title>
+      <link>http://mobilerobot.io/projects/rpi-flask-camera-server/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/rpi-flask-camera-server/</guid>
+      <description>I have created a python / Flask based server to run on the Raspberry accepting REST calls to perform application specific functions.
+I have created a flask server that will accept REST requests to control the PiCamera, AdaFruitMotorSheild and other stuff.
+Refer to the PiCamera documentation here: https://picamera.readthedocs.io/en/release-1.13/.
+The software can be found in github repository.
+And how to write and operate a flask based server for your project.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Camera and Motor Server</title>
+      <link>http://mobilerobot.io/projects/rpi-device-server-flask-mqtt/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/rpi-device-server-flask-mqtt/</guid>
+      <description>&lt;p&gt;This application provides access and control to various Raspberry
+devices like the camera, GPIO pins, or a possible MotorShield if
+needed.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Otto the Micro Server ~ Small, Fast and Pluggable!</title>
+      <link>http://mobilerobot.io/projects/otto-mico-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/otto-mico-server/</guid>
+      <description>Otto is a small, simple micro-server written in Go. It handles requisit communications and related infra structure required by servers and controllers. The applications and functionality will be provided via pluggins.
+Otto can run as a REST server in a data center or the controller on micro-controller type of computer. Otto was developed with the notion that much of the code that makes for a good server (or any application for that matter) requires redundant but import supporting infrastructure.</description>
+    </item>
+    
+  </channel>
+</rss>

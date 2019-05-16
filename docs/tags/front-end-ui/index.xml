@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front End Ui on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/tags/front-end-ui/</link>
+    <description>Recent content in Front End Ui on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/tags/front-end-ui/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Control Station App</title>
+      <link>http://mobilerobot.io/projects/control-station-application/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/control-station-application/</guid>
+      <description>Our control station will run a 7in touch panel attached to a Raspberry Pi with various periphereals attached. To this end, it is a simple, self contained webserver UI written Go.
+Plugins keep it real Otto accepts plugins that allow new functionality to be added by simply implementing the simple interface specific in the interface specification.
+Otto GUI Otto comes with a built in GUI (HTML) interface as well as a provide REST interface and MQTT message bus.</description>
+    </item>
+    
+  </channel>
+</rss>
