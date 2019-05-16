@@ -197,6 +197,41 @@ control decision as well as executing the control commands.</p>
 <li>Application specific sensors</li>
 </ul>
 
+<h2 id="how-to-control-the-motor">How to Control the Motor</h2>
+
+<h3 id="websocket-and-dashboard">Websocket and Dashboard</h3>
+
+<blockquote>
+<p>TODO add a dashboard with websockets that can be used and demo&rsquo;d.  A
+dash board with a joystick like graphics can be manipulate by the
+user.</p>
+</blockquote>
+
+<h3 id="mqtt-skid-channel">MQTT Skid Channel</h3>
+
+<p>We provide an MQTT message channel &ldquo;/control/skid&rdquo; dedicated to
+publishing control messages for consumption by a motor controller
+managing two groups of controllers, the left group and the right group.</p>
+
+<blockquote>
+<p>Subscripe to the /control/skid channel</p>
+</blockquote>
+
+<p>Messages to control our skid steer vehical over MQTT will basically be
+two floating point values between -1 and +1 inclusive.  The numbers
+represent the percentage of the load to let the motors have (throttle)
+and the +/- sign represents the direction the motor will turn.</p>
+
+<blockquote>
+<p>/control/skid:l/r</p>
+</blockquote>
+
+<h3 id="rest-skid-endpoint">REST Skid Endpoint</h3>
+
+<blockquote>
+<p>PUT /skid/l/r</p>
+</blockquote>
+
 <h2 id="adafruit-rpi-motor-controller">Adafruit RPi Motor Controller</h2>
 
 <p>For this Robot, we are using the wonderful <a href="http://adafruit.com/todo">Adafruit Raspberry Pi

@@ -33,6 +33,34 @@ control decision as well as executing the control commands.
 - 2 wheeled cheap balancing disk for body 
 - Application specific sensors
 
+
+## How to Control the Motor
+
+### Websocket and Dashboard
+
+> TODO add a dashboard with websockets that can be used and demo'd.  A
+> dash board with a joystick like graphics can be manipulate by the
+> user. 
+
+### MQTT Skid Channel
+
+We provide an MQTT message channel "/control/skid" dedicated to
+publishing control messages for consumption by a motor controller
+managing two groups of controllers, the left group and the right group.
+
+> Subscripe to the /control/skid channel
+
+Messages to control our skid steer vehical over MQTT will basically be
+two floating point values between -1 and +1 inclusive.  The numbers
+represent the percentage of the load to let the motors have (throttle)
+and the +/- sign represents the direction the motor will turn.
+
+> /control/skid:l/r
+
+### REST Skid Endpoint
+
+> PUT /skid/l/r
+
 ## Adafruit RPi Motor Controller
 
 For this Robot, we are using the wonderful [Adafruit Raspberry Pi
