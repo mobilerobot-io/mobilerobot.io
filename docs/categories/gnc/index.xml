@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gnc on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/categories/gnc/</link>
+    <description>Recent content in Gnc on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/categories/gnc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arduino Motor Controllers</title>
+      <link>http://mobilerobot.io/projects/arduino-motor-controllers/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/arduino-motor-controllers/</guid>
+      <description>&lt;p&gt;The code in this library can be compiled by with the
+&lt;a href=&#34;http://arduino.io/downloads&#34;&gt;Arduino IDE&lt;/a&gt; to an UNO with an Adafrutit
+v.2 (or compatible) motor controller.  One of the MBR vehicles OSEPP
+Two Wheel balancer uses an OSEPP motor library wich is very similar
+(but) different than the Adafruit version.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

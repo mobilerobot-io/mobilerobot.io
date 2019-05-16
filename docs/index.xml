@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile Robot I/O Project on Mobile Robot I/O</title>
+    <link>http://mobilerobot.io/</link>
+    <description>Recent content in Mobile Robot I/O Project on Mobile Robot I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mobilerobot.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Skid Steering</title>
+      <link>http://mobilerobot.io/notes/skid-steering/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/skid-steering/</guid>
+      <description>Skid steering basics
+ Based on fixed direction wheels[1] or tracks There are two groups or sides of wheels: left and right All wheels in a group MUST always point in the same direction All wheels in a group MUST always rotate at the same rate Direction is determined by the speed of the two wheel groups  To move straight all motors rotate at the same rate Forward and Reverse are determined by positive and negative values Turning is achieved by varying the throttle on the right and left   Example The Skidder class has the following API, as you can see all of the movements we desire can be accomplished with a single API call</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Motor Control Service</title>
+      <link>http://mobilerobot.io/projects/rpi-motor-control-service/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/rpi-motor-control-service/</guid>
+      <description>&lt;p&gt;This project was to build a simple automous driving vehical using a
+Raspberry Pi and a simple DC motor controller.  There is not much room
+thing to put too much in the way of sensors or a camera, so we will
+use it to test our &lt;em&gt;control algorigthms&lt;/em&gt; and MQTT bus usage.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino Motor Controllers</title>
+      <link>http://mobilerobot.io/projects/arduino-motor-controllers/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/arduino-motor-controllers/</guid>
+      <description>&lt;p&gt;The code in this library can be compiled by with the
+&lt;a href=&#34;http://arduino.io/downloads&#34;&gt;Arduino IDE&lt;/a&gt; to an UNO with an Adafrutit
+v.2 (or compatible) motor controller.  One of the MBR vehicles OSEPP
+Two Wheel balancer uses an OSEPP motor library wich is very similar
+(but) different than the Adafruit version.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Control Station Display</title>
+      <link>http://mobilerobot.io/notes/touch-screen-display/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/touch-screen-display/</guid>
+      <description>&lt;p&gt;We are going to build a simple control station that begins with a
+Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
+setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
+tabs and tool bars etc.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TLV the Type Length Vector Protocol</title>
+      <link>http://mobilerobot.io/projects/tlv-and-realitime-communication/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/tlv-and-realitime-communication/</guid>
+      <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
+messages around a complex, distributed system.&lt;br /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Control Station App</title>
+      <link>http://mobilerobot.io/projects/control-station-webapp/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/control-station-webapp/</guid>
+      <description>Our control station will run a 7in touch panel attached to a Raspberry Pi with various periphereals attached. To this end, it is a simple, self contained webserver UI written Go.
+Plugins keep it real Otto accepts plugins that allow new functionality to be added by simply implementing the simple interface specific in the interface specification.
+Otto GUI Otto comes with a built in GUI (HTML) interface as well as a provide REST interface and MQTT message bus.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Flask and MQTT Master Control Server</title>
+      <link>http://mobilerobot.io/projects/rpi-flask-mqtt-server/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/rpi-flask-mqtt-server/</guid>
+      <description>&lt;p&gt;This application provides access and control to various Raspberry
+devices like the camera, GPIO pins, or a possible MotorShield if
+needed.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspbery Pi Camera Control Service</title>
+      <link>http://mobilerobot.io/projects/rpi-camera-control-service/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/rpi-camera-control-service/</guid>
+      <description>I have created a python / Flask based server to run on the Raspberry accepting REST calls to perform application specific functions.
+I have created a flask server that will accept REST requests to control the PiCamera, AdaFruitMotorSheild and other stuff.
+Refer to the PiCamera documentation here: https://picamera.readthedocs.io/en/release-1.13/.
+The software can be found in github repository.
+And how to write and operate a flask based server for your project.</description>
+    </item>
+    
+    <item>
+      <title>rip4</title>
+      <link>http://mobilerobot.io/inventory/rpi4/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/inventory/rpi4/</guid>
+      <description>This Raspberry Pi has the 7 inch touch display attached, it also acts as the base station for the robots.</description>
+    </item>
+    
+    <item>
+      <title>Inexpensive Motor Controllers for Arduino and Raspberry Pi</title>
+      <link>http://mobilerobot.io/notes/motor-controlor-notes/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/motor-controlor-notes/</guid>
+      <description>&lt;p&gt;Whenever started to build a mobile robot and first started this
+project I set out to pick up motor controller and a platform to
+buildMy Tom&amp;rsquo;s vehicle around. The two most on his choices at least to
+me were a Raspberry Pie or an Arduino.  As I found out selecting
+either platform I choose it would have been a bad idea, and here is
+why.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IP Multicast the basics</title>
+      <link>http://mobilerobot.io/notes/ip-multicast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/ip-multicast/</guid>
+      <description>IP Multicast addresses The typical IP addresses used by computers networking today are known as unicast addresses, meaning that every unicast address as a single (physical or logical) end point.
+Most all computer networking is point to point between two specific IP addresses, you name it: web browsing, email exchange, transfer files and so much more.
+However, there are other more specific forms on communication available and occasionally used: Broadcast and Multicast.</description>
+    </item>
+    
+    <item>
+      <title>Multicast Routing</title>
+      <link>http://mobilerobot.io/notes/multicast-routing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/multicast-routing/</guid>
+      <description>It is called Multicast Routing.</description>
+    </item>
+    
+    <item>
+      <title>Otto the Pluggable Macro Controller Micro Service</title>
+      <link>http://mobilerobot.io/projects/otto-master-controller-micro-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/otto-master-controller-micro-service/</guid>
+      <description>Otto is a small, simple micro-server written in Go. It handles requisit communications and related infra structure required by servers and controllers. The applications and functionality will be provided via pluggins.
+Otto can run as a REST server in a data center or the controller on micro-controller type of computer. Otto was developed with the notion that much of the code that makes for a good server (or any application for that matter) requires redundant but import supporting infrastructure.</description>
+    </item>
+    
+  </channel>
+</rss>
