@@ -1,29 +1,11 @@
 {{ define "main" }}
-<div class="container pt-5 pb-5">
-  <div class="row">
-    <div class="col"></div>
-    <div class="col-8 text-center">
-      <title class="title">{{ .Title }}</title>
-      <section class="summary">
-	{{ .Summary }}
-      </section>
-    </div>
-    <div class="col"></div>
-  </div>
-</div>
-
 <div class="container-fluid pt-5 pb-5">
-  <div class="row">
-    <div class="col">
-      <h2 class="text-center">Active Projects</h2>
-    </div>
-  </div>
-    
     <div class="row">
 	{{ $section := where $.Site.Pages "Section" "projects" }}
 	{{ range $section }}
-	<div class="col-md-4">
-	    <div class="card border=0">
+	<div class="col-lg-4 text-center">
+	    <div class="card">
+		<img class="card-img-top" width="470" height="265" src="{{ .Params.image }}" />
 		<div class="card-body">
 		    <div class="card-title">
 			<a class="card-link" href="{{ .Permalink }}">
@@ -41,6 +23,7 @@
 	</div>
 	{{ end }}
     </div>
+  </div>
 </div>
 
 <div class="container">
