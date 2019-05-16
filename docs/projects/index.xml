@@ -20,7 +20,8 @@
       <description>&lt;p&gt;This project was to build a simple automous driving vehical using a
 Raspberry Pi and a simple DC motor controller.  There is not much room
 thing to put too much in the way of sensors or a camera, so we will
-use it to test our &lt;em&gt;control algorigthms&lt;/em&gt; and MQTT bus usage.&lt;/p&gt;</description>
+use it to test our &lt;em&gt;control algorigthms&lt;/em&gt; and MQTT bus usage.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -33,7 +34,8 @@ use it to test our &lt;em&gt;control algorigthms&lt;/em&gt; and MQTT bus usage.&
 software design.  MQTT provides what is known as a &lt;em&gt;publish/suscribe&lt;/em&gt;
 or &lt;em&gt;pubsub&lt;/em&gt; communications model.  This model of machine to machine
 communication has some attractive benefits for realtime driving
-algorithms that we will discuss in this post.&lt;/p&gt;</description>
+algorithms that we will discuss in this post.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -57,7 +59,8 @@ The Joystick must be able to communicate wirelessley.
       <description>&lt;p&gt;We are going to build a simple control station that begins with a
 Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
 setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
-tabs and tool bars etc.&lt;/p&gt;</description>
+tabs and tool bars etc.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -77,7 +80,8 @@ Intro Robotic Kits All inclusive Bring Your own Electronics Open Source Software
       
       <guid>http://mobilerobot.io/projects/tlv/</guid>
       <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.&lt;/p&gt;</description>
+messages around a complex, distributed system.&lt;br /&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -112,7 +116,8 @@ And how to write and operate a flask based server for your project.</description
       <guid>http://mobilerobot.io/projects/rpi-device-server-flask-mqtt/</guid>
       <description>&lt;p&gt;This application provides access and control to various Raspberry
 devices like the camera, GPIO pins, or a possible MotorShield if
-needed.&lt;/p&gt;</description>
+needed.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -126,7 +131,8 @@ project I set out to pick up motor controller and a platform to
 buildMy Tom&amp;rsquo;s vehicle around. The two most on his choices at least to
 me were a Raspberry Pie or an Arduino.  As I found out selecting
 either platform I choose it would have been a bad idea, and here is
-why.&lt;/p&gt;</description>
+why.
+&lt;/p&gt;</description>
     </item>
     
     <item>

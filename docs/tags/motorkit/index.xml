@@ -19,7 +19,8 @@
       <guid>http://mobilerobot.io/projects/rpi-device-server-flask-mqtt/</guid>
       <description>&lt;p&gt;This application provides access and control to various Raspberry
 devices like the camera, GPIO pins, or a possible MotorShield if
-needed.&lt;/p&gt;</description>
+needed.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

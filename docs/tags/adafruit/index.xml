@@ -20,7 +20,8 @@
       <description>&lt;p&gt;This project was to build a simple automous driving vehical using a
 Raspberry Pi and a simple DC motor controller.  There is not much room
 thing to put too much in the way of sensors or a camera, so we will
-use it to test our &lt;em&gt;control algorigthms&lt;/em&gt; and MQTT bus usage.&lt;/p&gt;</description>
+use it to test our &lt;em&gt;control algorigthms&lt;/em&gt; and MQTT bus usage.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,7 +35,8 @@ project I set out to pick up motor controller and a platform to
 buildMy Tom&amp;rsquo;s vehicle around. The two most on his choices at least to
 me were a Raspberry Pie or an Arduino.  As I found out selecting
 either platform I choose it would have been a bad idea, and here is
-why.&lt;/p&gt;</description>
+why.
+&lt;/p&gt;</description>
     </item>
     
   </channel>
