@@ -1,9 +1,10 @@
 ---
 title: Inexpensive Motor Controllers for Arduino and Raspberry Pi
 description: >
-  Motors and how to control them are about the first thing that came
-  to my mind when I began to consider building a mobile vehicle.  This
-  article documents what I found.
+  The first Robot I build, like many others used an Arduino Motor
+  Controller, our first robots used Arduino Motor Controllers.  We use
+  them as dedicated output devices used to control voltage sent to
+  motors, where as controls run on a Master Controller.
 categories:
   - electronics
   - motors
@@ -12,8 +13,16 @@ tags:
   - raspberry pi
   - adafruit
   - motorshield
+github: http://github.com/mobilerobot-io/arduino
 date: 2018-08-22
 ---
+
+I prefer to use an Arduino with a Motor Controller over say a
+Raspberry Pi with a motor-controller.  I believe the Arudino has
+better support for dedicated Real-time software vs. the Raspberry Pi
+and as a superior platform for general computing including running
+Control Software.  This is how we do it on the West side ...
+<!--more-->
 
 Whenever started to build a mobile robot and first started this
 project I set out to pick up motor controller and a platform to
@@ -21,7 +30,7 @@ buildMy Tom's vehicle around. The two most on his choices at least to
 me were a Raspberry Pie or an Arduino.  As I found out selecting
 either platform I choose it would have been a bad idea, and here is
 why. 
-<!--more-->
+
 
 I eventually realized that neither platform, the Raspberry Pie nor the
 Arduino had everything I really wanted.  The Arduino certainly lacks a
