@@ -22,15 +22,19 @@
     </item>
     
     <item>
-      <title>Raspberry Pi Motor Control Software and Server</title>
+      <title>Raspberry Pi Motor Control Software</title>
       <link>http://mobilerobot.io/projects/rpi-motor-control-service/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/rpi-motor-control-service/</guid>
-      <description>&lt;p&gt;This project was to build a simple automous driving vehical using a
-Raspberry Pi and a simple DC motor controller.  That is a single RPi
-will act as the macro controller managing communications and making
-control decisions.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;TODO ~ replace image with one of the Raspberry Pi Controller&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This software adds a Skid Steer motor control software to the
+&lt;a href=&#34;http://github.com/mobilerobot-io/rpid&#34;&gt;Raspberry Pi Device Server&lt;/a&gt;
+device server.  RPID adds motor controls accessible via both MQTT and
+REST APIs, as well as directly with the Skidder python library.&lt;/p&gt;</description>
     </item>
     
     <item>

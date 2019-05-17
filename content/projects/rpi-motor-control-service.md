@@ -1,9 +1,9 @@
 ---
-title: Raspberry Pi Motor Control Software and Server
+title: Raspberry Pi Motor Control Software
 description: >
-  One the early Robots was a single Raspberry Pi with the Adafruit
-  attached Motorcontroller. I added a simple Skidsteer library to
-  control a small two wheeled "disk" robot.
+  One early Robots was a single Raspberry Pi and and attached Adafruit
+  attached Motor Shield.  I added a simple Skid Steer API with
+  REST and MQTT interfaces for real time control.
 date: 2019-05-14
 image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/display-and-motors.jpg
 categories:
@@ -14,15 +14,21 @@ todo:
   - proof read
 ---
 
-This project was to build a simple automous driving vehical using a
-Raspberry Pi and a simple DC motor controller.  That is a single RPi
-will act as the macro controller managing communications and making
-control decisions.
+> TODO ~ replace image with one of the Raspberry Pi Controller
+
+This software adds a Skid Steer motor control software to the
+[Raspberry Pi Device Server](http://github.com/mobilerobot-io/rpid)
+device server.  RPID adds motor controls accessible via both MQTT and
+REST APIs, as well as directly with the Skidder python library.
 <!--more-->
 
-The same RPi is also the Micro-controller.  In other words on this
-Robot the RPi is both the Macro and Micro - controller, making the
-control decision as well as executing the control commands.
+This project was to build a simple automous driving vehical using a
+Raspberry Pi and a simple DC motor controller.  That is a single RPi
+will act as the macro controller that manages communications and makes
+control decisions.  
+
+The RPi will also act as a Device Micro Controller directly
+responsible for controlling the _throttle_ of the DC motors.
 
 ## Bill of Materials
 
@@ -33,13 +39,23 @@ control decision as well as executing the control commands.
 - 2 wheeled cheap balancing disk for body 
 - Application specific sensors
 
+> TODO Place a Schematic of the RPi connected to the motor
+> controller. 
+
 ## Skid Steering
 
-### Websocket and Dashboard
+You can read [a note on how skid steering works](/notes/skid-steering)
+if you are not familiar with the concept.  Cut to the quick, operating
+a _skid steer_ vehicle is a matter of grouping wheels or tracks into a
+left and right side, then adjusting the throttle to each group of
+motors. 
 
-> TODO add a dashboard with websockets that can be used and demo'd.  A
-> dash board with a joystick like graphics can be manipulate by the
-> user. 
+In other words, for and reverse both require the left and right groups
+to turn in the same direction and the same velocity.  Turning is
+implemented by varing the velocity, and possibly the direction the
+motors turn.
+
+> TODO place a gist here that shows usage of the Skidder class
 
 ### MQTT Skid Channel
 
@@ -47,7 +63,9 @@ We provide an MQTT message channel "/control/skid" dedicated to
 publishing control messages for consumption by a motor controller
 managing two groups of controllers, the left group and the right group.
 
-> Subscripe to the /control/skid channel
+```bash
+% mosquitto_sub -t /control/skid 
+```
 
 Messages to control our skid steer vehical over MQTT will basically be
 two floating point values between -1 and +1 inclusive.  The numbers
@@ -58,7 +76,13 @@ and the +/- sign represents the direction the motor will turn.
 
 ### REST Skid Endpoint
 
+> GET /skid/
 > PUT /skid/l/r
+
+Get or Set the left and right throttles.  The throttles values are 
+represented by floating point numbers between -1 and 1 inclusive,
+representing the percentage of load, and direction that will be
+applied to the right and left throttles.
 
 ## Adafruit RPi Motor Controller
 

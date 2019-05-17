@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="http://mobilerobot.io/css/style.css">
 
 
-<title>Raspberry Pi Motor Control Software and Server</title>
+<title>Raspberry Pi Motor Control Software</title>
 <body><header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
 	<a class="navbar-brand text-muted text-monospace" href="http://mobilerobot.io/">Mobile Robot I/O</a>
@@ -29,9 +29,9 @@
     <div class="row">
 	<div class="col"></div>
 	<div class="col-md-6">
-	    <h1 class="text-center header pb-1">Raspberry Pi Motor Control Software and Server</h1>
+	    <h1 class="text-center header pb-1">Raspberry Pi Motor Control Software</h1>
 	    <h5 class="leadin text-center text-muted mt-0">
-		One the early Robots was a single Raspberry Pi with the Adafruit attached Motorcontroller. I added a simple Skidsteer library to control a small two wheeled &#34;disk&#34; robot.
+		One early Robots was a single Raspberry Pi and and attached Adafruit attached Motor Shield.  I added a simple Skid Steer API with REST and MQTT interfaces for real time control.
 
 	    </h5>
 	</div>
@@ -47,14 +47,22 @@
     <div class="col"></div>
     <div class="col-lg-9">
 	<article class="article">
-	    <p>This project was to build a simple automous driving vehical using a
+	    <blockquote>
+<p>TODO ~ replace image with one of the Raspberry Pi Controller</p>
+</blockquote>
+
+<p>This software adds a Skid Steer motor control software to the
+<a href="http://github.com/mobilerobot-io/rpid">Raspberry Pi Device Server</a>
+device server.  RPID adds motor controls accessible via both MQTT and
+REST APIs, as well as directly with the Skidder python library.</p>
+
+<p>This project was to build a simple automous driving vehical using a
 Raspberry Pi and a simple DC motor controller.  That is a single RPi
-will act as the macro controller managing communications and making
+will act as the macro controller that manages communications and makes
 control decisions.</p>
 
-<p>The same RPi is also the Micro-controller.  In other words on this
-Robot the RPi is both the Macro and Micro - controller, making the
-control decision as well as executing the control commands.</p>
+<p>The RPi will also act as a Device Micro Controller directly
+responsible for controlling the <em>throttle</em> of the DC motors.</p>
 
 <h2 id="bill-of-materials">Bill of Materials</h2>
 
@@ -67,14 +75,26 @@ control decision as well as executing the control commands.</p>
 <li>Application specific sensors</li>
 </ul>
 
+<blockquote>
+<p>TODO Place a Schematic of the RPi connected to the motor
+controller.</p>
+</blockquote>
+
 <h2 id="skid-steering">Skid Steering</h2>
 
-<h3 id="websocket-and-dashboard">Websocket and Dashboard</h3>
+<p>You can read <a href="http://mobilerobot.io/notes/skid-steering">a note on how skid steering works</a>
+if you are not familiar with the concept.  Cut to the quick, operating
+a <em>skid steer</em> vehicle is a matter of grouping wheels or tracks into a
+left and right side, then adjusting the throttle to each group of
+motors.</p>
+
+<p>In other words, for and reverse both require the left and right groups
+to turn in the same direction and the same velocity.  Turning is
+implemented by varing the velocity, and possibly the direction the
+motors turn.</p>
 
 <blockquote>
-<p>TODO add a dashboard with websockets that can be used and demo&rsquo;d.  A
-dash board with a joystick like graphics can be manipulate by the
-user.</p>
+<p>TODO place a gist here that shows usage of the Skidder class</p>
 </blockquote>
 
 <h3 id="mqtt-skid-channel">MQTT Skid Channel</h3>
@@ -83,9 +103,8 @@ user.</p>
 publishing control messages for consumption by a motor controller
 managing two groups of controllers, the left group and the right group.</p>
 
-<blockquote>
-<p>Subscripe to the /control/skid channel</p>
-</blockquote>
+<pre><code class="language-bash">% mosquitto_sub -t /control/skid 
+</code></pre>
 
 <p>Messages to control our skid steer vehical over MQTT will basically be
 two floating point values between -1 and +1 inclusive.  The numbers
@@ -99,8 +118,14 @@ and the +/- sign represents the direction the motor will turn.</p>
 <h3 id="rest-skid-endpoint">REST Skid Endpoint</h3>
 
 <blockquote>
-<p>PUT /skid/l/r</p>
+<p>GET /skid/
+PUT /skid/l/r</p>
 </blockquote>
+
+<p>Get or Set the left and right throttles.  The throttles values are
+represented by floating point numbers between -1 and 1 inclusive,
+representing the percentage of load, and direction that will be
+applied to the right and left throttles.</p>
 
 <h2 id="adafruit-rpi-motor-controller">Adafruit RPi Motor Controller</h2>
 

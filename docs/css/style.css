@@ -51,6 +51,11 @@ a {
     color: $primary;
 }
 
+code {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
 .img-fluid {
     max-width: 100%;
 }
