@@ -1,5 +1,9 @@
 ---
 title: Skid Steering
+description: >
+  Skid Steering is probably the simplest form of steering a vehicle,
+  both its mechanics and software are very simple and a great place to
+  jump in and get our feet oily.
 date: 2019-05-15
 categories:
   - mechanics

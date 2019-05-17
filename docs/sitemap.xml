@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/projects/arduino-software/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/projects/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -53,13 +58,28 @@
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/projects/arduino-motor-controllers/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/notes/motor-controlor-notes/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/arduino-motor-controllers/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <loc>http://mobilerobot.io/notes/control-design/</loc>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/rpi-v-arduino/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/ip-multicast/</loc>
+    <lastmod>2018-02-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -151,10 +171,6 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/notes/ip-multicast/</loc>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/inventory/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -193,10 +209,6 @@
   <url>
     <loc>http://mobilerobot.io/tags/mqtt/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/notes/multicast-routing/</loc>
   </url>
   
   <url>

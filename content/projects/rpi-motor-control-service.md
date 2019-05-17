@@ -1,5 +1,5 @@
 ---
-title: Raspberry Pi Motor Control Service
+title: Raspberry Pi Motor Control Software and Server
 description: >
   One the early Robots was a single Raspberry Pi with the Adafruit
   attached Motorcontroller. I added a simple Skidsteer library to
@@ -33,8 +33,7 @@ control decision as well as executing the control commands.
 - 2 wheeled cheap balancing disk for body 
 - Application specific sensors
 
-
-## How to Control the Motor
+## Skid Steering
 
 ### Websocket and Dashboard
 

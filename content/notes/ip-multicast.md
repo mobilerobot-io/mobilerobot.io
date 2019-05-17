@@ -1,5 +1,10 @@
 ---
 title: IP Multicast the basics
+description: >
+  IP Multicast is a seldom used but very useful mechanism for groups
+  of machines to communicate.  I will cover the basics of IP multicast
+  in this document.
+date: 2018-02-03
 ---
 
 ## IP Multicast addresses
@@ -52,3 +57,5 @@ setup blessed by the powers above.
 > TODO: provide real world examles for this article.
 
 > TODO refer to my multicast work  CRS and pimd
+
+

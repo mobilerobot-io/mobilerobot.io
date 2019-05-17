@@ -44,7 +44,7 @@
 	<div class="col-4 text-center">
 	    <div class="card">
 		<div class="card-title">
-		    Raspberry Pi Motor Control Service
+		    Raspberry Pi Motor Control Software and Server
 		</div>
 		<div class="card-body">
 		    <p>This project was to build a simple automous driving vehical using a
@@ -67,7 +67,7 @@ control decision as well as executing the control commands.</p>
 <li>Application specific sensors</li>
 </ul>
 
-<h2 id="how-to-control-the-motor">How to Control the Motor</h2>
+<h2 id="skid-steering">Skid Steering</h2>
 
 <h3 id="websocket-and-dashboard">Websocket and Dashboard</h3>
 
@@ -202,126 +202,56 @@ just to handle the motor controls.</p>
 	<div class="col-4 text-center">
 	    <div class="card">
 		<div class="card-title">
-		    Inexpensive Motor Controllers for Arduino and Raspberry Pi
+		    Arduino Motor Control Software
 		</div>
 		<div class="card-body">
-		    <p>I prefer to use an Arduino with a Motor Controller over say a
-Raspberry Pi with a motor-controller.  I believe the Arudino has
-better support for dedicated Real-time software vs. the Raspberry Pi
-and as a superior platform for general computing including running
-Control Software.  This is how we do it on the West side &hellip;</p>
+		    
 
-<p>Whenever started to build a mobile robot and first started this
-project I set out to pick up motor controller and a platform to
-buildMy Tom&rsquo;s vehicle around. The two most on his choices at least to
-me were a Raspberry Pie or an Arduino.  As I found out selecting
-either platform I choose it would have been a bad idea, and here is
-why.</p>
+<p>Pictured about is the <a href="https://www.osepp.com/electronic-modules/shields/120-motor-shield-6612">OSEPP v2
+Motor Shield</a>
+which can be used as a functional replacement to the <a href="https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/using-dc-motors">Adafruit v2
+motorshield</a>,
+the motorshield I recommend.</p>
 
-<p>I eventually realized that neither platform, the Raspberry Pie nor the
-Arduino had everything I really wanted.  The Arduino certainly lacks a
-robust development environment, which Is great for getting started
-programming embedded devices, but hardly sufficient for Somebody that
-makes a living programming.</p>
+<blockquote>
+<p>Source code can be found here
+<a href="http://github.com/mobilerobot-io/arduino/">http://github.com/mobilerobot-io/arduino/</a>
+within the src/mctl directory.</p>
+</blockquote>
 
-<h2 id="niether-one-will-cut-it">Niether one will Cut it</h2>
+<h2 id="arduino-motorsheild-and-distributed-controls">Arduino Motorsheild and Distributed Controls</h2>
 
-<p>The Raspberry Pi hardware and Linux OS are not well suited for an
-&ldquo;embedded real time&rdquo; system.  But does offer an endless choice of
-development environments.</p>
+<p>The software in the repository is to be loaded on an Arduino with
+either an Adafruit v2 Arduino or OSEPP 6612 MotorShield.  The software
+accepts commands as incoming text strings from one of several possible
+<em>serial inputs</em>; UART, RF Radio, Blue Tooth, etc.</p>
 
-<h3 id="leave-our-options-open">Leave our Options Open</h3>
+<blockquote>
+<p>TODO: place diagram showing an arduino accepting commands from a RPi</p>
+</blockquote>
 
-<p>It became clear, that neither platgorm would be ideal for my general
-development plans.  Neither of them were ideal to solely commit to.</p>
+<p>Input commands are parsed and the commands are acted on
+accordingly. For example, our SkidSteer provide the following
+<em>throttle</em> method to change the speed and direction of the vehicle.</p>
 
-<p>However, if I could combine them, I could get quite a bit further, by
-having access to the advantages that both worlds?Add</p>
+<p>I prefer to use an Arduino with a <em>Motor Shield</em> as a dedicated
+micro-controller regulating the voltage supplied to the DC motors, it
+may carry on local conversions or control calculations dedicated to
+proper motor handling.</p>
 
-<p>Before I get into any detail on these &ldquo;hobby&rdquo; controllers is</p>
+<p>Additional sensors and guidance inputs can be handled by additional,
+perhaps less critical controllers.  Hopefully reducing the chance of
+critical motor controllers from failing.</p>
 
-<p>What are the first things to consider when developing a mobile robot
-Is how you&rsquo;re going to make it move, and that is typically using
-motors.  The cool thing is that inexpensive electrical motors are
-plentiful, however putting them to good use is a bit complex, Here we
-will conquer some of that complexity.</p>
-
-<p>We will consider the following 3 things:</p>
-
-<ol>
-<li>What <em>type</em> of motor(s) do we need?</li>
-<li>How are we going to <em>power</em> them?</li>
-<li>How are we going to <em>control</em> them?</li>
-</ol>
-
-<h2 id="tldr-summary">TLDR - Summary</h2>
-
-<p>I have settled on the Adafruit MotorSheilds for Arudino and Raspberry
-Pi as general purpose options.  At the moment, my ideal setup involves
-a RPi as the controller with an I2C or SPI connection to an Arduino
-with a MotorController.</p>
-
-<p>But not for every circumstance.  It always depends on the application,
-having said that, let me explain what I have found (very little) so
-far with inexpensive electric motors&hellip;</p>
-
-<h2 id="project-requirements">Project Requirements</h2>
-
-<p>First let me frame this discussion, I am strictly talking about cheap
-DC motors (not AC that plug into the wall like a washing machine) that
-can be had for less than $10USD, often less than $1 or found in scrap
-electronics.</p>
-
-<p>The first three motor types I discovered are the ubiquitous: DC
-<em>brushed motor</em>, <em>toy servos</em> and <em>stepper motors</em>.  Incase you are
-uninformed like I was in early 2018..</p>
-
-<h3 id="select-motors-and-motor-controller">Select Motors and Motor Controller</h3>
-
-<p>The purpose of this project is to select the motors and the
-corresponding <em>motor controller</em> we need to control our vehicle.  The
-motorshield will come as an attachment to a micro controller of some
-sort, which happens to be either an Arduino or Raspiberry Pi, in my
-case.</p>
-
-<h3 id="brushed-motors-move-wheels">Brushed Motors Move Wheels</h3>
-
-<p>In a nutshell, the brushed motors we&rsquo;ll use to turn the wheels of the
-vehicle, they have the advantages of being easily controlled (speed
-up, slow down, stop) with just two wires (+ and -), the direction
-of the motor can be changed simply by reversing the current to the
-motor.</p>
-
-<p>They are also really cheap and can be found every where, including
-scrap electronic toys and utilties.</p>
-
-<h3 id="servos-to-pan-and-tilt-camera">Servos to Pan and Tilt Camera</h3>
-
-<p>We will include two inexpensive <em>servos</em> onto the vehicle to handle
-the <em>pan and tilt</em> camera functions.</p>
-
-<h2 id="drive-train">Drive Train</h2>
-
-<p>Moving the vehicle is one thing, steering it is a whole nother
-thang. Fortunantely for us, we are going to adopt the fine art of
-<strong>skid steering</strong>, the age old method of how the caveman commutted
-back in the day.</p>
-
-<h3 id="skid-steering">Skid Steering</h3>
+<h3 id="the-big-skidder">The Big Skidder</h3>
 
 <p>My primary vehical is a 4wd, that is 4 DC motors directy spinning two
 rubber tires.  I also have available two, two wheeled vehicals and a
 <em>train tracked</em> vehical.</p>
 
-<p>In all cases each of these vehicle employ <em>skid steering</em> on account a
-one wheel (wheels or tread) will be skidding along when your turnin.</p>
-
-<p><a href="http://mobilerobot.io/todo/skid-steering">TODO ~ Create a skid steering page</a></p>
-
-<p>Of course, you can get real fancy and spin the thing on axis by
-employing equal forces of forward and reverse on opposing sides of the
-vehicle.  Which does have significant advantages in tight areas such
-as those found in long corridors, warehouses and such.</p>
+<p>In all cases each of these vehicle employ <a href="http://mobilerobot.io/notes/skid-steering"><em>skid
+steering</em></a> on account a one wheel (wheels or
+tread) will be skidding along when your turnin.</p>
 
 <h2 id="required-motors-and-controller">Required Motors and Controller</h2>
 
@@ -332,25 +262,22 @@ as those found in long corridors, warehouses and such.</p>
 <li>2 Servos</li>
 </ul>
 
-<p>Cut to the chase, the Adafruit XXXXX Arduino motor controller, and the
-sister Adafruit YYYY stepper motor controller for the Raspberry Pi are
-two such controllers that suite our purposes perfectly well.</p>
+<h2 id="adafruit-motorshield">Adafruit MotorShield</h2>
 
-<h3 id="which-microcontroller-microcomputer">Which MicroController (MicroComputer)?</h3>
+<p>The first phase of building Robots I recommend the Adafruit Motor
+Shield V2.  I also tried the OSEPP 6612 and Adafruit Motor Shield v1
+(before I realized there was a version 2).</p>
 
-<p>Todo has a discussion of using a Raspberry Pi + MotorController or
-Arduino + Motor Controller.</p>
+<p>Links to the shields can be found here:</p>
 
-<h3 id="alternative-shields">Alternative Shields</h3>
+<ol>
+<li><a href="https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/using-dc-motors">Adafruit v2 Arduino DC/Stepper MotorController</a></li>
+<li>[OSEPP v2 MotorController]()</li>
+</ol>
 
-<h3 id="adafruit-sheild-v1-v2">Adafruit Sheild v1 &amp; v2</h3>
-
-<p>Adafruit essentially has two versions of their MotorShield v1 and now
-v2. &hellip;</p>
-
-<h4 id="version-2-i2c">Version 2 I2C</h4>
-
-<p>Version 2 of the AFMS runs over the I2C bus.</p>
+<blockquote>
+<p>Insert picture of Adafruit Motor shield</p>
+</blockquote>
 
 <h3 id="osepp-shields-v1-v2">OSEPP Shields v1 &amp; v2</h3>
 
@@ -362,9 +289,27 @@ the documentation of their hardware kits.  I do find the hardware to
 be of a sturdy make.  The use connectors to help in learning, the
 Adafruit are more through for real prototyping.</p>
 
-<h2 id="motor-software">Motor Software</h2>
+<p>For particular details about the controller and other hardware please
+refer to the Adafruit and respective product websites.</p>
 
-<p>Adafruit software for Arduino MC and Raspberry Pi MC.</p>
+<h2 id="arudio-mctl-software">Arudio MCTL Software</h2>
+
+<p>The code in this library can be compiled by with the
+<a href="http://arduino.io/downloads">Arduino IDE</a> to an UNO with an Adafrutit
+v.2 (or compatible) motor controller.  One of the MBR vehicles OSEPP
+Two Wheel balancer uses an OSEPP motor library wich is very similar
+(but) different than the Adafruit version.</p>
+
+<h3 id="reads-from-serial-input">Reads From Serial Input</h3>
+
+<p>This could be virtually any &ldquo;stream&rdquo; of data from a UART, RF, Blue
+Tooth or Wifi ports.  Regardless, the software reads from the
+appropriate input, parses the incoming commands and adjusts power to
+the motors accordingly.</p>
+
+<blockquote>
+<p>Place snippet of Skidder software class here</p>
+</blockquote>
 
 <h3 id="mqtt-and-motor-control-channel">MQTT and Motor Control Channel</h3>
 
@@ -372,6 +317,23 @@ Adafruit are more through for real prototyping.</p>
 vehicle may use the motor control channel when availble, however, must
 always be able to regain control (or shutdown completely) if the
 control channel has been lost.</p>
+
+<h2 id="testing-and-validation">Testing and Validation</h2>
+
+<p>How is this software tested and valided for promotion?</p>
+
+<blockquote>
+<p>Todo document the testing procedure</p>
+</blockquote>
+
+<h2 id="maintanance-and-upgrades">Maintanance and Upgrades</h2>
+
+<blockquote>
+<p>Todo document the deployment and production release producedure.</p>
+</blockquote>
+
+<p>Alas, too many projects, to little time!</p>
+
 		</div>
 	    </div>
 
@@ -388,25 +350,6 @@ Raspberry Pi with a motor-controller.  I believe the Arudino has
 better support for dedicated Real-time software vs. the Raspberry Pi
 and as a superior platform for general computing including running
 Control Software.  This is how we do it on the West side &hellip;</p>
-
-<p>We will find as we progress and start building larger vehicles that
-our notion of <em>Motor Controller</em> will change significantly.  At this
-stage, the controller we are going to deal with include:</p>
-
-<ol>
-<li><a href="https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/using-dc-motors">Adafruit v2 Arduino DC/Stepper MotorController</a></li>
-<li>[OSEPP v2 MotorController]()</li>
-</ol>
-
-<p>The code in this library can be compiled by with the
-<a href="http://arduino.io/downloads">Arduino IDE</a> to an UNO with an Adafrutit
-v.2 (or compatible) motor controller.  One of the MBR vehicles OSEPP
-Two Wheel balancer uses an OSEPP motor library wich is very similar
-(but) different than the Adafruit version.</p>
-
-<p>I have also used, and own some of the early v1 style motorshields from
-Adafruit.  Outdated, yes, but still very useful and easy to use.  We
-will make good use of these OG motor controllers for sure!</p>
 
 <p>Whenever started to build a mobile robot and first started this
 project I set out to pick up motor controller and a platform to

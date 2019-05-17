@@ -47,23 +47,34 @@ Control Software.  This is how we do it on the West side &amp;hellip;&lt;/p&gt;<
     </item>
     
     <item>
+      <title>Control System Design</title>
+      <link>http://mobilerobot.io/notes/control-design/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/control-design/</guid>
+      <description>Early in the process of building the first set of mobile robots I discovered that I was not going to settle on a single micro controller.
+The first two obvious choices being the Arduino or Raspberry Pi, for which I tried both with a modest level of success. I quickly realized that I would not be providing my sole focus on either platform, neither was sufficient for my grand plans for a number of reasons.</description>
+    </item>
+    
+    <item>
+      <title>Comparing the Arduino and Raspberry Pi</title>
+      <link>http://mobilerobot.io/notes/rpi-v-arduino/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/rpi-v-arduino/</guid>
+      <description>Arduino vs. Raspberry Pi in Control Systems I believe the Arudino has better hardware support, a real-time clock and due to itself simplicity creates a better platform to interact with external hardware in real-time.
+The Raspberry Pi, however has a much more powerful set of processors, more memory and a general purpose operating system making it a more suitable choice for general purpose, sophisticated software, such as communicaitons and control software.</description>
+    </item>
+    
+    <item>
       <title>IP Multicast the basics</title>
       <link>http://mobilerobot.io/notes/ip-multicast/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/notes/ip-multicast/</guid>
       <description>IP Multicast addresses The typical IP addresses used by computers networking today are known as unicast addresses, meaning that every unicast address as a single (physical or logical) end point.
 Most all computer networking is point to point between two specific IP addresses, you name it: web browsing, email exchange, transfer files and so much more.
 However, there are other more specific forms on communication available and occasionally used: Broadcast and Multicast.</description>
-    </item>
-    
-    <item>
-      <title>Multicast Routing</title>
-      <link>http://mobilerobot.io/notes/multicast-routing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/notes/multicast-routing/</guid>
-      <description>It is called Multicast Routing.</description>
     </item>
     
   </channel>
