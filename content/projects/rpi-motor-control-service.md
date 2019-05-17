@@ -1,9 +1,9 @@
 ---
 title: Raspberry Pi Motor Control Software and Server
 description: >
-  One the early Robots was a single Raspberry Pi with the Adafruit
-  attached Motorcontroller. I added a simple Skidsteer library to
-  control a small two wheeled "disk" robot.
+  This is from one of my early robots, a single Raspberry Pi connected
+  to an Adafruit Motor Shield.  I wrote the Skidder C++ class to drive
+  the vehicle with skid steering. See how it works...
 date: 2019-05-14
 image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/display-and-motors.jpg
 categories:
@@ -15,37 +15,31 @@ todo:
 ---
 
 This project was to build a simple automous driving vehical using a
-Raspberry Pi and a simple DC motor controller.  That is a single RPi
-will act as the macro controller managing communications and making
-control decisions.
+single Raspberry Pi and a simple DC motor controller.  The RPi acts
+as the macro controller making control decisions and managing
+communications. 
 <!--more-->
 
-The same RPi is also the Micro-controller.  In other words on this
-Robot the RPi is both the Macro and Micro - controller, making the
+The same RPi is also the Micro-controller, in other words on this
+Robot the RPi is both the Macro and Micro controllers, making the
 control decision as well as executing the control commands.
 
-## Bill of Materials
+## Controlling The Motors
 
-- Raspberry Pi V3+
-- Adafruit Motorsheild
-- Extra battery pack for motors
-- 2 brushed DC motors
-- 2 wheeled cheap balancing disk for body 
-- Application specific sensors
+This software is a component that plugs into the
+[Raspberry Pi Device Server (RPID)](/projects/rpid) 
+allowing the motors to be controlled directly by the Skidder API, or
+via MQTT messages and/or HTTP REST requests. Oh, there is also a
+keyboard controller if you ssh into the vehicle.
 
-## Skid Steering
-
-### Websocket and Dashboard
-
-> TODO add a dashboard with websockets that can be used and demo'd.  A
-> dash board with a joystick like graphics can be manipulate by the
-> user. 
+> TODO Place image 5-17 img-1 here 
 
 ### MQTT Skid Channel
 
-We provide an MQTT message channel "/control/skid" dedicated to
-publishing control messages for consumption by a motor controller
-managing two groups of controllers, the left group and the right group.
+The RPID MQTT server will subscribe to the _/control/skid_ channel and
+respond to commands accordingly.  Skid channel is simple, expecting
+two floating point numbers, representing the load (voltage) supplied
+to the motors. 
 
 > Subscripe to the /control/skid channel
 
@@ -153,3 +147,13 @@ wheels.
 Since the motors are controlled directly by Adafruit software, we will
 may create an individual process, separate from the control software
 just to handle the motor controls.
+
+## Bill of Materials
+
+- Raspberry Pi V3+
+- Adafruit Motorsheild
+- Extra battery pack for motors
+- 2 brushed DC motors
+- 2 wheeled cheap balancing disk for body 
+- Application specific sensors
+

@@ -28,9 +28,10 @@
       
       <guid>http://mobilerobot.io/projects/rpi-motor-control-service/</guid>
       <description>&lt;p&gt;This project was to build a simple automous driving vehical using a
-Raspberry Pi and a simple DC motor controller.  That is a single RPi
-will act as the macro controller managing communications and making
-control decisions.&lt;/p&gt;</description>
+single Raspberry Pi and a simple DC motor controller.  The RPi acts
+as the macro controller making control decisions and managing
+communications.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,7 +54,8 @@ Sketches include  esp8266 a series of sketches for the esp8266 chip</description
       <description>&lt;p&gt;We are going to build a simple control station that begins with a
 Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
 setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
-tabs and tool bars etc.&lt;/p&gt;</description>
+tabs and tool bars etc.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -63,7 +65,8 @@ tabs and tool bars etc.&lt;/p&gt;</description>
       
       <guid>http://mobilerobot.io/projects/tlv-and-realitime-communication/</guid>
       <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.&lt;/p&gt;</description>
+messages around a complex, distributed system.&lt;br /&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -85,7 +88,8 @@ Otto GUI Otto comes with a built in GUI (HTML) interface as well as a provide RE
       <guid>http://mobilerobot.io/projects/rpi-flask-mqtt-server/</guid>
       <description>&lt;p&gt;This application provides access and control to various Raspberry
 devices like the camera, GPIO pins, or a possible MotorShield if
-needed.&lt;/p&gt;</description>
+needed.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -131,7 +135,8 @@ And how to write and operate a flask based server for your project.</description
 Raspberry Pi with a motor-controller.  I believe the Arudino has
 better support for dedicated Real-time software vs. the Raspberry Pi
 and as a superior platform for general computing including running
-Control Software.  This is how we do it on the West side &amp;hellip;&lt;/p&gt;</description>
+Control Software.  This is how we do it on the West side &amp;hellip;
+&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -18,9 +18,10 @@
       
       <guid>http://mobilerobot.io/projects/rpi-motor-control-service/</guid>
       <description>&lt;p&gt;This project was to build a simple automous driving vehical using a
-Raspberry Pi and a simple DC motor controller.  That is a single RPi
-will act as the macro controller managing communications and making
-control decisions.&lt;/p&gt;</description>
+single Raspberry Pi and a simple DC motor controller.  The RPi acts
+as the macro controller making control decisions and managing
+communications.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -44,7 +45,8 @@ control decisions.&lt;/p&gt;</description>
 Raspberry Pi with a motor-controller.  I believe the Arudino has
 better support for dedicated Real-time software vs. the Raspberry Pi
 and as a superior platform for general computing including running
-Control Software.  This is how we do it on the West side &amp;hellip;&lt;/p&gt;</description>
+Control Software.  This is how we do it on the West side &amp;hellip;
+&lt;/p&gt;</description>
     </item>
     
   </channel>
