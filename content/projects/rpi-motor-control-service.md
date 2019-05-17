@@ -1,15 +1,9 @@
 ---
 title: Raspberry Pi Motor Control Software
 description: >
-<<<<<<< HEAD
-  One early Robots was a single Raspberry Pi and and attached Adafruit
-  attached Motor Shield.  I added a simple Skid Steer API with
-  REST and MQTT interfaces for real time control.
-=======
   This is from one of my early robots, a single Raspberry Pi connected
   to an Adafruit Motor Shield.  I wrote the Skidder C++ class to drive
   the vehicle with skid steering. See how it works...
->>>>>>> f5f2be3177b2a84bfee873f057732623ce344529
 date: 2019-05-14
 image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/display-and-motors.jpg
 categories:
@@ -29,14 +23,6 @@ REST APIs, as well as directly with the Skidder python library.
 <!--more-->
 
 This project was to build a simple automous driving vehical using a
-<<<<<<< HEAD
-Raspberry Pi and a simple DC motor controller.  That is a single RPi
-will act as the macro controller that manages communications and makes
-control decisions.  
-
-The RPi will also act as a Device Micro Controller directly
-responsible for controlling the _throttle_ of the DC motors.
-=======
 single Raspberry Pi and a simple DC motor controller.  The RPi acts
 as the macro controller making control decisions and managing
 communications. 
@@ -45,29 +31,9 @@ communications.
 The same RPi is also the Micro-controller, in other words on this
 Robot the RPi is both the Macro and Micro controllers, making the
 control decision as well as executing the control commands.
->>>>>>> f5f2be3177b2a84bfee873f057732623ce344529
 
 ## Controlling The Motors
 
-<<<<<<< HEAD
-> TODO Place a Schematic of the RPi connected to the motor
-> controller. 
-
-## Skid Steering
-
-You can read [a note on how skid steering works](/notes/skid-steering)
-if you are not familiar with the concept.  Cut to the quick, operating
-a _skid steer_ vehicle is a matter of grouping wheels or tracks into a
-left and right side, then adjusting the throttle to each group of
-motors. 
-
-In other words, for and reverse both require the left and right groups
-to turn in the same direction and the same velocity.  Turning is
-implemented by varing the velocity, and possibly the direction the
-motors turn.
-
-> TODO place a gist here that shows usage of the Skidder class
-=======
 This software is a component that plugs into the
 [Raspberry Pi Device Server (RPID)](/projects/rpid) 
 allowing the motors to be controlled directly by the Skidder API, or
@@ -75,7 +41,6 @@ via MQTT messages and/or HTTP REST requests. Oh, there is also a
 keyboard controller if you ssh into the vehicle.
 
 > TODO Place image 5-17 img-1 here 
->>>>>>> f5f2be3177b2a84bfee873f057732623ce344529
 
 ### MQTT Skid Channel
 
