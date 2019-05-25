@@ -19,8 +19,7 @@
       <guid>http://localhost:1313/projects/rpi-flask-mqtt-server/</guid>
       <description>&lt;p&gt;This application provides access and control to various Raspberry
 devices like the camera, GPIO pins, or a possible MotorShield if
-needed.
-&lt;/p&gt;</description>
+needed.&lt;/p&gt;</description>
     </item>
     
     <item>

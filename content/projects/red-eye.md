@@ -8,6 +8,7 @@ categories:
   - software
   - video
 github: https://github.com/mobilerobot-io/redeye
+featured: https://docs.google.com/drawings/d/e/2PACX-1vQHtO4hTGzQKan-x5UKmwDieGndeGtNsTXT2iorDvcSuwiPBY1kkutZ1DH0D-Rd1VAtCzXzf3b3Zj4C/pub?w=960&amp;h=540
 ---
 
 The Red Eye project is a simple service wrapper around the most
@@ -32,7 +33,7 @@ will reserve three channels with specific purposes:
 
 I'll discuss each of these in more detail in the following sections: 
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vQHtO4hTGzQKan-x5UKmwDieGndeGtNsTXT2iorDvcSuwiPBY1kkutZ1DH0D-Rd1VAtCzXzf3b3Zj4C/pub?w=960&amp;h=540" /
+
 
 ### High Def Live Viewing
 
