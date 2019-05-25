@@ -6,10 +6,20 @@
     <description>Recent content in Software on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mobilerobot.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Red Eye Video Server</title>
+      <link>http://mobilerobot.io/projects/red-eye/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/red-eye/</guid>
+      <description>The Red Eye project is a simple service wrapper around the most excellent PiCamera library, it also attaches a gstreamerpipelines pipeline to the output video stream(s) that will be recieved by a variety of consumers, including Storage / Archive, Computer Vision / Machine Learning and Display modules.
+Multiple Live Streams A really cool feature of the Raspberry Pi Camera (the XXX family of chips) is the ability to deliver multiple streams of video at the same time, like different resolutions, snapshots and such.</description>
+    </item>
     
     <item>
       <title>Skid Steering</title>

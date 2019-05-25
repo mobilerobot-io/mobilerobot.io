@@ -14,6 +14,9 @@ communication, these are just high level disciplines, each of these
 categories involves many specialties.
 <!--more-->
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQA8TH7jHmvj-K8aRIl2Fnh6AZ-uSIr881skaNI6OOgTf6PmCz7gDyQff49tgIHVmWneqv-tHKFa0Qy/pub?w=960&amp;h=540">
+
+
 ## Here are Some Interesting and Active Projects
 
 The list that follows represents the _active mobile robot_ projects.

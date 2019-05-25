@@ -44,6 +44,121 @@
 	<div class="col-4 text-center">
 	    <div class="card">
 		<div class="card-title">
+		    Red Eye Video Server
+		</div>
+		<div class="card-body">
+		    
+
+<p>The Red Eye project is a simple service wrapper around the most
+excellent PiCamera library, it also attaches a
+<a href="http://todo-gstreamer">gstreamerpipelines</a> pipeline to the output
+video stream(s) that will be recieved by a variety of consumers,
+including Storage / Archive, Computer Vision / Machine Learning and
+Display modules.</p>
+
+<h2 id="multiple-live-streams">Multiple Live Streams</h2>
+
+<p>A really cool feature of the Raspberry Pi Camera (the XXX family of
+chips) is the ability to deliver multiple streams of video at the same
+time, like different resolutions, snapshots and such.</p>
+
+<p>We will take good advantage of these features later, but to start we
+will reserve three channels with specific purposes:</p>
+
+<ol>
+<li>High Def live viewing and footage archives</li>
+<li>Low Def for computer vision algorithms</li>
+<li>Snapshots for various reasons</li>
+</ol>
+
+<p>I&rsquo;ll discuss each of these in more detail in the following sections:</p>
+
+<h3 id="high-def-live-viewing">High Def Live Viewing</h3>
+
+<p>The PiCamera has the capability of streaming multiple streams, we will
+take advantage of this by having the camera send a High Def stream for
+<em>real time display</em> and to be <em>archived and replayed</em>.</p>
+
+<h3 id="low-definition-to-opencv">Low Definition To OpenCV</h3>
+
+<p>Computer Vision algorithms can benefit by working with lower
+resolution versions of live images.  The algorithms calculate with a
+small number of pixels and go faster.</p>
+
+<h3 id="snapshots">Snapshots</h3>
+
+<p>There are a number of reasons we may want to take an store
+<em>snapshots</em> to capture various events, we could have:</p>
+
+<ol>
+<li>algorithm trigger snapshot when motion is detected</li>
+<li>person could request snapshot at any time</li>
+<li>timelapse snapshots</li>
+<li>sequences</li>
+</ol>
+
+<p>Snapshots will find a number of uses within various projects.</p>
+
+<h2 id="control">Control</h2>
+
+<ol>
+<li></li>
+<li>Start and Stop specifi video streams</li>
+
+<li><p>Multiple, simultaneous video streams, including:</p>
+
+<ol>
+<li>Low Res Video Stream</li>
+<li>Hi Res Video Stream</li>
+<li>Snapshots sent based on event or request</li>
+</ol></li>
+
+<li><p>Video / Snapshots saved on local or cloud storage</p></li>
+</ol>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+<li>Camera runs on a Raspberry PI w/Cam</li>
+<li>Camera Streams High Def Video to Display</li>
+<li>Camera Streams High Def Video to Storage</li>
+<li>Camera Streams Low Def Video to Computer Vision Input</li>
+<li>Computer Vision for Perception and Guidance</li>
+<li>Computer Vision for Face and Object Recognition</li>
+<li>Camera can record video or images local</li>
+<li>Camera can record video or images remote (cloud)</li>
+<li>Camera can be controlled via REST</li>
+<li>Camera can be controlled via MQTT</li>
+<li>Camera can be controlled via Websocket</li>
+<li>Camera can be controlled via GPIO pins</li>
+<li>Camera runs on NVida Nano with camera</li>
+</ul>
+
+<h2 id="software-components">Software Components</h2>
+
+<h3 id="library-dependencies">Library Dependencies</h3>
+
+<ul>
+<li>PiCamera to operate the camera</li>
+<li>Flask for REST and Web Interface</li>
+<li>Paho MQTT for Control Bus</li>
+<li>gstreamer to stream captured video
+
+<ul>
+<li>raspberry Pi gstreamer src plugin</li>
+<li>gstreamer RTP/RTSP streaming</li>
+</ul></li>
+<li>Cloud Libraries to save data offline storage</li>
+</ul>
+
+		</div>
+	    </div>
+
+	</div>
+	
+	<div class="col-4 text-center">
+	    <div class="card">
+		<div class="card-title">
 		    Skid Steering
 		</div>
 		<div class="card-body">

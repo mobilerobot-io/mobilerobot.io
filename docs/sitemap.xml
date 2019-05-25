@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://mobilerobot.io/projects/red-eye/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/notes/skid-steering/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
   </url>
@@ -246,7 +251,7 @@
   
   <url>
     <loc>http://mobilerobot.io/categories/software/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -277,6 +282,12 @@
   <url>
     <loc>http://mobilerobot.io/tags/touch-screen/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/video/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

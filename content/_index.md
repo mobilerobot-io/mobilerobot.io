@@ -9,6 +9,7 @@ categories:
   - /categories/mechanics
   - /categories/software
 image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/software-block.png
+featured: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/the-big-picture-01.svg
 ---
 
 This website is about the Mobile Robot Project: the discovery of
