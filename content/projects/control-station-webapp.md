@@ -10,6 +10,7 @@ category:
 image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/display-and-motors.jpg
 tags:
   - front end, ui
+draft: true
 ---
 
 Our control station will run a 7in touch panel attached to a Raspberry

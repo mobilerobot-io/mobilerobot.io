@@ -30,47 +30,11 @@
     </item>
     
     <item>
-      <title>Camera</title>
-      <link>http://mobilerobot.io/tags/camera/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/tags/camera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Front End Ui</title>
-      <link>http://mobilerobot.io/tags/front-end-ui/</link>
-      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/tags/front-end-ui/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Gnc</title>
       <link>http://mobilerobot.io/tags/gnc/</link>
       <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/tags/gnc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>http://mobilerobot.io/tags/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Motorkit</title>
-      <link>http://mobilerobot.io/tags/motorkit/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/tags/motorkit/</guid>
       <description></description>
     </item>
     
@@ -84,47 +48,11 @@
     </item>
     
     <item>
-      <title>Mqtt</title>
-      <link>http://mobilerobot.io/tags/mqtt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/tags/mqtt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pi Camera</title>
-      <link>http://mobilerobot.io/tags/pi-camera/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/tags/pi-camera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Picamera</title>
-      <link>http://mobilerobot.io/tags/picamera/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/tags/picamera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Raspberry Pi</title>
       <link>http://mobilerobot.io/tags/raspberry-pi/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/tags/raspberry-pi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rest</title>
-      <link>http://mobilerobot.io/tags/rest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/tags/rest/</guid>
       <description></description>
     </item>
     
@@ -143,15 +71,6 @@
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/tags/tft-display/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tlv</title>
-      <link>http://mobilerobot.io/tags/tlv/</link>
-      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/tags/tlv/</guid>
       <description></description>
     </item>
     

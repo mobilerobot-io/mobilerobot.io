@@ -13,16 +13,6 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/rpi-motor-control-service/</loc>
-    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/projects/arduino-software/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/projects/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -38,33 +28,8 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/tlv-and-realitime-communication/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/projects/control-station-webapp/</loc>
-    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/projects/rpi-flask-mqtt-server/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/projects/rpi-camera-control-service/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/inventory/rpi4/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/projects/arduino-motor-controllers/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -123,26 +88,8 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/camera/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/categories/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/communications/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/computer-video/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -153,19 +100,8 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/front-end-ui/</loc>
-    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/tags/gnc/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/golang/</loc>
     <priority>0</priority>
   </url>
   
@@ -188,20 +124,8 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/micro-service/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/motorkit/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/categories/motors/</loc>
-    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -212,40 +136,14 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/tags/mqtt/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/notes/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/projects/otto-master-controller-micro-service/</loc>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/pi-camera/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/picamera/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/tags/raspberry-pi/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/rest/</loc>
     <priority>0</priority>
   </url>
   
@@ -270,12 +168,6 @@
   <url>
     <loc>http://mobilerobot.io/tags/tft-display/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/tlv/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

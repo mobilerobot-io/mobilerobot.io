@@ -16,6 +16,7 @@ tags:
   - motorshield
 github: http://github.com/mobilerobot-io/arduino/src/mctl
 date: 2018-08-22
+draft: true
 ---
 
 Pictured about is the [OSEPP v2

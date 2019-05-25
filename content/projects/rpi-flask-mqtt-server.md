@@ -22,6 +22,7 @@ todo:
 image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/display-and-motors.jpg
 resources:
   github: http://github.com/mobilerobot-io/rpid
+draft: true
 ---
 
 This application provides access and control to various Raspberry

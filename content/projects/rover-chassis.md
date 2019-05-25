@@ -8,6 +8,7 @@ description: >
   the drive train that moves the car, pretty much all mechanical. We
   started with a kit but quickly outgrew it.
 image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/display-and-motors.jpg
+draft: true
 ---
 
 I quickly outgrew my first introductory robotics kit. I started with

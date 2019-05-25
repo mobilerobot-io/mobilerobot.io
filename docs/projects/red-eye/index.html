@@ -40,7 +40,7 @@
 </div>
 <div id="main">
 <div class="container">
-    <img class="img-fluid mb-4" src="https://docs.google.com/drawings/d/e/2PACX-1vQHtO4hTGzQKan-x5UKmwDieGndeGtNsTXT2iorDvcSuwiPBY1kkutZ1DH0D-Rd1VAtCzXzf3b3Zj4C/pub?w=960&amp;amp;h=540" />
+    <img class="img-fluid mb-4" src="" />
 
     <div class="row mb-4">
 	<div class="col"></div>
@@ -85,6 +85,8 @@ will reserve three channels with specific purposes:</p>
 
 <p>I&rsquo;ll discuss each of these in more detail in the following sections:</p>
 
+<p>&lt;img src=&ldquo;<a href="https://docs.google.com/drawings/d/e/2PACX-1vQHtO4hTGzQKan-x5UKmwDieGndeGtNsTXT2iorDvcSuwiPBY1kkutZ1DH0D-Rd1VAtCzXzf3b3Zj4C/pub?w=960&amp;h=540&quot;">https://docs.google.com/drawings/d/e/2PACX-1vQHtO4hTGzQKan-x5UKmwDieGndeGtNsTXT2iorDvcSuwiPBY1kkutZ1DH0D-Rd1VAtCzXzf3b3Zj4C/pub?w=960&amp;h=540&quot;</a> /</p>
+
 <h3 id="high-def-live-viewing">High Def Live Viewing</h3>
 
 <p>The PiCamera has the capability of streaming multiple streams, we will
@@ -100,55 +102,80 @@ small number of pixels and go faster.</p>
 <h3 id="snapshots">Snapshots</h3>
 
 <p>There are a number of reasons we may want to take an store
-<em>snapshots</em> to capture various events, we could have:</p>
+<em>snapshots</em> to capture various events, we&rsquo;ll get into that later, but
+for now the requirements we will need to take snapshots and save
+them.</p>
+
+<h2 id="camera-control-inputs">Camera Control Inputs</h2>
+
+<p>A control channel is available to modify camera behavior during
+operations, which may include changing configuration, start and
+stop video streams, and so.</p>
+
+<p>The control inputs can be the result of a REST Command, MQTT message
+or Websockets interface.</p>
+
+<h2 id="streaming-video">Streaming Video</h2>
+
+<p>The video streams are produced by the camera in H.264, so we need to
+do a little bit of work to get the video into multicast video
+streams.</p>
+
+<h3 id="gstreamer-multicast-rtp">Gstreamer Multicast RTP</h3>
+
+<p>The video streams produced by the video will need a little turning
+them into video streams of some sort.  Our scheme is such that:</p>
 
 <ol>
-<li>algorithm trigger snapshot when motion is detected</li>
-<li>person could request snapshot at any time</li>
-<li>timelapse snapshots</li>
-<li>sequences</li>
+<li><p>Video streams may be recieved by more than one consumer</p></li>
+
+<li><p>We do not want Video producer to have to know <em>who</em> is recieving
+and when..  Multicast will just be sent as long as there is any
+consumer.</p></li>
 </ol>
 
-<p>Snapshots will find a number of uses within various projects.</p>
+<p>We will need to piece together the series of filters to recieve the
+video from Rasberry Pi, to gstreamer that will turn the video into
+UDP, RTP, RTSP multicast streams.</p>
 
-<h2 id="control">Control</h2>
+<h3 id="video-consumers">Video Consumers</h3>
 
-<ol>
-<li></li>
-<li>Start and Stop specifi video streams</li>
+<p>The Video is streamed for live consumption as well as storage and
+retrieval.  For this, high definition video is likely to be needed.</p>
 
-<li><p>Multiple, simultaneous video streams, including:</p>
+<p>Video will also be consumed by computer vision algorithms, in this
+case, the lower resolution images help the algorithms plow through
+pixels much faster.</p>
 
-<ol>
-<li>Low Res Video Stream</li>
-<li>Hi Res Video Stream</li>
-<li>Snapshots sent based on event or request</li>
-</ol></li>
+<p>Snapshot can be extracted from a video stream.</p>
 
-<li><p>Video / Snapshots saved on local or cloud storage</p></li>
-</ol>
+<h2 id="control-communications">Control Communications</h2>
 
-<h2 id="requirements">Requirements</h2>
+<p>The camera has a rich set of configuration options and modes that it
+can operate under.  We are wrapping the configuration options, as well
+as control time commands like starting and stoping streams.</p>
+
+<p>Additional commands may be set to start time lapse snapshots and quick
+auto-sequence shots.  The control commands can be set off throught the
+following API channels:</p>
 
 <ul>
-<li>Camera runs on a Raspberry PI w/Cam</li>
-<li>Camera Streams High Def Video to Display</li>
-<li>Camera Streams High Def Video to Storage</li>
-<li>Camera Streams Low Def Video to Computer Vision Input</li>
-<li>Computer Vision for Perception and Guidance</li>
-<li>Computer Vision for Face and Object Recognition</li>
-<li>Camera can record video or images local</li>
-<li>Camera can record video or images remote (cloud)</li>
-<li>Camera can be controlled via REST</li>
-<li>Camera can be controlled via MQTT</li>
-<li>Camera can be controlled via Websocket</li>
-<li>Camera can be controlled via GPIO pins</li>
-<li>Camera runs on NVida Nano with camera</li>
+<li>REST</li>
+<li>MQTT</li>
+<li>Websockets</li>
 </ul>
 
-<h2 id="software-components">Software Components</h2>
+<p>All control channels flowing into a single Interface / API with the
+explicit goal to maintain consistency regardless of the channel used
+to communicate controls.</p>
 
-<h3 id="library-dependencies">Library Dependencies</h3>
+<h2 id="tactile-controls">Tactile Controls</h2>
+
+<p>The GPIO pins can be used to trigger camera events, simple things like
+pushing a button to take a snapshot, or triggering a snapshot when a
+switch is flipped, for example.</p>
+
+<h2 id="software-library-dependencies">Software Library Dependencies</h2>
 
 <ul>
 <li>PiCamera to operate the camera</li>

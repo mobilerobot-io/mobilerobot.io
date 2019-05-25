@@ -12,6 +12,7 @@ categories:
   - communications
 tags:
   - i2c
+draft: true
 ---
 
 I wanted to use an Arduino AND a smarter device, but did not want to waste the power, 

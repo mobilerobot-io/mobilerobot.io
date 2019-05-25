@@ -7,7 +7,6 @@ description: >
 categories:
   - software
   - video
-featured: https://docs.google.com/drawings/d/e/2PACX-1vQHtO4hTGzQKan-x5UKmwDieGndeGtNsTXT2iorDvcSuwiPBY1kkutZ1DH0D-Rd1VAtCzXzf3b3Zj4C/pub?w=960&amp;h=540
 github: https://github.com/mobilerobot-io/redeye
 ---
 
@@ -33,6 +32,8 @@ will reserve three channels with specific purposes:
 
 I'll discuss each of these in more detail in the following sections: 
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQHtO4hTGzQKan-x5UKmwDieGndeGtNsTXT2iorDvcSuwiPBY1kkutZ1DH0D-Rd1VAtCzXzf3b3Zj4C/pub?w=960&amp;h=540" /
+
 ### High Def Live Viewing
 
 The PiCamera has the capability of streaming multiple streams, we will
@@ -48,51 +49,76 @@ small number of pixels and go faster.
 ### Snapshots
 
 There are a number of reasons we may want to take an store
-_snapshots_ to capture various events, we could have:
+_snapshots_ to capture various events, we'll get into that later, but
+for now the requirements we will need to take snapshots and save
+them. 
 
-1. algorithm trigger snapshot when motion is detected
-2. person could request snapshot at any time
-3. timelapse snapshots
-4. sequences 
+## Camera Control Inputs
 
-Snapshots will find a number of uses within various projects.
+A control channel is available to modify camera behavior during
+operations, which may include changing configuration, start and
+stop video streams, and so.
 
+The control inputs can be the result of a REST Command, MQTT message
+or Websockets interface. 
 
-## Control
+## Streaming Video
 
-   4. 
-1. Start and Stop specifi video streams
-2. Multiple, simultaneous video streams, including:
-   2. Low Res Video Stream
-   3. Hi Res Video Stream
-   4. Snapshots sent based on event or request
+The video streams are produced by the camera in H.264, so we need to
+do a little bit of work to get the video into multicast video
+streams. 
 
-3. Video / Snapshots saved on local or cloud storage
+### Gstreamer Multicast RTP
 
+The video streams produced by the video will need a little turning
+them into video streams of some sort.  Our scheme is such that:
 
+1. Video streams may be recieved by more than one consumer 
 
+2. We do not want Video producer to have to know _who_ is recieving
+   and when..  Multicast will just be sent as long as there is any
+   consumer. 
 
+We will need to piece together the series of filters to recieve the
+video from Rasberry Pi, to gstreamer that will turn the video into
+UDP, RTP, RTSP multicast streams.
 
+### Video Consumers
 
-## Requirements
+The Video is streamed for live consumption as well as storage and
+retrieval.  For this, high definition video is likely to be needed. 
 
-- Camera runs on a Raspberry PI w/Cam
-- Camera Streams High Def Video to Display
-- Camera Streams High Def Video to Storage 
-- Camera Streams Low Def Video to Computer Vision Input 
-- Computer Vision for Perception and Guidance
-- Computer Vision for Face and Object Recognition
-- Camera can record video or images local
-- Camera can record video or images remote (cloud)
-- Camera can be controlled via REST
-- Camera can be controlled via MQTT
-- Camera can be controlled via Websocket
-- Camera can be controlled via GPIO pins
-- Camera runs on NVida Nano with camera
+Video will also be consumed by computer vision algorithms, in this
+case, the lower resolution images help the algorithms plow through
+pixels much faster.
 
-## Software Components
+Snapshot can be extracted from a video stream.
 
-### Library Dependencies
+## Control Communications
+
+The camera has a rich set of configuration options and modes that it
+can operate under.  We are wrapping the configuration options, as well
+as control time commands like starting and stoping streams.
+
+Additional commands may be set to start time lapse snapshots and quick
+auto-sequence shots.  The control commands can be set off throught the
+following API channels:
+
+- REST
+- MQTT
+- Websockets
+
+All control channels flowing into a single Interface / API with the
+explicit goal to maintain consistency regardless of the channel used
+to communicate controls.
+
+## Tactile Controls
+
+The GPIO pins can be used to trigger camera events, simple things like
+pushing a button to take a snapshot, or triggering a snapshot when a
+switch is flipped, for example.
+
+## Software Library Dependencies
 
 - PiCamera to operate the camera
 - Flask for REST and Web Interface

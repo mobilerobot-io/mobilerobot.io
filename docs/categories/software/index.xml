@@ -32,23 +32,6 @@ Multiple Live Streams A really cool feature of the Raspberry Pi Camera (the XXX 
     </item>
     
     <item>
-      <title>Raspberry Pi Motor Control Software</title>
-      <link>http://mobilerobot.io/projects/rpi-motor-control-service/</link>
-      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/projects/rpi-motor-control-service/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;TODO ~ replace image with one of the Raspberry Pi Controller&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This software adds a Skid Steer motor control software to the
-&lt;a href=&#34;http://github.com/mobilerobot-io/rpid&#34;&gt;Raspberry Pi Device Server&lt;/a&gt;
-device server.  RPID adds motor controls accessible via both MQTT and
-REST APIs, as well as directly with the Skidder python library.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Control Station Display</title>
       <link>http://mobilerobot.io/notes/touch-screen-display/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
@@ -59,52 +42,6 @@ Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I ha
 setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
 tabs and tool bars etc.
 &lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>TLV the Type Length Vector Protocol</title>
-      <link>http://mobilerobot.io/projects/tlv-and-realitime-communication/</link>
-      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/projects/tlv-and-realitime-communication/</guid>
-      <description>&lt;p&gt;TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.&lt;br /&gt;
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Raspberry Pi Flask and MQTT Master Control Server</title>
-      <link>http://mobilerobot.io/projects/rpi-flask-mqtt-server/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/projects/rpi-flask-mqtt-server/</guid>
-      <description>&lt;p&gt;This application provides access and control to various Raspberry
-devices like the camera, GPIO pins, or a possible MotorShield if
-needed.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Raspbery Pi Camera Control Service</title>
-      <link>http://mobilerobot.io/projects/rpi-camera-control-service/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/projects/rpi-camera-control-service/</guid>
-      <description>I have created a python / Flask based server to run on the Raspberry accepting REST calls to perform application specific functions.
-I have created a flask server that will accept REST requests to control the PiCamera, AdaFruitMotorSheild and other stuff.
-Refer to the PiCamera documentation here: https://picamera.readthedocs.io/en/release-1.13/.
-The software can be found in github repository.
-And how to write and operate a flask based server for your project.</description>
-    </item>
-    
-    <item>
-      <title>Otto the Pluggable Macro Controller Micro Service</title>
-      <link>http://mobilerobot.io/projects/otto-master-controller-micro-service/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/projects/otto-master-controller-micro-service/</guid>
-      <description>Otto is a small, simple micro-server written in Go. It handles requisit communications and related infra structure required by servers and controllers. The applications and functionality will be provided via pluggins.
-Otto can run as a REST server in a data center or the controller on micro-controller type of computer. Otto was developed with the notion that much of the code that makes for a good server (or any application for that matter) requires redundant but import supporting infrastructure.</description>
     </item>
     
   </channel>

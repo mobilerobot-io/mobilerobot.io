@@ -12,6 +12,7 @@ categories:
 todo: 
   - image
   - proof read
+draft: true
 ---
 
 > TODO ~ replace image with one of the Raspberry Pi Controller

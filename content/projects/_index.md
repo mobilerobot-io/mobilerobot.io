@@ -6,6 +6,7 @@ description: >
 date: 2019-04-24
 image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/software-block.png
 ---
+
 As it turns out building a Robot is complicated, one of the many
 challenges of building a _working_ robot is achieving a satisfactory
 level of many full time disciplines, including but not limited to:

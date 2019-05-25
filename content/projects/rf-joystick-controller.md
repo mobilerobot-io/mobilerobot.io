@@ -15,6 +15,7 @@ tags:
   - nrf24l
   - arduino
   - nano
+draft: true
 ---
 
 This was a simple but very cool project.  Setup an Arduino Nano with a

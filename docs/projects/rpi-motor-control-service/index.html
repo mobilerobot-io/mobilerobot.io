@@ -5,22 +5,22 @@
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-<link rel="stylesheet" href="http://mobilerobot.io/css/style.css">
+<link rel="stylesheet" href="http://localhost:1313/css/style.css">
 
 
 <title>Raspberry Pi Motor Control Software</title>
 <body><header class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-	<a class="navbar-brand text-muted text-monospace" href="http://mobilerobot.io/">Mobile Robot I/O</a>
+	<a class="navbar-brand text-muted text-monospace" href="http://localhost:1313/">Mobile Robot I/O</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    <nav class="navbar-nav justify-content-end">
-  		<a class="nav-link" href="http://mobilerobot.io/">home</a>
-  	        <a class="nav-link" href="http://mobilerobot.io/projects">projects</a>
-  	        <a class="nav-link" href="http://mobilerobot.io/notes">notes</a>
-  		<a class="nav-link" href="http://mobilerobot.io/about">about</a>
+  		<a class="nav-link" href="http://localhost:1313/">home</a>
+  	        <a class="nav-link" href="http://localhost:1313/projects">projects</a>
+  	        <a class="nav-link" href="http://localhost:1313/notes">notes</a>
+  		<a class="nav-link" href="http://localhost:1313/about">about</a>
  	    </nav>
 	</div>
     </nav>
@@ -82,7 +82,7 @@ control decision as well as executing the control commands.</p>
 <h2 id="controlling-the-motors">Controlling The Motors</h2>
 
 <p>This software is a component that plugs into the
-<a href="http://mobilerobot.io/projects/rpid">Raspberry Pi Device Server (RPID)</a>
+<a href="http://localhost:1313/projects/rpid">Raspberry Pi Device Server (RPID)</a>
 allowing the motors to be controlled directly by the Skidder API, or
 via MQTT messages and/or HTTP REST requests. Oh, there is also a
 keyboard controller if you ssh into the vehicle.</p>
@@ -129,7 +129,7 @@ DC/Stepper motor controller</a>. This is the
 <em>one</em> robot that we directly drive a motor controller from the
 Raspberry Pi.  That aspect of this project differs than our other
 robots that are built with
-<a href="http://mobilerobot.io/notes/distributed-controllers">distributed controllers</a> used by the
+<a href="http://localhost:1313/notes/distributed-controllers">distributed controllers</a> used by the
 other robots I have built.</p>
 
 <h3 id="rpi-macro-controler-and-micro-controller">RPi Macro Controler and Micro Controller</h3>
@@ -144,8 +144,8 @@ embedded <em>Arduino like device</em>, possibly an esp8266, esp32 or stm32.</p>
 <p>In this software we will keep the same message based communication
 system, as well as REST support architecture as used on the other
 robots.  In this case we will implement the Micro-controller
-requirements as part of the <a href="http://mobilerobot.io/todo">RPi DeviceService</a> used by the
-<a href="http://mobilerobot.io/todo">Raspberry Pi Camera server</a>.</p>
+requirements as part of the <a href="http://localhost:1313/todo">RPi DeviceService</a> used by the
+<a href="http://localhost:1313/todo">Raspberry Pi Camera server</a>.</p>
 
 <p>That means we will be able to control the voltage sent to (throttle)
 the motors and hence control speed and direction the vehicle moves.</p>
@@ -156,7 +156,7 @@ the motors and hence control speed and direction the vehicle moves.</p>
 a camera should be easily at home in a single multi-core RPi.  This
 being the case, we could optimize communications by removing the
 messaging and translation layers from the
-<a href="http://mobilerobot.io/mobile-robot-architecture">MBR Architecture</a>.</p>
+<a href="http://localhost:1313/mobile-robot-architecture">MBR Architecture</a>.</p>
 
 <p>However, for the sake of a single architecture and minimized set of
 software tools and configurations, we will leave the communicaiton
@@ -273,5 +273,5 @@ if (!doNotTrack) {
 </script>
 
 
-</body>
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
 </html>

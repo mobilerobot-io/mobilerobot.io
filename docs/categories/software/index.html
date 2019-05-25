@@ -73,6 +73,8 @@ will reserve three channels with specific purposes:</p>
 
 <p>I&rsquo;ll discuss each of these in more detail in the following sections:</p>
 
+<p>&lt;img src=&ldquo;<a href="https://docs.google.com/drawings/d/e/2PACX-1vQHtO4hTGzQKan-x5UKmwDieGndeGtNsTXT2iorDvcSuwiPBY1kkutZ1DH0D-Rd1VAtCzXzf3b3Zj4C/pub?w=960&amp;h=540&quot;">https://docs.google.com/drawings/d/e/2PACX-1vQHtO4hTGzQKan-x5UKmwDieGndeGtNsTXT2iorDvcSuwiPBY1kkutZ1DH0D-Rd1VAtCzXzf3b3Zj4C/pub?w=960&amp;h=540&quot;</a> /</p>
+
 <h3 id="high-def-live-viewing">High Def Live Viewing</h3>
 
 <p>The PiCamera has the capability of streaming multiple streams, we will
@@ -88,55 +90,80 @@ small number of pixels and go faster.</p>
 <h3 id="snapshots">Snapshots</h3>
 
 <p>There are a number of reasons we may want to take an store
-<em>snapshots</em> to capture various events, we could have:</p>
+<em>snapshots</em> to capture various events, we&rsquo;ll get into that later, but
+for now the requirements we will need to take snapshots and save
+them.</p>
+
+<h2 id="camera-control-inputs">Camera Control Inputs</h2>
+
+<p>A control channel is available to modify camera behavior during
+operations, which may include changing configuration, start and
+stop video streams, and so.</p>
+
+<p>The control inputs can be the result of a REST Command, MQTT message
+or Websockets interface.</p>
+
+<h2 id="streaming-video">Streaming Video</h2>
+
+<p>The video streams are produced by the camera in H.264, so we need to
+do a little bit of work to get the video into multicast video
+streams.</p>
+
+<h3 id="gstreamer-multicast-rtp">Gstreamer Multicast RTP</h3>
+
+<p>The video streams produced by the video will need a little turning
+them into video streams of some sort.  Our scheme is such that:</p>
 
 <ol>
-<li>algorithm trigger snapshot when motion is detected</li>
-<li>person could request snapshot at any time</li>
-<li>timelapse snapshots</li>
-<li>sequences</li>
+<li><p>Video streams may be recieved by more than one consumer</p></li>
+
+<li><p>We do not want Video producer to have to know <em>who</em> is recieving
+and when..  Multicast will just be sent as long as there is any
+consumer.</p></li>
 </ol>
 
-<p>Snapshots will find a number of uses within various projects.</p>
+<p>We will need to piece together the series of filters to recieve the
+video from Rasberry Pi, to gstreamer that will turn the video into
+UDP, RTP, RTSP multicast streams.</p>
 
-<h2 id="control">Control</h2>
+<h3 id="video-consumers">Video Consumers</h3>
 
-<ol>
-<li></li>
-<li>Start and Stop specifi video streams</li>
+<p>The Video is streamed for live consumption as well as storage and
+retrieval.  For this, high definition video is likely to be needed.</p>
 
-<li><p>Multiple, simultaneous video streams, including:</p>
+<p>Video will also be consumed by computer vision algorithms, in this
+case, the lower resolution images help the algorithms plow through
+pixels much faster.</p>
 
-<ol>
-<li>Low Res Video Stream</li>
-<li>Hi Res Video Stream</li>
-<li>Snapshots sent based on event or request</li>
-</ol></li>
+<p>Snapshot can be extracted from a video stream.</p>
 
-<li><p>Video / Snapshots saved on local or cloud storage</p></li>
-</ol>
+<h2 id="control-communications">Control Communications</h2>
 
-<h2 id="requirements">Requirements</h2>
+<p>The camera has a rich set of configuration options and modes that it
+can operate under.  We are wrapping the configuration options, as well
+as control time commands like starting and stoping streams.</p>
+
+<p>Additional commands may be set to start time lapse snapshots and quick
+auto-sequence shots.  The control commands can be set off throught the
+following API channels:</p>
 
 <ul>
-<li>Camera runs on a Raspberry PI w/Cam</li>
-<li>Camera Streams High Def Video to Display</li>
-<li>Camera Streams High Def Video to Storage</li>
-<li>Camera Streams Low Def Video to Computer Vision Input</li>
-<li>Computer Vision for Perception and Guidance</li>
-<li>Computer Vision for Face and Object Recognition</li>
-<li>Camera can record video or images local</li>
-<li>Camera can record video or images remote (cloud)</li>
-<li>Camera can be controlled via REST</li>
-<li>Camera can be controlled via MQTT</li>
-<li>Camera can be controlled via Websocket</li>
-<li>Camera can be controlled via GPIO pins</li>
-<li>Camera runs on NVida Nano with camera</li>
+<li>REST</li>
+<li>MQTT</li>
+<li>Websockets</li>
 </ul>
 
-<h2 id="software-components">Software Components</h2>
+<p>All control channels flowing into a single Interface / API with the
+explicit goal to maintain consistency regardless of the channel used
+to communicate controls.</p>
 
-<h3 id="library-dependencies">Library Dependencies</h3>
+<h2 id="tactile-controls">Tactile Controls</h2>
+
+<p>The GPIO pins can be used to trigger camera events, simple things like
+pushing a button to take a snapshot, or triggering a snapshot when a
+switch is flipped, for example.</p>
+
+<h2 id="software-library-dependencies">Software Library Dependencies</h2>
 
 <ul>
 <li>PiCamera to operate the camera</li>
@@ -289,183 +316,6 @@ of elements that rotate to move the vehicle.</p>
 	<div class="col-4 text-center">
 	    <div class="card">
 		<div class="card-title">
-		    Raspberry Pi Motor Control Software
-		</div>
-		<div class="card-body">
-		    <blockquote>
-<p>TODO ~ replace image with one of the Raspberry Pi Controller</p>
-</blockquote>
-
-<p>This software adds a Skid Steer motor control software to the
-<a href="http://github.com/mobilerobot-io/rpid">Raspberry Pi Device Server</a>
-device server.  RPID adds motor controls accessible via both MQTT and
-REST APIs, as well as directly with the Skidder python library.
-</p>
-
-<p>This project was to build a simple automous driving vehical using a
-single Raspberry Pi and a simple DC motor controller.  The RPi acts
-as the macro controller making control decisions and managing
-communications.
-<!--more--></p>
-
-<p>The same RPi is also the Micro-controller, in other words on this
-Robot the RPi is both the Macro and Micro controllers, making the
-control decision as well as executing the control commands.</p>
-
-<h2 id="controlling-the-motors">Controlling The Motors</h2>
-
-<p>This software is a component that plugs into the
-<a href="http://mobilerobot.io/projects/rpid">Raspberry Pi Device Server (RPID)</a>
-allowing the motors to be controlled directly by the Skidder API, or
-via MQTT messages and/or HTTP REST requests. Oh, there is also a
-keyboard controller if you ssh into the vehicle.</p>
-
-<blockquote>
-<p>TODO Place image 5-17 img-1 here</p>
-</blockquote>
-
-<h3 id="mqtt-skid-channel">MQTT Skid Channel</h3>
-
-<p>The RPID MQTT server will subscribe to the <em>/control/skid</em> channel and
-respond to commands accordingly.  Skid channel is simple, expecting
-two floating point numbers, representing the load (voltage) supplied
-to the motors.</p>
-
-<pre><code class="language-bash">% mosquitto_sub -t /control/skid 
-</code></pre>
-
-<p>Messages to control our skid steer vehical over MQTT will basically be
-two floating point values between -1 and +1 inclusive.  The numbers
-represent the percentage of the load to let the motors have (throttle)
-and the +/- sign represents the direction the motor will turn.</p>
-
-<blockquote>
-<p>/control/skid:l/r</p>
-</blockquote>
-
-<h3 id="rest-skid-endpoint">REST Skid Endpoint</h3>
-
-<blockquote>
-<p>GET /skid/
-PUT /skid/l/r</p>
-</blockquote>
-
-<p>Get or Set the left and right throttles.  The throttles values are
-represented by floating point numbers between -1 and 1 inclusive,
-representing the percentage of load, and direction that will be
-applied to the right and left throttles.</p>
-
-<h2 id="adafruit-rpi-motor-controller">Adafruit RPi Motor Controller</h2>
-
-<p>For this Robot, we are using the wonderful <a href="http://adafruit.com/todo">Adafruit Raspberry Pi
-DC/Stepper motor controller</a>. This is the
-<em>one</em> robot that we directly drive a motor controller from the
-Raspberry Pi.  That aspect of this project differs than our other
-robots that are built with
-<a href="http://mobilerobot.io/notes/distributed-controllers">distributed controllers</a> used by the
-other robots I have built.</p>
-
-<h3 id="rpi-macro-controler-and-micro-controller">RPi Macro Controler and Micro Controller</h3>
-
-<p>In other cases the <em>Master Controller</em> software runs run on a
-Raspberry Pi (or most any other debian linux host like a laptop or
-Jetson Nano) where as the <em>Micro Controller</em> typically runs on an
-embedded <em>Arduino like device</em>, possibly an esp8266, esp32 or stm32.</p>
-
-<h3 id="localized-micro-and-macro-controllers">Localized Micro and Macro Controllers</h3>
-
-<p>In this software we will keep the same message based communication
-system, as well as REST support architecture as used on the other
-robots.  In this case we will implement the Micro-controller
-requirements as part of the <a href="http://mobilerobot.io/todo">RPi DeviceService</a> used by the
-<a href="http://mobilerobot.io/todo">Raspberry Pi Camera server</a>.</p>
-
-<p>That means we will be able to control the voltage sent to (throttle)
-the motors and hence control speed and direction the vehicle moves.</p>
-
-<h2 id="a-note-about-performance-and-communicaiton-overhead">A Note about Performance and Communicaiton Overhead</h2>
-
-<p>In this case the RPi with minimal sensors, low speed motors and maybe
-a camera should be easily at home in a single multi-core RPi.  This
-being the case, we could optimize communications by removing the
-messaging and translation layers from the
-<a href="http://mobilerobot.io/mobile-robot-architecture">MBR Architecture</a>.</p>
-
-<p>However, for the sake of a single architecture and minimized set of
-software tools and configurations, we will leave the communicaiton
-layers in place.</p>
-
-<p>Consistency and maintainance are extreemly important when it comes to
-real-world production systems. But would we choose this over
-performance in a production system?</p>
-
-<p>The answer depends on the demands of the application, in this case, I
-suspect the level of communicaiton overhead will be minimal, or
-trivial when compared to the Bandwidth and other resources available.
-That I believe removing the communicaitons layer would provide no
-noticible, production quality performance improvements.  And at the
-cost of maintanance and complexity.</p>
-
-<p>Of course speculation takes a deep backseat to real world numbers and
-careful testing.  So, I reserve the <em>right to be wrong</em>!</p>
-
-<h3 id="brushed-dc-motors">Brushed DC Motors</h3>
-
-<p>We are using <em>Brushed DC</em> motors, about the cheapest possible motors
-one can buy.  These particular motors accept 6 to 12v.  Powering bots
-is particularly important, if you want to chase your tail on weird
-problems, work with under powered electronics for a while!</p>
-
-<h2 id="powering-the-vehicle">Powering The Vehicle</h2>
-
-<p>We can not share power with the Raspberry Pi as it does not have
-nearly enough power to run two motors, especially during heavy load.
-Therefore we must seek out additional power to be supplied
-independently to the Motor Controller.</p>
-
-<h3 id="motor-control-software">Motor Control Software</h3>
-
-<p>The control software that rides on the raspberry pie will consist of,
-A copy of an empty MQTT broker, most likely mosquito. It will also
-consist of The control software described in (Control Software
-Design)[/notes/control-software-design] in the notes section of this
-site.</p>
-
-<h3 id="speed-and-steering">Speed and Steering</h3>
-
-<p>In this case we have a two wheel vehicle, with two motors. Our control
-Algorithm will employ skid steering, The simplest possible navigation
-mechanism we could develop.</p>
-
-<p>Hence, The control algorithm will take its inputsTranslate them into
-skid steer during instructions,Which basically consists of varying the
-velocityOf the right and left group of wheels, In our case two
-wheels.</p>
-
-<h3 id="outputs">Outputs</h3>
-
-<p>Since the motors are controlled directly by Adafruit software, we will
-may create an individual process, separate from the control software
-just to handle the motor controls.</p>
-
-<h2 id="bill-of-materials">Bill of Materials</h2>
-
-<ul>
-<li>Raspberry Pi V3+</li>
-<li>Adafruit Motorsheild</li>
-<li>Extra battery pack for motors</li>
-<li>2 brushed DC motors</li>
-<li>2 wheeled cheap balancing disk for body</li>
-<li>Application specific sensors</li>
-</ul>
-		</div>
-	    </div>
-
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
 		    Control Station Display
 		</div>
 		<div class="card-body">
@@ -530,431 +380,6 @@ serving up some cool stuff!</p>
 that allow stuff.</p>
 
 <p>TODO: check out the pins on this display</p>
-		</div>
-	    </div>
-
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    TLV the Type Length Vector Protocol
-		</div>
-		<div class="card-body">
-		    <p>TLV is a very simple communication protocol that can be used to send
-messages around a complex, distributed system.<br />
-</p>
-
-<p>The TLV protocol provides only message formatting by definition.  How
-the application handles said messages is up to the application, that
-is NO assumptions or gaurauntees about losing message, parts of
-messages, ordering or retransmission.</p>
-
-<p>If any of these more advanced capabilities are to be provided, they
-must be done so at the application layer (so to speak).</p>
-
-<h3 id="generic-underlying-transports">Generic Underlying Transports</h3>
-
-<p>The underlying physical and mac layers will have a huge effect on the
-possibility of packet loss, ordering, delay and possible bandwidth.
-Each of the communicaiton mediums we use, we will post a comparison of
-characteristics, bandwidth, delay and reliability amoung other
-things.</p>
-
-<h2 id="tlv-and-tlstring">TLV and TLString</h2>
-
-<p>Type, Length Vector (Value) is as old as the hills, but still just as
-useful!  Type length Vector is byte oriented, with three types of
-messages: compact (1 byte), short (2 bytes) and full (up to 0xffff
-size).</p>
-
-<pre><code>+--------+--------+--------+--------+
-|  Type  | Length | Value  ...
-+--------+--------+--------+--------+
-</code></pre>
-
-<p>The first byte is the type of message, the second byte is the length
-of the message, inclusive, that is the 2 bytes of the Tyte and Length
-field are INCLUDED in the Length of the message.</p>
-
-<h3 id="compact-messages">Compact Messages</h3>
-
-<p>The nature of many types of communication are just quick short
-messages that only require a single byte, which not only determines
-the <em>type</em> of message, it also supplies <em>no payload</em> beyond the type.</p>
-
-<p>In this case, TLV supports the message type <strong>compact</strong> or
-<strong>1-byte</strong>.</p>
-
-<h3 id="short-messages">Short Messages</h3>
-
-<p>In a similar vein, some types my contain only a single value, for
-example a sensor value between 0 &amp; 0xff can be advertised with only
-two bytes.</p>
-
-<p>Normally, a two byte message: 1-byte for type and 1 byte for the
-length would require a 3rd byte for the value.  Hence, that makes the
-two byte message unused.</p>
-
-<p>To that end, we provide a 2nd small optimization: Short messages
-support the message type and a message value between 0x0 and 0xff in
-the length field, thus reducing the <em>Short Message</em> from 3 bytes to 2
-bytes.</p>
-
-<h3 id="distinguishing-compact-short-and-normal-packets">Distinguishing Compact, Short and Normal Packets</h3>
-
-<p>The packet types can be identified by the first two bytes of the type
-field.  Compact packets always have the first two bits of the type
-set:</p>
-
-<h4 id="compact-packets">Compact Packets</h4>
-
-<pre><code>+--------+
-|11xxxxxx|
-+--------+
-</code></pre>
-
-<p>Compact packets are a single byte in the <strong>range of 0xC0 to 0xFF</strong>,
-depending on how the remaining 2^6 bits are set.</p>
-
-<h4 id="short-packets">Short Packets</h4>
-
-<pre><code>+--------+--------+
-|10xxxxxx| Value  |
-+--------+--------+
-</code></pre>
-
-<h4 id="reserved-packets">Reserved Packets</h4>
-
-<pre><code>+--------+--------+
-|01xxxxxx| Value  |
-+--------+--------+
-
-The reserved range can be associated with the Short or Regular packet
-types is one type is getting used up quicker than another.
-
-</code></pre>
-
-<p>Short packets are two bytes, with the type value in the range of 0x80
-to 0xBF.  Again, short packets have (2^6 = 32)  independent types.</p>
-
-<h4 id="regular-packets">Regular Packets</h4>
-
-<pre><code>+--------+--------+--------+--------+
-|00  Type  | Length | Value  ...
-+--------+--------+--------+--------+
-</code></pre>
-
-<p>If desired, the compact and short packets can be turned off,
-altogether allocating the entire 2^8 == 256 types to be regular
-messages.</p>
-		</div>
-	    </div>
-
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Raspberry Pi Flask and MQTT Master Control Server
-		</div>
-		<div class="card-body">
-		    <p>This application provides access and control to various Raspberry
-devices like the camera, GPIO pins, or a possible MotorShield if
-needed.
-</p>
-
-<p>Access is provided via a Webapp and REST API thanks to
-<a href="http://getflask.org/todo">Flask</a>.  Control can also be done by
-sending the appropriate messages to specific MQTT message buses.</p>
-
-<h2 id="optional-motorsheild">Optional Motorsheild</h2>
-
-<p>I built a Raspberry Pi mobile robot [r3] with just a Raspberry Pi and
-the <a href="http://todo/url">Adafruit RPi MotorController</a>, if the
-MotorController is present the corresponding Adafruit <em>motor</em>
-controller library will be installed and used.</p>
-
-<p>If the Motorshield is not present, the motorcontroller library will
-not be loaded, or a Fake (do nothing) library will be loaded on
-devices that do not including the Adafruit MC, which includes
-non-Raspberry Pi platforms.</p>
-
-<blockquote>
-<p>TODO: put a link to installing the Motorshield library, and a quick
-cheat.</p>
-</blockquote>
-
-<h3 id="motors-and-skid-steering">Motors and Skid Steering</h3>
-
-<p>The &lsquo;motors&rsquo; provides the library <code>Skidder</code> that provides a <em>Skid
-Steering</em> steering control, that uses the Adafruit MotorKit library to
-control the <em>throttles</em> of the motors being used.</p>
-
-<blockquote>
-<p>For a brief overview of <a href="http://mobilerobot.io/notes/skid-steering">Skid Steering refer to this article</a></p>
-</blockquote>
-
-<p>That article will describe this project within the bigger Mobile Robot
-Architecture (MRA).</p>
-
-<h3 id="pi-cameras-and-video-control">Pi Cameras and Video Control</h3>
-
-<p>Another big hunk of the device server is controlling the Video
-camera.  We have the ability to start and start recording video, or
-take snapshots.</p>
-
-<p>The videos and images can be transfered to a remote host if a network
-is available, they can be saved on vehicle if no network is available
-until one is.</p>
-
-<p>The camera is also able to <em>stream</em> video over a network, if present,
-for <em>real time</em> consumption of the video as it is being filmed.</p>
-
-<h4 id="video-is-consumed-by-humans-and-computers">Video is Consumed by Humans and Computers</h4>
-
-<p>The video is made accessible to Humans for and Computers alike by
-multicasting the video over an IP network with an IP multicast
-address.</p>
-
-<blockquote>
-<p>Read more about <a href="http://mobilerobot.io/notes/ip-multicast">IP Multicast here</a></p>
-</blockquote>
-
-<p>Refer to the PiCamera documentation here:
-<a href="https://picamera.readthedocs.io/en/release-1.13/">https://picamera.readthedocs.io/en/release-1.13/</a>.</p>
-
-<p>The software can be found in <a href="http://github.com/mobilerobot-io/rpid">github
-repository</a>.</p>
-
-<p>And how to write and operate a flask based server for your project.</p>
-
-<h2 id="todo-turn-streaming-on-and-off">TODO ~ Turn streaming On and Off</h2>
-
-<p>The next task is to turn video streaming On and Off, this may require
-duping and modifying somewhat a python script &hellip;</p>
-
-<hr />
-
-<p>title: MQTT For Controllor Communication
-description: &gt;
-  Publish/Subscribe is an popular solution to distributed system
-  communications, where you do not want to directly couple the
-  publisher and subscribers.  That is a fundamental design of this MBR
-  project.
-date: 2019-05-03
-image: <a href="https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/software-block.png">https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/software-block.png</a>
-categories:
-  - software
-  - communications
-tags:
-  - mqtt</p>
-
-<h2 id="mosquitto">- mosquitto</h2>
-
-<p>The MQTT message bus is a simple but critical element of our MBR
-software design.  MQTT provides what is known as a <em>publish/suscribe</em>
-or <em>pubsub</em> communications model.  This model of machine to machine
-communication has some attractive benefits for realtime driving
-algorithms that we will discuss in this post.
-<!--more--></p>
-
-<h2 id="pubsub-message-bus-and-realtime-communications">Pubsub message bus and realtime communications</h2>
-
-<p>The pubsub communication model boasts some properties that are
-attractive to <em>a real time</em> application.  Specifically, messages can
-be sent and delivered efficiently with little delay, provided none of
-the resources are over burdened.</p>
-
-<h2 id="decoupling-the-controller-from-control-object">Decoupling the Controller from Control Object</h2>
-
-<p>Traditionally, the software, and most likely the hardware intrinsicly
-ties a particular device with a specific controller.  For example, a
-Joystick or Keyboard.  Replacing, say the keyboard with Joystick
-control requires new  software to be added to the controlled item, as
-well as created for the controller.</p>
-
-<p>It also opens up opportunity for logging, learning, testing and
-replays!</p>
-
-<p>Keyboards, programs or canned messages can be formed to sned the same
-communication.</p>
-
-<h3 id="talk-to-the-bus">Talk to The Bus</h3>
-
-<p>All entities talk to the bus, and read from the bus.  No two
-components speak directly to one another.  This allows an incredible
-amount of flexibility, but it does add a level of abstraction and
-compexity.</p>
-
-<h4 id="publishers">Publishers</h4>
-
-<p>Adding a message bus requires us to adjust from a tight,
-input -&gt; output coupling to a <em>decoupled</em> intention based messaging
-system.</p>
-
-<p>For example, a Joystick can publish rapid stick movement /
-positioning informaiton to an MQTT bus such that <em>subscribers</em> like
-the <em>Control software</em>, a logger or debugger as well.</p>
-
-<p>A temprature sensor may send out periodic temprature. Distance, light,
-heat and other sensor can periodical advertise to appropriate
-channels.</p>
-
-<h2 id="funcation-call-rest-vs-pub-sub">Funcation Call, REST vs. Pub/Sub</h2>
-
-<p>[Todo] put a link here to a page that compares communication models:
-such as Routing Protocols, Web/REST servers, RealTime sockets,
-Real-time Websockets, real time messaging.</p>
-
-<h3 id="mbr-and-the-pubsub-commuication-model">MBR and the Pubsub Commuication Model</h3>
-
-<p>For our application, we will be controlling a set of DC motors through
-a micro-controller (i.e. Arduino with shield) attached via some
-serial/RF/BT/??? mechanism.</p>
-
-<p>For this project we will focus on the MQTT protocol and we will
-specifically use <em>Mosquitto</em> the MQTT broker.</p>
-
-<p>useful for many types of computer communication,
-including <em>real time</em> control software, like we use to drive our
-mobile vehicle.  This article will go into detail on our controll
-system software and the various components required to make it happen!</p>
-
-<p>The MQTT message server a general purpose as a systems message bus our
-project components can use to read and write data in near realtime.
-This data is used for a number of purposes, to advertise changes to
-control inputs and sensors, publish control messages to motor
-controllors and by the dashboard to display our realtime sensor
-data. This describes how our MQTT bus is being used and how we got it
-all hooked up!</p>
-
-<h2 id="mqtt-bus-uses">MQTT Bus Uses</h2>
-
-<ul>
-<li>Advertise Joystick inputs for vehicle control</li>
-<li>Advertise Sensor readings for sensor networks</li>
-<li>Consume vehical controls by the motor controllers</li>
-<li>Consume all sorts of data for the Dashboard and realtime graphs</li>
-</ul>
-
-<h2 id="architecture">Architecture</h2>
-
-<p>Mosquitto MQTT Broker is running on a system wide Raspberry Pi. All
-sensor and control inputs are written to the appropriate topics on the
-MQTT bus.</p>
-
-<p>In the future we&rsquo;ll want to run an MQTT bus on vehical incase we
-loose contact with our control station.</p>
-
-<h2 id="mqtt-channels">MQTT Channels</h2>
-
-<ul>
-<li>sensors/<sensor>/data</li>
-<li>motor/<cmd>/data&hellip;</li>
-<li>errors</li>
-<li>warnings</li>
-</ul>
-
-<h2 id="todo">TODO</h2>
-
-<ul>
-<li>draw an image of the MQTT communication</li>
-<li>document the MQTT installation process for broker</li>
-<li>document otto mqtt client to output process</li>
-<li>show some code examples.</li>
-</ul>
-		</div>
-	    </div>
-
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Raspbery Pi Camera Control Service
-		</div>
-		<div class="card-body">
-		    
-
-<p>I have created a python / Flask based server to run on the Raspberry
-accepting REST calls to perform application specific functions.</p>
-
-<p>I have created a flask server that will accept REST requests to
-control the PiCamera, AdaFruitMotorSheild and other stuff.</p>
-
-<p>Refer to the PiCamera documentation here:
-<a href="https://picamera.readthedocs.io/en/release-1.13/">https://picamera.readthedocs.io/en/release-1.13/</a>.</p>
-
-<p>The software can be found in <a href="http://github.com/mobilerobot-io/rpid">github
-repository</a>.</p>
-
-<p>And how to write and operate a flask based server for your project.</p>
-
-<h2 id="todo-turn-streaming-on-and-off">TODO ~ Turn streaming On and Off</h2>
-
-<p>The next task is to turn video streaming On and Off, this may require
-duping and modifying somewhat a python script &hellip;</p>
-
-		</div>
-	    </div>
-
-	</div>
-	
-	<div class="col-4 text-center">
-	    <div class="card">
-		<div class="card-title">
-		    Otto the Pluggable Macro Controller Micro Service
-		</div>
-		<div class="card-body">
-		    
-
-<p>Otto is a small, simple <em>micro-server</em> written in Go. It handles
-requisit communications and related infra structure required by
-servers and controllers.  The applications and functionality will be
-provided via pluggins.</p>
-
-<p>Otto can run as a REST server in a data center or the controller on
-micro-controller type of computer.  Otto was developed with the notion
-that much of the code that makes for a good server (or any application
-for that matter) requires redundant but import supporting
-infrastructure.</p>
-
-<h2 id="otto-core">Otto Core</h2>
-
-<p>The Otto core provides the following support out of the box, available
-to all plugins that require these services out of the box.</p>
-
-<blockquote>
-<p>Communication Handlers for REST, HTML, SPA, Websocket and MQTT
-Messaging.  Additionally: Configuration Management, Logging, Stats
-Collection and Plugin Management</p>
-</blockquote>
-
-<p>The plugins can be combined in any combination to achieve precisely
-the functionality needed for a given circumstance.</p>
-
-<h2 id="current-plugins">Current Plugins</h2>
-
-<p>Plugins are very simple to write, they are basically <em>Go Plugins</em> with
-public Name() and Register() functions.  The Register() function
-essentially registers handlers with otto to recieve events and
-corresponding event info.</p>
-
-<p>This is the current list of otto plugins.  Plugins can be written
-anywhere and loaded by Otto.  These just happen to share Otto&rsquo;s
-repository.</p>
-
-<ul>
-<li>Echo  ~ send data, or a message and get it back.</li>
-<li>Store ~ persistant storage of Go objects as JSON strings</li>
-<li>Dork  ~ cloud based compute and storage monitor</li>
-<li>Wally ~ website page walker / scrapper</li>
-<li>Monty ~ mico-controller monitoring program</li>
-</ul>
-
-<p>A link to the [github repository](<a href="http://github.com/mobilerobot-io/otto">http://github.com/mobilerobot-io/otto</a></p>
-
 		</div>
 	    </div>
 

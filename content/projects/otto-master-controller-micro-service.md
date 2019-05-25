@@ -17,6 +17,7 @@ image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/display-and-motors.jp
 todo:
   - image depicting communications with REST/MQTT, etc
   - do some code samples
+draft: true
 ---
 
 Otto is a small, simple _micro-server_ written in Go. It handles
