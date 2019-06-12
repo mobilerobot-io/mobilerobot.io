@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software on Mobile Robot I/O</title>
+    <title>software on Mobile Robot I/O</title>
     <link>http://mobilerobot.io/categories/software/</link>
-    <description>Recent content in Software on Mobile Robot I/O</description>
+    <description>Recent content in software on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
@@ -17,8 +17,9 @@
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/red-eye/</guid>
-      <description>The Red Eye project is a simple service wrapper around the most excellent PiCamera library, it also attaches a gstreamerpipelines pipeline to the output video stream(s) that will be recieved by a variety of consumers, including Storage / Archive, Computer Vision / Machine Learning and Display modules.
-Multiple Live Streams A really cool feature of the Raspberry Pi Camera (the XXX family of chips) is the ability to deliver multiple streams of video at the same time, like different resolutions, snapshots and such.</description>
+      <description>The Red Eye project is a service definition rapper around inexpensive cameras attached to inexpesive micro-controllers that take pretty good video.
+The video streams are built using the GStreamer library. The camera native capabilities are used to extract as high quailty, realtime images possible.
+The video streams will be consumed by one or more sinks, including but not limited to Files, cloud storage, High Def Display and Computer Vision libraries.</description>
     </item>
     
     <item>
@@ -40,8 +41,7 @@ Multiple Live Streams A really cool feature of the Raspberry Pi Camera (the XXX 
       <description>&lt;p&gt;We are going to build a simple control station that begins with a
 Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
 setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
-tabs and tool bars etc.
-&lt;/p&gt;</description>
+tabs and tool bars etc.&lt;/p&gt;</description>
     </item>
     
   </channel>

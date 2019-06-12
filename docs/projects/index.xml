@@ -17,8 +17,18 @@
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/red-eye/</guid>
-      <description>The Red Eye project is a simple service wrapper around the most excellent PiCamera library, it also attaches a gstreamerpipelines pipeline to the output video stream(s) that will be recieved by a variety of consumers, including Storage / Archive, Computer Vision / Machine Learning and Display modules.
-Multiple Live Streams A really cool feature of the Raspberry Pi Camera (the XXX family of chips) is the ability to deliver multiple streams of video at the same time, like different resolutions, snapshots and such.</description>
+      <description>The Red Eye project is a service definition rapper around inexpensive cameras attached to inexpesive micro-controllers that take pretty good video.
+The video streams are built using the GStreamer library. The camera native capabilities are used to extract as high quailty, realtime images possible.
+The video streams will be consumed by one or more sinks, including but not limited to Files, cloud storage, High Def Display and Computer Vision libraries.</description>
+    </item>
+    
+    <item>
+      <title>Sensor Station</title>
+      <link>http://mobilerobot.io/projects/sensor-station/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/sensor-station/</guid>
+      <description>Sensor by rusty-1</description>
     </item>
     
   </channel>

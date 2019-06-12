@@ -11,29 +11,23 @@ github: https://github.com/mobilerobot-io/redeye
 featured: https://docs.google.com/drawings/d/e/2PACX-1vQHtO4hTGzQKan-x5UKmwDieGndeGtNsTXT2iorDvcSuwiPBY1kkutZ1DH0D-Rd1VAtCzXzf3b3Zj4C/pub?w=960&amp;h=540
 ---
 
-The Red Eye project is a simple service wrapper around the most
-excellent PiCamera library, it also attaches a 
-[gstreamerpipelines](http://todo-gstreamer) pipeline to the output
-video stream(s) that will be recieved by a variety of consumers,
-including Storage / Archive, Computer Vision / Machine Learning and
-Display modules.
+The Red Eye project is a service definition rapper around inexpensive
+cameras attached to inexpesive micro-controllers that take pretty good
+video.
+
+The video streams are built using the GStreamer library. The camera
+native capabilities are used to extract as high quailty, realtime
+images possible.
+
+The video streams will be consumed by one or more sinks, including but
+not limited to Files, cloud storage, High Def Display and Computer
+Vision libraries.
 
 ## Multiple Live Streams 
 
-A really cool feature of the Raspberry Pi Camera (the XXX family of
-chips) is the ability to deliver multiple streams of video at the same
-time, like different resolutions, snapshots and such.
-
-We will take good advantage of these features later, but to start we
-will reserve three channels with specific purposes:
-
-1. High Def live viewing and footage archives
-2. Low Def for computer vision algorithms
-3. Snapshots for various reasons
-
-I'll discuss each of these in more detail in the following sections: 
-
-
+A really cool feature of the Raspberry Pi Camera, that we will be
+explioting is it's ability to deliver multiple streams of video at the
+same time, such as different resolutions, snapshots and such.
 
 ### High Def Live Viewing
 
@@ -69,7 +63,7 @@ The video streams are produced by the camera in H.264, so we need to
 do a little bit of work to get the video into multicast video
 streams. 
 
-### Gstreamer Multicast RTP
+### Multicast RTP
 
 The video streams produced by the video will need a little turning
 them into video streams of some sort.  Our scheme is such that:

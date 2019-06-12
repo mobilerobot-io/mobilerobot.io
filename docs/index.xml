@@ -17,8 +17,9 @@
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/projects/red-eye/</guid>
-      <description>The Red Eye project is a simple service wrapper around the most excellent PiCamera library, it also attaches a gstreamerpipelines pipeline to the output video stream(s) that will be recieved by a variety of consumers, including Storage / Archive, Computer Vision / Machine Learning and Display modules.
-Multiple Live Streams A really cool feature of the Raspberry Pi Camera (the XXX family of chips) is the ability to deliver multiple streams of video at the same time, like different resolutions, snapshots and such.</description>
+      <description>The Red Eye project is a service definition rapper around inexpensive cameras attached to inexpesive micro-controllers that take pretty good video.
+The video streams are built using the GStreamer library. The camera native capabilities are used to extract as high quailty, realtime images possible.
+The video streams will be consumed by one or more sinks, including but not limited to Files, cloud storage, High Def Display and Computer Vision libraries.</description>
     </item>
     
     <item>
@@ -40,8 +41,16 @@ Multiple Live Streams A really cool feature of the Raspberry Pi Camera (the XXX 
       <description>&lt;p&gt;We are going to build a simple control station that begins with a
 Raspberry Pi and connected &lt;em&gt;7 inch touchscreen tablet&lt;/em&gt;.  I have it
 setup in &amp;ldquo;kiosk mode&amp;rdquo;, which is basically full page chrome without the
-tabs and tool bars etc.
-&lt;/p&gt;</description>
+tabs and tool bars etc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sensor Station</title>
+      <link>http://mobilerobot.io/projects/sensor-station/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/projects/sensor-station/</guid>
+      <description>Sensor by rusty-1</description>
     </item>
     
     <item>
@@ -63,8 +72,7 @@ tabs and tool bars etc.
 Raspberry Pi with a motor-controller.  I believe the Arudino has
 better support for dedicated Real-time software vs. the Raspberry Pi
 and as a superior platform for general computing including running
-Control Software.  This is how we do it on the West side &amp;hellip;
-&lt;/p&gt;</description>
+Control Software.  This is how we do it on the West side &amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -75,6 +83,15 @@ Control Software.  This is how we do it on the West side &amp;hellip;
       <guid>http://mobilerobot.io/notes/control-design/</guid>
       <description>Early in the process of building the first set of mobile robots I discovered that I was not going to settle on a single micro controller.
 The first two obvious choices being the Arduino or Raspberry Pi, for which I tried both with a modest level of success. I quickly realized that I would not be providing my sole focus on either platform, neither was sufficient for my grand plans for a number of reasons.</description>
+    </item>
+    
+    <item>
+      <title>Power</title>
+      <link>http://mobilerobot.io/notes/power/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/notes/power/</guid>
+      <description></description>
     </item>
     
     <item>

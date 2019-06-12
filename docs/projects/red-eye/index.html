@@ -61,29 +61,23 @@
 	<article class="article">
 	    
 
-<p>The Red Eye project is a simple service wrapper around the most
-excellent PiCamera library, it also attaches a
-<a href="http://todo-gstreamer">gstreamerpipelines</a> pipeline to the output
-video stream(s) that will be recieved by a variety of consumers,
-including Storage / Archive, Computer Vision / Machine Learning and
-Display modules.</p>
+<p>The Red Eye project is a service definition rapper around inexpensive
+cameras attached to inexpesive micro-controllers that take pretty good
+video.</p>
+
+<p>The video streams are built using the GStreamer library. The camera
+native capabilities are used to extract as high quailty, realtime
+images possible.</p>
+
+<p>The video streams will be consumed by one or more sinks, including but
+not limited to Files, cloud storage, High Def Display and Computer
+Vision libraries.</p>
 
 <h2 id="multiple-live-streams">Multiple Live Streams</h2>
 
-<p>A really cool feature of the Raspberry Pi Camera (the XXX family of
-chips) is the ability to deliver multiple streams of video at the same
-time, like different resolutions, snapshots and such.</p>
-
-<p>We will take good advantage of these features later, but to start we
-will reserve three channels with specific purposes:</p>
-
-<ol>
-<li>High Def live viewing and footage archives</li>
-<li>Low Def for computer vision algorithms</li>
-<li>Snapshots for various reasons</li>
-</ol>
-
-<p>I&rsquo;ll discuss each of these in more detail in the following sections:</p>
+<p>A really cool feature of the Raspberry Pi Camera, that we will be
+explioting is it&rsquo;s ability to deliver multiple streams of video at the
+same time, such as different resolutions, snapshots and such.</p>
 
 <h3 id="high-def-live-viewing">High Def Live Viewing</h3>
 
@@ -119,7 +113,7 @@ or Websockets interface.</p>
 do a little bit of work to get the video into multicast video
 streams.</p>
 
-<h3 id="gstreamer-multicast-rtp">Gstreamer Multicast RTP</h3>
+<h3 id="multicast-rtp">Multicast RTP</h3>
 
 <p>The video streams produced by the video will need a little turning
 them into video streams of some sort.  Our scheme is such that:</p>

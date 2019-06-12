@@ -6,76 +6,13 @@
     <description>Recent content in Categories on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mobilerobot.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>/Categories/Electronics</title>
-      <link>http://mobilerobot.io/categories/categories-electronics/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/categories/categories-electronics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>/Categories/Mechanics</title>
-      <link>http://mobilerobot.io/categories/categories-mechanics/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/categories/categories-mechanics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>/Categories/Software</title>
-      <link>http://mobilerobot.io/categories/categories-software/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/categories/categories-software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electronics</title>
-      <link>http://mobilerobot.io/categories/electronics/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/categories/electronics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hardware</title>
-      <link>http://mobilerobot.io/categories/hardware/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/categories/hardware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mechanics</title>
-      <link>http://mobilerobot.io/categories/mechanics/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/categories/mechanics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Motors</title>
-      <link>http://mobilerobot.io/categories/motors/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/categories/motors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
+      <title>software</title>
       <link>http://mobilerobot.io/categories/software/</link>
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
@@ -84,11 +21,74 @@
     </item>
     
     <item>
-      <title>Video</title>
+      <title>video</title>
       <link>http://mobilerobot.io/categories/video/</link>
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mobilerobot.io/categories/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mechanics</title>
+      <link>http://mobilerobot.io/categories/mechanics/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/mechanics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hardware</title>
+      <link>http://mobilerobot.io/categories/hardware/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electronics</title>
+      <link>http://mobilerobot.io/categories/electronics/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>motors</title>
+      <link>http://mobilerobot.io/categories/motors/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/motors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>/categories/electronics</title>
+      <link>http://mobilerobot.io/categories/categories/electronics/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/categories/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>/categories/mechanics</title>
+      <link>http://mobilerobot.io/categories/categories/mechanics/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/categories/mechanics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>/categories/software</title>
+      <link>http://mobilerobot.io/categories/categories/software/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mobilerobot.io/categories/categories/software/</guid>
       <description></description>
     </item>
     

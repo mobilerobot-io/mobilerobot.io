@@ -3,13 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://mobilerobot.io/categories/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/projects/red-eye/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>http://mobilerobot.io/categories/software/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/video/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/</loc>
+    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mobilerobot.io/notes/skid-steering/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/</loc>
+    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/gnc/</loc>
+    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/mechanics/</loc>
+    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/steering/</loc>
+    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -23,145 +71,8 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/about/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/inventory/rpi4/</loc>
-    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/notes/motor-controlor-notes/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/notes/control-design/</loc>
-    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/notes/rpi-v-arduino/</loc>
-    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/notes/ip-multicast/</loc>
-    <lastmod>2018-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/categories-electronics/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/categories-mechanics/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/categories-software/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/adafruit/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/arduino/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/electronics/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/gnc/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://mobilerobot.io/categories/hardware/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/inventory/</loc>
-    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/mechanics/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/motors/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/motorshield/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/notes/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/raspberry-pi/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/categories/software/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/steering/</loc>
-    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/tags/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -178,9 +89,108 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/categories/video/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <loc>http://mobilerobot.io/about/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/projects/sensor-station/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/inventory/</loc>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/inventory/rpi4/</loc>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/motor-controlor-notes/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/adafruit/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/arduino/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/electronics/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/motors/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/motorshield/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/tags/raspberry-pi/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/control-design/</loc>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/power/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/rpi-v-arduino/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/notes/ip-multicast/</loc>
+    <lastmod>2018-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/categories/electronics/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/categories/mechanics/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/categories/categories/software/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
