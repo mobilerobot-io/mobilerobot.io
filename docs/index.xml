@@ -13,10 +13,10 @@
     
     <item>
       <title>Red Eye Video Server</title>
-      <link>http://mobilerobot.io/projects/red-eye/</link>
+      <link>http://mobilerobot.io/projects/redeye/</link>
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/projects/red-eye/</guid>
+      <guid>http://mobilerobot.io/projects/redeye/</guid>
       <description>The Red Eye project is a service definition rapper around inexpensive cameras attached to inexpesive micro-controllers that take pretty good video.
 The video streams are built using the GStreamer library. The camera native capabilities are used to extract as high quailty, realtime images possible.
 The video streams will be consumed by one or more sinks, including but not limited to Files, cloud storage, High Def Display and Computer Vision libraries.</description>
