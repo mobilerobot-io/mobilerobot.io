@@ -1,13 +1,11 @@
 ---
-# baseUrl: https://rustyeddy.github.io/mobilerobot.io/
 baseUrl: http://mobilerobot.io/
-# baseUrl: http://localhost:1313/
-# theme: focus
+theme: focus
 publishDir: docs
 canonifyURLs: true
 languageCode: en-us
 title: "Mobile Robot I/O"
-googleAnalytics: UA-138892687-1
+#googleAnalytics: UA-138892687-1
 categories:
   - Electronics
   - Software
