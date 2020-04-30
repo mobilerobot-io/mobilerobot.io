@@ -3,22 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mobilerobot.io/controllers/</loc>
+    <loc>http://mobilerobot.io/otto-control/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/micro-services/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/distributed-systems/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mobilerobot.io/rtos-embedded-systems/</loc>
+    <loc>http://mobilerobot.io/redeye/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,7 +18,7 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/cloud-automation/</loc>
+    <loc>http://mobilerobot.io/sensor-station/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -39,7 +29,7 @@
   
   <url>
     <loc>http://mobilerobot.io/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>

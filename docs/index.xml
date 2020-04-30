@@ -6,49 +6,31 @@
     <description>Recent content in Software Engineering for IoT on Mobile Robot I/O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mobilerobot.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Automated Controllers</title>
-      <link>http://mobilerobot.io/controllers/</link>
+      <title>OttO the Controller</title>
+      <link>http://mobilerobot.io/otto-control/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/controllers/</guid>
-      <description>I am a control freak!</description>
+      <guid>http://mobilerobot.io/otto-control/</guid>
+      <description>OttO is a light weight, fast and reliable, industrial strength Micro Server for Micro Controllers. Suitable for products that built around small Single Board Computers (SBC) like the Raaspberry Pi and other linux based systems.
+Features Include OttO is a modularized server that can can be customized with exactly the functionality required for a specific application.
+You do not need to spend scarce resources developing critical but redundant infrastructure. The type of things that seem to get in the way until something goes wrong in the field, for example logging.</description>
     </item>
     
     <item>
-      <title>Micro Services for Micro Controllers</title>
-      <link>http://mobilerobot.io/micro-services/</link>
+      <title>RedEye Intelligent Video Network</title>
+      <link>http://mobilerobot.io/redeye/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/micro-services/</guid>
-      <description>&lt;p&gt;This website is about the Mobile Robot Project: the discovery of
-available technologies pertinant to building an affordable mobile
-video camera, the engineering process used to develop  a production
-ready, industrial strength vehical.  I will, of course include my own
-implementation of these finding, right here in this website.  FOO&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Distributed Systems</title>
-      <link>http://mobilerobot.io/distributed-systems/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/distributed-systems/</guid>
-      <description>Distributed systems connect things that are everywhere.</description>
-    </item>
-    
-    <item>
-      <title>RTOS and Embedded Systems</title>
-      <link>http://mobilerobot.io/rtos-embedded-systems/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://mobilerobot.io/rtos-embedded-systems/</guid>
-      <description>You can have it all.</description>
+      <guid>http://mobilerobot.io/redeye/</guid>
+      <description>Streaming Video and Computer Vision are on an upword tear, making their way into all sorts of applications, not to mention Robotics and Industrial Controls.
+Intelligent Video Network (IVN) With the proliferation of inexpensive, yet decent quality cameras available as USB cameras and the popular CSI style camera (from mobile devices) found on the Raspberry Pi and Arduinos allow for the potential of some really fascinating applications that include:
+ Networks of video streams over an IP network Cameras can be controlled by Humans or Machines Video streams can pass through custom Computer Vision Pipelines ClipDB can be used to store, tag and search clips based on lots criteria.</description>
     </item>
     
     <item>
@@ -61,12 +43,14 @@ implementation of these finding, right here in this website.  FOO&lt;/p&gt;</des
     </item>
     
     <item>
-      <title>Cloud Automation</title>
-      <link>http://mobilerobot.io/cloud-automation/</link>
+      <title>Sensor Station I/O</title>
+      <link>http://mobilerobot.io/sensor-station/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mobilerobot.io/cloud-automation/</guid>
-      <description>Distributed systems connect things that are everywhere.</description>
+      <guid>http://mobilerobot.io/sensor-station/</guid>
+      <description>Data is pooring out of every sensor and device on the planet, that data is to be collected, processed, stored, analyzed, viewed and used to make more intelligent decisions.
+Sensor Station was built to help with doing just that. Sensor Station can enhance an existing network of devices or be the foundation of a greenfield deployment of a new fleet of sensors.
+Builds on OttO  Total control over what is collected and when Powerful data scrubbing pipes Plugin various local storages Supports InfluxDB &amp;amp; Prometheus databases Customizable real-time dashboard with Kibana and Grafana  </description>
     </item>
     
     <item>
