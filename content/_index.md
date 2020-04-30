@@ -1,15 +1,7 @@
 ---
-title: Mobile Robot I/O Project
-description: >
-  Mobile Robot is a project to build self driving video camera for
-  under 500 dollars! 
+title: Software Engineering for IoT
+description: Do you want to network your thing?
 date: 2018-01-15
-categories: 
-  - /categories/electronics
-  - /categories/mechanics
-  - /categories/software
-image: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/software-block.png
-featured: https://mobilerobot.sfo2.cdn.digitaloceanspaces.com/the-big-picture-01.svg
 ---
 
 This website is about the Mobile Robot Project: the discovery of

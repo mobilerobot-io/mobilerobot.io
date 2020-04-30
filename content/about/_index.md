@@ -1,46 +1,9 @@
 ---
 title: About
-description: >
-  Mobile Robot I/O is an actvie project of to develop a mobile video
-  camera for under $500!
+description: MobileRobot I/O is an Agency 
 date: 2019-04-20
 ---
 
-The version of mobile robot I am trying to build here is of the
-[_Rover Style Vehical_](http://todo/rover-reference) 4 wheeled, skid
-steer persuation.  It must be capable of streaming live video while
-being controlled remotely by human or on vehical by software, at the
-humans descretion, at least for now any way...
-<!--more-->
-
-An even more ambitious goal has the vehicle using the live video
-stream as an input to perform it's _Guidance & Navigation_ function.
-This will most likely be accomplished by feeding an AI like framework
-such as OpenCV to perform some specific _Machine Learning_
-algorithms. 
-
-## Project Goals and Objectives
-
-In building this project, I set out to state the major goals and
-objectives, primarily to keep myself focused on an end object with a
-very measurable goal, that can be marked as **complete**.
-
-Here are the high level objectives:
-
-- Vehical that can be controlled by humans with a remote control
-- live video stream for human consumption
-- live video stream fed to computer vision software
-- video and image storage for post/static processing 
-- self guided control software
-  
-The choice of human vs. computer controlled lies at the discretion of
-the human (for now), except, perhaps, in cases that the human looses
-communication with the vehicle.
-
-This website basically documents the results, mistakes and what I have
-_discovered_ a long the way, both discovery the best way to build the
-vehicle, notes, and practicle and useable advice from the production
-lines. 
 
 ## Agency [Ignore This Solicitation!]
 
