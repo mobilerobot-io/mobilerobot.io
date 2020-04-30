@@ -2,15 +2,13 @@ body {
     background: white;
     color: #222222;
     font-family: times;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 
 h1, h2, h3, h5, h4, h6 {
-    margin-top: 2.4rem;
-    margin-bottom: 1.2rem;
-    padding-bottom: 1.2rem;
-    padding-top: 1.2rem;
+    margin-top: 2.2rem;
+    margin-bottom: 1rem;
     font-family: sans-serif;
 }
 
@@ -80,6 +78,7 @@ code {
 }
 
 .footer {
+    font-size: small;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-top: 2rem;

@@ -1,12 +1,10 @@
 ---
 title: Software Engineering for IoT
-description: Do you want to network your thing?
+description: Micro Controllers, Fleet Management and Cloud Automation
 date: 2018-01-15
 ---
 
-This website is about the Mobile Robot Project: the discovery of
-available technologies pertinant to building an affordable mobile
-video camera, the engineering process used to develop  a production
-ready, industrial strength vehical.  I will, of course include my own
-implementation of these finding, right here in this website.  FOO
+Mobile Robot is an _Software Development Agency_ that specializes in
+_Robotics_ and _Computer Vision_ for _manufactures_ to bring their 
+
 <!--more-->

@@ -13,13 +13,28 @@
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/about/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <loc>http://mobilerobot.io/distributed-systems/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mobilerobot.io/distributed-systems/</loc>
+    <loc>http://mobilerobot.io/rtos-embedded-systems/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/software-process/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/cloud-automation/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilerobot.io/about/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
