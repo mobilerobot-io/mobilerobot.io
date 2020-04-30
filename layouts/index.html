@@ -1,14 +1,32 @@
 {{ define "main" }}
 <div class="container">
+    <div class="row">
+	<div class="col">
+		<h2 class="text-info text-center">Project Overview</h2>
+	</div>
+        </div>
 
     <div class="row">
-	<div class="col header">
-	    <h2 class="text-info text-center">Project Overview</h2>
-	    {{- partial "content.html" . -}}
+	<div class="col"></div>
+	<div class="col-lg-8">
+	    <article class="article">
+		{{ .Content }}
+	    </article>
 	</div>
+	<div class="col"></div>
     </div>
 
-    
+    {{ range .Pages }}
+    <div class="row">
+	<div class="col"></div>
+	<div class="col-lg-8">
+	    <h2 class="text-center">{{ .Title }}</h2>
+	    <div class="content">{{ .Content }}</div>
+	</div>
+	<div class="col"></div>
+    </div>
+    {{ end }}
+
 </div>
 
 {{ end }}

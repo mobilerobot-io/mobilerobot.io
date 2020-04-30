@@ -6,12 +6,8 @@
 	</article>
 
 	<section>
-	    {{ range .Pages }}
-	    {{ .Content }}
-	    {{ end }}
+	    {{ with .Site.GetPage "/hello.md" }}{{ .Title }}{{ end }}
 	</section>
-
-
 
     </div>
     <div class="col"></div>
